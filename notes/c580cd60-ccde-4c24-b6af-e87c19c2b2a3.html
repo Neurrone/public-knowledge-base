@@ -167,7 +167,7 @@
     <meta itemprop="headline" content="Wsl2">
     
     <meta itemprop="datePublished" content="2021-04-05T13:47:56+00:00">
-    <meta itemprop="dateModified" content="2021-04-05T14:08:59+00:00">
+    <meta itemprop="dateModified" content="2021-06-19T11:47:56+00:00">
 
     <div class="page__inner-wrap">
 
@@ -177,7 +177,8 @@
 
         
 
-        <h2 id="moving-vm-location"><a aria-hidden="true" class="anchor-heading" href="#moving-vm-location"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving VM Location</h2>
+        <h1 id="wsl2"><a aria-hidden="true" class="anchor-heading" href="#wsl2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>WSL2</h1>
+<h2 id="moving-vm-location"><a aria-hidden="true" class="anchor-heading" href="#moving-vm-location"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving VM Location</h2>
 <p>By default, WSL2 VMs are stored on the system partition, which is troublesome especially with a small SSD. Fortunately, it is possible to move VMs to another location.</p>
 <p>As of Apr 2021, there isn't a builtin command that does this easily, so it needs to be done by exporting and reimporting the VM, specifying a new location to store it during the import process.</p>
 <pre class="language-sh"><code class="language-sh"># if Docker is running, shut it down first
@@ -213,6 +214,7 @@ wsl --unregister docker-desktop-data
 wsl --import docker-desktop "D:\documents\wsl2-vms\docker-desktop" "D:\wsl-backups\docker-desktop.tar" --version 2
 wsl --import docker-desktop-data "D:\documents\wsl2-vms\docker-desktop-data" "D:\wsl-backups\docker-desktop-data.tar" --version 2
 </code></pre>
+<p>Extremely annoyingly, the docker-desktop VM is moved back to the previous location on Docker upgrades. Fortunately, this VM is much smaller than the other one (which stores the actual image data).</p>
 <h2 id="compacting-wsl2-vms"><a aria-hidden="true" class="anchor-heading" href="#compacting-wsl2-vms"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Compacting WSL2 VMs</h2>
 <p>Technically this procedure is going to work for any hyper-v VM (.vmdx); it boils down to using diskpart to compact the VM:</p>
 <pre class="language-sh"><code class="language-sh">diskpart
@@ -246,7 +248,7 @@ compact vdisk
             
               <div class="d-flex mt-2">
               <p class="text-small text-grey-dk-000 mb-0 mr-2">
-                Page last modified: <span class="d-inline-block">4/5/2021</span>.
+                Page last modified: <span class="d-inline-block">6/19/2021</span>.
               </p>
             
                 
