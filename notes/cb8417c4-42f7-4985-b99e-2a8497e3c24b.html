@@ -168,7 +168,7 @@
     <meta itemprop="headline" content="Kopia">
     
     <meta itemprop="datePublished" content="2021-04-11T13:55:54+00:00">
-    <meta itemprop="dateModified" content="2021-05-13T16:10:04+00:00">
+    <meta itemprop="dateModified" content="2021-06-19T17:07:53+00:00">
 
     <div class="page__inner-wrap">
 
@@ -178,12 +178,14 @@
 
         
 
-        <h2 id="repositories"><a aria-hidden="true" class="anchor-heading" href="#repositories"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Repositories</h2>
+        <h1 id="kopia"><a aria-hidden="true" class="anchor-heading" href="#kopia"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kopia</h1>
+<h2 id="repositories"><a aria-hidden="true" class="anchor-heading" href="#repositories"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Repositories</h2>
 <p>Like Git, backups live in repositories</p>
 <h3 id="create-repository"><a aria-hidden="true" class="anchor-heading" href="#create-repository"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create Repository</h3>
 <p>General form: <code>kopia repository create &#x3C;provider> &#x3C;flags></code></p>
 <pre class="language-sh"><code class="language-sh"># on local filesystem
 kopia repository create filesystem --path d:/temp/kopia
+
 # to an SFTP destination
 kopia repository connect sftp \
         --path=backups \
@@ -202,7 +204,8 @@ kopia repository connect sftp \
 </code></pre>
 <h2 id="snapshots"><a aria-hidden="true" class="anchor-heading" href="#snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snapshots</h2>
 <h3 id="creating-snapshots"><a aria-hidden="true" class="anchor-heading" href="#creating-snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Creating Snapshots</h3>
-<pre class="language-sh"><code class="language-sh">kopia snapshot create D:\temp\folder1
+<pre class="language-sh"><code class="language-sh"># multiple paths are accepted
+kopia snapshot create D:\temp\folder1 D:\temp\folder2
 </code></pre>
 <p>You can create snapshots for different folders, they will be individually tracked.</p>
 <h3 id="mounting"><a aria-hidden="true" class="anchor-heading" href="#mounting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mounting</h3>
@@ -222,6 +225,14 @@ kopia diff &#x3C;snapshot1> &#x3C;snapshot2>
 </code></pre>
 <h2 id="policies"><a aria-hidden="true" class="anchor-heading" href="#policies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Policies</h2>
 <pre class="language-sh"><code class="language-sh">kopia policy show --global
+
+# ignoring files
+# On Synology NAS, you probably want to ignore these files
+kopia policy set --global --add-dot-ignore @eaDir
+kopia policy set --global --add-dot-ignore "#recycle"
+
+# set compression globally
+kopia policy set --global --compression=s2-default
 </code></pre>
 <h2 id="connect-to-repository-with-different-user-credentials"><a aria-hidden="true" class="anchor-heading" href="#connect-to-repository-with-different-user-credentials"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connect To Repository With Different User Credentials</h2>
 <pre class="language-sh"><code class="language-sh">kopia repository connect --config-file /path/to/repository.config &#x3C;usual connect params>
@@ -257,7 +268,7 @@ kopia --config-file /path/to/repository.config maintenance run
             
               <div class="d-flex mt-2">
               <p class="text-small text-grey-dk-000 mb-0 mr-2">
-                Page last modified: <span class="d-inline-block">5/13/2021</span>.
+                Page last modified: <span class="d-inline-block">6/19/2021</span>.
               </p>
             
                 
