@@ -825,10 +825,12 @@ body {
   position: absolute;
   right: -1rem;
   width: 1.5rem;
-  height: 100%;
   padding-right: 0.25rem;
   padding-left: 0.25rem;
   overflow: visible;
+}
+.main-content .anchor-heading :not(.block-anchor) {
+  height: 100%;
 }
 @media (min-width: 50rem) {
   .main-content .anchor-heading {
@@ -843,6 +845,9 @@ body {
   color: #7253ed;
   visibility: hidden;
 }
+.main-content .anchor-heading.block-anchor {
+  left: 0;
+}
 .main-content .anchor-heading:hover svg,
 .main-content h1:hover > .anchor-heading svg,
 .main-content h2:hover > .anchor-heading svg,
@@ -850,6 +855,10 @@ body {
 .main-content h4:hover > .anchor-heading svg,
 .main-content h5:hover > .anchor-heading svg,
 .main-content h6:hover > .anchor-heading svg {
+  visibility: visible;
+}
+.main-content *:hover > .block-anchor svg,
+.main-content table:hover .block-anchor svg {
   visibility: visible;
 }
 .main-content summary {
