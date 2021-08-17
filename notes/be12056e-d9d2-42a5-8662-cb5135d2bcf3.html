@@ -140,6 +140,9 @@
 
         
         
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -178,7 +181,8 @@
 
         
 
-        <h1 id="breadth-first-search"><a aria-hidden="true" class="anchor-heading" href="#breadth-first-search"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Breadth-first Search</h1>
+        <h1 id="breadth-first-search"><a aria-hidden="true" class="anchor-heading" href="#breadth-first-search"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Breadth-First Search</h1>
+<h1 id="breadth-first-search-1"><a aria-hidden="true" class="anchor-heading" href="#breadth-first-search-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Breadth-first Search</h1>
 <h2 id="stop-when-all-nodes-are-visited"><a aria-hidden="true" class="anchor-heading" href="#stop-when-all-nodes-are-visited"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stop When All Nodes Are Visited</h2>
 <p>The standard BFS algorithm can be tweaked for connected graphs for better performance. Instead of waiting for the queue to be empty to terminate, keep track of whether all nodes are visited or not and exit when no unvisited nodes are left.</p>
 <p>In the case of a fully connected graph, this means that the algorithm terminates after 1 iteration vs a traditional BFS which does much more unneeded work.</p>

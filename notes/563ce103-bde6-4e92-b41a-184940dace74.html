@@ -140,6 +140,9 @@
 
         
         
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -178,7 +181,8 @@
 
         
 
-        <h2 id="api-gateway"><a aria-hidden="true" class="anchor-heading" href="#api-gateway"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Api-gateway</h2>
+        <h1 id="using-serverless-framework-with-aws"><a aria-hidden="true" class="anchor-heading" href="#using-serverless-framework-with-aws"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using Serverless Framework With Aws</h1>
+<h2 id="api-gateway"><a aria-hidden="true" class="anchor-heading" href="#api-gateway"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Api-gateway</h2>
 <p>As at time of writing (Apr 2021), configuring api-gateway with api keys and usage plans is bugged according to the official docs. The docs say to <a href="https://www.serverless.com/framework/docs/deprecations#api-gateway-specific-configuration">put configuration in provider.apigateway, instead of under provider directly</a>.</p>
 <p>However, this does not work, and you must place them under provider (the deprecated behaviour) instead.</p>
 <h2 id="errors-during-sls-deploy"><a aria-hidden="true" class="anchor-heading" href="#errors-during-sls-deploy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Errors During sls deploy</h2>
