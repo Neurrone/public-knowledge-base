@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>Windows GUIs - Personal Knowledge Base</title>
+  <title>Game Design - Personal Knowledge Base</title>
   
 
   <link
@@ -43,22 +43,22 @@
 <meta name="description" content="Personal knowledge Base">
 <meta name="author" content="Dickson Tan">
 
-<link rel="canonical" href="https://kb.neurrone.com/notes/f2668e2a-c3c9-497b-af23-6d12cd97ec88.html">
+<link rel="canonical" href="https://kb.neurrone.com/notes/9OQNGKfUKi7NKalAVYuHy.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://kb.neurrone.com/notes/f2668e2a-c3c9-497b-af23-6d12cd97ec88.html">
+<meta property="og:url" content="https://kb.neurrone.com/notes/9OQNGKfUKi7NKalAVYuHy.html">
 <meta property="og:description" content="Personal knowledge Base">
 <meta property="og:image" content="https://kb.neurrone.comundefined">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@neurrone">
-<meta name="twitter:url" content="https://kb.neurrone.com/notes/f2668e2a-c3c9-497b-af23-6d12cd97ec88.html">
+<meta name="twitter:url" content="https://kb.neurrone.com/notes/9OQNGKfUKi7NKalAVYuHy.html">
 <meta name="twitter:description" content="Personal knowledge Base">
 <meta name="twitter:image" content="https://kb.neurrone.comundefined">
 
 
-  <meta property="og:title" content="Windows GUIs - Personal Knowledge Base" />
-  <meta name="twitter:title" content="Windows GUIs - Personal Knowledge Base" />
+  <meta property="og:title" content="Game Design - Personal Knowledge Base" />
+  <meta name="twitter:title" content="Game Design - Personal Knowledge Base" />
   
 </head>
 
@@ -132,7 +132,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://kb.neurrone.com">root</a></li><li class="breadcrumb-nav-list-item"><a href="https://kb.neurrone.com/notes/8ec37b11-59ad-4ea8-82d9-3186e7e0cd29.html">Dev</a></li><li class="breadcrumb-nav-list-item"><a href="https://kb.neurrone.com/notes/fae9ba89-7036-4551-a0d8-b8ed88629a65.html">Lang</a></li><li class="breadcrumb-nav-list-item"><a href="https://kb.neurrone.com/notes/6bad5b12-0626-4edc-96d2-944d411bf5d5.html">Rust</a></li><li class="breadcrumb-nav-list-item">Windows GUIs</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://kb.neurrone.com">root</a></li><li class="breadcrumb-nav-list-item">Game Design</li></ol>
           </nav>
         
       
@@ -168,10 +168,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Windows GUIs">
+    <meta itemprop="headline" content="Game Design">
     
-    <meta itemprop="datePublished" content="2021-04-04T10:47:13+00:00">
-    <meta itemprop="dateModified" content="2021-08-12T11:53:02+00:00">
+    <meta itemprop="datePublished" content="2021-08-22T16:25:04+00:00">
+    <meta itemprop="dateModified" content="2021-08-22T16:25:04+00:00">
 
     <div class="page__inner-wrap">
 
@@ -181,28 +181,12 @@
 
         
 
-        <h1 id="windows-guis"><a aria-hidden="true" class="anchor-heading" href="#windows-guis"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Windows GUIs</h1>
-<h1 id="rust-guis-on-windows"><a aria-hidden="true" class="anchor-heading" href="#rust-guis-on-windows"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Rust GUIs On Windows</h1>
-<p>Also see <a href="https://www.areweguiyet.com/">are we gui yet?</a></p>
-<p>There are many projects in this space, but most of them don't support accessibility technologies, all the ones listed here should.</p>
-<h2 id="native-windows-bindings"><a aria-hidden="true" class="anchor-heading" href="#native-windows-bindings"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Native Windows Bindings</h2>
-<ul>
-<li><a href="https://crates.io/crates/winsafe">Winsafe</a></li>
-<li><a href="https://github.com/gabdube/native-windows-gui">native-windows-gui</a></li>
-</ul>
-<h2 id="cross-platform"><a aria-hidden="true" class="anchor-heading" href="#cross-platform"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cross-platform</h2>
-<ul>
-<li><a href="https://github.com/hecrj/iced">Iced</a> looks promising, support for accessibility is still under development though</li>
-<li>Using JavaScript for the frontend and leaving the backend to Rust seems much saner than dealing with lifetimes
-<ul>
-<li><a href="https://github.com/Srinivasa314/alcro">alcro</a> requires an existing installation of a chromium browser, e.g microsoft chromium-based Edge</li>
-<li><a href="https://tauri.studio/en/">Tauri</a> makes use of the native browser (IE or Edge) for rendering. This feels like a framework though, and I'm not sure if I'd need the extra stuff</li>
-<li><a href="https://github.com/Boscop/web-view">Webview bindings</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/AccessKit/accesskit">accesskit</a> should hopefully solve this problem properly in the long-term by making it easier to implement native accessibility APIs</li>
-<li>Bevy-egui has early support for emiting events which can be hooked to simulate a screen reader. See <a href="https://github.com/ndarilek/bevy_egui_a11y/tree/main/src">https://github.com/ndarilek/bevy_egui_a11y/tree/main/src</a> for a very early prototype</li>
-</ul><span id="navId" data="f2668e2a-c3c9-497b-af23-6d12cd97ec88"></span>
+        <h1 id="game-design"><a aria-hidden="true" class="anchor-heading" href="#game-design"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Game Design</h1>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="https://kb.neurrone.com/notes/VkOLUGZVcbj7VKc7w7SCN.html">Audio</a></li>
+</ol><span id="navId" data="9OQNGKfUKi7NKalAVYuHy"></span>
 
                 
       </section>
@@ -228,7 +212,7 @@
             
               <div class="d-flex mt-2">
               <p class="text-small text-grey-dk-000 mb-0 mr-2">
-                Page last modified: <span class="d-inline-block">8/12/2021</span>.
+                Page last modified: <span class="d-inline-block">8/22/2021</span>.
               </p>
             
                 
