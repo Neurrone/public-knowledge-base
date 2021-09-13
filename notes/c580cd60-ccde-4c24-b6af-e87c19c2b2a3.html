@@ -171,7 +171,7 @@
     <meta itemprop="headline" content="Wsl2">
     
     <meta itemprop="datePublished" content="2021-04-05T13:47:56+00:00">
-    <meta itemprop="dateModified" content="2021-06-19T11:47:56+00:00">
+    <meta itemprop="dateModified" content="2021-09-12T04:44:55+00:00">
 
     <div class="page__inner-wrap">
 
@@ -226,7 +226,15 @@ wsl --import docker-desktop-data "D:\documents\wsl2-vms\docker-desktop-data" "D:
 select vdisk file="D:\documents\wsl2-vms\ubuntu\ext4.vhdx"
 compact vdisk
 </code></pre>
-<p>Reference: <a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/">How to Shrink a WSL2 Virtual Disk</a></p><span id="navId" data="c580cd60-ccde-4c24-b6af-e87c19c2b2a3"></span>
+<p>Reference: <a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/">How to Shrink a WSL2 Virtual Disk</a></p>
+<h2 id="fix-broken-port-forwarding"><a aria-hidden="true" class="anchor-heading" href="#fix-broken-port-forwarding"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fix Broken Port Forwarding</h2>
+<p>If a service is running in WSL2 but you can't access it from the Windows host by doing localhost:<portnumber>:</portnumber></p>
+<ol>
+<li>Shut down WSL2: <code>wsl --shutdown</code></li>
+<li>In the start menu, search for "network reset" to access that settings screen, and choose reset now. Note that this will require reconfiguring network settings and re-entering wifi passwords.</li>
+<li>Restart the machine. Port forwarding should work properly again.</li>
+</ol>
+<p>Found this solution in <a href="https://github.com/microsoft/WSL/issues/4636#issuecomment-706967150">this Github issue</a></p><span id="navId" data="c580cd60-ccde-4c24-b6af-e87c19c2b2a3"></span>
 
                 
       </section>
@@ -252,7 +260,7 @@ compact vdisk
             
               <div class="d-flex mt-2">
               <p class="text-small text-grey-dk-000 mb-0 mr-2">
-                Page last modified: <span class="d-inline-block">6/19/2021</span>.
+                Page last modified: <span class="d-inline-block">9/12/2021</span>.
               </p>
             
                 
