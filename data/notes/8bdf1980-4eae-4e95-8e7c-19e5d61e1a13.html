@@ -1,0 +1,9 @@
+<h2 id="usage"><a aria-hidden="true" class="anchor-heading" href="#usage"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h2>
+<pre class="language-sh"><code class="language-sh">ssh-keygen -t ed25519 -C 'some comment' -f outfile -N ''
+</code></pre>
+<ul>
+<li><code>-t</code>: specify the type of key to generate. <code>ed25519</code> is recommended as it is more secure and is shorter than RSA keys</li>
+<li><code>-C</code>: a comment for the key</li>
+<li><code>-f</code>: the output file to write the keypair to</li>
+<li><code>-N</code>: the password used to protect the private key</li>
+</ul>

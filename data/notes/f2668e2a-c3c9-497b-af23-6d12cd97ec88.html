@@ -1,0 +1,21 @@
+<h1 id="rust-guis-on-windows"><a aria-hidden="true" class="anchor-heading" href="#rust-guis-on-windows"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Rust GUIs On Windows</h1>
+<p>Also see <a href="https://www.areweguiyet.com/">are we gui yet?</a></p>
+<p>There are many projects in this space, but most of them don't support accessibility technologies, all the ones listed here should.</p>
+<h2 id="native-windows-bindings"><a aria-hidden="true" class="anchor-heading" href="#native-windows-bindings"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Native Windows Bindings</h2>
+<ul>
+<li><a href="https://crates.io/crates/winsafe">Winsafe</a></li>
+<li><a href="https://github.com/gabdube/native-windows-gui">native-windows-gui</a></li>
+</ul>
+<h2 id="cross-platform"><a aria-hidden="true" class="anchor-heading" href="#cross-platform"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cross-platform</h2>
+<ul>
+<li><a href="https://github.com/hecrj/iced">Iced</a> looks promising, support for accessibility is still under development though</li>
+<li>Using JavaScript for the frontend and leaving the backend to Rust seems much saner than dealing with lifetimes
+<ul>
+<li><a href="https://github.com/Srinivasa314/alcro">alcro</a> requires an existing installation of a chromium browser, e.g microsoft chromium-based Edge</li>
+<li><a href="https://tauri.studio/en/">Tauri</a> makes use of the native browser (IE or Edge) for rendering. This feels like a framework though, and I'm not sure if I'd need the extra stuff</li>
+<li><a href="https://github.com/Boscop/web-view">Webview bindings</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/AccessKit/accesskit">accesskit</a> should hopefully solve this problem properly in the long-term by making it easier to implement native accessibility APIs</li>
+<li>Bevy-egui has early support for emiting events which can be hooked to simulate a screen reader. See <a href="https://github.com/ndarilek/bevy_egui_a11y/tree/main/src">https://github.com/ndarilek/bevy_egui_a11y/tree/main/src</a> for a very early prototype</li>
+</ul>

@@ -1,0 +1,8 @@
+<h1 id="notes-on-using-synology-nas-devices"><a aria-hidden="true" class="anchor-heading" href="#notes-on-using-synology-nas-devices"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Notes On Using Synology NAS Devices</h1>
+<h2 id="setting-up-a-cron-job"><a aria-hidden="true" class="anchor-heading" href="#setting-up-a-cron-job"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Setting Up a Cron Job</h2>
+<p><code>crontab -e</code> won't work on a Synology; <code>/etc/crontab</code> needs to be edited directly under root.</p>
+<ol>
+<li>Become root: <code>sudo -i</code></li>
+<li>Edit crontab: <code>nano /etc/crontab</code>. Note that the columns are separated by tabs.</li>
+<li>Restart the cron daemon: <code>synoservice -restart crond</code></li>
+</ol>

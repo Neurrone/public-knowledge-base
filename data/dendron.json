@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "useFMTitle": false,
+  "useNoteTitleForLink": true,
+  "noLegacyNoteRef": true,
+  "mermaid": true,
+  "useKatex": true,
+  "usePrettyRefs": true,
+  "dev": {
+    "previewV2Enabled": false,
+    "enablePreviewV2": true
+  },
+  "site": {
+    "copyAssets": true,
+    "siteHierarchies": [
+      "root"
+    ],
+    "siteLastModified": true,
+    "siteRootDir": "docs",
+    "siteUrl": "https://kb.neurrone.com",
+    "usePrettyRefs": true,
+    "title": "Personal Knowledge Base",
+    "description": "Personal knowledge Base",
+    "author": "Dickson Tan",
+    "twitter": "neurrone",
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "main",
+        "health",
+        "Human Dynamics"
+      ]
+    },
+    "gh_edit_branch": "main",
+    "usePrettyLinks": true,
+    "siteNotesDir": "notes",
+    "siteFaviconPath": "favicon.ico",
+    "gh_edit_link": true,
+    "gh_edit_link_text": "Edit this page on GitHub",
+    "gh_root": "docs/",
+    "gh_edit_view_mode": "edit",
+    "writeStubs": true,
+    "siteIndex": "root"
+  },
+  "commands": {
+    "lookup": {
+      "note": {
+        "selectionMode": "extract",
+        "confirmVaultOnCreate": false,
+        "leaveTrace": false
+      }
+    },
+    "insertNote": {
+      "initialValue": "templates"
+    },
+    "insertNoteLink": {
+      "aliasMode": "none",
+      "enableMultiSelect": false
+    },
+    "insertNoteIndex": {
+      "enableMarker": false
+    },
+    "randomNote": {}
+  },
+  "workspace": {
+    "dendronVersion": "0.64.1",
+    "vaults": [
+      {
+        "fsPath": "human-dynamics",
+        "name": "Human Dynamics",
+        "useFMTitle": false
+      },
+      {
+        "name": "govtech",
+        "fsPath": "govtech",
+        "visibility": "private",
+        "useFMTitle": false
+      },
+      {
+        "name": "health",
+        "fsPath": "health",
+        "useFMTitle": false
+      },
+      {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      {
+        "name": "personal",
+        "fsPath": "personal",
+        "visibility": "private"
+      }
+    ],
+    "journal": {
+      "dailyDomain": "daily",
+      "name": "journal",
+      "dateFormat": "y.MM.dd",
+      "addBehavior": "childOfDomain"
+    },
+    "scratch": {
+      "name": "scratch",
+      "dateFormat": "y.MM.dd.HHmmss",
+      "addBehavior": "asOwnDomain"
+    },
+    "graph": {
+      "zoomSpeed": 1
+    },
+    "disableTelemetry": true,
+    "enableAutoCreateOnDefinition": false,
+    "enableXVaultWikiLink": false,
+    "enableRemoteVaultInit": true,
+    "workspaceVaultSyncMode": "noCommit",
+    "enableAutoFoldFrontmatter": false,
+    "maxPreviewsCached": 10,
+    "maxNoteLength": 204800,
+    "enableUserTags": true,
+    "enableHashTags": true,
+    "task": {
+      "name": "",
+      "dateFormat": "",
+      "addBehavior": "childOfCurrent",
+      "statusSymbols": {
+        "": " ",
+        "wip": "w",
+        "done": "x",
+        "assigned": "a",
+        "moved": "m",
+        "blocked": "b",
+        "delegated": "l",
+        "dropped": "d",
+        "pending": "y"
+      },
+      "prioritySymbols": {
+        "H": "high",
+        "M": "medium",
+        "L": "low"
+      },
+      "todoIntegration": false,
+      "createTaskSelectionType": "selection2link"
+    }
+  }
+}

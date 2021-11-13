@@ -1,0 +1,8 @@
+<h1 id="mocha"><a aria-hidden="true" class="anchor-heading" href="#mocha"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mocha</h1>
+<h2 id="changing-timeout-for-specific-tests"><a aria-hidden="true" class="anchor-heading" href="#changing-timeout-for-specific-tests"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Changing Timeout For Specific Tests</h2>
+<p>The default timeout for tests is 5 s. For some tests which take longer, this timeout can be configured on a per-test basis:</p>
+<pre class="language-js"><code class="language-js"><span class="token function">it</span><span class="token punctuation">(</span><span class="token string">'takes a longer time'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">timeout</span><span class="token punctuation">(</span><span class="token string">'10s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>For other configurations / scenarios, see <a href="https://www.language-diary.com/2018/03/how-to-set-timeout-for-mocha-async-tests.html">How to set timeout for #mocha async tests?</a></p>

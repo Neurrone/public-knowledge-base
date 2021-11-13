@@ -1,0 +1,18 @@
+<h1 id="backup-for-docker-containers"><a aria-hidden="true" class="anchor-heading" href="#backup-for-docker-containers"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backup For Docker Containers</h1>
+<p>tags: <a class="color-tag" style="--tag-color: #9e0168;" href="/notes/44fa9314-0fb7-4ef2-bbb7-bf30fd5b5560">#todo</a></p>
+<p>There's a tool called <a href="https://github.com/muesli/docker-backup">docker-backup</a> that does this but I've not tried it.</p>
+<p>In theory this is generally straightforward: back up volumes and bind mounts which the containers use.</p>
+<h2 id="databases"><a aria-hidden="true" class="anchor-heading" href="#databases"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Databases</h2>
+<p>Doing a naive backup by copying the files for a database while its running could cause files to be inconsistent, so you should use the database's dump tool instead to get a consistent copy (e.g, <a href="/notes/912cdf82-c956-4f4e-b9ad-f066dc6aafbe">Mysqldump</a>).</p>
+<p>Its safe to do a copy while the database is not running.</p>
+<p>There are also some tools to automate the process of doing regular database dumps:</p>
+<h3 id="mysql"><a aria-hidden="true" class="anchor-heading" href="#mysql"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>MySQL</h3>
+<ul>
+<li><a href="https://github.com/databacker/mysql-backup">mysql-backup</a>, <a href="https://hub.docker.com/r/databack/mysql-backup">mysql-backup on dockerhub</a></li>
+<li><a href="https://github.com/fradelg/docker-mysql-cron-backup">docker-mysql-cron-backup</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="/notes/912cdf82-c956-4f4e-b9ad-f066dc6aafbe">Mysqldump (main)</a></li>
+</ul>
