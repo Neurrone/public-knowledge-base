@@ -13,8 +13,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1636822235043,
-      "created": 1636822235043,
+      "updated": 1636954372045,
+      "created": 1636954372045,
       "parent": null,
       "children": [],
       "data": {}
@@ -85,7 +85,7 @@
       "created": 1617293634137,
       "parent": "root",
       "children": [
-        "fdafef36-7058-4f3c-bb14-bbff44eafa98",
+        "8cu7YaXggBafXF5iSzU4x",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
         "9eadddb0-b88f-4283-ac39-c3ffc1224509",
         "32862f25-32a1-4765-a8ae-fd54d2363150",
@@ -97,7 +97,9 @@
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
-        "c580cd60-ccde-4c24-b6af-e87c19c2b2a3"
+        "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
+        "q2UaiL4XNShK43TjECisT",
+        "tocDiQm4F1aPxAcyGpKmM"
       ],
       "data": {},
       "contentHash": "6985915c2ab09125c1becb2f5eba6ff0",
@@ -105,6 +107,194 @@
       "custom": {
         "stub": true
       }
+    },
+    "tocDiQm4F1aPxAcyGpKmM": {
+      "id": "tocDiQm4F1aPxAcyGpKmM",
+      "title": "Awscli",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "tools.awscli",
+      "updated": 1636954371592,
+      "created": 1636954371592,
+      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+      "children": [
+        "7018edbd-2bd3-4024-abca-585f729b9a7a"
+      ],
+      "data": {},
+      "stub": false
+    },
+    "7018edbd-2bd3-4024-abca-585f729b9a7a": {
+      "id": "7018edbd-2bd3-4024-abca-585f729b9a7a",
+      "title": "Cloudwatch",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tools.awscli.cloudwatch",
+            "id": "7018edbd-2bd3-4024-abca-585f729b9a7a",
+            "vaultName": "main"
+          },
+          "value": "tools.awslogs",
+          "alias": "tools.awslogs",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 11,
+              "offset": 31
+            },
+            "end": {
+              "line": 4,
+              "column": 28,
+              "offset": 48
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tools.awslogs"
+          }
+        },
+        {
+          "from": {
+            "fname": "cloudwatch",
+            "vaultName": "govtech"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 10,
+              "offset": 10
+            },
+            "end": {
+              "line": 2,
+              "column": 52,
+              "offset": 52
+            },
+            "indent": []
+          },
+          "value": "tools.awscli.cloudwatch"
+        }
+      ],
+      "anchors": {
+        "retrieving-logs": {
+          "type": "header",
+          "text": "Retrieving logs",
+          "value": "retrieving-logs",
+          "line": 8,
+          "column": 0
+        }
+      },
+      "fname": "tools.awscli.cloudwatch",
+      "updated": 1635140685867,
+      "created": 1617293037986,
+      "parent": "tocDiQm4F1aPxAcyGpKmM",
+      "children": [],
+      "data": {},
+      "contentHash": "4c3849557251aa6063b8551ae295bb28",
+      "custom": {}
+    },
+    "q2UaiL4XNShK43TjECisT": {
+      "id": "q2UaiL4XNShK43TjECisT",
+      "title": "Aws",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "fname": "tools.aws",
+      "updated": 1636954371592,
+      "created": 1636954371592,
+      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+      "children": [
+        "slIGj2pqttjbdwc0QlUaQ"
+      ],
+      "data": {},
+      "stub": false
+    },
+    "slIGj2pqttjbdwc0QlUaQ": {
+      "id": "slIGj2pqttjbdwc0QlUaQ",
+      "title": "Sqs",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [
+        {
+          "from": {
+            "fname": "tools.serverless.aws",
+            "vaultName": "main"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 64,
+              "offset": 1859
+            },
+            "end": {
+              "line": 38,
+              "column": 137,
+              "offset": 1932
+            },
+            "indent": []
+          },
+          "value": "tools.aws.sqs"
+        }
+      ],
+      "anchors": {
+        "sqs": {
+          "type": "header",
+          "text": "SQS",
+          "value": "sqs",
+          "line": 8,
+          "column": 0
+        },
+        "useful-commands": {
+          "type": "header",
+          "text": "Useful Commands",
+          "value": "useful-commands",
+          "line": 10,
+          "column": 0
+        },
+        "permissions-for-using-server-side-encryption": {
+          "type": "header",
+          "text": "Permissions For Using Server-side Encryption",
+          "value": "permissions-for-using-server-side-encryption",
+          "line": 15,
+          "column": 0
+        }
+      },
+      "fname": "tools.aws.sqs",
+      "updated": 1635736873905,
+      "created": 1635495817595,
+      "parent": "q2UaiL4XNShK43TjECisT",
+      "children": [],
+      "data": {},
+      "contentHash": "45a92205ef51e268a268e901a077de33",
+      "custom": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
       "id": "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
@@ -282,7 +472,36 @@
       },
       "type": "note",
       "desc": "Gotchas when using the serverless framework with AWS",
-      "links": [],
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "tools.serverless.aws",
+            "id": "563ce103-bde6-4e92-b41a-184940dace74",
+            "vaultName": "main"
+          },
+          "value": "tools.aws.sqs",
+          "alias": "necessary permissions to encrypt / decrypt the messages",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 64,
+              "offset": 1859
+            },
+            "end": {
+              "line": 38,
+              "column": 137,
+              "offset": 1932
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "tools.aws.sqs"
+          }
+        }
+      ],
       "anchors": {
         "api-gateway": {
           "type": "header",
@@ -297,15 +516,29 @@
           "value": "errors-during-sls-deploy",
           "line": 14,
           "column": 0
+        },
+        "check-lambda-permissions": {
+          "type": "header",
+          "text": "Check Lambda Permissions",
+          "value": "check-lambda-permissions",
+          "line": 20,
+          "column": 0
+        },
+        "troubleshooting-sqs-invocations": {
+          "type": "header",
+          "text": "Troubleshooting SQS Invocations",
+          "value": "troubleshooting-sqs-invocations",
+          "line": 32,
+          "column": 0
         }
       },
       "fname": "tools.serverless.aws",
-      "updated": 1617457650078,
+      "updated": 1635737736937,
       "created": 1617456663738,
       "parent": "93e0f902-47d4-4cc7-9027-5de0012f6c57",
       "children": [],
       "data": {},
-      "contentHash": "301b15b6168900b65b6f366ccf8a56b0",
+      "contentHash": "1de00572bc3cdd94580a5765fba04a3d",
       "custom": {}
     },
     "e7426264-d260-4728-8ed3-46ba65ec05d0": {
@@ -1013,65 +1246,9 @@
       "contentHash": "153675963bca945554acb3b07eb9a1aa",
       "custom": {}
     },
-    "fdafef36-7058-4f3c-bb14-bbff44eafa98": {
-      "id": "fdafef36-7058-4f3c-bb14-bbff44eafa98",
-      "title": "Awscli",
-      "vault": {
-        "name": "main",
-        "fsPath": "main",
-        "useFMTitle": false
-      },
-      "type": "note",
-      "desc": "",
-      "links": [],
-      "anchors": {},
-      "fname": "tools.awscli",
-      "updated": 1617293634139,
-      "created": 1617293634139,
-      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "children": [
-        "7018edbd-2bd3-4024-abca-585f729b9a7a",
-        "04f70919-ee83-42aa-a3b1-5518043773c4"
-      ],
-      "data": {},
-      "contentHash": "2f75cf1e46cc0fc4273a2b31bc38a739",
-      "stub": false,
-      "custom": {
-        "stub": true
-      }
-    },
-    "04f70919-ee83-42aa-a3b1-5518043773c4": {
-      "id": "04f70919-ee83-42aa-a3b1-5518043773c4",
-      "title": "S3 commands",
-      "vault": {
-        "name": "main",
-        "fsPath": "main",
-        "useFMTitle": false
-      },
-      "type": "note",
-      "desc": "Accessing S3 with the AWS CLI",
-      "links": [],
-      "anchors": {
-        "list-bucket": {
-          "type": "header",
-          "text": "List bucket",
-          "value": "list-bucket",
-          "line": 8,
-          "column": 0
-        }
-      },
-      "fname": "tools.awscli.s3",
-      "updated": 1618296891495,
-      "created": 1618296451370,
-      "parent": "fdafef36-7058-4f3c-bb14-bbff44eafa98",
-      "children": [],
-      "data": {},
-      "contentHash": "418ab61bae42ce2ca8e956270743573b",
-      "custom": {}
-    },
-    "7018edbd-2bd3-4024-abca-585f729b9a7a": {
-      "id": "7018edbd-2bd3-4024-abca-585f729b9a7a",
-      "title": "Cloudwatch",
+    "8cu7YaXggBafXF5iSzU4x": {
+      "id": "8cu7YaXggBafXF5iSzU4x",
+      "title": "Awslogs",
       "vault": {
         "name": "main",
         "fsPath": "main",
@@ -1082,42 +1259,42 @@
       "links": [
         {
           "from": {
-            "fname": "cloudwatch",
-            "vaultName": "govtech"
+            "fname": "tools.awscli.cloudwatch",
+            "vaultName": "main"
           },
           "type": "backlink",
           "position": {
             "start": {
-              "line": 2,
-              "column": 10,
-              "offset": 10
+              "line": 4,
+              "column": 11,
+              "offset": 31
             },
             "end": {
-              "line": 2,
-              "column": 52,
-              "offset": 52
+              "line": 4,
+              "column": 28,
+              "offset": 48
             },
             "indent": []
           },
-          "value": "tools.awscli.cloudwatch"
+          "value": "tools.awslogs"
         }
       ],
       "anchors": {
-        "retrieving-logs": {
+        "awslogs": {
           "type": "header",
-          "text": "Retrieving logs",
-          "value": "retrieving-logs",
+          "text": "Awslogs",
+          "value": "awslogs",
           "line": 8,
           "column": 0
         }
       },
-      "fname": "tools.awscli.cloudwatch",
-      "updated": 1617293513873,
-      "created": 1617293037986,
-      "parent": "fdafef36-7058-4f3c-bb14-bbff44eafa98",
+      "fname": "tools.awslogs",
+      "updated": 1635140829543,
+      "created": 1635140794666,
+      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [],
       "data": {},
-      "contentHash": "1c424f454c2ff0cecc31d20d0c74e844",
+      "contentHash": "d66f8ac7be772d984196efb6ed96596b",
       "custom": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -3205,21 +3382,28 @@
           "line": 8,
           "column": 0
         },
+        "standalone-clients": {
+          "type": "header",
+          "text": "Standalone Clients",
+          "value": "standalone-clients",
+          "line": 12,
+          "column": 0
+        },
         "vs-code-extensions": {
           "type": "header",
           "text": "Vs Code Extensions",
           "value": "vs-code-extensions",
-          "line": 12,
+          "line": 16,
           "column": 0
         }
       },
       "fname": "dev.api-clients",
-      "updated": 1622102653440,
+      "updated": 1635141063105,
       "created": 1620890166407,
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "children": [],
       "data": {},
-      "contentHash": "8b0acb74fec1d4805d17f539e35d55d2",
+      "contentHash": "f6693c6521ea23976554faba662b71a1",
       "custom": {}
     },
     "wNd4r_tzH6NPRPXGfwXys": {
@@ -4255,14 +4439,14 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "eoGJ7AQW0hxWBR8619f2Q"
+        "YWZxm4QImfRTcjMVQ4XML"
       ],
       "data": {},
       "contentHash": "eed5b7ee00ef8cddcae1ca9ff58f4276",
       "custom": {}
     },
-    "eoGJ7AQW0hxWBR8619f2Q": {
-      "id": "eoGJ7AQW0hxWBR8619f2Q",
+    "YWZxm4QImfRTcjMVQ4XML": {
+      "id": "YWZxm4QImfRTcjMVQ4XML",
       "title": "Coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -4274,8 +4458,8 @@
       "links": [],
       "anchors": {},
       "fname": "humans.coaching",
-      "updated": 1636822234514,
-      "created": 1636822234514,
+      "updated": 1636954371545,
+      "created": 1636954371545,
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "children": [
         "BtPzYh1C8TnXieTTe6K9C"
@@ -4313,7 +4497,7 @@
       "fname": "humans.coaching.contracting-conversations",
       "updated": 1635687446955,
       "created": 1634217076269,
-      "parent": "eoGJ7AQW0hxWBR8619f2Q",
+      "parent": "YWZxm4QImfRTcjMVQ4XML",
       "children": [],
       "data": {},
       "contentHash": "ba69f7e68f493327404e1d7a31d578df",
@@ -13365,6 +13549,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
+        "y676RwQDxXbqrHc781Zs6",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -13382,7 +13567,7 @@
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "8wLmKO72dXoVLmjmlq12Y"
+        "s4i83jiX0sgc7ri71qlc2"
       ],
       "data": {},
       "contentHash": "2222728f026e86e75d06a6048c4f43ed",
@@ -13424,6 +13609,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
+      "y676RwQDxXbqrHc781Zs6",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -13441,7 +13627,7 @@
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "8wLmKO72dXoVLmjmlq12Y"
+      "s4i83jiX0sgc7ri71qlc2"
     ],
     "data": {},
     "contentHash": "2222728f026e86e75d06a6048c4f43ed",
