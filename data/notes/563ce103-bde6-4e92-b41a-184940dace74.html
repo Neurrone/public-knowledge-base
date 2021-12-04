@@ -13,15 +13,8 @@ aws lambda get-function --function-name &#x3C;function>
 # to get policy name
 aws iam list-role-policies --role-name &#x3C;role>
 </code></pre>
-<h2 id="troubleshooting-sqs-invocations"><a aria-hidden="true" class="anchor-heading" href="#troubleshooting-sqs-invocations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Troubleshooting SQS Invocations</h2>
-<p>When configuring a lambda function to run on receipt of an SQS message, I ran into the following problems, these are useful things to check to troubleshoot the problem.</p>
-<ul>
-<li>Check if the event source mapping got disabled. I had this happen to me even though at the code level it was enabled, so I am not sure why.
-<pre class="language-sh"><code class="language-sh">aws lambda list-event-source-mappings --function-name &#x3C;function-name>
-# if the state shows as being disabled, re-enable it:
-aws lambda   update-event-source-mapping --uuid &#x3C;uuid from previous command> --enabled
-</code></pre>
-</li>
-<li>Check if the queue has the expected attributes set, especially if using encryption: <code>aws sqs get-queue-attributes --queue-url &#x3C;url> --attribute-names All</code></li>
-<li>If the queue uses encryption, ensure that the lambda has the <a href="/notes/slIGj2pqttjbdwc0QlUaQ">necessary permissions to encrypt / decrypt the messages</a>. Otherwise, messages get dropped silently.</li>
-</ul>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="/notes/78z64Y87ceXyHC6NGVM84">Sqs With Aws Lambda</a></li>
+</ol>

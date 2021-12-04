@@ -62,7 +62,7 @@
     "randomNote": {}
   },
   "workspace": {
-    "dendronVersion": "0.70.0",
+    "dendronVersion": "0.71.0",
     "vaults": [
       {
         "fsPath": "human-dynamics",

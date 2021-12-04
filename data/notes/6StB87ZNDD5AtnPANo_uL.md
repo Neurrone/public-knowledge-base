@@ -18,7 +18,7 @@ Burrs in grinders for coffee come in 2 types: conical and flat.
 * Produces espresso with less texture but more clarity for fruit notes in light roasts, can pull high extraction yield shots
 * More clarity in filter coffee, better than conical for filter due to generating less fines
 
-### Differences Between 98MM Flat Burrs
+### Differences Between 98MM Flat SSP Burrs
 
 This is what SSP says about the 98MM burrs they have available:
 
