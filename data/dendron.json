@@ -46,7 +46,8 @@
         "selectionMode": "extract",
         "confirmVaultOnCreate": false,
         "leaveTrace": false,
-        "bubbleUpCreateNew": true
+        "bubbleUpCreateNew": true,
+        "fuzzThreshold": 0.2
       }
     },
     "insertNote": {
@@ -137,7 +138,8 @@
       },
       "todoIntegration": false,
       "createTaskSelectionType": "selection2link"
-    }
+    },
+    "enableEditorDecorations": true
   },
   "preview": {
     "enableFMTitle": false,
