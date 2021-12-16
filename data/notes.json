@@ -13,8 +13,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1639542671826,
-      "created": 1639542671826,
+      "updated": 1639650191101,
+      "created": 1639650191101,
       "parent": null,
       "children": [],
       "data": {}
@@ -99,8 +99,8 @@
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "IvDD2bKziqSyTKy9xAvfe",
-        "HBZaQA6t0asQfGURR8kho"
+        "Pvqp9J6glBfiy9DlTUyuw",
+        "ijXF2DGhDOruAIvIfROpY"
       ],
       "data": {},
       "contentHash": "6985915c2ab09125c1becb2f5eba6ff0",
@@ -109,8 +109,8 @@
         "stub": true
       }
     },
-    "HBZaQA6t0asQfGURR8kho": {
-      "id": "HBZaQA6t0asQfGURR8kho",
+    "ijXF2DGhDOruAIvIfROpY": {
+      "id": "ijXF2DGhDOruAIvIfROpY",
       "title": "Awscli",
       "vault": {
         "name": "main",
@@ -122,8 +122,8 @@
       "links": [],
       "anchors": {},
       "fname": "tools.awscli",
-      "updated": 1639542671382,
-      "created": 1639542671382,
+      "updated": 1639650190673,
+      "created": 1639650190673,
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [
         "7018edbd-2bd3-4024-abca-585f729b9a7a"
@@ -205,14 +205,14 @@
       "fname": "tools.awscli.cloudwatch",
       "updated": 1635140685867,
       "created": 1617293037986,
-      "parent": "HBZaQA6t0asQfGURR8kho",
+      "parent": "ijXF2DGhDOruAIvIfROpY",
       "children": [],
       "data": {},
       "contentHash": "4c3849557251aa6063b8551ae295bb28",
       "custom": {}
     },
-    "IvDD2bKziqSyTKy9xAvfe": {
-      "id": "IvDD2bKziqSyTKy9xAvfe",
+    "Pvqp9J6glBfiy9DlTUyuw": {
+      "id": "Pvqp9J6glBfiy9DlTUyuw",
       "title": "Aws",
       "vault": {
         "name": "main",
@@ -224,8 +224,8 @@
       "links": [],
       "anchors": {},
       "fname": "tools.aws",
-      "updated": 1639542671381,
-      "created": 1639542671381,
+      "updated": 1639650190673,
+      "created": 1639650190673,
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [
         "slIGj2pqttjbdwc0QlUaQ"
@@ -295,7 +295,7 @@
       "fname": "tools.aws.sqs",
       "updated": 1635736873905,
       "created": 1635495817595,
-      "parent": "IvDD2bKziqSyTKy9xAvfe",
+      "parent": "Pvqp9J6glBfiy9DlTUyuw",
       "children": [],
       "data": {},
       "contentHash": "45a92205ef51e268a268e901a077de33",
@@ -452,24 +452,40 @@
       "desc": "",
       "links": [],
       "anchors": {
+        "serverless-framework": {
+          "type": "header",
+          "text": "Serverless Framework",
+          "value": "serverless-framework",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "memory-leak-in-serverless-offline-since-680": {
+          "type": "header",
+          "text": "Memory Leak in Serverless-Offline since 6.8.0",
+          "value": "memory-leak-in-serverless-offline-since-680",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
         "v2-uses-locally-installed-package-over-global-package": {
           "type": "header",
           "text": "V2 Uses Locally Installed Package Over Global Package",
           "value": "v2-uses-locally-installed-package-over-global-package",
-          "line": 9,
+          "line": 17,
           "column": 0,
           "depth": 2
         }
       },
       "fname": "tools.serverless",
-      "updated": 1617591933328,
+      "updated": 1639649948370,
       "created": 1617588356217,
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [
         "563ce103-bde6-4e92-b41a-184940dace74"
       ],
       "data": {},
-      "contentHash": "408e158d720aa87e8cad2ccc7f71408d",
+      "contentHash": "9578bfd0ac37f34fd9d18b117c42baba",
       "custom": {
         "stub": false
       }
@@ -4685,14 +4701,14 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "fjXpwyAPH1qnX9ArjnfSO"
+        "TzlZP9Ivmp5qqQ6U8LN8X"
       ],
       "data": {},
       "contentHash": "eed5b7ee00ef8cddcae1ca9ff58f4276",
       "custom": {}
     },
-    "fjXpwyAPH1qnX9ArjnfSO": {
-      "id": "fjXpwyAPH1qnX9ArjnfSO",
+    "TzlZP9Ivmp5qqQ6U8LN8X": {
+      "id": "TzlZP9Ivmp5qqQ6U8LN8X",
       "title": "Coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -4704,8 +4720,8 @@
       "links": [],
       "anchors": {},
       "fname": "humans.coaching",
-      "updated": 1639542671341,
-      "created": 1639542671341,
+      "updated": 1639650190628,
+      "created": 1639650190628,
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "children": [
         "BtPzYh1C8TnXieTTe6K9C"
@@ -4745,7 +4761,7 @@
       "fname": "humans.coaching.contracting-conversations",
       "updated": 1635687446955,
       "created": 1634217076269,
-      "parent": "fjXpwyAPH1qnX9ArjnfSO",
+      "parent": "TzlZP9Ivmp5qqQ6U8LN8X",
       "children": [],
       "data": {},
       "contentHash": "ba69f7e68f493327404e1d7a31d578df",
@@ -13962,7 +13978,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "RAlRaxgqbYRXTckCzXUbx",
+        "itegj3AU1Qpa0XdXc0Mcs",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -13980,7 +13996,7 @@
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "ffJbHhV3gsFkkOMsc02v2"
+        "L0lvnHpjicuOz9LwwmYQ2"
       ],
       "data": {},
       "contentHash": "2222728f026e86e75d06a6048c4f43ed",
@@ -14023,7 +14039,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "RAlRaxgqbYRXTckCzXUbx",
+      "itegj3AU1Qpa0XdXc0Mcs",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14041,7 +14057,7 @@
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "ffJbHhV3gsFkkOMsc02v2"
+      "L0lvnHpjicuOz9LwwmYQ2"
     ],
     "data": {},
     "contentHash": "2222728f026e86e75d06a6048c4f43ed",
