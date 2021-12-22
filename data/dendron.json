@@ -146,6 +146,7 @@
     "enableNoteTitleForLink": true,
     "enableMermaid": true,
     "enablePrettyRefs": true,
-    "enableKatex": true
+    "enableKatex": true,
+    "automaticallyShowPreview": false
   }
 }
