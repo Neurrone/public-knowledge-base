@@ -13,8 +13,8 @@
       "links": [],
       "anchors": {},
       "fname": "403",
-      "updated": 1640148093944,
-      "created": 1640148093945,
+      "updated": 1640251450750,
+      "created": 1640251450751,
       "parent": null,
       "children": [],
       "data": {}
@@ -89,6 +89,7 @@
         "8cu7YaXggBafXF5iSzU4x",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
         "9eadddb0-b88f-4283-ac39-c3ffc1224509",
+        "p3NXoIp5NCHyGPPmsXrxN",
         "32862f25-32a1-4765-a8ae-fd54d2363150",
         "eeef0059-1585-4806-b273-8f5807d4ccab",
         "cb8417c4-42f7-4985-b99e-2a8497e3c24b",
@@ -99,8 +100,8 @@
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "WUSs6udD0XfskX3Y9ISLQ",
-        "N9NF73g3CXtkIaeeOpu4G"
+        "hdg0QMJZwfcRu0Wdm7yn8",
+        "t48cB6I22Jehmxblr9P0U"
       ],
       "data": {},
       "contentHash": "6985915c2ab09125c1becb2f5eba6ff0",
@@ -109,8 +110,8 @@
         "stub": true
       }
     },
-    "N9NF73g3CXtkIaeeOpu4G": {
-      "id": "N9NF73g3CXtkIaeeOpu4G",
+    "t48cB6I22Jehmxblr9P0U": {
+      "id": "t48cB6I22Jehmxblr9P0U",
       "title": "Awscli",
       "vault": {
         "name": "main",
@@ -122,8 +123,8 @@
       "links": [],
       "anchors": {},
       "fname": "tools.awscli",
-      "updated": 1640148093575,
-      "created": 1640148093575,
+      "updated": 1640251450130,
+      "created": 1640251450130,
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [
         "7018edbd-2bd3-4024-abca-585f729b9a7a"
@@ -205,14 +206,14 @@
       "fname": "tools.awscli.cloudwatch",
       "updated": 1635140685867,
       "created": 1617293037986,
-      "parent": "N9NF73g3CXtkIaeeOpu4G",
+      "parent": "t48cB6I22Jehmxblr9P0U",
       "children": [],
       "data": {},
       "contentHash": "4c3849557251aa6063b8551ae295bb28",
       "custom": {}
     },
-    "WUSs6udD0XfskX3Y9ISLQ": {
-      "id": "WUSs6udD0XfskX3Y9ISLQ",
+    "hdg0QMJZwfcRu0Wdm7yn8": {
+      "id": "hdg0QMJZwfcRu0Wdm7yn8",
       "title": "Aws",
       "vault": {
         "name": "main",
@@ -224,8 +225,8 @@
       "links": [],
       "anchors": {},
       "fname": "tools.aws",
-      "updated": 1640148093575,
-      "created": 1640148093575,
+      "updated": 1640251450130,
+      "created": 1640251450130,
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "children": [
         "slIGj2pqttjbdwc0QlUaQ"
@@ -295,7 +296,7 @@
       "fname": "tools.aws.sqs",
       "updated": 1635736873905,
       "created": 1635495817595,
-      "parent": "WUSs6udD0XfskX3Y9ISLQ",
+      "parent": "hdg0QMJZwfcRu0Wdm7yn8",
       "children": [],
       "data": {},
       "contentHash": "45a92205ef51e268a268e901a077de33",
@@ -1264,6 +1265,52 @@
       "children": [],
       "data": {},
       "contentHash": "e09193b2845202200b3b4dca7ed4a71e",
+      "custom": {}
+    },
+    "p3NXoIp5NCHyGPPmsXrxN": {
+      "id": "p3NXoIp5NCHyGPPmsXrxN",
+      "title": "Dig",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "Commonly used options for Dig",
+      "links": [],
+      "anchors": {
+        "dig": {
+          "type": "header",
+          "text": "Dig",
+          "value": "dig",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "examples": {
+          "type": "header",
+          "text": "Examples",
+          "value": "examples",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "setting-default-format": {
+          "type": "header",
+          "text": "Setting Default Format",
+          "value": "setting-default-format",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "fname": "tools.dig",
+      "updated": 1640251099996,
+      "created": 1640250473456,
+      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+      "children": [],
+      "data": {},
+      "contentHash": "fd22ac317236a1a7adec7654ff0d15cd",
       "custom": {}
     },
     "9eadddb0-b88f-4283-ac39-c3ffc1224509": {
@@ -2464,12 +2511,14 @@
         "75663f1f-f351-42fb-80a3-9cfc794ee39f",
         "00d4a461-5a6a-40c7-a69f-f28c0c4450da",
         "LPe67ljJYIJumBcG",
+        "ZrkMT9LhTnOoah5JaNnqE",
         "bd2589d3-3be5-40b1-aa3e-03e41ebb2951",
         "e76a4a78-6532-4e89-a36c-11b932cdee37",
         "jhT60YwS65Vm3PcQR2rdW",
         "dfc9d43f-021d-4cba-95d9-9a874772aa29",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "q2IJiSoSoTOCd5uv",
+        "v4XASdnAHNvVKxVbYaoqS",
         "57059c08-9d38-48da-b270-68e17d22be74",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
@@ -2733,6 +2782,36 @@
       "children": [],
       "data": {},
       "contentHash": "cca49be0d78264c8d96eb090caba0c94",
+      "custom": {}
+    },
+    "v4XASdnAHNvVKxVbYaoqS": {
+      "id": "v4XASdnAHNvVKxVbYaoqS",
+      "title": "NVDA Add Ons",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "nvda-add-ons": {
+          "type": "header",
+          "text": "NVDA Add-ons",
+          "value": "nvda-add-ons",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "fname": "dev.nvda-add-ons",
+      "updated": 1640240912995,
+      "created": 1640240838861,
+      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+      "children": [],
+      "data": {},
+      "contentHash": "8ba2e11acb20bbcd179aa7350e43d683",
       "custom": {}
     },
     "q2IJiSoSoTOCd5uv": {
@@ -3527,6 +3606,36 @@
       "contentHash": "1436942ec786e54245a0000de72ed889",
       "custom": {}
     },
+    "ZrkMT9LhTnOoah5JaNnqE": {
+      "id": "ZrkMT9LhTnOoah5JaNnqE",
+      "title": "Cryptographic Right Answers",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "type": "note",
+      "desc": "",
+      "links": [],
+      "anchors": {
+        "cryptographic-right-answers": {
+          "type": "header",
+          "text": "Cryptographic Right Answers",
+          "value": "cryptographic-right-answers",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "fname": "dev.cryptographic-right-answers",
+      "updated": 1640239324610,
+      "created": 1640239230878,
+      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+      "children": [],
+      "data": {},
+      "contentHash": "ab302291bf1e7f73cc0921f8fcce1153",
+      "custom": {}
+    },
     "LPe67ljJYIJumBcG": {
       "id": "LPe67ljJYIJumBcG",
       "title": "CRDTs",
@@ -3745,7 +3854,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 30,
+          "line": 29,
           "column": 0,
           "depth": 2
         },
@@ -3753,18 +3862,26 @@
           "type": "header",
           "text": "Text Vs Varchar",
           "value": "text-vs-varchar",
-          "line": 34,
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "zfs": {
+          "type": "header",
+          "text": "ZFS",
+          "value": "zfs",
+          "line": 37,
           "column": 0,
           "depth": 2
         }
       },
       "fname": "dev.PostgreSQL",
-      "updated": 1633235212634,
+      "updated": 1640237319440,
       "created": 1618141186045,
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "children": [],
       "data": {},
-      "contentHash": "48c597a836a01c31b31c5663c676e29b",
+      "contentHash": "23f7db458070cc0238133bb66b94308f",
       "custom": {}
     },
     "8875d2cf-85f8-41e8-b16d-c3707e40d74e": {
@@ -4701,14 +4818,14 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "nXRJkWfOE6fZdT8cYypMZ"
+        "8wgoKZ4SPcDyif0oMk0tc"
       ],
       "data": {},
       "contentHash": "eed5b7ee00ef8cddcae1ca9ff58f4276",
       "custom": {}
     },
-    "nXRJkWfOE6fZdT8cYypMZ": {
-      "id": "nXRJkWfOE6fZdT8cYypMZ",
+    "8wgoKZ4SPcDyif0oMk0tc": {
+      "id": "8wgoKZ4SPcDyif0oMk0tc",
       "title": "Coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -4720,8 +4837,8 @@
       "links": [],
       "anchors": {},
       "fname": "humans.coaching",
-      "updated": 1640148093541,
-      "created": 1640148093541,
+      "updated": 1640251450096,
+      "created": 1640251450096,
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "children": [
         "BtPzYh1C8TnXieTTe6K9C"
@@ -4761,7 +4878,7 @@
       "fname": "humans.coaching.contracting-conversations",
       "updated": 1635687446955,
       "created": 1634217076269,
-      "parent": "nXRJkWfOE6fZdT8cYypMZ",
+      "parent": "8wgoKZ4SPcDyif0oMk0tc",
       "children": [],
       "data": {},
       "contentHash": "ba69f7e68f493327404e1d7a31d578df",
@@ -13978,7 +14095,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "TbgeG8rleMOQQlmMly5sa",
+        "blSMy2ezIjBbcrmozK4EY",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -13996,7 +14113,7 @@
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "SsctGhyL69Rjo657Gey4J"
+        "ysMIrcr9obfu8F1FpOxR7"
       ],
       "data": {},
       "contentHash": "2222728f026e86e75d06a6048c4f43ed",
@@ -14039,7 +14156,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "TbgeG8rleMOQQlmMly5sa",
+      "blSMy2ezIjBbcrmozK4EY",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14057,7 +14174,7 @@
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "SsctGhyL69Rjo657Gey4J"
+      "ysMIrcr9obfu8F1FpOxR7"
     ],
     "data": {},
     "contentHash": "2222728f026e86e75d06a6048c4f43ed",
