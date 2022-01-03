@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992678,
-      "created": 1640852992678,
+      "updated": 1641225123462,
+      "created": 1641225123462,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "Z6VxAVsBQOq1N0pyYAawF",
-        "ZUcOtUNIGclvIzBgASCad"
+        "OZGdynyIzXdg7GQ1lB5UW",
+        "0edgDjnBh7kzzsE8lCEWA"
       ],
       "parent": null,
       "data": {}
     },
-    "ZUcOtUNIGclvIzBgASCad": {
+    "0edgDjnBh7kzzsE8lCEWA": {
       "fname": "security",
       "stub": false,
       "vault": {
@@ -83,9 +83,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992210,
-      "created": 1640852992210,
-      "id": "ZUcOtUNIGclvIzBgASCad",
+      "updated": 1641225123079,
+      "created": 1641225123079,
+      "id": "0edgDjnBh7kzzsE8lCEWA",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -123,10 +123,10 @@
         }
       },
       "children": [],
-      "parent": "ZUcOtUNIGclvIzBgASCad",
+      "parent": "0edgDjnBh7kzzsE8lCEWA",
       "data": {}
     },
-    "Z6VxAVsBQOq1N0pyYAawF": {
+    "OZGdynyIzXdg7GQ1lB5UW": {
       "fname": "finance",
       "stub": false,
       "vault": {
@@ -136,9 +136,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992209,
-      "created": 1640852992209,
-      "id": "Z6VxAVsBQOq1N0pyYAawF",
+      "updated": 1641225123078,
+      "created": 1641225123078,
+      "id": "OZGdynyIzXdg7GQ1lB5UW",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -184,7 +184,7 @@
         }
       },
       "children": [],
-      "parent": "Z6VxAVsBQOq1N0pyYAawF",
+      "parent": "OZGdynyIzXdg7GQ1lB5UW",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -222,13 +222,13 @@
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "2pHOB6EN8C7TifjtPRMRt",
-        "hTddMwWbvviUZJRaNsDjZ"
+        "TpjAguE6ekyRcX2yuju1Z",
+        "HXe6P5lRlozgeO5me6MHA"
       ],
       "parent": "root",
       "data": {}
     },
-    "hTddMwWbvviUZJRaNsDjZ": {
+    "HXe6P5lRlozgeO5me6MHA": {
       "fname": "tools.awscli",
       "stub": false,
       "vault": {
@@ -238,9 +238,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992222,
-      "created": 1640852992222,
-      "id": "hTddMwWbvviUZJRaNsDjZ",
+      "updated": 1641225123087,
+      "created": 1641225123087,
+      "id": "HXe6P5lRlozgeO5me6MHA",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -329,10 +329,10 @@
         }
       },
       "children": [],
-      "parent": "hTddMwWbvviUZJRaNsDjZ",
+      "parent": "HXe6P5lRlozgeO5me6MHA",
       "data": {}
     },
-    "2pHOB6EN8C7TifjtPRMRt": {
+    "TpjAguE6ekyRcX2yuju1Z": {
       "fname": "tools.aws",
       "stub": false,
       "vault": {
@@ -342,9 +342,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992221,
-      "created": 1640852992221,
-      "id": "2pHOB6EN8C7TifjtPRMRt",
+      "updated": 1641225123087,
+      "created": 1641225123087,
+      "id": "TpjAguE6ekyRcX2yuju1Z",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -421,7 +421,7 @@
         }
       },
       "children": [],
-      "parent": "2pHOB6EN8C7TifjtPRMRt",
+      "parent": "TpjAguE6ekyRcX2yuju1Z",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -2711,9 +2711,71 @@
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
-        "3d77adfc-5373-4700-a129-e297ad6521b5"
+        "3d77adfc-5373-4700-a129-e297ad6521b5",
+        "x5VyZOVyiVP65FJHs068t"
       ],
       "parent": "root",
+      "data": {}
+    },
+    "x5VyZOVyiVP65FJHs068t": {
+      "fname": "dev.golang",
+      "stub": false,
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1641225123084,
+      "created": 1641225123084,
+      "id": "x5VyZOVyiVP65FJHs068t",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "MbUftUfXcOM5c2g664OFL"
+      ],
+      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+      "data": {},
+      "title": "Golang"
+    },
+    "MbUftUfXcOM5c2g664OFL": {
+      "id": "MbUftUfXcOM5c2g664OFL",
+      "title": "Incorrect JavaScript Mimetype on Windows",
+      "desc": "An unresolved bug in Golang causes Javascript files to be served with an incorrect mimetype on Windows",
+      "updated": 1641104731546,
+      "created": 1641104451824,
+      "custom": {},
+      "fname": "dev.golang.incorrect-javascript-mimetype-on-windows",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "a4d074d57a7b1762ccafc9696301300f",
+      "links": [],
+      "anchors": {
+        "unable-to-serve-javascript-files-with-go-on-windows": {
+          "type": "header",
+          "text": "Unable to serve javascript files with Go on Windows",
+          "value": "unable-to-serve-javascript-files-with-go-on-windows",
+          "line": 10,
+          "column": 0,
+          "depth": 1
+        },
+        "workaround": {
+          "type": "header",
+          "text": "Workaround",
+          "value": "workaround",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "x5VyZOVyiVP65FJHs068t",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5009,12 +5071,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "I8VmHB8v6zXK7FUFgNpoV"
+        "y9uTpm4RElZuOhmRtrtJf"
       ],
       "parent": "root",
       "data": {}
     },
-    "I8VmHB8v6zXK7FUFgNpoV": {
+    "y9uTpm4RElZuOhmRtrtJf": {
       "fname": "humans.coaching",
       "stub": false,
       "vault": {
@@ -5024,9 +5086,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1640852992172,
-      "created": 1640852992172,
-      "id": "I8VmHB8v6zXK7FUFgNpoV",
+      "updated": 1641225123055,
+      "created": 1641225123055,
+      "id": "y9uTpm4RElZuOhmRtrtJf",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5072,7 +5134,7 @@
         }
       },
       "children": [],
-      "parent": "I8VmHB8v6zXK7FUFgNpoV",
+      "parent": "y9uTpm4RElZuOhmRtrtJf",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14424,7 +14486,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "qh5EfE888YEaDvy2azvhi",
+        "KDx1zZu14m4wWw7xG56hi",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14438,13 +14500,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "Z6VxAVsBQOq1N0pyYAawF",
-        "ZUcOtUNIGclvIzBgASCad",
+        "OZGdynyIzXdg7GQ1lB5UW",
+        "0edgDjnBh7kzzsE8lCEWA",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "TZiwT7QQjWUMZzaby8Hy8"
+        "tG1CwIx0BxItzBxFnztod"
       ],
       "parent": null,
       "data": {},
@@ -14488,7 +14550,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "qh5EfE888YEaDvy2azvhi",
+      "KDx1zZu14m4wWw7xG56hi",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14502,13 +14564,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "Z6VxAVsBQOq1N0pyYAawF",
-      "ZUcOtUNIGclvIzBgASCad",
+      "OZGdynyIzXdg7GQ1lB5UW",
+      "0edgDjnBh7kzzsE8lCEWA",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "TZiwT7QQjWUMZzaby8Hy8"
+      "tG1CwIx0BxItzBxFnztod"
     ],
     "parent": null,
     "data": {},
