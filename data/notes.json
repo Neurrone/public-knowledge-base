@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357258245,
-      "created": 1641357258245,
+      "updated": 1641645472067,
+      "created": 1641645472067,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "V8CIaOgBxJ1dueGEKMv3c",
-        "5z6CRnDeGzH4HkWLdBQOY"
+        "q54iczEBfS0OSuAuVAAkI",
+        "aCzLLxP3HhL5t2QxrgQjV"
       ],
       "parent": null,
       "data": {}
     },
-    "5z6CRnDeGzH4HkWLdBQOY": {
+    "aCzLLxP3HhL5t2QxrgQjV": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257829,
-      "created": 1641357257829,
-      "id": "5z6CRnDeGzH4HkWLdBQOY",
+      "updated": 1641645471403,
+      "created": 1641645471403,
+      "id": "aCzLLxP3HhL5t2QxrgQjV",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "5z6CRnDeGzH4HkWLdBQOY",
+      "parent": "aCzLLxP3HhL5t2QxrgQjV",
       "data": {}
     },
-    "V8CIaOgBxJ1dueGEKMv3c": {
+    "q54iczEBfS0OSuAuVAAkI": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257829,
-      "created": 1641357257829,
-      "id": "V8CIaOgBxJ1dueGEKMv3c",
+      "updated": 1641645471403,
+      "created": 1641645471403,
+      "id": "q54iczEBfS0OSuAuVAAkI",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "V8CIaOgBxJ1dueGEKMv3c",
+      "parent": "q54iczEBfS0OSuAuVAAkI",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -219,13 +219,13 @@
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "zUsP19uryZVBSDFt0Ik1V",
-        "2OQoyTLJhU6lK71DAyO58"
+        "1Ovk1DcBFNkrqCfmOovEl",
+        "zIHSbd8jA025l4Advv010"
       ],
       "parent": "root",
       "data": {}
     },
-    "2OQoyTLJhU6lK71DAyO58": {
+    "zIHSbd8jA025l4Advv010": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -234,9 +234,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257838,
-      "created": 1641357257838,
-      "id": "2OQoyTLJhU6lK71DAyO58",
+      "updated": 1641645471411,
+      "created": 1641645471411,
+      "id": "zIHSbd8jA025l4Advv010",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -325,10 +325,10 @@
         }
       },
       "children": [],
-      "parent": "2OQoyTLJhU6lK71DAyO58",
+      "parent": "zIHSbd8jA025l4Advv010",
       "data": {}
     },
-    "zUsP19uryZVBSDFt0Ik1V": {
+    "1Ovk1DcBFNkrqCfmOovEl": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -337,9 +337,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257837,
-      "created": 1641357257837,
-      "id": "zUsP19uryZVBSDFt0Ik1V",
+      "updated": 1641645471411,
+      "created": 1641645471411,
+      "id": "1Ovk1DcBFNkrqCfmOovEl",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -416,7 +416,7 @@
         }
       },
       "children": [],
-      "parent": "zUsP19uryZVBSDFt0Ik1V",
+      "parent": "1Ovk1DcBFNkrqCfmOovEl",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -2698,12 +2698,12 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "esEuTFf8TS9d0AvDleOxS"
+        "N1WUVpUoWhZqE9ooVIbPE"
       ],
       "parent": "root",
       "data": {}
     },
-    "esEuTFf8TS9d0AvDleOxS": {
+    "N1WUVpUoWhZqE9ooVIbPE": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2712,9 +2712,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257835,
-      "created": 1641357257835,
-      "id": "esEuTFf8TS9d0AvDleOxS",
+      "updated": 1641645471409,
+      "created": 1641645471409,
+      "id": "N1WUVpUoWhZqE9ooVIbPE",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -2760,7 +2760,7 @@
         }
       },
       "children": [],
-      "parent": "esEuTFf8TS9d0AvDleOxS",
+      "parent": "N1WUVpUoWhZqE9ooVIbPE",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5045,12 +5045,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "8G982ezMUQ2f3PDrP2etB"
+        "5WiC2deLOdzRCggYWLGc7"
       ],
       "parent": "root",
       "data": {}
     },
-    "8G982ezMUQ2f3PDrP2etB": {
+    "5WiC2deLOdzRCggYWLGc7": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5059,9 +5059,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1641357257807,
-      "created": 1641357257807,
-      "id": "8G982ezMUQ2f3PDrP2etB",
+      "updated": 1641645471382,
+      "created": 1641645471382,
+      "id": "5WiC2deLOdzRCggYWLGc7",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5107,7 +5107,7 @@
         }
       },
       "children": [],
-      "parent": "8G982ezMUQ2f3PDrP2etB",
+      "parent": "5WiC2deLOdzRCggYWLGc7",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -9427,14 +9427,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 6,
+              "line": 14,
               "column": 173,
-              "offset": 327
+              "offset": 1236
             },
             "end": {
-              "line": 6,
+              "line": 14,
               "column": 192,
-              "offset": 346
+              "offset": 1255
             },
             "indent": []
           },
@@ -10633,7 +10633,7 @@
       "id": "573c46ec-52f4-4e85-94b0-807df96adcdc",
       "title": "Listening",
       "desc": "Deep listening",
-      "updated": 1623578866249,
+      "updated": 1641645117939,
       "created": 1623154510588,
       "custom": {},
       "fname": "humans.language.listening",
@@ -10643,7 +10643,7 @@
         "name": "Human Dynamics",
         "useFMTitle": false
       },
-      "contentHash": "d2be3519c2e4a1fd82cdd03917a31f23",
+      "contentHash": "650650ff4c58b2d4ddd66995a49dad67",
       "links": [
         {
           "type": "wiki",
@@ -10656,14 +10656,14 @@
           "alias": "humans.observer",
           "position": {
             "start": {
-              "line": 6,
+              "line": 14,
               "column": 173,
-              "offset": 327
+              "offset": 1236
             },
             "end": {
-              "line": 6,
+              "line": 14,
               "column": 192,
-              "offset": 346
+              "offset": 1255
             },
             "indent": []
           },
@@ -10684,14 +10684,14 @@
           "alias": "humans.content-and-context",
           "position": {
             "start": {
-              "line": 15,
+              "line": 23,
               "column": 14,
-              "offset": 1026
+              "offset": 1935
             },
             "end": {
-              "line": 15,
+              "line": 23,
               "column": 44,
-              "offset": 1056
+              "offset": 1965
             },
             "indent": []
           },
@@ -10781,7 +10781,7 @@
           "type": "header",
           "text": "Filters, Discourses and Biases",
           "value": "filters-discourses-and-biases",
-          "line": 27,
+          "line": 35,
           "column": 0,
           "depth": 2
         }
@@ -13761,14 +13761,14 @@
           "type": "backlink",
           "position": {
             "start": {
-              "line": 15,
+              "line": 23,
               "column": 14,
-              "offset": 1026
+              "offset": 1935
             },
             "end": {
-              "line": 15,
+              "line": 23,
               "column": 44,
-              "offset": 1056
+              "offset": 1965
             },
             "indent": []
           },
@@ -14458,7 +14458,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "zfM0EKT3dmwYi5sbiEeP6",
+        "C3slLeNZY6hPJqSGhW9Gz",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14472,13 +14472,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "V8CIaOgBxJ1dueGEKMv3c",
-        "5z6CRnDeGzH4HkWLdBQOY",
+        "q54iczEBfS0OSuAuVAAkI",
+        "aCzLLxP3HhL5t2QxrgQjV",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "sbl4ZhgkbbDiMLUFvOQ45"
+        "W0sO9689GUEZGlP3KYbid"
       ],
       "parent": null,
       "data": {},
@@ -14522,7 +14522,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "zfM0EKT3dmwYi5sbiEeP6",
+      "C3slLeNZY6hPJqSGhW9Gz",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14536,13 +14536,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "V8CIaOgBxJ1dueGEKMv3c",
-      "5z6CRnDeGzH4HkWLdBQOY",
+      "q54iczEBfS0OSuAuVAAkI",
+      "aCzLLxP3HhL5t2QxrgQjV",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "sbl4ZhgkbbDiMLUFvOQ45"
+      "W0sO9689GUEZGlP3KYbid"
     ],
     "parent": null,
     "data": {},
