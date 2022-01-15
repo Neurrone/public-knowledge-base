@@ -1,0 +1,23 @@
+<h1 id="raid"><a aria-hidden="true" class="anchor-heading" href="#raid"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>RAID</h1>
+<p>Raid combines multiple disks into a larger array of storage.</p>
+<p>Data can be striped - split into smaller blocks which are written to disks in the array. For example, raid 0 stripes data across 2 disks but if any of the disks fail, this causes data loss. Do not use raid 0 in practice!
+Besides striping, parity can be calculated for data. Storing extra parity can allow the array to survive the loss of one or more disks.</p>
+<h2 id="raid-levels"><a aria-hidden="true" class="anchor-heading" href="#raid-levels"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Raid Levels</h2>
+<ul>
+<li>Raid0: plain striping</li>
+<li>Raid1: a mirror, where all disks contain the same data. Commonly seen in 2 disk arrays. In an array of 8 disks, all the disks will contain the same data, capacity is limited to that of a single disk.</li>
+<li>Raid5: striping with 1 block of parity, survives the loss of 1 disk. Considered unsafe due to the length of time it takes to rebuild a degraded array.</li>
+<li>Raid6: striping with 2 blocks of parity, survives the loss of up to 2 disks.</li>
+<li>Raid10: stripe (without parity) of RAID1 arrays. So in an eight-disk RAID10 array, you have four RAID1 mirrors, and your writes are striped across them.
+A RAID10 array will survive the loss of any single disk—and may survive further failures. The RAID10 array can lose any number of disks without failing, so long as each of its component mirrors has at least one functional disk remaining. But when any component mirror loses its last disk, the entire RAID10 goes down with it.</li>
+</ul>
+<h2 id="efficiency"><a aria-hidden="true" class="anchor-heading" href="#efficiency"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Efficiency</h2>
+<p>A striped array's efficiency is the amount of useable space that can be used to store data.</p>
+<p>Efficiency is (n-p)/n, where n is the number of disks and p is the number of parity blocks. So an 8 disk raid6 array has an efficiency of (8-6)/8 = 75%.</p>
+<h2 id="parity"><a aria-hidden="true" class="anchor-heading" href="#parity"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Parity</h2>
+<p>There is no "parity disk" in RAID5 or RAID6, because the parity block locations are rotated from stripe to stripe. Taking an eight disk RAID6 array as an example, disks 0-5 might contain data and disks 6-7 contain parity1 and parity2 on the first stripe. On the next stripe, disk 0 and disk 7 would contain the two parity blocks, and on the third stripe, disks 0 and 1.</p>
+<p>When a disk fails in a striped parity array, the data on it can be reconstructed from the parity on the remaining disks. Losing more disks than the number of parity block causes the data to be unrecoverable.</p>
+<p>RAID is not a backup! The parity just helps with avoiding downtime.</p>
+<p>For wider arrays, performance gets worse when parity is used, this is called the RAID hole.</p>
+<p>The RAID hole refers to the read-modify-write cycle striped/parity arrays must go through in order to commit any write smaller than the full stripe width. The values of parity blocks must be calculated from the data blocks of all disks of the stripe—so to write a single 4KiB block to a RAID6 array, the system must light up all of its disks—and it must do so in two consecutive, binding operations.</p>
+<p>See <a href="https://arstechnica.com/information-technology/2020/04/understanding-raid-how-performance-scales-from-one-disk-to-eight/">Understanding RAID: How performance scales from one disk to eight</a></p>
