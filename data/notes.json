@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812595,
-      "created": 1642260812595,
+      "updated": 1642346657800,
+      "created": 1642346657800,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "Bv70HWwQ9bDoQjrUhtbsw",
-        "ocfaAJ7ZD2aRR5Ttf7Iyz"
+        "eHbsHcE3dxi3PepKTTSuk",
+        "TqJbchHHG1kTLHLhzTHzq"
       ],
       "parent": null,
       "data": {}
     },
-    "ocfaAJ7ZD2aRR5Ttf7Iyz": {
+    "TqJbchHHG1kTLHLhzTHzq": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812118,
-      "created": 1642260812118,
-      "id": "ocfaAJ7ZD2aRR5Ttf7Iyz",
+      "updated": 1642346657419,
+      "created": 1642346657419,
+      "id": "TqJbchHHG1kTLHLhzTHzq",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "ocfaAJ7ZD2aRR5Ttf7Iyz",
+      "parent": "TqJbchHHG1kTLHLhzTHzq",
       "data": {}
     },
-    "Bv70HWwQ9bDoQjrUhtbsw": {
+    "eHbsHcE3dxi3PepKTTSuk": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812117,
-      "created": 1642260812117,
-      "id": "Bv70HWwQ9bDoQjrUhtbsw",
+      "updated": 1642346657418,
+      "created": 1642346657418,
+      "id": "eHbsHcE3dxi3PepKTTSuk",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "Bv70HWwQ9bDoQjrUhtbsw",
+      "parent": "eHbsHcE3dxi3PepKTTSuk",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -216,16 +216,15 @@
         "5c93f1b4-710f-438d-8853-205733944bd7",
         "e7426264-d260-4728-8ed3-46ba65ec05d0",
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
-        "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "XQ73GUWa9fyar6tI47Uwl",
-        "DEXIVv5dotdQh7jQjT9EG"
+        "KvCHxyElLU9v2GXY6Nqwf",
+        "H06bc3KIz9OgkoHva6H4H"
       ],
       "parent": "root",
       "data": {}
     },
-    "DEXIVv5dotdQh7jQjT9EG": {
+    "H06bc3KIz9OgkoHva6H4H": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -234,9 +233,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812131,
-      "created": 1642260812131,
-      "id": "DEXIVv5dotdQh7jQjT9EG",
+      "updated": 1642346657428,
+      "created": 1642346657428,
+      "id": "H06bc3KIz9OgkoHva6H4H",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -325,10 +324,10 @@
         }
       },
       "children": [],
-      "parent": "DEXIVv5dotdQh7jQjT9EG",
+      "parent": "H06bc3KIz9OgkoHva6H4H",
       "data": {}
     },
-    "XQ73GUWa9fyar6tI47Uwl": {
+    "KvCHxyElLU9v2GXY6Nqwf": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -337,9 +336,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812130,
-      "created": 1642260812130,
-      "id": "XQ73GUWa9fyar6tI47Uwl",
+      "updated": 1642346657428,
+      "created": 1642346657428,
+      "id": "KvCHxyElLU9v2GXY6Nqwf",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -416,7 +415,7 @@
         }
       },
       "children": [],
-      "parent": "XQ73GUWa9fyar6tI47Uwl",
+      "parent": "KvCHxyElLU9v2GXY6Nqwf",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -510,7 +509,7 @@
       "id": "c8521972-bcc2-4951-9235-235dafea203d",
       "title": "Wireguard-based VPNs",
       "desc": "VPN solutions built on top of Wireguard",
-      "updated": 1633235716671,
+      "updated": 1642261071160,
       "created": 1617545558423,
       "custom": {},
       "fname": "tools.vpn.wireguard",
@@ -520,41 +519,11 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "a2ded11defd58ff80ac6ec3dc82afaa1",
+      "contentHash": "b44a12728d5f138dfa53c19d05dc2e8d",
       "links": [],
       "anchors": {},
       "children": [],
       "parent": "863ef124-d377-4a99-87c6-b59d0a406ea1",
-      "data": {}
-    },
-    "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13": {
-      "id": "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
-      "title": "Ssh-keygen",
-      "desc": "Generate ssh keypairs",
-      "updated": 1622266314259,
-      "created": 1622266130255,
-      "custom": {},
-      "fname": "tools.ssh-keygen",
-      "type": "note",
-      "vault": {
-        "name": "main",
-        "fsPath": "main",
-        "useFMTitle": false
-      },
-      "contentHash": "3dca72f84633152945533bdf761a4c34",
-      "links": [],
-      "anchors": {
-        "usage": {
-          "type": "header",
-          "text": "Usage",
-          "value": "usage",
-          "line": 9,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
     "93e0f902-47d4-4cc7-9027-5de0012f6c57": {
@@ -1590,6 +1559,7 @@
         "606c2b54-a071-433b-ac23-3ab621c2f8c2",
         "pzb0nWn4uq72opt2777vW",
         "2944863d-a429-49b5-80fb-16a6a749bf8e",
+        "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "HNbWx5akMUPDKTjtUTAo4",
         "wMBsrAyHcEXfLIxPeZA5a",
         "f4624ed8-6ac1-4055-bba3-991601956c72",
@@ -1910,6 +1880,60 @@
           "text": "Setting Up a Cron Job",
           "value": "setting-up-a-cron-job",
           "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13": {
+      "id": "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
+      "title": "Ssh",
+      "desc": "",
+      "updated": 1642341289570,
+      "created": 1622266130255,
+      "custom": {},
+      "fname": "tech.ssh",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "7dfd4db46d36fb6ce3ca870a2e6986a1",
+      "links": [],
+      "anchors": {
+        "ssh": {
+          "type": "header",
+          "text": "SSH",
+          "value": "ssh",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "generating-keypairs": {
+          "type": "header",
+          "text": "Generating Keypairs",
+          "value": "generating-keypairs",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "copying-identity-to-server": {
+          "type": "header",
+          "text": "Copying Identity To Server",
+          "value": "copying-identity-to-server",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "ssh-agent": {
+          "type": "header",
+          "text": "SSH Agent",
+          "value": "ssh-agent",
+          "line": 35,
           "column": 0,
           "depth": 2
         }
@@ -2891,12 +2915,12 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "RQbj13mdu2MdbCiW14DBN"
+        "JnuRRhp7qfA9Zn78s3yNo"
       ],
       "parent": "root",
       "data": {}
     },
-    "RQbj13mdu2MdbCiW14DBN": {
+    "JnuRRhp7qfA9Zn78s3yNo": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2905,9 +2929,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812126,
-      "created": 1642260812126,
-      "id": "RQbj13mdu2MdbCiW14DBN",
+      "updated": 1642346657425,
+      "created": 1642346657425,
+      "id": "JnuRRhp7qfA9Zn78s3yNo",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -2953,7 +2977,7 @@
         }
       },
       "children": [],
-      "parent": "RQbj13mdu2MdbCiW14DBN",
+      "parent": "JnuRRhp7qfA9Zn78s3yNo",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5341,12 +5365,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "Y5OlFBFlXYZNJJn7fI7eQ"
+        "aB2sWQDYiNpMRZ9s3YmwP"
       ],
       "parent": "root",
       "data": {}
     },
-    "Y5OlFBFlXYZNJJn7fI7eQ": {
+    "aB2sWQDYiNpMRZ9s3YmwP": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5355,9 +5379,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642260812093,
-      "created": 1642260812093,
-      "id": "Y5OlFBFlXYZNJJn7fI7eQ",
+      "updated": 1642346657401,
+      "created": 1642346657401,
+      "id": "aB2sWQDYiNpMRZ9s3YmwP",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5403,7 +5427,7 @@
         }
       },
       "children": [],
-      "parent": "Y5OlFBFlXYZNJJn7fI7eQ",
+      "parent": "aB2sWQDYiNpMRZ9s3YmwP",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14754,7 +14778,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "9YWUz9qKhPWuyHb5yIrWg",
+        "A2nrN5TA6k6Dyu0SmvvKy",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14768,13 +14792,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "Bv70HWwQ9bDoQjrUhtbsw",
-        "ocfaAJ7ZD2aRR5Ttf7Iyz",
+        "eHbsHcE3dxi3PepKTTSuk",
+        "TqJbchHHG1kTLHLhzTHzq",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "zd1qApOO37wrXsP6wrLZm"
+        "Tfx7CYmRq6A5Ba2rhRkvK"
       ],
       "parent": null,
       "data": {},
@@ -14818,7 +14842,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "9YWUz9qKhPWuyHb5yIrWg",
+      "A2nrN5TA6k6Dyu0SmvvKy",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14832,13 +14856,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "Bv70HWwQ9bDoQjrUhtbsw",
-      "ocfaAJ7ZD2aRR5Ttf7Iyz",
+      "eHbsHcE3dxi3PepKTTSuk",
+      "TqJbchHHG1kTLHLhzTHzq",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "zd1qApOO37wrXsP6wrLZm"
+      "Tfx7CYmRq6A5Ba2rhRkvK"
     ],
     "parent": null,
     "data": {},
