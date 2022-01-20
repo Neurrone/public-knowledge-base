@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657800,
-      "created": 1642346657800,
+      "updated": 1642683283751,
+      "created": 1642683283751,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "eHbsHcE3dxi3PepKTTSuk",
-        "TqJbchHHG1kTLHLhzTHzq"
+        "8M28iKQynnkvQ1JaMRMfU",
+        "MdMq6qcZqRL5FC79qG52K"
       ],
       "parent": null,
       "data": {}
     },
-    "TqJbchHHG1kTLHLhzTHzq": {
+    "MdMq6qcZqRL5FC79qG52K": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657419,
-      "created": 1642346657419,
-      "id": "TqJbchHHG1kTLHLhzTHzq",
+      "updated": 1642683283335,
+      "created": 1642683283335,
+      "id": "MdMq6qcZqRL5FC79qG52K",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "TqJbchHHG1kTLHLhzTHzq",
+      "parent": "MdMq6qcZqRL5FC79qG52K",
       "data": {}
     },
-    "eHbsHcE3dxi3PepKTTSuk": {
+    "8M28iKQynnkvQ1JaMRMfU": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657418,
-      "created": 1642346657418,
-      "id": "eHbsHcE3dxi3PepKTTSuk",
+      "updated": 1642683283335,
+      "created": 1642683283335,
+      "id": "8M28iKQynnkvQ1JaMRMfU",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "eHbsHcE3dxi3PepKTTSuk",
+      "parent": "8M28iKQynnkvQ1JaMRMfU",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -218,13 +218,13 @@
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "KvCHxyElLU9v2GXY6Nqwf",
-        "H06bc3KIz9OgkoHva6H4H"
+        "2B8P1eiYBwgzdLK493ZEF",
+        "fzj3EmA3KBNJgE9VoL9Yh"
       ],
       "parent": "root",
       "data": {}
     },
-    "H06bc3KIz9OgkoHva6H4H": {
+    "fzj3EmA3KBNJgE9VoL9Yh": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -233,9 +233,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657428,
-      "created": 1642346657428,
-      "id": "H06bc3KIz9OgkoHva6H4H",
+      "updated": 1642683283347,
+      "created": 1642683283347,
+      "id": "fzj3EmA3KBNJgE9VoL9Yh",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -324,10 +324,10 @@
         }
       },
       "children": [],
-      "parent": "H06bc3KIz9OgkoHva6H4H",
+      "parent": "fzj3EmA3KBNJgE9VoL9Yh",
       "data": {}
     },
-    "KvCHxyElLU9v2GXY6Nqwf": {
+    "2B8P1eiYBwgzdLK493ZEF": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -336,9 +336,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657428,
-      "created": 1642346657428,
-      "id": "KvCHxyElLU9v2GXY6Nqwf",
+      "updated": 1642683283346,
+      "created": 1642683283346,
+      "id": "2B8P1eiYBwgzdLK493ZEF",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -415,7 +415,7 @@
         }
       },
       "children": [],
-      "parent": "KvCHxyElLU9v2GXY6Nqwf",
+      "parent": "2B8P1eiYBwgzdLK493ZEF",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -2915,12 +2915,12 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "JnuRRhp7qfA9Zn78s3yNo"
+        "oOhPMLg85qVVUJh3RVbno"
       ],
       "parent": "root",
       "data": {}
     },
-    "JnuRRhp7qfA9Zn78s3yNo": {
+    "oOhPMLg85qVVUJh3RVbno": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2929,9 +2929,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657425,
-      "created": 1642346657425,
-      "id": "JnuRRhp7qfA9Zn78s3yNo",
+      "updated": 1642683283343,
+      "created": 1642683283343,
+      "id": "oOhPMLg85qVVUJh3RVbno",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -2977,7 +2977,7 @@
         }
       },
       "children": [],
-      "parent": "JnuRRhp7qfA9Zn78s3yNo",
+      "parent": "oOhPMLg85qVVUJh3RVbno",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5365,12 +5365,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "aB2sWQDYiNpMRZ9s3YmwP"
+        "sXNWXCHIr2mQROl2ccdoe"
       ],
       "parent": "root",
       "data": {}
     },
-    "aB2sWQDYiNpMRZ9s3YmwP": {
+    "sXNWXCHIr2mQROl2ccdoe": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5379,9 +5379,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642346657401,
-      "created": 1642346657401,
-      "id": "aB2sWQDYiNpMRZ9s3YmwP",
+      "updated": 1642683283314,
+      "created": 1642683283314,
+      "id": "sXNWXCHIr2mQROl2ccdoe",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5427,7 +5427,7 @@
         }
       },
       "children": [],
-      "parent": "aB2sWQDYiNpMRZ9s3YmwP",
+      "parent": "sXNWXCHIr2mQROl2ccdoe",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14778,7 +14778,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "A2nrN5TA6k6Dyu0SmvvKy",
+        "0oZbPtDwY3Yx79kLGIHCj",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14792,13 +14792,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "eHbsHcE3dxi3PepKTTSuk",
-        "TqJbchHHG1kTLHLhzTHzq",
+        "8M28iKQynnkvQ1JaMRMfU",
+        "MdMq6qcZqRL5FC79qG52K",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "Tfx7CYmRq6A5Ba2rhRkvK"
+        "zU8YlwTOV1Du2mXeysgrk"
       ],
       "parent": null,
       "data": {},
@@ -14842,7 +14842,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "A2nrN5TA6k6Dyu0SmvvKy",
+      "0oZbPtDwY3Yx79kLGIHCj",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14856,13 +14856,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "eHbsHcE3dxi3PepKTTSuk",
-      "TqJbchHHG1kTLHLhzTHzq",
+      "8M28iKQynnkvQ1JaMRMfU",
+      "MdMq6qcZqRL5FC79qG52K",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "Tfx7CYmRq6A5Ba2rhRkvK"
+      "zU8YlwTOV1Du2mXeysgrk"
     ],
     "parent": null,
     "data": {},
