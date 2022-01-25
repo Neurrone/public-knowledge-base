@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283751,
-      "created": 1642683283751,
+      "updated": 1643105172359,
+      "created": 1643105172359,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "8M28iKQynnkvQ1JaMRMfU",
-        "MdMq6qcZqRL5FC79qG52K"
+        "JXNJzNOJKrLPn0HqiwoCx",
+        "3x9TfnFxpYiuZjG24HwJE"
       ],
       "parent": null,
       "data": {}
     },
-    "MdMq6qcZqRL5FC79qG52K": {
+    "3x9TfnFxpYiuZjG24HwJE": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283335,
-      "created": 1642683283335,
-      "id": "MdMq6qcZqRL5FC79qG52K",
+      "updated": 1643105171992,
+      "created": 1643105171992,
+      "id": "3x9TfnFxpYiuZjG24HwJE",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "MdMq6qcZqRL5FC79qG52K",
+      "parent": "3x9TfnFxpYiuZjG24HwJE",
       "data": {}
     },
-    "8M28iKQynnkvQ1JaMRMfU": {
+    "JXNJzNOJKrLPn0HqiwoCx": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283335,
-      "created": 1642683283335,
-      "id": "8M28iKQynnkvQ1JaMRMfU",
+      "updated": 1643105171992,
+      "created": 1643105171992,
+      "id": "JXNJzNOJKrLPn0HqiwoCx",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "8M28iKQynnkvQ1JaMRMfU",
+      "parent": "JXNJzNOJKrLPn0HqiwoCx",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -218,13 +218,13 @@
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "2B8P1eiYBwgzdLK493ZEF",
-        "fzj3EmA3KBNJgE9VoL9Yh"
+        "KpLqcOJEtTqM3ctmMG1Wx",
+        "1PnFKgF9mzf6moEPWYsWj"
       ],
       "parent": "root",
       "data": {}
     },
-    "fzj3EmA3KBNJgE9VoL9Yh": {
+    "1PnFKgF9mzf6moEPWYsWj": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -233,9 +233,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283347,
-      "created": 1642683283347,
-      "id": "fzj3EmA3KBNJgE9VoL9Yh",
+      "updated": 1643105172004,
+      "created": 1643105172004,
+      "id": "1PnFKgF9mzf6moEPWYsWj",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -324,10 +324,10 @@
         }
       },
       "children": [],
-      "parent": "fzj3EmA3KBNJgE9VoL9Yh",
+      "parent": "1PnFKgF9mzf6moEPWYsWj",
       "data": {}
     },
-    "2B8P1eiYBwgzdLK493ZEF": {
+    "KpLqcOJEtTqM3ctmMG1Wx": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -336,9 +336,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283346,
-      "created": 1642683283346,
-      "id": "2B8P1eiYBwgzdLK493ZEF",
+      "updated": 1643105172003,
+      "created": 1643105172003,
+      "id": "KpLqcOJEtTqM3ctmMG1Wx",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -415,7 +415,7 @@
         }
       },
       "children": [],
-      "parent": "2B8P1eiYBwgzdLK493ZEF",
+      "parent": "KpLqcOJEtTqM3ctmMG1Wx",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -1549,6 +1549,7 @@
       "children": [
         "0c1fb934-607e-4c98-944e-3f1b302e027c",
         "a3120d6a-8e0b-47c4-abd8-9d4d02ef12c0",
+        "od3Asfxy5wZWc0ctxhxTm",
         "ow-H7InF2oGQuvtHFro0k",
         "NFB9X5sGJaWX2xjYRcour",
         "6ebed9ce-c5b8-48f2-ae94-c7df2440cf56",
@@ -2391,6 +2392,52 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "od3Asfxy5wZWc0ctxhxTm": {
+      "id": "od3Asfxy5wZWc0ctxhxTm",
+      "title": "BSOD",
+      "desc": "Debugging blue screens of death",
+      "updated": 1643104717257,
+      "created": 1643104076248,
+      "custom": {},
+      "fname": "tech.bsod",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "c01e80f960b1faf1f1992d821364d77a",
+      "links": [],
+      "anchors": {
+        "bsods": {
+          "type": "header",
+          "text": "BSODs",
+          "value": "bsods",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "bluescreenview": {
+          "type": "header",
+          "text": "BlueScreenView",
+          "value": "bluescreenview",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "dumpchk": {
+          "type": "header",
+          "text": "DumpChk",
+          "value": "dumpchk",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "a3120d6a-8e0b-47c4-abd8-9d4d02ef12c0": {
       "id": "a3120d6a-8e0b-47c4-abd8-9d4d02ef12c0",
       "title": "Creating Bootable USB Drives",
@@ -2915,12 +2962,12 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "oOhPMLg85qVVUJh3RVbno"
+        "b91Ch9AkoQgDyMvZle24e"
       ],
       "parent": "root",
       "data": {}
     },
-    "oOhPMLg85qVVUJh3RVbno": {
+    "b91Ch9AkoQgDyMvZle24e": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2929,9 +2976,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283343,
-      "created": 1642683283343,
-      "id": "oOhPMLg85qVVUJh3RVbno",
+      "updated": 1643105172000,
+      "created": 1643105172000,
+      "id": "b91Ch9AkoQgDyMvZle24e",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -2977,7 +3024,7 @@
         }
       },
       "children": [],
-      "parent": "oOhPMLg85qVVUJh3RVbno",
+      "parent": "b91Ch9AkoQgDyMvZle24e",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5365,12 +5412,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "sXNWXCHIr2mQROl2ccdoe"
+        "eqMXSf7EPix9SCgho0WfG"
       ],
       "parent": "root",
       "data": {}
     },
-    "sXNWXCHIr2mQROl2ccdoe": {
+    "eqMXSf7EPix9SCgho0WfG": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5379,9 +5426,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1642683283314,
-      "created": 1642683283314,
-      "id": "sXNWXCHIr2mQROl2ccdoe",
+      "updated": 1643105171974,
+      "created": 1643105171974,
+      "id": "eqMXSf7EPix9SCgho0WfG",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5427,7 +5474,7 @@
         }
       },
       "children": [],
-      "parent": "sXNWXCHIr2mQROl2ccdoe",
+      "parent": "eqMXSf7EPix9SCgho0WfG",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14778,7 +14825,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "0oZbPtDwY3Yx79kLGIHCj",
+        "MrVI93dfDQQ8Ic8tsGmJO",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14792,13 +14839,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "8M28iKQynnkvQ1JaMRMfU",
-        "MdMq6qcZqRL5FC79qG52K",
+        "JXNJzNOJKrLPn0HqiwoCx",
+        "3x9TfnFxpYiuZjG24HwJE",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "zU8YlwTOV1Du2mXeysgrk"
+        "2qyNHGZFdWtr35OgfAuna"
       ],
       "parent": null,
       "data": {},
@@ -14842,7 +14889,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "0oZbPtDwY3Yx79kLGIHCj",
+      "MrVI93dfDQQ8Ic8tsGmJO",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14856,13 +14903,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "8M28iKQynnkvQ1JaMRMfU",
-      "MdMq6qcZqRL5FC79qG52K",
+      "JXNJzNOJKrLPn0HqiwoCx",
+      "3x9TfnFxpYiuZjG24HwJE",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "zU8YlwTOV1Du2mXeysgrk"
+      "2qyNHGZFdWtr35OgfAuna"
     ],
     "parent": null,
     "data": {},
