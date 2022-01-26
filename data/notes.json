@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105172359,
-      "created": 1643105172359,
+      "updated": 1643211429221,
+      "created": 1643211429221,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "JXNJzNOJKrLPn0HqiwoCx",
-        "3x9TfnFxpYiuZjG24HwJE"
+        "IRziQkRiCHQg6xnaS3yXh",
+        "52DKCKmZJq0BXBbhWm2Xa"
       ],
       "parent": null,
       "data": {}
     },
-    "3x9TfnFxpYiuZjG24HwJE": {
+    "52DKCKmZJq0BXBbhWm2Xa": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105171992,
-      "created": 1643105171992,
-      "id": "3x9TfnFxpYiuZjG24HwJE",
+      "updated": 1643211428861,
+      "created": 1643211428861,
+      "id": "52DKCKmZJq0BXBbhWm2Xa",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "3x9TfnFxpYiuZjG24HwJE",
+      "parent": "52DKCKmZJq0BXBbhWm2Xa",
       "data": {}
     },
-    "JXNJzNOJKrLPn0HqiwoCx": {
+    "IRziQkRiCHQg6xnaS3yXh": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105171992,
-      "created": 1643105171992,
-      "id": "JXNJzNOJKrLPn0HqiwoCx",
+      "updated": 1643211428861,
+      "created": 1643211428861,
+      "id": "IRziQkRiCHQg6xnaS3yXh",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "JXNJzNOJKrLPn0HqiwoCx",
+      "parent": "IRziQkRiCHQg6xnaS3yXh",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -218,13 +218,13 @@
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "KpLqcOJEtTqM3ctmMG1Wx",
-        "1PnFKgF9mzf6moEPWYsWj"
+        "d0IMFYd5HkOOQatr2kP2t",
+        "RZ2KAUt5R4KhJp1VTGSKJ"
       ],
       "parent": "root",
       "data": {}
     },
-    "1PnFKgF9mzf6moEPWYsWj": {
+    "RZ2KAUt5R4KhJp1VTGSKJ": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -233,9 +233,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105172004,
-      "created": 1643105172004,
-      "id": "1PnFKgF9mzf6moEPWYsWj",
+      "updated": 1643211428872,
+      "created": 1643211428872,
+      "id": "RZ2KAUt5R4KhJp1VTGSKJ",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -324,10 +324,10 @@
         }
       },
       "children": [],
-      "parent": "1PnFKgF9mzf6moEPWYsWj",
+      "parent": "RZ2KAUt5R4KhJp1VTGSKJ",
       "data": {}
     },
-    "KpLqcOJEtTqM3ctmMG1Wx": {
+    "d0IMFYd5HkOOQatr2kP2t": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -336,9 +336,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105172003,
-      "created": 1643105172003,
-      "id": "KpLqcOJEtTqM3ctmMG1Wx",
+      "updated": 1643211428872,
+      "created": 1643211428872,
+      "id": "d0IMFYd5HkOOQatr2kP2t",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -415,7 +415,7 @@
         }
       },
       "children": [],
-      "parent": "KpLqcOJEtTqM3ctmMG1Wx",
+      "parent": "d0IMFYd5HkOOQatr2kP2t",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -509,7 +509,7 @@
       "id": "c8521972-bcc2-4951-9235-235dafea203d",
       "title": "Wireguard-based VPNs",
       "desc": "VPN solutions built on top of Wireguard",
-      "updated": 1642261071160,
+      "updated": 1643206830884,
       "created": 1617545558423,
       "custom": {},
       "fname": "tools.vpn.wireguard",
@@ -519,7 +519,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "b44a12728d5f138dfa53c19d05dc2e8d",
+      "contentHash": "737372e3f4b8ba8fb2888b84cae9d53f",
       "links": [],
       "anchors": {},
       "children": [],
@@ -1893,7 +1893,7 @@
       "id": "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
       "title": "Ssh",
       "desc": "",
-      "updated": 1642341289570,
+      "updated": 1643206796669,
       "created": 1622266130255,
       "custom": {},
       "fname": "tech.ssh",
@@ -1903,7 +1903,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "7dfd4db46d36fb6ce3ca870a2e6986a1",
+      "contentHash": "cdab55bc7239c9c16708fa46656fb68c",
       "links": [],
       "anchors": {
         "ssh": {
@@ -1935,6 +1935,14 @@
           "text": "SSH Agent",
           "value": "ssh-agent",
           "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "using-usb-authenticators": {
+          "type": "header",
+          "text": "Using USB Authenticators",
+          "value": "using-usb-authenticators",
+          "line": 42,
           "column": 0,
           "depth": 2
         }
@@ -2962,12 +2970,12 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "b91Ch9AkoQgDyMvZle24e"
+        "ZOzbzRsubPP057CZ4YIa6"
       ],
       "parent": "root",
       "data": {}
     },
-    "b91Ch9AkoQgDyMvZle24e": {
+    "ZOzbzRsubPP057CZ4YIa6": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2976,9 +2984,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105172000,
-      "created": 1643105172000,
-      "id": "b91Ch9AkoQgDyMvZle24e",
+      "updated": 1643211428869,
+      "created": 1643211428869,
+      "id": "ZOzbzRsubPP057CZ4YIa6",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3024,7 +3032,7 @@
         }
       },
       "children": [],
-      "parent": "b91Ch9AkoQgDyMvZle24e",
+      "parent": "ZOzbzRsubPP057CZ4YIa6",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -5412,12 +5420,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "eqMXSf7EPix9SCgho0WfG"
+        "VPC1l7WwolxkATSfUayhC"
       ],
       "parent": "root",
       "data": {}
     },
-    "eqMXSf7EPix9SCgho0WfG": {
+    "VPC1l7WwolxkATSfUayhC": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5426,9 +5434,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643105171974,
-      "created": 1643105171974,
-      "id": "eqMXSf7EPix9SCgho0WfG",
+      "updated": 1643211428839,
+      "created": 1643211428839,
+      "id": "VPC1l7WwolxkATSfUayhC",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5474,7 +5482,7 @@
         }
       },
       "children": [],
-      "parent": "eqMXSf7EPix9SCgho0WfG",
+      "parent": "VPC1l7WwolxkATSfUayhC",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14825,7 +14833,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "MrVI93dfDQQ8Ic8tsGmJO",
+        "Rk23dbuEQnuPTgsHFdS16",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14839,13 +14847,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "JXNJzNOJKrLPn0HqiwoCx",
-        "3x9TfnFxpYiuZjG24HwJE",
+        "IRziQkRiCHQg6xnaS3yXh",
+        "52DKCKmZJq0BXBbhWm2Xa",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "2qyNHGZFdWtr35OgfAuna"
+        "aNbMvJfVpLuehTceeFZSk"
       ],
       "parent": null,
       "data": {},
@@ -14889,7 +14897,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "MrVI93dfDQQ8Ic8tsGmJO",
+      "Rk23dbuEQnuPTgsHFdS16",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14903,13 +14911,13 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "JXNJzNOJKrLPn0HqiwoCx",
-      "3x9TfnFxpYiuZjG24HwJE",
+      "IRziQkRiCHQg6xnaS3yXh",
+      "52DKCKmZJq0BXBbhWm2Xa",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "2qyNHGZFdWtr35OgfAuna"
+      "aNbMvJfVpLuehTceeFZSk"
     ],
     "parent": null,
     "data": {},
