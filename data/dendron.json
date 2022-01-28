@@ -47,7 +47,8 @@
         "confirmVaultOnCreate": false,
         "leaveTrace": false,
         "bubbleUpCreateNew": true,
-        "fuzzThreshold": 0.2
+        "fuzzThreshold": 0.2,
+        "vaultSelectionModeOnCreate": "smart"
       }
     },
     "insertNote": {
