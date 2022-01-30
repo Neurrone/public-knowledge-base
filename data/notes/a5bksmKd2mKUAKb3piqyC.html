@@ -1,0 +1,89 @@
+<h1 id="unsafe-migrations"><a aria-hidden="true" class="anchor-heading" href="#unsafe-migrations"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Unsafe Migrations</h1>
+<p>Some migrations are unsafe to run in production on large tables because they cause locks on the database. This will degrade performance and could cause downtime.</p>
+<p>These migrations can usually be done in a way that avoids downtime. Don't worry about this for smaller tables.</p>
+<h2 id="adding-column-with-default-value"><a aria-hidden="true" class="anchor-heading" href="#adding-column-with-default-value"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding Column with Default Value</h2>
+<p>Causes the table to be rewritten in older versions of MySQL (blocking writes) and Postgres (blocking both reads and writes).</p>
+<p>This can be accomplished by adding the column without the default, then changing the default value later.</p>
+<p>This is safe and no workarounds are needed from MySQL 8.0.12 and Postgres 11.</p>
+<h2 id="changing-column-type"><a aria-hidden="true" class="anchor-heading" href="#changing-column-type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Changing Column Type</h2>
+<p>Causes the entire table to be rewritten.</p>
+<p>Blocks writes in MySQL except for the following changes which are safe:</p>
+<ul>
+<li>Increasing length limit of a <code>varchar</code> from &#x3C; 255 to 255</li>
+<li>Increasing length limit of a <code>varchar</code> from over 255 to max limit</li>
+</ul>
+<p>Blocks both reads and writes in Postgres except for the following:</p>
+<ul>
+<li>Increasing length limit of a <code>varchar</code> or removing length limits</li>
+<li>Changing <code>varchar</code> to <code>text</code></li>
+<li>Changing <code>text</code> to <code>varchar</code> with no limit</li>
+<li>For <code>decimal</code> or <code>real</code> columns, increasing precision or making them unconstrained</li>
+<li>Changing between <code>timestamp</code> and <code>timestamptz</code> column when session timezone is UTC from Postgres 12</li>
+</ul>
+<p>Instead, do the following:</p>
+<ol>
+<li>Create a new column</li>
+<li>Write to both columns</li>
+<li>Update the new column with previous data from the old column</li>
+<li>Read from the new column instead of the old column</li>
+<li>Stop writes to the old column</li>
+<li>Drop the old column</li>
+</ol>
+<h2 id="renaming-columns"><a aria-hidden="true" class="anchor-heading" href="#renaming-columns"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Renaming Columns</h2>
+<p>Causes errors in the application if the column is still being used.</p>
+<p>Instead, do the following:</p>
+<ol>
+<li>Create a new column</li>
+<li>Write to both columns</li>
+<li>Update the new column with previous data from the old column</li>
+<li>Read from the new column instead of the old column</li>
+<li>Stop writes to the old column</li>
+<li>Drop the old column</li>
+</ol>
+<h2 id="renaming-tables"><a aria-hidden="true" class="anchor-heading" href="#renaming-tables"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Renaming Tables</h2>
+<p>Similar to renaming columns, this causes errors if the application is still using the table.</p>
+<p>Instead, do the following:</p>
+<ol>
+<li>Create the new table</li>
+<li>Write to both tables</li>
+<li>Update the new table with previous data from the old table</li>
+<li>Read from the new table instead of the old table</li>
+<li>Stop writes to the old table</li>
+<li>Drop the old table</li>
+</ol>
+<h2 id="adding-check-constraints"><a aria-hidden="true" class="anchor-heading" href="#adding-check-constraints"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding Check Constraints</h2>
+<p>Adding a check constraints causes all existing rows to be checked. This blocks writes in MySQL and both reads and writes in Postgres.</p>
+<p>In Postgres:</p>
+<ol>
+<li>
+<p>Add the constraint without validating existing rows using the <code>not valid</code> keyword. This skips enforcement of the constraint on existing data, but subsequent inserts or updates are checked.</p>
+</li>
+<li>
+<p>Validate the constraint in a separate statement for existing data: <code>ALTER TABLE my_table VALIDATE CONSTRAINT some_constraint;</code>
+Postgres acquires a SHARE UPDATE EXCLUSIVE lock while validating the constraint for existing data , so reads and writes will still go through.</p>
+<p>This 2-step process is also useful when there is existing data that violates the constraint. The process can be repeated until all violations are fixed.</p>
+</li>
+</ol>
+<h2 id="setting-not-null-on-existing-column"><a aria-hidden="true" class="anchor-heading" href="#setting-not-null-on-existing-column"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Setting Not Null On Existing Column</h2>
+<p>Blocks reads and writes while existing rows are checked.</p>
+<p>For Postgres, do the following instead:</p>
+<ol>
+<li>Add a check constraint on the column with the <code>not valid</code> keyword to skip checks for existing rows: <code>ALTER TABLE "my_table" ADD CONSTRAINT "my_constraint" CHECK ("some_column" IS NOT NULL) NOT VALID;</code></li>
+<li>Validate the constraint in a separate statement for existing data: <code>ALTER TABLE my_table VALIDATE CONSTRAINT my_constraint;</code></li>
+<li>From Postgres 12, it is safe to then set <code>not null</code> on the column, then remove the check constraint.</li>
+</ol>
+<h3 id="adding-index-non-currently-in-postgres"><a aria-hidden="true" class="anchor-heading" href="#adding-index-non-currently-in-postgres"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Adding Index Non-currently In Postgres</h3>
+<p>Normally, creating an index blocks writes till the indexx has been built. <a href="https://www.postgresql.org/docs/current/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY">Postgres supports building indixes concurrently</a> in a way that doesn't block writes:</p>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">INDEX</span> CONCURRENTLY some_index <span class="token keyword">ON</span> my_table<span class="token punctuation">(</span>some_column<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>This is also applicable to adding foreign keys or references.</p>
+<p>This is not needed if the index is being created with a new table in the same migration.</p>
+<h2 id="linting"><a aria-hidden="true" class="anchor-heading" href="#linting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Linting</h2>
+<ul>
+<li><a href="https://github.com/ankane/strong_migrations#checks">Strong Migrations</a> is a Ruby gem that can lint for such unsafe migrations</li>
+</ul>
+<h2 id="references"><a aria-hidden="true" class="anchor-heading" href="#references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>References</h2>
+<ul>
+<li><a href="https://medium.com/paypal-tech/postgresql-at-scale-database-schema-changes-without-downtime-20d3749ed680">PostgreSQL at Scale: Database Schema Changes Without Downtime</a></li>
+<li><a href="https://github.com/fabianlindfors/reshape">reshape</a> is a new tool that tries to automate unsafe migrations for Postgres</li>
+</ul>

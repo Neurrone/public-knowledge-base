@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369247240,
-      "created": 1643369247240,
+      "updated": 1643539713360,
+      "created": 1643539713360,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "EgJE9NOVQIdZM34XdBHF5",
-        "DmevBcNXikV7g11lLg1sL"
+        "IGgx3lXuJqroE7yVZpS1k",
+        "iNaQxvFcvY2uTJ9LKx5lT"
       ],
       "parent": null,
       "data": {}
     },
-    "DmevBcNXikV7g11lLg1sL": {
+    "iNaQxvFcvY2uTJ9LKx5lT": {
       "fname": "security",
       "vault": {
         "name": "main",
@@ -82,9 +82,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246731,
-      "created": 1643369246731,
-      "id": "DmevBcNXikV7g11lLg1sL",
+      "updated": 1643539712912,
+      "created": 1643539712912,
+      "id": "iNaQxvFcvY2uTJ9LKx5lT",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -122,10 +122,10 @@
         }
       },
       "children": [],
-      "parent": "DmevBcNXikV7g11lLg1sL",
+      "parent": "iNaQxvFcvY2uTJ9LKx5lT",
       "data": {}
     },
-    "EgJE9NOVQIdZM34XdBHF5": {
+    "IGgx3lXuJqroE7yVZpS1k": {
       "fname": "finance",
       "vault": {
         "name": "main",
@@ -134,9 +134,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246730,
-      "created": 1643369246730,
-      "id": "EgJE9NOVQIdZM34XdBHF5",
+      "updated": 1643539712911,
+      "created": 1643539712911,
+      "id": "IGgx3lXuJqroE7yVZpS1k",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -182,7 +182,7 @@
         }
       },
       "children": [],
-      "parent": "EgJE9NOVQIdZM34XdBHF5",
+      "parent": "IGgx3lXuJqroE7yVZpS1k",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -218,13 +218,13 @@
         "93e0f902-47d4-4cc7-9027-5de0012f6c57",
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
-        "6lXlHb2hMVP1QfGvVugqK",
-        "74pM385yaVRXMRG3dq6e8"
+        "2wvqPgh9s1pPVBjZXH7Zw",
+        "bTjerWHkhM5CxRVxrDCRG"
       ],
       "parent": "root",
       "data": {}
     },
-    "74pM385yaVRXMRG3dq6e8": {
+    "bTjerWHkhM5CxRVxrDCRG": {
       "fname": "tools.awscli",
       "vault": {
         "name": "main",
@@ -233,9 +233,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246746,
-      "created": 1643369246747,
-      "id": "74pM385yaVRXMRG3dq6e8",
+      "updated": 1643539712928,
+      "created": 1643539712928,
+      "id": "bTjerWHkhM5CxRVxrDCRG",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -324,10 +324,10 @@
         }
       },
       "children": [],
-      "parent": "74pM385yaVRXMRG3dq6e8",
+      "parent": "bTjerWHkhM5CxRVxrDCRG",
       "data": {}
     },
-    "6lXlHb2hMVP1QfGvVugqK": {
+    "2wvqPgh9s1pPVBjZXH7Zw": {
       "fname": "tools.aws",
       "vault": {
         "name": "main",
@@ -336,9 +336,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246746,
-      "created": 1643369246746,
-      "id": "6lXlHb2hMVP1QfGvVugqK",
+      "updated": 1643539712927,
+      "created": 1643539712927,
+      "id": "2wvqPgh9s1pPVBjZXH7Zw",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -415,7 +415,7 @@
         }
       },
       "children": [],
-      "parent": "6lXlHb2hMVP1QfGvVugqK",
+      "parent": "2wvqPgh9s1pPVBjZXH7Zw",
       "data": {}
     },
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": {
@@ -1232,7 +1232,7 @@
       "id": "e8b0d847-0c78-4055-9802-661917054c91",
       "title": "Backup For Docker Containers",
       "desc": "backing up docker containers",
-      "updated": 1617376693306,
+      "updated": 1643430715746,
       "created": 1617375095404,
       "custom": {},
       "fname": "tools.docker.backup",
@@ -1242,7 +1242,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "e09193b2845202200b3b4dca7ed4a71e",
+      "contentHash": "8667cc3fe6708ff6e927661a399b548c",
       "links": [
         {
           "type": "wiki",
@@ -1552,6 +1552,8 @@
         "od3Asfxy5wZWc0ctxhxTm",
         "ow-H7InF2oGQuvtHFro0k",
         "NFB9X5sGJaWX2xjYRcour",
+        "L0W3IR80IcexnAzZo57vZ",
+        "ZFpw4eXnLYSPDVnulKoJU",
         "6ebed9ce-c5b8-48f2-ae94-c7df2440cf56",
         "yfNMEt5vdhD4aVRYBj5el",
         "7b8dea00-b854-46fc-baa1-fd704afb3a72",
@@ -1565,6 +1567,7 @@
         "wMBsrAyHcEXfLIxPeZA5a",
         "f4624ed8-6ac1-4055-bba3-991601956c72",
         "38504690-a37c-4b6d-b4fe-e075fc7dd096",
+        "Ozc4f3Z8PzlTnGeIXEnWF",
         "hjLMMAIQxMMfEEbTXGgSW"
       ],
       "parent": "root",
@@ -1633,6 +1636,36 @@
           "line": 16,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "Ozc4f3Z8PzlTnGeIXEnWF": {
+      "id": "Ozc4f3Z8PzlTnGeIXEnWF",
+      "title": "Yubikey",
+      "desc": "",
+      "updated": 1643534424270,
+      "created": 1643534387698,
+      "custom": {},
+      "fname": "tech.yubikey",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "ddacbd11fd5e45e0b788ee56d8f103d0",
+      "links": [],
+      "anchors": {
+        "yubikey": {
+          "type": "header",
+          "text": "Yubikey",
+          "value": "yubikey",
+          "line": 8,
+          "column": 0,
+          "depth": 1
         }
       },
       "children": [],
@@ -2316,6 +2349,82 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "ZFpw4eXnLYSPDVnulKoJU": {
+      "id": "ZFpw4eXnLYSPDVnulKoJU",
+      "title": "Firefox",
+      "desc": "",
+      "updated": 1643468256507,
+      "created": 1643467959868,
+      "custom": {},
+      "fname": "tech.firefox",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "a3f5c9f233ea5285a6ad09733bf47b30",
+      "links": [],
+      "anchors": {
+        "firefox": {
+          "type": "header",
+          "text": "Firefox",
+          "value": "firefox",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "hardening": {
+          "type": "header",
+          "text": "Hardening",
+          "value": "hardening",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "L0W3IR80IcexnAzZo57vZ": {
+      "id": "L0W3IR80IcexnAzZo57vZ",
+      "title": "Ethernet",
+      "desc": "",
+      "updated": 1643465852560,
+      "created": 1643465414503,
+      "custom": {},
+      "fname": "tech.ethernet",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "9332b7eb80bb65441ff6541ce173e833",
+      "links": [],
+      "anchors": {
+        "ethernet": {
+          "type": "header",
+          "text": "Ethernet",
+          "value": "ethernet",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "dont-use-cat-7": {
+          "type": "header",
+          "text": "Dont Use Cat 7",
+          "value": "dont-use-cat-7",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "NFB9X5sGJaWX2xjYRcour": {
       "id": "NFB9X5sGJaWX2xjYRcour",
       "title": "Drm Removal",
@@ -2536,7 +2645,7 @@
       "id": "2d5da356-7f71-45d9-919e-a8dc919aab11",
       "title": "Preparation",
       "desc": "",
-      "updated": 1642244619370,
+      "updated": 1643534665836,
       "created": 1621149759056,
       "custom": {},
       "fname": "tech-interview.preparation",
@@ -2546,7 +2655,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "e42d06edf500f739bd755c1c7b03a152",
+      "contentHash": "f88916c8da65b15aec5b15646b5177dd",
       "links": [],
       "anchors": {
         "preparing-for-technical-interviews": {
@@ -2569,7 +2678,7 @@
       "id": "613bb573-5d87-44d6-bd48-99cc87a71922",
       "title": "Negotiating",
       "desc": "Negotiating an offer",
-      "updated": 1622105006698,
+      "updated": 1643468934815,
       "created": 1621167628387,
       "custom": {},
       "fname": "tech-interview.preparation.negotiating",
@@ -2579,7 +2688,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2c3ac2dbc470244264d3fa41014889e1",
+      "contentHash": "59021f2417606581bd29eaa9fd5512d7",
       "links": [],
       "anchors": {
         "negotiating-an-offer": {
@@ -2589,6 +2698,14 @@
           "line": 8,
           "column": 0,
           "depth": 1
+        },
+        "salary-negotiations": {
+          "type": "header",
+          "text": "Salary Negotiations",
+          "value": "salary-negotiations",
+          "line": 14,
+          "column": 0,
+          "depth": 2
         }
       },
       "children": [],
@@ -2797,7 +2914,7 @@
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1638007936278,
+      "updated": 1643432159627,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -2807,7 +2924,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "80dc05e08114bd32532b64d751a8be15",
+      "contentHash": "6143badba02339a68e49dbf2a6aeb72c",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -2870,7 +2987,7 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 41,
+          "line": 42,
           "column": 0,
           "depth": 2
         }
@@ -2952,7 +3069,6 @@
         }
       },
       "children": [
-        "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
         "wNd4r_tzH6NPRPXGfwXys",
         "75663f1f-f351-42fb-80a3-9cfc794ee39f",
         "00d4a461-5a6a-40c7-a69f-f28c0c4450da",
@@ -2970,12 +3086,264 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "4BEq7R1RHNc8XwHh73pv4"
+        "5pQHbyC77iPpSEKvfrNST",
+        "abJlq9bp1htthupDJldiq"
       ],
       "parent": "root",
       "data": {}
     },
-    "4BEq7R1RHNc8XwHh73pv4": {
+    "abJlq9bp1htthupDJldiq": {
+      "fname": "dev.sql",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1643539712925,
+      "created": 1643539712925,
+      "id": "abJlq9bp1htthupDJldiq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
+        "a5bksmKd2mKUAKb3piqyC"
+      ],
+      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+      "data": {},
+      "title": "Sql"
+    },
+    "a5bksmKd2mKUAKb3piqyC": {
+      "id": "a5bksmKd2mKUAKb3piqyC",
+      "title": "Unsafe Migrations",
+      "desc": "",
+      "updated": 1643538994126,
+      "created": 1643534690713,
+      "custom": {},
+      "fname": "dev.sql.unsafe-migrations",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "5c835f878516ab74391a8ac9190eb1bd",
+      "links": [],
+      "anchors": {
+        "unsafe-migrations": {
+          "type": "header",
+          "text": "Unsafe Migrations",
+          "value": "unsafe-migrations",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "adding-column-with-default-value": {
+          "type": "header",
+          "text": "Adding Column with Default Value",
+          "value": "adding-column-with-default-value",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "changing-column-type": {
+          "type": "header",
+          "text": "Changing Column Type",
+          "value": "changing-column-type",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "renaming-columns": {
+          "type": "header",
+          "text": "Renaming Columns",
+          "value": "renaming-columns",
+          "line": 48,
+          "column": 0,
+          "depth": 2
+        },
+        "renaming-tables": {
+          "type": "header",
+          "text": "Renaming Tables",
+          "value": "renaming-tables",
+          "line": 61,
+          "column": 0,
+          "depth": 2
+        },
+        "adding-check-constraints": {
+          "type": "header",
+          "text": "Adding Check Constraints",
+          "value": "adding-check-constraints",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        },
+        "setting-not-null-on-existing-column": {
+          "type": "header",
+          "text": "Setting Not Null On Existing Column",
+          "value": "setting-not-null-on-existing-column",
+          "line": 86,
+          "column": 0,
+          "depth": 2
+        },
+        "adding-index-non-currently-in-postgres": {
+          "type": "header",
+          "text": "Adding Index Non-currently In Postgres",
+          "value": "adding-index-non-currently-in-postgres",
+          "line": 96,
+          "column": 0,
+          "depth": 3
+        },
+        "linting": {
+          "type": "header",
+          "text": "Linting",
+          "value": "linting",
+          "line": 108,
+          "column": 0,
+          "depth": 2
+        },
+        "references": {
+          "type": "header",
+          "text": "References",
+          "value": "references",
+          "line": 112,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "abJlq9bp1htthupDJldiq",
+      "data": {}
+    },
+    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
+      "id": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
+      "title": "Postgres",
+      "desc": "",
+      "updated": 1640237319440,
+      "created": 1618141186045,
+      "custom": {},
+      "fname": "dev.sql.postgres",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "525a6edca4688a286712786ed2c9a8a2",
+      "links": [],
+      "anchors": {
+        "postgres": {
+          "type": "header",
+          "text": "Postgres",
+          "value": "postgres",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "configuration": {
+          "type": "header",
+          "text": "Configuration",
+          "value": "configuration",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "connection-pooling": {
+          "type": "header",
+          "text": "Connection Pooling",
+          "value": "connection-pooling",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "gotchas": {
+          "type": "header",
+          "text": "Gotchas",
+          "value": "gotchas",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "security": {
+          "type": "header",
+          "text": "Security",
+          "value": "security",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "text-vs-varchar": {
+          "type": "header",
+          "text": "Text Vs Varchar",
+          "value": "text-vs-varchar",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "zfs": {
+          "type": "header",
+          "text": "ZFS",
+          "value": "zfs",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "J9ugxlvBdatTZHqLd68Vp"
+      ],
+      "parent": "abJlq9bp1htthupDJldiq",
+      "data": {}
+    },
+    "J9ugxlvBdatTZHqLd68Vp": {
+      "id": "J9ugxlvBdatTZHqLd68Vp",
+      "title": "Importing and exporting CSVs for Postgres",
+      "desc": "",
+      "updated": 1643433209896,
+      "created": 1643432918108,
+      "custom": {},
+      "fname": "dev.sql.postgres.csv",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "c3bfd6f16aa012d2448ea8652aef461f",
+      "links": [],
+      "anchors": {
+        "importing-and-exporting-csv-files-into-postgres": {
+          "type": "header",
+          "text": "Importing And Exporting CSV Files Into Postgres",
+          "value": "importing-and-exporting-csv-files-into-postgres",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "exporting-csvs": {
+          "type": "header",
+          "text": "Exporting CSVs",
+          "value": "exporting-csvs",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "importing-csvs": {
+          "type": "header",
+          "text": "Importing CSVs",
+          "value": "importing-csvs",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
+      "data": {}
+    },
+    "5pQHbyC77iPpSEKvfrNST": {
       "fname": "dev.golang",
       "vault": {
         "name": "main",
@@ -2984,9 +3352,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246742,
-      "created": 1643369246742,
-      "id": "4BEq7R1RHNc8XwHh73pv4",
+      "updated": 1643539712924,
+      "created": 1643539712924,
+      "id": "5pQHbyC77iPpSEKvfrNST",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3032,7 +3400,7 @@
         }
       },
       "children": [],
-      "parent": "4BEq7R1RHNc8XwHh73pv4",
+      "parent": "5pQHbyC77iPpSEKvfrNST",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -4308,84 +4676,6 @@
       "parent": "wNd4r_tzH6NPRPXGfwXys",
       "data": {}
     },
-    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
-      "id": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
-      "title": "PostgreSQL",
-      "desc": "",
-      "updated": 1640237319440,
-      "created": 1618141186045,
-      "custom": {},
-      "fname": "dev.PostgreSQL",
-      "type": "note",
-      "vault": {
-        "name": "main",
-        "fsPath": "main",
-        "useFMTitle": false
-      },
-      "contentHash": "23f7db458070cc0238133bb66b94308f",
-      "links": [],
-      "anchors": {
-        "postgres": {
-          "type": "header",
-          "text": "Postgres",
-          "value": "postgres",
-          "line": 8,
-          "column": 0,
-          "depth": 1
-        },
-        "configuration": {
-          "type": "header",
-          "text": "Configuration",
-          "value": "configuration",
-          "line": 10,
-          "column": 0,
-          "depth": 2
-        },
-        "connection-pooling": {
-          "type": "header",
-          "text": "Connection Pooling",
-          "value": "connection-pooling",
-          "line": 15,
-          "column": 0,
-          "depth": 2
-        },
-        "gotchas": {
-          "type": "header",
-          "text": "Gotchas",
-          "value": "gotchas",
-          "line": 20,
-          "column": 0,
-          "depth": 2
-        },
-        "security": {
-          "type": "header",
-          "text": "Security",
-          "value": "security",
-          "line": 29,
-          "column": 0,
-          "depth": 2
-        },
-        "text-vs-varchar": {
-          "type": "header",
-          "text": "Text Vs Varchar",
-          "value": "text-vs-varchar",
-          "line": 33,
-          "column": 0,
-          "depth": 2
-        },
-        "zfs": {
-          "type": "header",
-          "text": "ZFS",
-          "value": "zfs",
-          "line": 37,
-          "column": 0,
-          "depth": 2
-        }
-      },
-      "children": [],
-      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
-      "data": {}
-    },
     "8875d2cf-85f8-41e8-b16d-c3707e40d74e": {
       "id": "8875d2cf-85f8-41e8-b16d-c3707e40d74e",
       "title": "Cognition",
@@ -5113,7 +5403,7 @@
       "id": "c9J0ctjOjdjpZjmJZPs0a",
       "title": "Math",
       "desc": "",
-      "updated": 1638616146172,
+      "updated": 1643534215534,
       "created": 1631886875063,
       "custom": {},
       "fname": "accessible-software.math",
@@ -5123,7 +5413,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "474b0b74d6e0469793019f96acb3857c",
+      "contentHash": "96601cafd106a336813a5171e35a9ccb",
       "links": [],
       "anchors": {
         "math": {
@@ -5420,12 +5710,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "0Z2SLuqfJ7eUp6ta8u8c1"
+        "vJviMP10A6VMxAjUGEVqI"
       ],
       "parent": "root",
       "data": {}
     },
-    "0Z2SLuqfJ7eUp6ta8u8c1": {
+    "vJviMP10A6VMxAjUGEVqI": {
       "fname": "humans.coaching",
       "vault": {
         "fsPath": "human-dynamics",
@@ -5434,9 +5724,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1643369246705,
-      "created": 1643369246705,
-      "id": "0Z2SLuqfJ7eUp6ta8u8c1",
+      "updated": 1643539712890,
+      "created": 1643539712890,
+      "id": "vJviMP10A6VMxAjUGEVqI",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5482,7 +5772,7 @@
         }
       },
       "children": [],
-      "parent": "0Z2SLuqfJ7eUp6ta8u8c1",
+      "parent": "vJviMP10A6VMxAjUGEVqI",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -14833,7 +15123,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "n7hxmfXVNSsIOHgJuYkpx",
+        "0uLEZaLejJbfYE3ctcutl",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14847,13 +15137,14 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "EgJE9NOVQIdZM34XdBHF5",
-        "DmevBcNXikV7g11lLg1sL",
+        "IGgx3lXuJqroE7yVZpS1k",
+        "iNaQxvFcvY2uTJ9LKx5lT",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "fQuy5NA6DJHLiJb8W7wQF"
+        "tJfppQKNb4vvrNwJQb4hu",
+        "lLxFV6iQ455EqbEVlyHED"
       ],
       "parent": null,
       "data": {},
@@ -14897,7 +15188,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "n7hxmfXVNSsIOHgJuYkpx",
+      "0uLEZaLejJbfYE3ctcutl",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -14911,13 +15202,14 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "EgJE9NOVQIdZM34XdBHF5",
-      "DmevBcNXikV7g11lLg1sL",
+      "IGgx3lXuJqroE7yVZpS1k",
+      "iNaQxvFcvY2uTJ9LKx5lT",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "fQuy5NA6DJHLiJb8W7wQF"
+      "tJfppQKNb4vvrNwJQb4hu",
+      "lLxFV6iQ455EqbEVlyHED"
     ],
     "parent": null,
     "data": {},

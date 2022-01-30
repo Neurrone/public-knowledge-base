@@ -1,0 +1,15 @@
+<h1 id="importing-and-exporting-csv-files-into-postgres"><a aria-hidden="true" class="anchor-heading" href="#importing-and-exporting-csv-files-into-postgres"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Importing And Exporting CSV Files Into Postgres</h1>
+<h2 id="exporting-csvs"><a aria-hidden="true" class="anchor-heading" href="#exporting-csvs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Exporting CSVs</h2>
+<p>To export the result set of a query to a csv file:</p>
+<pre class="language-sh"><code class="language-sh"># run this when connected to the db via psql
+COPY (
+    &#x3C;some query>
+) TO '/path/to/data.csv' DELIMITER ',' CSV HEADER;
+</code></pre>
+<h2 id="importing-csvs"><a aria-hidden="true" class="anchor-heading" href="#importing-csvs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Importing CSVs</h2>
+<p>To import a CSV with column headers into a table that has the same columns as the csv:</p>
+<pre class="language-sh"><code class="language-sh"># run this when connected to the db via psql
+COPY my_table
+FROM '/path/to/data.csv'
+DELIMITER ',' CSV HEADER;
+</code></pre>
