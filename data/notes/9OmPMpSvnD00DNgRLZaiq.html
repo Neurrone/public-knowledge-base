@@ -1,0 +1,7 @@
+<h1 id="postgres-backups"><a aria-hidden="true" class="anchor-heading" href="#postgres-backups"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Postgres Backups</h1>
+<h2 id="pgdumpall"><a aria-hidden="true" class="anchor-heading" href="#pgdumpall"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Pgdumpall</h2>
+<p><a href="https://www.postgresql.org/docs/current/app-pg-dumpall.html">pg_dumpall</a> extracts a PostgreSQL database cluster into a script file.</p>
+<pre class="language-sh"><code class="language-sh">PGPASSWORD=abc pg_dumpall -U myuser --clean
+</code></pre>
+<p>This writes to stdout, so redirect as needed.</p>
+<p>The <code>--clean</code> option includes commands to drop and recreate the database in the output dump.</p>
