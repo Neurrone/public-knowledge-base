@@ -1,0 +1,86 @@
+<p>Using a YubiKey in web browsers works great.</p>
+<p>Unfortunately, it is not so great when attempting to do so with SSH or within WSL2.</p>
+<h2 id="ssh"><a aria-hidden="true" class="anchor-heading" href="#ssh"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SSH</h2>
+<p><a href="https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-openssh-82-just-works/">OpenSSH 8.2 and above supports fido2</a>, which makes the process of using a Fido2 authenticator for SSH much simpler.</p>
+<p>However, the <a href="https://github.com/PowerShell/Win32-OpenSSH/issues/1804">version of OpenSSH that ships with Windows 10 does not support fido2</a> at time of writing. This is something that is being actively worked on, although it will probably be several months before this is a fixed.</p>
+<p>Ironically, the easiest workaround for this is to use the version of ssh that comes with <a href="https://gitforwindows.org/">Git For Windows</a>.</p>
+<ol>
+<li>
+<p>Install Git For Windows. These instructions assume that its in the default location of <code>C:\Program Files\Git</code>, adjust as needed.</p>
+</li>
+<li>
+<p>The version of ssh that comes with Git For Windows does support fido2. However, it isn't able to talk to the YubiKey or other compatible devices on Windows.</p>
+<p>This is where the <a href="https://github.com/tavrez/openssh-sk-winhello">openssh-sk-winhello</a> middleware comes in. It allows ssh to connect with these authenticators via the Windows Hello API.</p>
+<p>Download the appropriate release of <code>winhello.dll</code> depending on the version of ssh in Git for Windows (v2.0 for my case).</p>
+</li>
+<li>
+<p>Copy <code>winhello.dll</code> to <code>C:\Program Files\Git\usr\lib\ssh</code></p>
+</li>
+<li>
+<p>Add the following lines to <code>~/.ssh/config</code> (this will map back to <code>c:\users\&#x3C;username>\.ssh\config</code> on windows):</p>
+<pre><code>Host *
+    SecurityKeyProvider winhello.dll
+</code></pre>
+</li>
+<li>
+<p>Configure Bash to have ssh-keygen and ssh-agent use <code>winhello.dll</code>. Add this line to <code>~/.bashrc</code> (which will be in your user folder on windows):</p>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># this must be an absolute path, relative paths won't work</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">SSH_SK_PROVIDER</span><span class="token operator">=</span>/usr/lib/ssh/winhello.dll
+</code></pre>
+<p><code>/usr/lib</code> from within git bash maps back to <code>C:\Program Files\Git\usr\lib</code> on windows.</p>
+</li>
+<li>
+<p>Launch git bash by typing "git bash" in the start menu to get to the shortcut.</p>
+</li>
+<li>
+<p>Generate a SSH keypair resident on the YubiKey:</p>
+<pre class="language-sh"><code class="language-sh">ssh-keygen -t ed25519-sk -O resident -C 'YubiKey 5C NFC' -f ~/.ssh/id_ed25519_sk
+</code></pre>
+<p>If everything is set up correctly, you should be prompted to enter the pin for the YubiKey and to touch the device.</p>
+</li>
+<li>
+<p>There should be 2 new files in your ssh folder. Copy the public key to a server you want to access. The private key is a stub that refers to the authenticator. From within git bash, try accessing a server via ssh with this new key.</p>
+</li>
+</ol>
+<h3 id="alternative-solutions"><a aria-hidden="true" class="anchor-heading" href="#alternative-solutions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Alternative Solutions</h3>
+<ul>
+<li><a href="https://github.com/mgbowen/windows-fido-bridge">windows-fido-bridge</a> is another OpenSSH middleware that has similar functionality as winhelper. However, it requires ssh 8.3 and above, which doesn't come with Ubuntu 20.04.</li>
+</ul>
+<h2 id="wsl2"><a aria-hidden="true" class="anchor-heading" href="#wsl2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>WSL2</h2>
+<p>WSL2 has experimental support for USB devices, although it <a href="https://github.com/dorssel/usbipd-win/discussions/127">doesn't work with Fido2 devices yet</a>.</p>
+<p>To work around this issue, <a href="https://github.com/tavrez/openssh-sk-winhello/blob/master/WSL.md">openssh-sk-winhello can be set to accessed from WSL2</a> via ssh-sk-helper, which acts as a bridge from WSL2 to the ssh tools set up above in git bash.</p>
+<p>Git bash comes with ssh-sk-helper already, so that doesn't need to be installed separately.</p>
+<ol>
+<li>
+<p>In WSL2, add the following to <code>~/.ssh/config</code> (note the windows-style path):</p>
+<pre><code>Host *
+  SecurityKeyProvider "c:/Program Files/Git/usr/lib/ssh/winhello.dll"
+</code></pre>
+</li>
+<li>
+<p>Add the following environment variables to configure ssh in WSL2 to use ssh-sk-helper and winhello:</p>
+<pre class="language-sh"><code class="language-sh"># see https://github.com/tavrez/openssh-sk-winhello/blob/master/WSL.md
+export SSH_SK_HELPER="/mnt/c/Program Files/Git/usr/lib/ssh/ssh-sk-helper.exe"
+export SSH_SK_PROVIDER="c:/Program Files/Git/usr/lib/ssh/winhello.dll"
+</code></pre>
+</li>
+<li>
+<p>Copy the following .dll files from <code>C:\Program Files\Git\usr\bin</code> to <code>C:\Program Files\Git\usr\lib\ssh</code> so that ssh-sk-helper has the DLLs it needs to run when invoked from WSL2:</p>
+<ul>
+<li>msys-2.0.dll</li>
+<li>msys-cbor-0.8.dll</li>
+<li>msys-crypto-1.1.dll</li>
+<li>msys-fido2-1.dll</li>
+<li>msys-gcc_s-seh-1.dll</li>
+<li>msys-z.dll</li>
+</ul>
+</li>
+<li>
+<p>If everything is set up correctly, you should be prompted to enter a pin and touch the device when generating an ssh keypair via the YubiKey.</p>
+</li>
+</ol>
+<h2 id="references"><a aria-hidden="true" class="anchor-heading" href="#references"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>References</h2>
+<ul>
+<li><a href="https://github-wiki-see.page/m/mooltipass/minible/wiki/Setting-up-FIDO2-authentication-on-Linux-from-Windows">Setting up FIDO2 authentication on Linux from Windows - mooltipass/minible Wiki</a></li>
+<li><a href="https://polansky.co/blog/a-better-windows-wsl-openssh-experience/">A Better Windows 10+WSL SSH Experience</a></li>
+</ul>

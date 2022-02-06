@@ -63,6 +63,10 @@ Promotions are also about demonstrating you can perform at the next level before
 
 Have conversations with your manager and tell them that you want to get promoted. That helps align the world in your favour, as promotions aren't instant. They can help advocate or look out for opportunities on your behalf.
 
+> If your primary goals are about professional growth, even if you are not promoted, you will have gained valuable skills. These skills might be things like conveying engineering best practices, mentoring others, leading projects, sharing knowledge, and others. Focus on these skills over just the promotion. Promotions will a hit or miss, based on the process your company follows. But no one can take away your growth from you.
+
+Also see [Software Developer Promotions: Advice to Get to That Next Level](https://blog.pragmaticengineer.com/software-engineering-promotions/)
+
 ### Startups vs Big Companies
 
 Startups are about speed, wearing multiple hats / context switching, rapid iteration and MVPs to demonstrate value, taking on debt and fixing it later.
