@@ -81,4 +81,7 @@ The culture and values of a team will matter more than that of the overall compa
 
 ---
 
-See [Timeless Career Advice for Software Engineers](https://lbacaj.gumroad.com/l/career-advice-for-engineers)
+References:
+
+- [Timeless Career Advice for Software Engineers](https://lbacaj.gumroad.com/l/career-advice-for-engineers)
+- [How to Build a Strong Career in Tech](https://www.linkedin.com/pulse/how-build-strong-career-tech-thiago-ghisi/)
