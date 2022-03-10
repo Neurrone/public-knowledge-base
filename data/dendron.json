@@ -149,6 +149,8 @@
     "enableMermaid": true,
     "enablePrettyRefs": true,
     "enableKatex": true,
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
     "automaticallyShowPreview": false
   },
   "publishing": {
