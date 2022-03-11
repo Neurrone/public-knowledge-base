@@ -10,14 +10,14 @@
         {
           "key": "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
           "title": "Accessible Software",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
             {
               "key": "5e4379da-537f-49db-98f5-5cce3ff8b849",
               "title": "Mac",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -50,7 +50,7 @@
             {
               "key": "270ebf98-4fce-41f6-85d9-0a9518f1b5f4",
               "title": "Windows",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -85,7 +85,7 @@
         {
           "key": "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
           "title": "Career",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -167,7 +167,7 @@
         {
           "key": "8875d2cf-85f8-41e8-b16d-c3707e40d74e",
           "title": "Cognition",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -199,7 +199,7 @@
             {
               "key": "wNd4r_tzH6NPRPXGfwXys",
               "title": "Algorithms",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -262,9 +262,9 @@
               "children": []
             },
             {
-              "key": "u2ipncpax0m1mprxtysonp6",
+              "key": "lzkgylaqbynzvo5gw4gizvg",
               "title": "Golang",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -281,7 +281,7 @@
             {
               "key": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
               "title": "Lang",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -296,7 +296,7 @@
                 {
                   "key": "300cf95e-0153-4d44-8374-24f1cd2cf2f6",
                   "title": "HTML",
-                  "icon": null,
+                  "icon": "plusOutlined",
                   "hasTitleNumberOutlined": false,
                   "vaultName": "main",
                   "children": [
@@ -476,9 +476,9 @@
               "children": []
             },
             {
-              "key": "c7axnkdbstsg6jma0to26tr",
+              "key": "aeoj50cssisxwmiiigtuci3",
               "title": "Sql",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -528,14 +528,14 @@
             {
               "key": "3d77adfc-5373-4700-a129-e297ad6521b5",
               "title": "Web",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
                 {
                   "key": "1f14eba7-ff8d-4ee4-a64b-5f2f7e02b4f6",
                   "title": "Security",
-                  "icon": null,
+                  "icon": "plusOutlined",
                   "hasTitleNumberOutlined": false,
                   "vaultName": "main",
                   "children": [
@@ -571,9 +571,9 @@
           ]
         },
         {
-          "key": "0uv2qu1jflhsc3s0hlplyty",
+          "key": "ntdzo03nx4b28wkvw28dt3j",
           "title": "Finance",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -590,7 +590,7 @@
         {
           "key": "dOehc8Yap1zIbEqLvQvOt",
           "title": "Game Design",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -607,7 +607,7 @@
         {
           "key": "9fa47ef8-a44b-4e36-929f-4aa7835b474d",
           "title": "Game Theory",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "Human Dynamics",
           "children": [
@@ -624,7 +624,7 @@
         {
           "key": "b4be93a8-69e3-4427-b4cd-53593c3ab387",
           "title": "Health",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "health",
           "children": [
@@ -687,9 +687,9 @@
               "children": []
             },
             {
-              "key": "szl6l0mdf2m5d9ff4cyvfs2",
+              "key": "4090yzgoaabu9t26jam5wyk",
               "title": "Coaching",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "Human Dynamics",
               "children": [
@@ -1161,9 +1161,9 @@
           "children": []
         },
         {
-          "key": "mg45ser1c6fzd5ojvlp9mt7",
+          "key": "agn7r6fzdhi0wtbvv6kxjem",
           "title": "Security",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -1205,7 +1205,7 @@
         {
           "key": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
           "title": "Tech",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -1364,7 +1364,7 @@
             {
               "key": "38504690-a37c-4b6d-b4fe-e075fc7dd096",
               "title": "Windows",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1423,7 +1423,7 @@
         {
           "key": "f6fbee87-be27-471c-99bd-4af45d6a3156",
           "title": "Tech Interview",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
@@ -1465,14 +1465,14 @@
         {
           "key": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
           "title": "Tools",
-          "icon": null,
+          "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
           "vaultName": "main",
           "children": [
             {
-              "key": "viuq3ty3no6mh0lihblvm5k",
+              "key": "nmwc2m17jvzz71ytikae9db",
               "title": "Aws",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1487,9 +1487,9 @@
               ]
             },
             {
-              "key": "fzk90kjd5fpfthtv9xlhtp7",
+              "key": "qxn3ltdrhtptu3o4ufi24u9",
               "title": "Awscli",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1546,7 +1546,7 @@
             {
               "key": "32862f25-32a1-4765-a8ae-fd54d2363150",
               "title": "Docker",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1571,7 +1571,7 @@
             {
               "key": "eeef0059-1585-4806-b273-8f5807d4ccab",
               "title": "Git",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1620,7 +1620,7 @@
             {
               "key": "5c93f1b4-710f-438d-8853-205733944bd7",
               "title": "Mysql",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1680,7 +1680,7 @@
             {
               "key": "863ef124-d377-4a99-87c6-b59d0a406ea1",
               "title": "Vpn",
-              "icon": null,
+              "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
               "vaultName": "main",
               "children": [
@@ -1718,15 +1718,15 @@
   "child2parent": {
     "403": null,
     "root": null,
-    "mg45ser1c6fzd5ojvlp9mt7": "root",
-    "Hf3hnE27anqaHbpxlHsLe": "mg45ser1c6fzd5ojvlp9mt7",
-    "0uv2qu1jflhsc3s0hlplyty": "root",
-    "FSFSVPLuuEQAbofCvPUWQ": "0uv2qu1jflhsc3s0hlplyty",
+    "agn7r6fzdhi0wtbvv6kxjem": "root",
+    "Hf3hnE27anqaHbpxlHsLe": "agn7r6fzdhi0wtbvv6kxjem",
+    "ntdzo03nx4b28wkvw28dt3j": "root",
+    "FSFSVPLuuEQAbofCvPUWQ": "ntdzo03nx4b28wkvw28dt3j",
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": "root",
-    "fzk90kjd5fpfthtv9xlhtp7": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-    "7018edbd-2bd3-4024-abca-585f729b9a7a": "fzk90kjd5fpfthtv9xlhtp7",
-    "viuq3ty3no6mh0lihblvm5k": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-    "slIGj2pqttjbdwc0QlUaQ": "viuq3ty3no6mh0lihblvm5k",
+    "qxn3ltdrhtptu3o4ufi24u9": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+    "7018edbd-2bd3-4024-abca-585f729b9a7a": "qxn3ltdrhtptu3o4ufi24u9",
+    "nmwc2m17jvzz71ytikae9db": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+    "slIGj2pqttjbdwc0QlUaQ": "nmwc2m17jvzz71ytikae9db",
     "JILnR3wQSc7qiAw8e3YQn": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
     "863ef124-d377-4a99-87c6-b59d0a406ea1": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
@@ -1791,13 +1791,13 @@
     "dOehc8Yap1zIbEqLvQvOt": "root",
     "VkOLUGZVcbj7VKc7w7SCN": "dOehc8Yap1zIbEqLvQvOt",
     "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29": "root",
-    "c7axnkdbstsg6jma0to26tr": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
-    "a5bksmKd2mKUAKb3piqyC": "c7axnkdbstsg6jma0to26tr",
-    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": "c7axnkdbstsg6jma0to26tr",
+    "aeoj50cssisxwmiiigtuci3": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+    "a5bksmKd2mKUAKb3piqyC": "aeoj50cssisxwmiiigtuci3",
+    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": "aeoj50cssisxwmiiigtuci3",
     "J9ugxlvBdatTZHqLd68Vp": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
     "9OmPMpSvnD00DNgRLZaiq": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
-    "u2ipncpax0m1mprxtysonp6": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
-    "MbUftUfXcOM5c2g664OFL": "u2ipncpax0m1mprxtysonp6",
+    "lzkgylaqbynzvo5gw4gizvg": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+    "MbUftUfXcOM5c2g664OFL": "lzkgylaqbynzvo5gw4gizvg",
     "3d77adfc-5373-4700-a129-e297ad6521b5": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
     "1f14eba7-ff8d-4ee4-a64b-5f2f7e02b4f6": "3d77adfc-5373-4700-a129-e297ad6521b5",
     "a46c2681-0f23-41c5-b72b-abaecaba59d7": "1f14eba7-ff8d-4ee4-a64b-5f2f7e02b4f6",
@@ -1862,8 +1862,8 @@
     "7ab7bdeb-8388-43b4-af75-0900baa894cc": "b4be93a8-69e3-4427-b4cd-53593c3ab387",
     "PahG3D6B2b2iWilsuYADD": "b4be93a8-69e3-4427-b4cd-53593c3ab387",
     "6e43ea37-b3e7-44cf-aac7-31ae947d32a2": "root",
-    "szl6l0mdf2m5d9ff4cyvfs2": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
-    "BtPzYh1C8TnXieTTe6K9C": "szl6l0mdf2m5d9ff4cyvfs2",
+    "4090yzgoaabu9t26jam5wyk": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
+    "BtPzYh1C8TnXieTTe6K9C": "4090yzgoaabu9t26jam5wyk",
     "a0e47274-95a0-4b45-881a-3901f5313517": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
     "1c4c8b03-9a3f-493c-80bb-245a712637a8": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
     "2961d984-c45a-4909-9b49-62b2c4df923a": "1c4c8b03-9a3f-493c-80bb-245a712637a8",

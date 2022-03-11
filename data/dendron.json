@@ -1,44 +1,8 @@
 {
-  "version": 4,
-  "useFMTitle": false,
-  "useNoteTitleForLink": true,
-  "mermaid": true,
-  "useKatex": true,
+  "version": 5,
   "dev": {
     "previewV2Enabled": false,
     "enablePreviewV2": true
-  },
-  "site": {
-    "copyAssets": true,
-    "siteHierarchies": [
-      "root"
-    ],
-    "siteLastModified": true,
-    "siteRootDir": "docs",
-    "siteUrl": "https://kb.neurrone.com",
-    "usePrettyRefs": true,
-    "title": "Personal Knowledge Base",
-    "description": "Personal knowledge Base",
-    "author": "Dickson Tan",
-    "twitter": "neurrone",
-    "duplicateNoteBehavior": {
-      "action": "useVault",
-      "payload": [
-        "main",
-        "health",
-        "Human Dynamics"
-      ]
-    },
-    "gh_edit_branch": "main",
-    "usePrettyLinks": true,
-    "siteNotesDir": "notes",
-    "siteFaviconPath": "favicon.ico",
-    "gh_edit_link": true,
-    "gh_edit_link_text": "Edit this page on GitHub",
-    "gh_root": "docs/",
-    "gh_edit_view_mode": "edit",
-    "writeStubs": true,
-    "siteIndex": "root"
   },
   "commands": {
     "lookup": {
@@ -65,7 +29,7 @@
     "copyNoteLink": {}
   },
   "workspace": {
-    "dendronVersion": "0.73.1",
+    "dendronVersion": "0.85.0",
     "vaults": [
       {
         "fsPath": "human-dynamics",
@@ -154,7 +118,7 @@
     "automaticallyShowPreview": false
   },
   "publishing": {
-    "enableFMTitle": true,
+    "enableFMTitle": false,
     "enableNoteTitleForLink": true,
     "enableMermaid": true,
     "enablePrettyRefs": true,
@@ -163,11 +127,26 @@
     "siteHierarchies": [
       "root"
     ],
-    "writeStubs": false,
+    "enableSiteLastModified": true,
     "siteRootDir": "docs",
+    "siteUrl": "https://kb.neurrone.com",
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "main",
+        "health",
+        "Human Dynamics"
+      ]
+    },
+    "writeStubs": false,
     "seo": {
-      "title": "Dendron",
-      "description": "Personal Knowledge Space"
+      "title": "Personal Knowledge Base",
+      "description": "Personal knowledge Base",
+      "author": "Dickson Tan",
+      "twitter": "neurrone"
     },
     "github": {
       "enableEditLink": true,
@@ -175,10 +154,8 @@
       "editBranch": "main",
       "editViewMode": "tree"
     },
-    "enableSiteLastModified": true,
-    "enableFrontmatterTags": true,
-    "enableHashesForFMTags": false,
-    "enableRandomlyColoredTags": true,
-    "enablePrettyLinks": true
+    "enablePrettyLinks": true,
+    "siteFaviconPath": "favicon.ico",
+    "siteIndex": "root"
   }
 }
