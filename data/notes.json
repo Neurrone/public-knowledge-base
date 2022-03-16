@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471678,
-      "created": 1647411471678,
+      "updated": 1647446716336,
+      "created": 1647446716336,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "lnag7oe4esbq4f99pzg96p5",
-        "65feezn8jj0dffeb0ag6o0s"
+        "cvz3gtq6pjcr3lsew694ada",
+        "yfc14k0fhwylpqem940o2fu"
       ],
       "parent": null,
       "data": {}
     },
-    "65feezn8jj0dffeb0ag6o0s": {
+    "yfc14k0fhwylpqem940o2fu": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -83,9 +83,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471525,
-      "created": 1647411471525,
-      "id": "65feezn8jj0dffeb0ag6o0s",
+      "updated": 1647446716161,
+      "created": 1647446716161,
+      "id": "yfc14k0fhwylpqem940o2fu",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -123,10 +123,10 @@
         }
       },
       "children": [],
-      "parent": "65feezn8jj0dffeb0ag6o0s",
+      "parent": "yfc14k0fhwylpqem940o2fu",
       "data": {}
     },
-    "lnag7oe4esbq4f99pzg96p5": {
+    "cvz3gtq6pjcr3lsew694ada": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -136,9 +136,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471524,
-      "created": 1647411471524,
-      "id": "lnag7oe4esbq4f99pzg96p5",
+      "updated": 1647446716161,
+      "created": 1647446716161,
+      "id": "cvz3gtq6pjcr3lsew694ada",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -184,7 +184,7 @@
         }
       },
       "children": [],
-      "parent": "lnag7oe4esbq4f99pzg96p5",
+      "parent": "cvz3gtq6pjcr3lsew694ada",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -224,13 +224,13 @@
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
         "JILnR3wQSc7qiAw8e3YQn",
-        "24p60f1yza408yzr0d9nz5q",
-        "jhzkunrqfczk7rmk6qr5suk"
+        "wzpr8uzrgyxahgcodgb5nq1",
+        "t0kttr9rx647x8zxbnuh5x0"
       ],
       "parent": "root",
       "data": {}
     },
-    "jhzkunrqfczk7rmk6qr5suk": {
+    "t0kttr9rx647x8zxbnuh5x0": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -240,9 +240,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471536,
-      "created": 1647411471536,
-      "id": "jhzkunrqfczk7rmk6qr5suk",
+      "updated": 1647446716173,
+      "created": 1647446716173,
+      "id": "t0kttr9rx647x8zxbnuh5x0",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -331,10 +331,10 @@
         }
       },
       "children": [],
-      "parent": "jhzkunrqfczk7rmk6qr5suk",
+      "parent": "t0kttr9rx647x8zxbnuh5x0",
       "data": {}
     },
-    "24p60f1yza408yzr0d9nz5q": {
+    "wzpr8uzrgyxahgcodgb5nq1": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -344,9 +344,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471535,
-      "created": 1647411471535,
-      "id": "24p60f1yza408yzr0d9nz5q",
+      "updated": 1647446716173,
+      "created": 1647446716173,
+      "id": "wzpr8uzrgyxahgcodgb5nq1",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -423,7 +423,7 @@
         }
       },
       "children": [],
-      "parent": "24p60f1yza408yzr0d9nz5q",
+      "parent": "wzpr8uzrgyxahgcodgb5nq1",
       "data": {}
     },
     "JILnR3wQSc7qiAw8e3YQn": {
@@ -2719,7 +2719,7 @@
       "id": "qcw2kuzf2w0yn7n1olse340",
       "title": "Chron",
       "desc": "",
-      "updated": 1647008078363,
+      "updated": 1647068832156,
       "created": 1647008054762,
       "custom": {},
       "fname": "tech.chron",
@@ -2729,9 +2729,18 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "4a4a6be1ca453c2d09988b7d74146b46",
+      "contentHash": "337efd5e0fe7d2d5434a3f6d735e47bf",
       "links": [],
-      "anchors": {},
+      "anchors": {
+        "chron": {
+          "type": "header",
+          "text": "Chron",
+          "value": "chron",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
       "children": [],
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
@@ -2906,7 +2915,7 @@
       "id": "613bb573-5d87-44d6-bd48-99cc87a71922",
       "title": "Negotiating",
       "desc": "Negotiating an offer",
-      "updated": 1646235900290,
+      "updated": 1647072347503,
       "created": 1621167628387,
       "custom": {},
       "fname": "tech-interview.preparation.negotiating",
@@ -2916,7 +2925,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "f4e1f3fdd0cc27240bf1e229da014aa8",
+      "contentHash": "534cae3b3c81c1701989c19a79107309",
       "links": [],
       "anchors": {
         "negotiating-an-offer": {
@@ -2935,11 +2944,19 @@
           "column": 0,
           "depth": 2
         },
+        "level": {
+          "type": "header",
+          "text": "Level",
+          "value": "level",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
         "options": {
           "type": "header",
           "text": "Options",
           "value": "options",
-          "line": 19,
+          "line": 40,
           "column": 0,
           "depth": 2
         }
@@ -3325,13 +3342,13 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "7718xt6gqsv78t95n48aizx",
-        "xbbtmiktlpmpbzuhhrupxc6"
+        "xyrvovvfk5uzy7l71xp6htx",
+        "xrqubdzia71hshvnlfmmmh8"
       ],
       "parent": "root",
       "data": {}
     },
-    "xbbtmiktlpmpbzuhhrupxc6": {
+    "xrqubdzia71hshvnlfmmmh8": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3341,9 +3358,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471533,
-      "created": 1647411471533,
-      "id": "xbbtmiktlpmpbzuhhrupxc6",
+      "updated": 1647446716170,
+      "created": 1647446716170,
+      "id": "xrqubdzia71hshvnlfmmmh8",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3454,7 +3471,7 @@
         }
       },
       "children": [],
-      "parent": "xbbtmiktlpmpbzuhhrupxc6",
+      "parent": "xrqubdzia71hshvnlfmmmh8",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -3535,7 +3552,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "xbbtmiktlpmpbzuhhrupxc6",
+      "parent": "xrqubdzia71hshvnlfmmmh8",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -3622,7 +3639,7 @@
       "parent": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "data": {}
     },
-    "7718xt6gqsv78t95n48aizx": {
+    "xyrvovvfk5uzy7l71xp6htx": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -3632,9 +3649,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471532,
-      "created": 1647411471532,
-      "id": "7718xt6gqsv78t95n48aizx",
+      "updated": 1647446716169,
+      "created": 1647446716169,
+      "id": "xyrvovvfk5uzy7l71xp6htx",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3680,7 +3697,7 @@
         }
       },
       "children": [],
-      "parent": "7718xt6gqsv78t95n48aizx",
+      "parent": "xyrvovvfk5uzy7l71xp6htx",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -4105,7 +4122,7 @@
       "id": "6bad5b12-0626-4edc-96d2-944d411bf5d5",
       "title": "Rust",
       "desc": "",
-      "updated": 1622106198421,
+      "updated": 1647147756330,
       "created": 1621778903739,
       "custom": {},
       "fname": "dev.lang.rust",
@@ -4115,7 +4132,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "011e26dcd73b50c7a837df999aecf5ee",
+      "contentHash": "ad3f1ceb3f57c19ae9341c6b97dfc3f2",
       "links": [],
       "anchors": {
         "rust": {
@@ -4125,6 +4142,14 @@
           "line": 8,
           "column": 0,
           "depth": 1
+        },
+        "books": {
+          "type": "header",
+          "text": "Books",
+          "value": "books",
+          "line": 10,
+          "column": 0,
+          "depth": 2
         }
       },
       "children": [
@@ -4894,7 +4919,7 @@
       "id": "75663f1f-f351-42fb-80a3-9cfc794ee39f",
       "title": "API Clients",
       "desc": "Postman alternatives",
-      "updated": 1644674860888,
+      "updated": 1647068894654,
       "created": 1620890166407,
       "custom": {},
       "fname": "dev.api-clients",
@@ -4904,7 +4929,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "4ee884a6da9784ad79e75fd922ebec6b",
+      "contentHash": "4f934aba17e730366830b0c331f9f467",
       "links": [],
       "anchors": {
         "api-clients": {
@@ -4923,11 +4948,19 @@
           "column": 0,
           "depth": 2
         },
+        "curl-converter": {
+          "type": "header",
+          "text": "Curl Converter",
+          "value": "curl-converter",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
         "vs-code-extensions": {
           "type": "header",
           "text": "Vs Code Extensions",
           "value": "vs-code-extensions",
-          "line": 18,
+          "line": 22,
           "column": 0,
           "depth": 2
         }
@@ -6040,12 +6073,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "ar0pf0ctdlf6o5rxft25xc0"
+        "hjvafhzs1ywreggv0t0j5bz"
       ],
       "parent": "root",
       "data": {}
     },
-    "ar0pf0ctdlf6o5rxft25xc0": {
+    "hjvafhzs1ywreggv0t0j5bz": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -6055,9 +6088,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1647411471502,
-      "created": 1647411471502,
-      "id": "ar0pf0ctdlf6o5rxft25xc0",
+      "updated": 1647446716136,
+      "created": 1647446716136,
+      "id": "hjvafhzs1ywreggv0t0j5bz",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6103,7 +6136,7 @@
         }
       },
       "children": [],
-      "parent": "ar0pf0ctdlf6o5rxft25xc0",
+      "parent": "hjvafhzs1ywreggv0t0j5bz",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -15455,7 +15488,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "h75miwiatdhno3871cegwif",
+        "a9ok1dn9oiapg3qrkxvd5lb",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -15469,14 +15502,15 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "lnag7oe4esbq4f99pzg96p5",
-        "65feezn8jj0dffeb0ag6o0s",
+        "cvz3gtq6pjcr3lsew694ada",
+        "yfc14k0fhwylpqem940o2fu",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "8fenb1piunjbs49dd0rscfr",
-        "ddgqdmfq27qyxc39ngk69su"
+        "cgxkhso1020zagrcfgex570",
+        "9fsq7fgtgbdij20h5ldk3nh",
+        "aswlaagiwryypog1iam2ffa"
       ],
       "parent": null,
       "data": {},
@@ -15520,7 +15554,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "h75miwiatdhno3871cegwif",
+      "a9ok1dn9oiapg3qrkxvd5lb",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -15534,14 +15568,15 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "lnag7oe4esbq4f99pzg96p5",
-      "65feezn8jj0dffeb0ag6o0s",
+      "cvz3gtq6pjcr3lsew694ada",
+      "yfc14k0fhwylpqem940o2fu",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "8fenb1piunjbs49dd0rscfr",
-      "ddgqdmfq27qyxc39ngk69su"
+      "cgxkhso1020zagrcfgex570",
+      "9fsq7fgtgbdij20h5ldk3nh",
+      "aswlaagiwryypog1iam2ffa"
     ],
     "parent": null,
     "data": {},
