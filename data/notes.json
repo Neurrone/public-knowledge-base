@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010097155,
-      "created": 1648010097155,
+      "updated": 1648395477704,
+      "created": 1648395477704,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "kf0tpy0k66znmawbeicgf2x",
-        "jplavqr1mfgknkex6jgy548"
+        "1i5vn0xo7hd5oq18ne7dc0t",
+        "wzsbsq5ou7htep0vuyekmgn"
       ],
       "parent": null,
       "data": {}
     },
-    "jplavqr1mfgknkex6jgy548": {
+    "wzsbsq5ou7htep0vuyekmgn": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -83,9 +83,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096949,
-      "created": 1648010096949,
-      "id": "jplavqr1mfgknkex6jgy548",
+      "updated": 1648395477509,
+      "created": 1648395477509,
+      "id": "wzsbsq5ou7htep0vuyekmgn",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -123,10 +123,10 @@
         }
       },
       "children": [],
-      "parent": "jplavqr1mfgknkex6jgy548",
+      "parent": "wzsbsq5ou7htep0vuyekmgn",
       "data": {}
     },
-    "kf0tpy0k66znmawbeicgf2x": {
+    "1i5vn0xo7hd5oq18ne7dc0t": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -136,9 +136,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096949,
-      "created": 1648010096949,
-      "id": "kf0tpy0k66znmawbeicgf2x",
+      "updated": 1648395477508,
+      "created": 1648395477508,
+      "id": "1i5vn0xo7hd5oq18ne7dc0t",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -184,7 +184,7 @@
         }
       },
       "children": [],
-      "parent": "kf0tpy0k66znmawbeicgf2x",
+      "parent": "1i5vn0xo7hd5oq18ne7dc0t",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -224,13 +224,13 @@
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
         "JILnR3wQSc7qiAw8e3YQn",
-        "epvlqedyy17t6aytudb84v9",
-        "rf7idc8vyiaomkeg1bfid9j"
+        "3e30e37hpen0qc5o1ynhs2f",
+        "5lvv5ybrl29roq3vxuzj7ih"
       ],
       "parent": "root",
       "data": {}
     },
-    "rf7idc8vyiaomkeg1bfid9j": {
+    "5lvv5ybrl29roq3vxuzj7ih": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -240,9 +240,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096963,
-      "created": 1648010096963,
-      "id": "rf7idc8vyiaomkeg1bfid9j",
+      "updated": 1648395477522,
+      "created": 1648395477522,
+      "id": "5lvv5ybrl29roq3vxuzj7ih",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -331,10 +331,10 @@
         }
       },
       "children": [],
-      "parent": "rf7idc8vyiaomkeg1bfid9j",
+      "parent": "5lvv5ybrl29roq3vxuzj7ih",
       "data": {}
     },
-    "epvlqedyy17t6aytudb84v9": {
+    "3e30e37hpen0qc5o1ynhs2f": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -344,9 +344,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096962,
-      "created": 1648010096962,
-      "id": "epvlqedyy17t6aytudb84v9",
+      "updated": 1648395477521,
+      "created": 1648395477521,
+      "id": "3e30e37hpen0qc5o1ynhs2f",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -423,7 +423,7 @@
         }
       },
       "children": [],
-      "parent": "epvlqedyy17t6aytudb84v9",
+      "parent": "3e30e37hpen0qc5o1ynhs2f",
       "data": {}
     },
     "JILnR3wQSc7qiAw8e3YQn": {
@@ -3342,13 +3342,13 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "n04ss4u3g9cltem0wfnp4ox",
-        "8wj1efkjzb44hefz0btfvbo"
+        "4qlu3off854nshdiorhkyzq",
+        "aqvqvegfms627wc1cy2thds"
       ],
       "parent": "root",
       "data": {}
     },
-    "8wj1efkjzb44hefz0btfvbo": {
+    "aqvqvegfms627wc1cy2thds": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3358,9 +3358,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096960,
-      "created": 1648010096960,
-      "id": "8wj1efkjzb44hefz0btfvbo",
+      "updated": 1648395477519,
+      "created": 1648395477519,
+      "id": "aqvqvegfms627wc1cy2thds",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3471,7 +3471,7 @@
         }
       },
       "children": [],
-      "parent": "8wj1efkjzb44hefz0btfvbo",
+      "parent": "aqvqvegfms627wc1cy2thds",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -3552,7 +3552,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "8wj1efkjzb44hefz0btfvbo",
+      "parent": "aqvqvegfms627wc1cy2thds",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -3639,7 +3639,7 @@
       "parent": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "data": {}
     },
-    "n04ss4u3g9cltem0wfnp4ox": {
+    "4qlu3off854nshdiorhkyzq": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -3649,9 +3649,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096958,
-      "created": 1648010096958,
-      "id": "n04ss4u3g9cltem0wfnp4ox",
+      "updated": 1648395477517,
+      "created": 1648395477517,
+      "id": "4qlu3off854nshdiorhkyzq",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3697,7 +3697,7 @@
         }
       },
       "children": [],
-      "parent": "n04ss4u3g9cltem0wfnp4ox",
+      "parent": "4qlu3off854nshdiorhkyzq",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -4386,8 +4386,100 @@
           "depth": 2
         }
       },
-      "children": [],
+      "children": [
+        "jac3j56aoz3hfxm9eby1ukp"
+      ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
+      "data": {}
+    },
+    "jac3j56aoz3hfxm9eby1ukp": {
+      "fname": "dev.lang.python.algorithms",
+      "stub": true,
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1648395477527,
+      "created": 1648395477527,
+      "id": "jac3j56aoz3hfxm9eby1ukp",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hpv0suh8pi0gir9cab4yzgn"
+      ],
+      "parent": "VGIanSWKKarJTppW6Hoxs",
+      "data": {},
+      "title": "Algorithms"
+    },
+    "hpv0suh8pi0gir9cab4yzgn": {
+      "id": "hpv0suh8pi0gir9cab4yzgn",
+      "title": "Binary Search",
+      "desc": "",
+      "updated": 1647766818236,
+      "created": 1647766641931,
+      "custom": {},
+      "fname": "dev.lang.python.algorithms.binary-search",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "23e6b25314ba66d118d103c98321702b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "dev.lang.python.algorithms.binary-search",
+            "id": "hpv0suh8pi0gir9cab4yzgn",
+            "vaultName": "main"
+          },
+          "value": "dev.algorithms.binary-search",
+          "alias": "dev.algorithms.binary-search",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 44,
+              "offset": 89
+            },
+            "end": {
+              "line": 6,
+              "column": 76,
+              "offset": 121
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "dev.algorithms.binary-search"
+          }
+        }
+      ],
+      "anchors": {
+        "binary-search-in-python": {
+          "type": "header",
+          "text": "Binary Search In Python",
+          "value": "binary-search-in-python",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "bisect-module": {
+          "type": "header",
+          "text": "Bisect Module",
+          "value": "bisect-module",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "jac3j56aoz3hfxm9eby1ukp",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -4990,6 +5082,7 @@
       "links": [],
       "anchors": {},
       "children": [
+        "mpn91qdg8794kwam0wanho8",
         "be12056e-d9d2-42a5-8662-cb5135d2bcf3"
       ],
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
@@ -5024,6 +5117,67 @@
           "type": "header",
           "text": "Stop When All Nodes Are Visited",
           "value": "stop-when-all-nodes-are-visited",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "wNd4r_tzH6NPRPXGfwXys",
+      "data": {}
+    },
+    "mpn91qdg8794kwam0wanho8": {
+      "id": "mpn91qdg8794kwam0wanho8",
+      "title": "Binary Search",
+      "desc": "",
+      "updated": 1647766349063,
+      "created": 1647765985152,
+      "custom": {},
+      "fname": "dev.algorithms.binary-search",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "07e1e09cf040e0b2bd323c0631b95912",
+      "links": [
+        {
+          "from": {
+            "fname": "dev.lang.python.algorithms.binary-search",
+            "vaultName": "main"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 44,
+              "offset": 89
+            },
+            "end": {
+              "line": 6,
+              "column": 76,
+              "offset": 121
+            },
+            "indent": []
+          },
+          "value": "dev.algorithms.binary-search",
+          "alias": "dev.algorithms.binary-search"
+        }
+      ],
+      "anchors": {
+        "binary-search": {
+          "type": "header",
+          "text": "Binary Search",
+          "value": "binary-search",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "implementation": {
+          "type": "header",
+          "text": "Implementation",
+          "value": "implementation",
           "line": 10,
           "column": 0,
           "depth": 2
@@ -6073,12 +6227,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "ywze9qm3agqoaj6m1rjbzon"
+        "schgktsgnr2gl8pgfvgizmu"
       ],
       "parent": "root",
       "data": {}
     },
-    "ywze9qm3agqoaj6m1rjbzon": {
+    "schgktsgnr2gl8pgfvgizmu": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -6088,9 +6242,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1648010096920,
-      "created": 1648010096920,
-      "id": "ywze9qm3agqoaj6m1rjbzon",
+      "updated": 1648395477479,
+      "created": 1648395477479,
+      "id": "schgktsgnr2gl8pgfvgizmu",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6136,7 +6290,7 @@
         }
       },
       "children": [],
-      "parent": "ywze9qm3agqoaj6m1rjbzon",
+      "parent": "schgktsgnr2gl8pgfvgizmu",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -15488,7 +15642,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "nl2a20ywthrvfkxp85nrv4s",
+        "4xivswlpfrtc4x05y8ia7sd",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -15502,15 +15656,15 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "kf0tpy0k66znmawbeicgf2x",
-        "jplavqr1mfgknkex6jgy548",
+        "1i5vn0xo7hd5oq18ne7dc0t",
+        "wzsbsq5ou7htep0vuyekmgn",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "0t27ifqpnzfgh7h3ua1uk5r",
-        "m65tdeponeyycbpictgwc2h",
-        "zkheo4tblik64l9h36v5nkn"
+        "mqdygnjyewckrbetvp7qfg9",
+        "jid6m63rvhvalj36904dgyx",
+        "4suogd12xjwueiam5dyw4x2"
       ],
       "parent": null,
       "data": {},
@@ -15554,7 +15708,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "nl2a20ywthrvfkxp85nrv4s",
+      "4xivswlpfrtc4x05y8ia7sd",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -15568,15 +15722,15 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "kf0tpy0k66znmawbeicgf2x",
-      "jplavqr1mfgknkex6jgy548",
+      "1i5vn0xo7hd5oq18ne7dc0t",
+      "wzsbsq5ou7htep0vuyekmgn",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "0t27ifqpnzfgh7h3ua1uk5r",
-      "m65tdeponeyycbpictgwc2h",
-      "zkheo4tblik64l9h36v5nkn"
+      "mqdygnjyewckrbetvp7qfg9",
+      "jid6m63rvhvalj36904dgyx",
+      "4suogd12xjwueiam5dyw4x2"
     ],
     "parent": null,
     "data": {},

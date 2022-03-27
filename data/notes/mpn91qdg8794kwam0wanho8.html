@@ -1,0 +1,20 @@
+<h1 id="binary-search"><a aria-hidden="true" class="anchor-heading" href="#binary-search"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Binary Search</h1>
+<h2 id="implementation"><a aria-hidden="true" class="anchor-heading" href="#implementation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implementation</h2>
+<pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binary_search</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> target<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    l<span class="token punctuation">,</span> r <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
+    <span class="token keyword">while</span> l <span class="token operator">&#x3C;=</span> r<span class="token punctuation">:</span>
+        <span class="token comment"># using (l + r) // 2 could cause an overflow</span>
+        m <span class="token operator">=</span> l <span class="token operator">+</span> <span class="token punctuation">(</span>u <span class="token operator">-</span> l<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span>
+        <span class="token keyword">if</span> arr<span class="token punctuation">[</span>m<span class="token punctuation">]</span> <span class="token operator">&#x3C;</span> t<span class="token punctuation">:</span>
+            l <span class="token operator">=</span> m<span class="token operator">+</span><span class="token number">1</span>
+        <span class="token keyword">elif</span> arr<span class="token punctuation">[</span>m<span class="token punctuation">]</span> <span class="token operator">==</span> t<span class="token punctuation">:</span>
+            <span class="token keyword">return</span> m
+        <span class="token keyword">else</span><span class="token punctuation">:</span>
+            r <span class="token operator">=</span> m <span class="token operator">-</span> <span class="token number">1</span>
+    <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/hpv0suh8pi0gir9cab4yzgn">Binary Search (main)</a></li>
+</ul>
