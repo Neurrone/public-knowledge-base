@@ -1,4 +1,8 @@
 <h1 id="binary-search"><a aria-hidden="true" class="anchor-heading" href="#binary-search"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Binary Search</h1>
+<h2 id="preconditions"><a aria-hidden="true" class="anchor-heading" href="#preconditions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Preconditions</h2>
+<ul>
+<li>It is possible to rule out half of the solution space at each step. Though this usually means a sorted array, it can be used outside of that context too.</li>
+</ul>
 <h2 id="implementation"><a aria-hidden="true" class="anchor-heading" href="#implementation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Implementation</h2>
 <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">binary_search</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> target<span class="token punctuation">)</span><span class="token punctuation">:</span>
     l<span class="token punctuation">,</span> r <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
@@ -13,6 +17,11 @@
             r <span class="token operator">=</span> m <span class="token operator">-</span> <span class="token number">1</span>
     <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
 </code></pre>
+<h2 id="problems"><a aria-hidden="true" class="anchor-heading" href="#problems"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Problems</h2>
+<ul>
+<li><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find minimum in rotated sorted array</a>: focus on the endpoints of the array</li>
+<li><a href="https://leetcode.com/problems/sqrtx/">Integer square root</a>: the set of integers is sorted, which can be used to narrow the solution down</li>
+</ul>
 <hr>
 <strong>Backlinks</strong>
 <ul>
