@@ -105,7 +105,8 @@
       "todoIntegration": false,
       "createTaskSelectionType": "selection2link"
     },
-    "enableEditorDecorations": true
+    "enableEditorDecorations": true,
+    "enableFullHierarchyNoteTitle": false
   },
   "preview": {
     "enableFMTitle": false,
