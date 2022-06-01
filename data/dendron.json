@@ -103,10 +103,16 @@
         "L": "low"
       },
       "todoIntegration": false,
-      "createTaskSelectionType": "selection2link"
+      "createTaskSelectionType": "selection2link",
+      "taskCompleteStatus": [
+        "done",
+        "x"
+      ]
     },
     "enableEditorDecorations": true,
-    "enableFullHierarchyNoteTitle": false
+    "enableHandlebarTemplates": false,
+    "enableFullHierarchyNoteTitle": false,
+    "templateHierarchy": "template"
   },
   "preview": {
     "enableFMTitle": false,
@@ -156,6 +162,7 @@
       "editViewMode": "tree"
     },
     "enablePrettyLinks": true,
+    "enableTaskNotes": true,
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
