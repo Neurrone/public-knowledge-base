@@ -70,7 +70,8 @@
       "addBehavior": "asOwnDomain"
     },
     "graph": {
-      "zoomSpeed": 1
+      "zoomSpeed": 1,
+      "createStub": false
     },
     "disableTelemetry": true,
     "enableAutoCreateOnDefinition": false,
