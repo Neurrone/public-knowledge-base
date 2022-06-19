@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269030570,
-      "created": 1655269030570,
+      "updated": 1655615836075,
+      "created": 1655615836075,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -67,13 +67,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "r2kpr0zznmy8uohvqhsrfip",
-        "9eztjsr5a4pd2g3aym920os"
+        "krkvf03y3nec3fo6jnjkym7",
+        "n8bcc0nthequkh9l28c55fq"
       ],
       "parent": null,
       "data": {}
     },
-    "9eztjsr5a4pd2g3aym920os": {
+    "n8bcc0nthequkh9l28c55fq": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -83,9 +83,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025651,
-      "created": 1655269025651,
-      "id": "9eztjsr5a4pd2g3aym920os",
+      "updated": 1655615833135,
+      "created": 1655615833135,
+      "id": "n8bcc0nthequkh9l28c55fq",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -123,10 +123,10 @@
         }
       },
       "children": [],
-      "parent": "9eztjsr5a4pd2g3aym920os",
+      "parent": "n8bcc0nthequkh9l28c55fq",
       "data": {}
     },
-    "r2kpr0zznmy8uohvqhsrfip": {
+    "krkvf03y3nec3fo6jnjkym7": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -136,9 +136,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025650,
-      "created": 1655269025650,
-      "id": "r2kpr0zznmy8uohvqhsrfip",
+      "updated": 1655615833135,
+      "created": 1655615833135,
+      "id": "krkvf03y3nec3fo6jnjkym7",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -184,7 +184,7 @@
         }
       },
       "children": [],
-      "parent": "r2kpr0zznmy8uohvqhsrfip",
+      "parent": "krkvf03y3nec3fo6jnjkym7",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -224,13 +224,13 @@
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
         "JILnR3wQSc7qiAw8e3YQn",
-        "5qqs4gebqw9matl6mx98gp9",
-        "hcxb9un99tu5p6woaw8ziey"
+        "5y5h077w5a8q5xafehijnna",
+        "ovim4657l4ivncp30pol9t1"
       ],
       "parent": "root",
       "data": {}
     },
-    "hcxb9un99tu5p6woaw8ziey": {
+    "ovim4657l4ivncp30pol9t1": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -240,9 +240,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025666,
-      "created": 1655269025666,
-      "id": "hcxb9un99tu5p6woaw8ziey",
+      "updated": 1655615833144,
+      "created": 1655615833144,
+      "id": "ovim4657l4ivncp30pol9t1",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -331,10 +331,10 @@
         }
       },
       "children": [],
-      "parent": "hcxb9un99tu5p6woaw8ziey",
+      "parent": "ovim4657l4ivncp30pol9t1",
       "data": {}
     },
-    "5qqs4gebqw9matl6mx98gp9": {
+    "5y5h077w5a8q5xafehijnna": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -344,9 +344,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025666,
-      "created": 1655269025666,
-      "id": "5qqs4gebqw9matl6mx98gp9",
+      "updated": 1655615833144,
+      "created": 1655615833144,
+      "id": "5y5h077w5a8q5xafehijnna",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -423,7 +423,7 @@
         }
       },
       "children": [],
-      "parent": "5qqs4gebqw9matl6mx98gp9",
+      "parent": "5y5h077w5a8q5xafehijnna",
       "data": {}
     },
     "JILnR3wQSc7qiAw8e3YQn": {
@@ -2911,7 +2911,7 @@
       "id": "2d5da356-7f71-45d9-919e-a8dc919aab11",
       "title": "Preparation",
       "desc": "",
-      "updated": 1644660427593,
+      "updated": 1650552609828,
       "created": 1621149759056,
       "custom": {},
       "fname": "tech-interview.preparation",
@@ -2921,7 +2921,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "e3eb69ac5dcf426472aea4a0e9c863b0",
+      "contentHash": "d383e53dfd3547eef59519544e01c5a4",
       "links": [],
       "anchors": {
         "preparing-for-technical-interviews": {
@@ -2945,7 +2945,7 @@
       "id": "613bb573-5d87-44d6-bd48-99cc87a71922",
       "title": "Negotiating",
       "desc": "Negotiating an offer",
-      "updated": 1649603059547,
+      "updated": 1653227080126,
       "created": 1621167628387,
       "custom": {},
       "fname": "tech-interview.preparation.negotiating",
@@ -2955,7 +2955,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "3fb0a4fe4e0342484715cf4632325128",
+      "contentHash": "8a4e4b5a8fc2eff0dcd6e5a5f86f25ec",
       "links": [],
       "anchors": {
         "negotiating-an-offer": {
@@ -2966,19 +2966,11 @@
           "column": 0,
           "depth": 1
         },
-        "salary-negotiations": {
-          "type": "header",
-          "text": "Salary Negotiations",
-          "value": "salary-negotiations",
-          "line": 14,
-          "column": 0,
-          "depth": 2
-        },
         "level": {
           "type": "header",
           "text": "Level",
           "value": "level",
-          "line": 19,
+          "line": 14,
           "column": 0,
           "depth": 3
         },
@@ -2986,7 +2978,15 @@
           "type": "header",
           "text": "Options",
           "value": "options",
-          "line": 40,
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "mental-model": {
+          "type": "header",
+          "text": "Mental Model",
+          "value": "mental-model",
+          "line": 39,
           "column": 0,
           "depth": 2
         }
@@ -3228,7 +3228,7 @@
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1645241283214,
+      "updated": 1651987077105,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -3238,7 +3238,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "a7d9c3dbeb47b198bc4d1b34236dfc61",
+      "contentHash": "0c5d902be518a4dc1d6f0b2afe7a2a87",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -3261,7 +3261,7 @@
           "type": "header",
           "text": "Audio Digital Signal Processing",
           "value": "audio-digital-signal-processing",
-          "line": 21,
+          "line": 23,
           "column": 0,
           "depth": 3
         },
@@ -3269,7 +3269,7 @@
           "type": "header",
           "text": "Calculus",
           "value": "calculus",
-          "line": 26,
+          "line": 28,
           "column": 0,
           "depth": 2
         },
@@ -3277,7 +3277,7 @@
           "type": "header",
           "text": "Linear Algebra",
           "value": "linear-algebra",
-          "line": 30,
+          "line": 32,
           "column": 0,
           "depth": 2
         },
@@ -3285,7 +3285,7 @@
           "type": "header",
           "text": "Introduction To Proofs",
           "value": "introduction-to-proofs",
-          "line": 34,
+          "line": 36,
           "column": 0,
           "depth": 2
         },
@@ -3293,7 +3293,7 @@
           "type": "header",
           "text": "Probability And Statistics",
           "value": "probability-and-statistics",
-          "line": 38,
+          "line": 40,
           "column": 0,
           "depth": 2
         },
@@ -3301,7 +3301,7 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 43,
+          "line": 45,
           "column": 0,
           "depth": 2
         }
@@ -3425,13 +3425,13 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "86prwf84yee2fk45r2atbv3",
-        "wbqde68o2fzwvnu7awg0t3t"
+        "iyakk4rwhvf00391pzbebvh",
+        "fbzyzxmktele6045bk4qs1y"
       ],
       "parent": "root",
       "data": {}
     },
-    "wbqde68o2fzwvnu7awg0t3t": {
+    "fbzyzxmktele6045bk4qs1y": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3441,9 +3441,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025663,
-      "created": 1655269025663,
-      "id": "wbqde68o2fzwvnu7awg0t3t",
+      "updated": 1655615833142,
+      "created": 1655615833142,
+      "id": "fbzyzxmktele6045bk4qs1y",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3554,7 +3554,7 @@
         }
       },
       "children": [],
-      "parent": "wbqde68o2fzwvnu7awg0t3t",
+      "parent": "fbzyzxmktele6045bk4qs1y",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -3635,7 +3635,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "wbqde68o2fzwvnu7awg0t3t",
+      "parent": "fbzyzxmktele6045bk4qs1y",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -3722,7 +3722,7 @@
       "parent": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "data": {}
     },
-    "86prwf84yee2fk45r2atbv3": {
+    "iyakk4rwhvf00391pzbebvh": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -3732,9 +3732,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025662,
-      "created": 1655269025662,
-      "id": "86prwf84yee2fk45r2atbv3",
+      "updated": 1655615833142,
+      "created": 1655615833142,
+      "id": "iyakk4rwhvf00391pzbebvh",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3780,7 +3780,7 @@
         }
       },
       "children": [],
-      "parent": "86prwf84yee2fk45r2atbv3",
+      "parent": "iyakk4rwhvf00391pzbebvh",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -3927,9 +3927,9 @@
     },
     "6af94e3e-f49a-4a42-9561-672e4842ff5a": {
       "id": "6af94e3e-f49a-4a42-9561-672e4842ff5a",
-      "title": "Collection Of Accessible Components",
+      "title": "Accessible Components",
       "desc": "",
-      "updated": 1644143292536,
+      "updated": 1652014591353,
       "created": 1617544986057,
       "custom": {},
       "fname": "dev.web.accessibility.components",
@@ -3939,14 +3939,30 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "8759be92d8c56857ed7bf012a7ba3b88",
+      "contentHash": "22f74c2a06f81b458ed97d51162d8361",
       "links": [],
       "anchors": {
+        "accessible-components": {
+          "type": "header",
+          "text": "Accessible Components",
+          "value": "accessible-components",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
         "autocompletesearch": {
           "type": "header",
           "text": "AutocompleteSearch",
           "value": "autocompletesearch",
-          "line": 11,
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "react-specific": {
+          "type": "header",
+          "text": "React-specific",
+          "value": "react-specific",
+          "line": 17,
           "column": 0,
           "depth": 2
         }
@@ -4470,12 +4486,12 @@
         }
       },
       "children": [
-        "fn7zzsubxphj49gckpqk4te"
+        "508xgfjx6bs7bgtayyhqp1i"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "fn7zzsubxphj49gckpqk4te": {
+    "508xgfjx6bs7bgtayyhqp1i": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -4485,9 +4501,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025672,
-      "created": 1655269025672,
-      "id": "fn7zzsubxphj49gckpqk4te",
+      "updated": 1655615833147,
+      "created": 1655615833147,
+      "id": "508xgfjx6bs7bgtayyhqp1i",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4562,7 +4578,7 @@
         }
       },
       "children": [],
-      "parent": "fn7zzsubxphj49gckpqk4te",
+      "parent": "508xgfjx6bs7bgtayyhqp1i",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5094,7 +5110,7 @@
       "id": "75663f1f-f351-42fb-80a3-9cfc794ee39f",
       "title": "API Clients",
       "desc": "Postman alternatives",
-      "updated": 1647068894654,
+      "updated": 1649926686441,
       "created": 1620890166407,
       "custom": {},
       "fname": "dev.api-clients",
@@ -5104,7 +5120,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "4f934aba17e730366830b0c331f9f467",
+      "contentHash": "1735b54a4e38744e3a5cff18166831a8",
       "links": [],
       "anchors": {
         "api-clients": {
@@ -5127,7 +5143,7 @@
           "type": "header",
           "text": "Curl Converter",
           "value": "curl-converter",
-          "line": 18,
+          "line": 19,
           "column": 0,
           "depth": 2
         },
@@ -5135,7 +5151,7 @@
           "type": "header",
           "text": "Vs Code Extensions",
           "value": "vs-code-extensions",
-          "line": 22,
+          "line": 23,
           "column": 0,
           "depth": 2
         }
@@ -6522,12 +6538,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "uws3svo5h31e8fhmu33wddo"
+        "06mpef6vlerof4gl0gtzxic"
       ],
       "parent": "root",
       "data": {}
     },
-    "uws3svo5h31e8fhmu33wddo": {
+    "06mpef6vlerof4gl0gtzxic": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -6537,9 +6553,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1655269025611,
-      "created": 1655269025611,
-      "id": "uws3svo5h31e8fhmu33wddo",
+      "updated": 1655615833113,
+      "created": 1655615833113,
+      "id": "06mpef6vlerof4gl0gtzxic",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6585,7 +6601,7 @@
         }
       },
       "children": [],
-      "parent": "uws3svo5h31e8fhmu33wddo",
+      "parent": "06mpef6vlerof4gl0gtzxic",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -15937,7 +15953,7 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "vf93qsra0goq4z8lj0x3h0f",
+        "dhdve1739695qjq2925s34q",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -15951,15 +15967,16 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "r2kpr0zznmy8uohvqhsrfip",
-        "9eztjsr5a4pd2g3aym920os",
+        "krkvf03y3nec3fo6jnjkym7",
+        "n8bcc0nthequkh9l28c55fq",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
-        "pl9a1e722hvt3t3ai6pznqt",
-        "sygvof9l92btl4au9b7xo1z",
-        "snk5oo06wrw9vl6crp1i15o"
+        "0m42xkq05pu6jtd2p9lavxy",
+        "f43ic2vgu36vw3xq15hu0po",
+        "l35d9epl0xdzu2e85glm7lu",
+        "c6jnb92hzameblo6ph0ktoq"
       ],
       "parent": null,
       "data": {},
@@ -16003,7 +16020,7 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "vf93qsra0goq4z8lj0x3h0f",
+      "dhdve1739695qjq2925s34q",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16017,15 +16034,16 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "r2kpr0zznmy8uohvqhsrfip",
-      "9eztjsr5a4pd2g3aym920os",
+      "krkvf03y3nec3fo6jnjkym7",
+      "n8bcc0nthequkh9l28c55fq",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
-      "pl9a1e722hvt3t3ai6pznqt",
-      "sygvof9l92btl4au9b7xo1z",
-      "snk5oo06wrw9vl6crp1i15o"
+      "0m42xkq05pu6jtd2p9lavxy",
+      "f43ic2vgu36vw3xq15hu0po",
+      "l35d9epl0xdzu2e85glm7lu",
+      "c6jnb92hzameblo6ph0ktoq"
     ],
     "parent": null,
     "data": {},
