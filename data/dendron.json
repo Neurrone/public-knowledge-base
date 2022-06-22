@@ -26,7 +26,8 @@
       "enableMarker": false
     },
     "randomNote": {},
-    "copyNoteLink": {}
+    "copyNoteLink": {},
+    "templateHierarchy": "template"
   },
   "workspace": {
     "dendronVersion": "0.85.0",
@@ -111,9 +112,8 @@
       ]
     },
     "enableEditorDecorations": true,
-    "enableHandlebarTemplates": false,
-    "enableFullHierarchyNoteTitle": false,
-    "templateHierarchy": "template"
+    "enableHandlebarTemplates": true,
+    "enableFullHierarchyNoteTitle": false
   },
   "preview": {
     "enableFMTitle": false,
