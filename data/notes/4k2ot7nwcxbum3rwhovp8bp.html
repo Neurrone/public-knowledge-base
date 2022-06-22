@@ -1,0 +1,10 @@
+<h1 id="querying-csv-files"><a aria-hidden="true" class="anchor-heading" href="#querying-csv-files"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Querying CSV Files</h1>
+<h2 id="sqlite"><a aria-hidden="true" class="anchor-heading" href="#sqlite"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SQLite</h2>
+<p>This one-line uses sqlite's support for importing CSV files as tables.</p>
+<pre class="language-sh"><code class="language-sh">sqlite3 :memory: -cmd '.mode csv' -cmd '.import taxi.csv taxi' \
+  'SELECT passenger_count, COUNT(*), AVG(total_amount) FROM taxi GROUP BY passenger_count'
+</code></pre>
+<p>This uses the special :memory: filename to open an in-memory database. Then it uses two -cmd options to turn on CSV mode and import the taxi.csv file into a table called taxi. Then it runs the SQL query.</p>
+<p>Source: <a href="https://til.simonwillison.net/sqlite/one-line-csv-operations">One-liner for running queries against CSV files with SQLite</a></p>
+<h2 id="rainbow-csv"><a aria-hidden="true" class="anchor-heading" href="#rainbow-csv"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Rainbow CSV</h2>
+<p>The <a href="https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv">Rainbow CSV VS Code extension</a> does something similar.</p>
