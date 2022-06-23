@@ -366,7 +366,7 @@
               "children": []
             },
             {
-              "key": "csjubgbocq50i0jtlhzow6c",
+              "key": "l4vfp0ck6tas888t9gifx45",
               "title": "Golang",
               "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
@@ -475,7 +475,7 @@
                   "navExclude": false,
                   "children": [
                     {
-                      "key": "hhbd7bqgkf8gsjmfhwdv7wh",
+                      "key": "6e13hp2c1fx2paae5e19e3m",
                       "title": "Algorithms",
                       "icon": "plusOutlined",
                       "hasTitleNumberOutlined": false,
@@ -626,7 +626,7 @@
               "children": []
             },
             {
-              "key": "z9ov0sbey7nsydjtu2mx6eb",
+              "key": "md6mbjob8w5rm36ibdm0yo6",
               "title": "Sql",
               "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
@@ -732,7 +732,7 @@
           ]
         },
         {
-          "key": "b615v470okvx8mrjyndyqoq",
+          "key": "vp3yx10rx6cvqbm42db2ydr",
           "title": "Finance",
           "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
@@ -862,7 +862,7 @@
               "children": []
             },
             {
-              "key": "rmvkpgpjgm7q37kbyxar2m1",
+              "key": "9hhbzldbsqjz8wjxdearohe",
               "title": "Coaching",
               "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
@@ -1394,7 +1394,7 @@
           "children": []
         },
         {
-          "key": "tghn3dk7n9jnqd21taup5wu",
+          "key": "v5prkv2d1dzxwgrfvlws4x3",
           "title": "Security",
           "icon": "plusOutlined",
           "hasTitleNumberOutlined": false,
@@ -1749,7 +1749,7 @@
           "navExclude": false,
           "children": [
             {
-              "key": "zejhepu9y0m2k2zebeehf0l",
+              "key": "bgpuqqv7pmvrlbw6s733t1u",
               "title": "Aws",
               "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
@@ -1777,7 +1777,7 @@
               ]
             },
             {
-              "key": "yvzfzkpgqiuuwgadw0u0u30",
+              "key": "q8r6gdxuev3vakvrarbsky4",
               "title": "Awscli",
               "icon": "plusOutlined",
               "hasTitleNumberOutlined": false,
@@ -2063,16 +2063,16 @@
   "child2parent": {
     "403": null,
     "root": null,
-    "tghn3dk7n9jnqd21taup5wu": "root",
-    "Hf3hnE27anqaHbpxlHsLe": "tghn3dk7n9jnqd21taup5wu",
-    "b615v470okvx8mrjyndyqoq": "root",
-    "FSFSVPLuuEQAbofCvPUWQ": "b615v470okvx8mrjyndyqoq",
+    "v5prkv2d1dzxwgrfvlws4x3": "root",
+    "Hf3hnE27anqaHbpxlHsLe": "v5prkv2d1dzxwgrfvlws4x3",
+    "vp3yx10rx6cvqbm42db2ydr": "root",
+    "FSFSVPLuuEQAbofCvPUWQ": "vp3yx10rx6cvqbm42db2ydr",
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": "root",
-    "yvzfzkpgqiuuwgadw0u0u30": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-    "7018edbd-2bd3-4024-abca-585f729b9a7a": "yvzfzkpgqiuuwgadw0u0u30",
-    "zejhepu9y0m2k2zebeehf0l": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-    "slIGj2pqttjbdwc0QlUaQ": "zejhepu9y0m2k2zebeehf0l",
-    "wdpwk2eljgjhq91m5wxd5em": "zejhepu9y0m2k2zebeehf0l",
+    "q8r6gdxuev3vakvrarbsky4": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+    "7018edbd-2bd3-4024-abca-585f729b9a7a": "q8r6gdxuev3vakvrarbsky4",
+    "bgpuqqv7pmvrlbw6s733t1u": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
+    "slIGj2pqttjbdwc0QlUaQ": "bgpuqqv7pmvrlbw6s733t1u",
+    "wdpwk2eljgjhq91m5wxd5em": "bgpuqqv7pmvrlbw6s733t1u",
     "JILnR3wQSc7qiAw8e3YQn": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
     "c580cd60-ccde-4c24-b6af-e87c19c2b2a3": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
     "863ef124-d377-4a99-87c6-b59d0a406ea1": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
@@ -2141,13 +2141,13 @@
     "dOehc8Yap1zIbEqLvQvOt": "root",
     "VkOLUGZVcbj7VKc7w7SCN": "dOehc8Yap1zIbEqLvQvOt",
     "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29": "root",
-    "z9ov0sbey7nsydjtu2mx6eb": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
-    "a5bksmKd2mKUAKb3piqyC": "z9ov0sbey7nsydjtu2mx6eb",
-    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": "z9ov0sbey7nsydjtu2mx6eb",
+    "md6mbjob8w5rm36ibdm0yo6": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+    "a5bksmKd2mKUAKb3piqyC": "md6mbjob8w5rm36ibdm0yo6",
+    "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": "md6mbjob8w5rm36ibdm0yo6",
     "J9ugxlvBdatTZHqLd68Vp": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
     "9OmPMpSvnD00DNgRLZaiq": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
-    "csjubgbocq50i0jtlhzow6c": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
-    "MbUftUfXcOM5c2g664OFL": "csjubgbocq50i0jtlhzow6c",
+    "l4vfp0ck6tas888t9gifx45": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+    "MbUftUfXcOM5c2g664OFL": "l4vfp0ck6tas888t9gifx45",
     "3d77adfc-5373-4700-a129-e297ad6521b5": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
     "1f14eba7-ff8d-4ee4-a64b-5f2f7e02b4f6": "3d77adfc-5373-4700-a129-e297ad6521b5",
     "a46c2681-0f23-41c5-b72b-abaecaba59d7": "1f14eba7-ff8d-4ee4-a64b-5f2f7e02b4f6",
@@ -2169,8 +2169,8 @@
     "1d91c617-7974-4215-84e7-8366fff3aae1": "6bad5b12-0626-4edc-96d2-944d411bf5d5",
     "6e0fafc3-19af-479d-aaf2-c7cfcb725aa5": "6bad5b12-0626-4edc-96d2-944d411bf5d5",
     "VGIanSWKKarJTppW6Hoxs": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
-    "hhbd7bqgkf8gsjmfhwdv7wh": "VGIanSWKKarJTppW6Hoxs",
-    "hpv0suh8pi0gir9cab4yzgn": "hhbd7bqgkf8gsjmfhwdv7wh",
+    "6e13hp2c1fx2paae5e19e3m": "VGIanSWKKarJTppW6Hoxs",
+    "hpv0suh8pi0gir9cab4yzgn": "6e13hp2c1fx2paae5e19e3m",
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
     "6f526fe4-820a-4584-8b30-d71656069ed1": "0927d4b7-92bf-438f-8166-4cc2eea557b4",
     "615b2328-8424-4709-ad24-4bf188dad2fc": "0927d4b7-92bf-438f-8166-4cc2eea557b4",
@@ -2222,8 +2222,8 @@
     "7ab7bdeb-8388-43b4-af75-0900baa894cc": "b4be93a8-69e3-4427-b4cd-53593c3ab387",
     "PahG3D6B2b2iWilsuYADD": "b4be93a8-69e3-4427-b4cd-53593c3ab387",
     "6e43ea37-b3e7-44cf-aac7-31ae947d32a2": "root",
-    "rmvkpgpjgm7q37kbyxar2m1": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
-    "BtPzYh1C8TnXieTTe6K9C": "rmvkpgpjgm7q37kbyxar2m1",
+    "9hhbzldbsqjz8wjxdearohe": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
+    "BtPzYh1C8TnXieTTe6K9C": "9hhbzldbsqjz8wjxdearohe",
     "a0e47274-95a0-4b45-881a-3901f5313517": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
     "1c4c8b03-9a3f-493c-80bb-245a712637a8": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
     "2961d984-c45a-4909-9b49-62b2c4df923a": "1c4c8b03-9a3f-493c-80bb-245a712637a8",
