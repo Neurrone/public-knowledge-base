@@ -1,6 +1,6 @@
-<h1 id="bsods"><a aria-hidden="true" class="anchor-heading" href="#bsods"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>BSODs</h1>
+<h1 id="bsods"><a aria-hidden="true" class="anchor-heading icon-link" href="#bsods"></a>BSODs</h1>
 <p>I had a laptop that was periodically BSODing about once a day and the blue screen itself did not show any errors. This is how I analyzed the dump file that got created when the system crashed.</p>
-<h2 id="bluescreenview"><a aria-hidden="true" class="anchor-heading" href="#bluescreenview"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>BlueScreenView</h2>
+<h2 id="bluescreenview"><a aria-hidden="true" class="anchor-heading icon-link" href="#bluescreenview"></a>BlueScreenView</h2>
 <p><a href="https://www.nirsoft.net/utils/blue_screen_view.html">BlueScreenView</a> is a free portable utility that displays information from dump files.</p>
 <p>When running it, it displayed a few crash dumps with this info:</p>
 <pre><code>012422-12750-01.dmp; Crash Time: 1/24/2022 4:28:54 PM; Bug Check String: DRIVER_POWER_STATE_FAILURE; Bug Check Code: 0x0000009f; Parameter 1: 00000000`00000003; Parameter 2: ffffad8f`6b1d5060; Parameter 3: fffff801`3bb11850; Parameter 4: ffffad8f`77d7fb20; Caused By Driver: ntoskrnl.exe; Caused By Address: ntoskrnl.exe+3f72e0; Processor: x64; Crash Address: ntoskrnl.exe+3f72e0; Full Path: C:\Windows\Minidump\012422-12750-01.dmp; Processors Count: 16; Major Version: 15; Minor Version: 19041; Dump File Size: 4,609,580; Dump File Time: 1/24/2022 4:32:08 PM
@@ -8,7 +8,7 @@
 <p>That doesn't provide enough info to pin down specifically what caused it, but there is some useful info.</p>
 <p>It shows that the crash was caused by an <code>DRIVER_POWER_STATE_FAILURE</code> with parameter 1 being 0x3.</p>
 <p>Cross-referencing with <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x9f--driver-power-state-failure">the docs on DRIVER_POWER_STATE_FAILURE</a>, the other parameters describe the faulting driver.</p>
-<h2 id="dumpchk"><a aria-hidden="true" class="anchor-heading" href="#dumpchk"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>DumpChk</h2>
+<h2 id="dumpchk"><a aria-hidden="true" class="anchor-heading icon-link" href="#dumpchk"></a>DumpChk</h2>
 <p><a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/dumpchk">DumpChk</a> is a free command line tool that is included in the debugging tools from the Windows SDK.</p>
 <p>Running it on that dump, the last part of its output has the following information:</p>
 <pre class="language-sh"><code class="language-sh">*                                                                             *

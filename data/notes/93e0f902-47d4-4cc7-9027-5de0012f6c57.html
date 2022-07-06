@@ -1,8 +1,8 @@
-<h1 id="serverless-framework"><a aria-hidden="true" class="anchor-heading" href="#serverless-framework"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Serverless Framework</h1>
-<h2 id="memory-leak-in-serverless-offline-since-680"><a aria-hidden="true" class="anchor-heading" href="#memory-leak-in-serverless-offline-since-680"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Memory Leak in Serverless-Offline since 6.8.0</h2>
+<h1 id="serverless-framework"><a aria-hidden="true" class="anchor-heading icon-link" href="#serverless-framework"></a>Serverless Framework</h1>
+<h2 id="memory-leak-in-serverless-offline-since-680"><a aria-hidden="true" class="anchor-heading icon-link" href="#memory-leak-in-serverless-offline-since-680"></a>Memory Leak in Serverless-Offline since 6.8.0</h2>
 <p>There is a <a href="https://github.com/dherault/serverless-offline/issues/1119#issuecomment-876463656">memory leak</a> in Serverless-offline which leaks memory after an endpoint is invoked. Fortunately, there is a simple workaround for this, per the linked comment.</p>
 <p>Add the <code>--allow-cache</code> option if running from CLI or edit serverless config to add <code>allowCache: true</code> to Serverless-offline options.</p>
-<h2 id="v2-uses-locally-installed-package-over-global-package"><a aria-hidden="true" class="anchor-heading" href="#v2-uses-locally-installed-package-over-global-package"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>V2 Uses Locally Installed Package Over Global Package</h2>
+<h2 id="v2-uses-locally-installed-package-over-global-package"><a aria-hidden="true" class="anchor-heading icon-link" href="#v2-uses-locally-installed-package-over-global-package"></a>V2 Uses Locally Installed Package Over Global Package</h2>
 <p>This caught us unaware. CI pipeline does <code>npm -i g serverless</code> to install v2.x but package.json specified an older v1.x version.</p>
 <p>I couldn't figure out why it was using an older version until coming across the <a href="https://www.serverless.com/blog/serverless-framework-v2">v2 blog post describing this breaking change</a> - if both a global and local install is available, the local one will be used.</p>
 <hr>

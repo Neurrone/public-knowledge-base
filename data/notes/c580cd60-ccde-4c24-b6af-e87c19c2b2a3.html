@@ -1,5 +1,5 @@
-<h1 id="wsl2"><a aria-hidden="true" class="anchor-heading" href="#wsl2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>WSL2</h1>
-<h2 id="moving-vm-location"><a aria-hidden="true" class="anchor-heading" href="#moving-vm-location"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving VM Location</h2>
+<h1 id="wsl2"><a aria-hidden="true" class="anchor-heading icon-link" href="#wsl2"></a>WSL2</h1>
+<h2 id="moving-vm-location"><a aria-hidden="true" class="anchor-heading icon-link" href="#moving-vm-location"></a>Moving VM Location</h2>
 <p>By default, WSL2 VMs are stored on the system partition, which is troublesome especially with a small SSD. Fortunately, it is possible to move VMs to another location.</p>
 <p>As of Apr 2021, there isn't a builtin command that does this easily, so it needs to be done by exporting and reimporting the VM, specifying a new location to store it during the import process.</p>
 <pre class="language-sh"><code class="language-sh"># if Docker is running, shut it down first
@@ -21,7 +21,7 @@ wsl --import ubuntu-20.024 "D:\documents\wsl2-vms\ubuntu-20.04" "D:\wsl-backups\
 <pre class="language-sh"><code class="language-sh">ubuntu2004 config --default-user &#x3C;some-user>
 </code></pre>
 <p>Instructions from <a href="https://github.com/MicrosoftDocs/WSL/issues/412#issuecomment-629387956">this issue on Github</a>.</p>
-<h3 id="moving-docker-vms"><a aria-hidden="true" class="anchor-heading" href="#moving-docker-vms"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Moving Docker VMs</h3>
+<h3 id="moving-docker-vms"><a aria-hidden="true" class="anchor-heading icon-link" href="#moving-docker-vms"></a>Moving Docker VMs</h3>
 <p>The process for moving the location of VMs used by the WSL2 backend is identical:</p>
 <pre class="language-sh"><code class="language-sh"># shut down docker first
 # there are 2 VMs to move
@@ -36,7 +36,7 @@ wsl --import docker-desktop "D:\documents\wsl2-vms\docker-desktop" "D:\wsl-backu
 wsl --import docker-desktop-data "D:\documents\wsl2-vms\docker-desktop-data" "D:\wsl-backups\docker-desktop-data.tar" --version 2
 </code></pre>
 <p>Extremely annoyingly, the docker-desktop VM is moved back to the previous location on Docker upgrades. Fortunately, this VM is much smaller than the other one (which stores the actual image data).</p>
-<h2 id="compacting-wsl2-vms"><a aria-hidden="true" class="anchor-heading" href="#compacting-wsl2-vms"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Compacting WSL2 VMs</h2>
+<h2 id="compacting-wsl2-vms"><a aria-hidden="true" class="anchor-heading icon-link" href="#compacting-wsl2-vms"></a>Compacting WSL2 VMs</h2>
 <p>Technically this procedure is going to work for any hyper-v VM (.vmdx); it boils down to using diskpart to compact the VM:</p>
 <pre class="language-sh"><code class="language-sh">diskpart
 # in the diskpart prompt
@@ -44,7 +44,7 @@ select vdisk file="D:\documents\wsl2-vms\ubuntu\ext4.vhdx"
 compact vdisk
 </code></pre>
 <p>Reference: <a href="https://stephenreescarter.net/how-to-shrink-a-wsl2-virtual-disk/">How to Shrink a WSL2 Virtual Disk</a></p>
-<h2 id="fix-broken-port-forwarding"><a aria-hidden="true" class="anchor-heading" href="#fix-broken-port-forwarding"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fix Broken Port Forwarding</h2>
+<h2 id="fix-broken-port-forwarding"><a aria-hidden="true" class="anchor-heading icon-link" href="#fix-broken-port-forwarding"></a>Fix Broken Port Forwarding</h2>
 <p>If a service is running in WSL2 but you can't access it from the Windows host by doing localhost:<portnumber>:</portnumber></p>
 <ol>
 <li>Shut down WSL2: <code>wsl --shutdown</code></li>
@@ -52,10 +52,10 @@ compact vdisk
 <li>Restart the machine. Port forwarding should work properly again.</li>
 </ol>
 <p>Found this solution in <a href="https://github.com/microsoft/WSL/issues/4636#issuecomment-706967150">this Github issue</a></p>
-<h2 id="slow-performance-when-accessing-windows-filesystem"><a aria-hidden="true" class="anchor-heading" href="#slow-performance-when-accessing-windows-filesystem"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Slow Performance When Accessing Windows Filesystem</h2>
+<h2 id="slow-performance-when-accessing-windows-filesystem"><a aria-hidden="true" class="anchor-heading icon-link" href="#slow-performance-when-accessing-windows-filesystem"></a>Slow Performance When Accessing Windows Filesystem</h2>
 <p><a href="https://github.com/microsoft/WSL/issues/4197#issuecomment-1035966064">Accessing /mnt from WSL2 is extremely slow</a>.</p>
 <p>A workaround is to use <a href="https://j0eii.cwh-labs.com/wsl2-extremely-slow-file-read-fix-mutagen/">Mutagen</a></p>
-<h2 id="unwanted-zoneidentifier-files"><a aria-hidden="true" class="anchor-heading" href="#unwanted-zoneidentifier-files"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Unwanted Zone.Identifier Files</h2>
+<h2 id="unwanted-zoneidentifier-files"><a aria-hidden="true" class="anchor-heading icon-link" href="#unwanted-zoneidentifier-files"></a>Unwanted Zone.Identifier Files</h2>
 <p>Copying files from the host to the linux VM via windows explorer will generate an extra Zone.Identifier file for each file.</p>
 <p>Here's a <a href="https://github.com/microsoft/WSL/issues/7456#issuecomment-1172877312">temporary workaround</a>:</p>
 <ol>

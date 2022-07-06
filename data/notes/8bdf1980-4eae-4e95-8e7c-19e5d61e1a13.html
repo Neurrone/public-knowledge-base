@@ -1,5 +1,5 @@
-<h1 id="ssh"><a aria-hidden="true" class="anchor-heading" href="#ssh"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SSH</h1>
-<h2 id="generating-keypairs"><a aria-hidden="true" class="anchor-heading" href="#generating-keypairs"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Generating Keypairs</h2>
+<h1 id="ssh"><a aria-hidden="true" class="anchor-heading icon-link" href="#ssh"></a>SSH</h1>
+<h2 id="generating-keypairs"><a aria-hidden="true" class="anchor-heading icon-link" href="#generating-keypairs"></a>Generating Keypairs</h2>
 <pre class="language-sh"><code class="language-sh">ssh-keygen -t ed25519 -C 'some comment' -f /path/to/outfile -N 'some-password'
 </code></pre>
 <ul>
@@ -8,20 +8,20 @@
 <li><code>-f</code>: the output file to write the keypair to</li>
 <li><code>-N</code>: the password used to protect the private key</li>
 </ul>
-<h2 id="copying-identity-to-server"><a aria-hidden="true" class="anchor-heading" href="#copying-identity-to-server"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Copying Identity To Server</h2>
+<h2 id="copying-identity-to-server"><a aria-hidden="true" class="anchor-heading icon-link" href="#copying-identity-to-server"></a>Copying Identity To Server</h2>
 <p>To copy the public key that was just generated to the authorized_keys file of the server being accessed:</p>
 <pre class="language-sh"><code class="language-sh">ssh-copy-id -i ~/.ssh/mykey.pub user@host
 </code></pre>
 <p>This doesn't work on Windows 10's built-in version of OpenSSH as the ssh-copy-id utility isn't included. Run this in Powershell instead:</p>
 <pre><code>type $env:USERPROFILE\.ssh\mykey.pub | ssh user@host "cat >> .ssh/authorized_keys"
 </code></pre>
-<h2 id="ssh-agent"><a aria-hidden="true" class="anchor-heading" href="#ssh-agent"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SSH Agent</h2>
+<h2 id="ssh-agent"><a aria-hidden="true" class="anchor-heading icon-link" href="#ssh-agent"></a>SSH Agent</h2>
 <p>Adding keys to the SSH agent caches them in memory so you don't have to enter passwords for the key each time it is being used.</p>
 <ul>
 <li><a href="https://www.cyberciti.biz/faq/how-to-use-ssh-agent-for-authentication-on-linux-unix/#Use_ssh-add_to_cache_the_private_key_passphrase">How to use ssh-agent for authentication on Linux / Unix</a></li>
 <li><a href="https://gist.github.com/danieldogeanu/16c61e9b80345c5837b9e5045a701c99">Configuring SSH agent on Windows</a></li>
 </ul>
-<h2 id="using-usb-authenticators"><a aria-hidden="true" class="anchor-heading" href="#using-usb-authenticators"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Using USB Authenticators</h2>
+<h2 id="using-usb-authenticators"><a aria-hidden="true" class="anchor-heading icon-link" href="#using-usb-authenticators"></a>Using USB Authenticators</h2>
 <ul>
 <li><a href="https://www.stavros.io/posts/u2f-fido2-with-ssh/">How to use FIDO2 USB authenticators with SSH</a></li>
 </ul>

@@ -1,7 +1,7 @@
-<h1 id="kopia"><a aria-hidden="true" class="anchor-heading" href="#kopia"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kopia</h1>
-<h2 id="repositories"><a aria-hidden="true" class="anchor-heading" href="#repositories"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Repositories</h2>
+<h1 id="kopia"><a aria-hidden="true" class="anchor-heading icon-link" href="#kopia"></a>Kopia</h1>
+<h2 id="repositories"><a aria-hidden="true" class="anchor-heading icon-link" href="#repositories"></a>Repositories</h2>
 <p>Like Git, backups live in repositories</p>
-<h3 id="create-repository"><a aria-hidden="true" class="anchor-heading" href="#create-repository"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create Repository</h3>
+<h3 id="create-repository"><a aria-hidden="true" class="anchor-heading icon-link" href="#create-repository"></a>Create Repository</h3>
 <p>General form: <code>kopia repository create &#x3C;provider> &#x3C;flags></code></p>
 <pre class="language-sh"><code class="language-sh"># on local filesystem
 kopia repository create filesystem --path d:/temp/kopia
@@ -15,35 +15,35 @@ kopia repository connect sftp \
         --override-hostname=T480
 </code></pre>
 <p>This also connects Kopia to the repository that was just created.</p>
-<h3 id="connecting-to-an-existing-repository"><a aria-hidden="true" class="anchor-heading" href="#connecting-to-an-existing-repository"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connecting to an existing repository</h3>
+<h3 id="connecting-to-an-existing-repository"><a aria-hidden="true" class="anchor-heading icon-link" href="#connecting-to-an-existing-repository"></a>Connecting to an existing repository</h3>
 <p>Use the same flags as create but instead of create use connect:</p>
 <pre class="language-sh"><code class="language-sh">kopia repository connect filesystem --path d:/temp/kopia
 </code></pre>
-<h3 id="disconnecting-from-a-repository"><a aria-hidden="true" class="anchor-heading" href="#disconnecting-from-a-repository"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Disconnecting from a repository</h3>
+<h3 id="disconnecting-from-a-repository"><a aria-hidden="true" class="anchor-heading icon-link" href="#disconnecting-from-a-repository"></a>Disconnecting from a repository</h3>
 <pre class="language-sh"><code class="language-sh">kopia repository disconnect
 </code></pre>
-<h2 id="snapshots"><a aria-hidden="true" class="anchor-heading" href="#snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Snapshots</h2>
-<h3 id="creating-snapshots"><a aria-hidden="true" class="anchor-heading" href="#creating-snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Creating Snapshots</h3>
+<h2 id="snapshots"><a aria-hidden="true" class="anchor-heading icon-link" href="#snapshots"></a>Snapshots</h2>
+<h3 id="creating-snapshots"><a aria-hidden="true" class="anchor-heading icon-link" href="#creating-snapshots"></a>Creating Snapshots</h3>
 <pre class="language-sh"><code class="language-sh"># multiple paths are accepted
 kopia snapshot create D:\temp\folder1 D:\temp\folder2
 </code></pre>
 <p>You can create snapshots for different folders, they will be individually tracked.</p>
-<h3 id="mounting"><a aria-hidden="true" class="anchor-heading" href="#mounting"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mounting</h3>
+<h3 id="mounting"><a aria-hidden="true" class="anchor-heading icon-link" href="#mounting"></a>Mounting</h3>
 <p>Allows convenient browsing of snapshot contents and is the recommended way to do a restore.</p>
 <pre class="language-sh"><code class="language-sh"># mounts the latest version of the repository when using the special path "all"
 # otherwise, pass in the snapshot id to mount
 kopia mount all /tmp/mnt
 </code></pre>
 <p>On Windows, a WebDav server is used for the mounting, replace the last argument with a free drive letter like <code>Z:</code></p>
-<h3 id="restoring-snapshots"><a aria-hidden="true" class="anchor-heading" href="#restoring-snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Restoring snapshots</h3>
+<h3 id="restoring-snapshots"><a aria-hidden="true" class="anchor-heading icon-link" href="#restoring-snapshots"></a>Restoring snapshots</h3>
 <p>To restore the snapshot <code>kf4b323108ef0e38362ad9d482548502e</code> to <code>d:/docs</code>:</p>
 <pre class="language-sh"><code class="language-sh">kopia restore kf4b323108ef0e38362ad9d482548502e d:/docs
 </code></pre>
-<h2 id="diffing-snapshots"><a aria-hidden="true" class="anchor-heading" href="#diffing-snapshots"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Diffing Snapshots</h2>
+<h2 id="diffing-snapshots"><a aria-hidden="true" class="anchor-heading icon-link" href="#diffing-snapshots"></a>Diffing Snapshots</h2>
 <pre class="language-sh"><code class="language-sh"># use the root ids of the snapshots to get the ids
 kopia diff &#x3C;snapshot1> &#x3C;snapshot2>
 </code></pre>
-<h2 id="policies"><a aria-hidden="true" class="anchor-heading" href="#policies"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Policies</h2>
+<h2 id="policies"><a aria-hidden="true" class="anchor-heading icon-link" href="#policies"></a>Policies</h2>
 <pre class="language-sh"><code class="language-sh">kopia policy show --global
 
 # ignoring files
@@ -54,14 +54,14 @@ kopia policy set --global --add-dot-ignore "#recycle"
 # set compression globally
 kopia policy set --global --compression=s2-default
 </code></pre>
-<h2 id="connect-to-repository-with-different-user-credentials"><a aria-hidden="true" class="anchor-heading" href="#connect-to-repository-with-different-user-credentials"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connect To Repository With Different User Credentials</h2>
+<h2 id="connect-to-repository-with-different-user-credentials"><a aria-hidden="true" class="anchor-heading icon-link" href="#connect-to-repository-with-different-user-credentials"></a>Connect To Repository With Different User Credentials</h2>
 <pre class="language-sh"><code class="language-sh">kopia repository connect --config-file /path/to/repository.config &#x3C;usual connect params>
 kopia --config-file /path/to/repository.config maintenance run
 </code></pre>
-<h2 id="setting-cache-directory"><a aria-hidden="true" class="anchor-heading" href="#setting-cache-directory"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Setting cache directory</h2>
+<h2 id="setting-cache-directory"><a aria-hidden="true" class="anchor-heading icon-link" href="#setting-cache-directory"></a>Setting cache directory</h2>
 <pre class="language-sh"><code class="language-sh">kopia cache set --cache-directory=...
 </code></pre>
-<h2 id="official-documentation"><a aria-hidden="true" class="anchor-heading" href="#official-documentation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Official Documentation</h2>
+<h2 id="official-documentation"><a aria-hidden="true" class="anchor-heading icon-link" href="#official-documentation"></a>Official Documentation</h2>
 <ul>
 <li><a href="https://kopia.io/docs/getting-started/">Getting started</a></li>
 <li><a href="https://kopia.io/docs/reference/command-line/">Command line</a></li>

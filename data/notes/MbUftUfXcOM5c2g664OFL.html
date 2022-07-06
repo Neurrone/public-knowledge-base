@@ -1,11 +1,11 @@
-<h1 id="unable-to-serve-javascript-files-with-go-on-windows"><a aria-hidden="true" class="anchor-heading" href="#unable-to-serve-javascript-files-with-go-on-windows"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Unable to serve javascript files with Go on Windows</h1>
+<h1 id="unable-to-serve-javascript-files-with-go-on-windows"><a aria-hidden="true" class="anchor-heading icon-link" href="#unable-to-serve-javascript-files-with-go-on-windows"></a>Unable to serve javascript files with Go on Windows</h1>
 <p>I was running a Golang based application. It exposes a local webserver for a frontend. However, visiting the url on Firefox gave me this error and a blank screen:</p>
 <blockquote>
 <p>Loading module from “<a href="http://127.0.0.1:5228/assets/index.c2bda7ec.js%E2%80%9D">http://127.0.0.1:5228/assets/index.c2bda7ec.js”</a> was blocked because of a disallowed MIME type (“text/plain”).</p>
 </blockquote>
 <p>It turns out that some applications on Windows such as VS incorrectly modify the registry, causing Javascript to be associated with an invalid mimetype of text/plain instead of text/javascript.</p>
 <p>This is compounded by the <a href="https://github.com/golang/go/issues/32350#issuecomment-700202218">mimetype package relying on this info in the registry</a>, which causes js files to be served with this incorrect mimetype.</p>
-<h2 id="workaround"><a aria-hidden="true" class="anchor-heading" href="#workaround"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Workaround</h2>
+<h2 id="workaround"><a aria-hidden="true" class="anchor-heading icon-link" href="#workaround"></a>Workaround</h2>
 <p>To edit the registry to correct the invalid mimetype for .js files, save the following as a .reg file and run it.</p>
 <pre><code>Windows Registry Editor Version 5.00
 
