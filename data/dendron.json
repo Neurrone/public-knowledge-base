@@ -112,7 +112,6 @@
       ]
     },
     "enableEditorDecorations": true,
-    "enableHandlebarTemplates": true,
     "enableFullHierarchyNoteTitle": false,
     "enableSmartRefs": false
   },
