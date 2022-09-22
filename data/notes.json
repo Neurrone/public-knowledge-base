@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925058932,
-      "created": 1661925058933,
+      "updated": 1663838068890,
+      "created": 1663838068890,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -68,13 +68,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "8b47xfvq6dktztt1tqe78l3",
-        "lqsff9j1rxtkpudvjc7gyn7"
+        "o5tvz7osv5cird51yigap8s",
+        "dauizat4on5g7kxx913rh1j"
       ],
       "parent": null,
       "data": {}
     },
-    "lqsff9j1rxtkpudvjc7gyn7": {
+    "dauizat4on5g7kxx913rh1j": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -84,9 +84,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056473,
-      "created": 1661925056473,
-      "id": "lqsff9j1rxtkpudvjc7gyn7",
+      "updated": 1663838065379,
+      "created": 1663838065379,
+      "id": "dauizat4on5g7kxx913rh1j",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -124,10 +124,10 @@
         }
       },
       "children": [],
-      "parent": "lqsff9j1rxtkpudvjc7gyn7",
+      "parent": "dauizat4on5g7kxx913rh1j",
       "data": {}
     },
-    "8b47xfvq6dktztt1tqe78l3": {
+    "o5tvz7osv5cird51yigap8s": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -137,9 +137,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056473,
-      "created": 1661925056473,
-      "id": "8b47xfvq6dktztt1tqe78l3",
+      "updated": 1663838065378,
+      "created": 1663838065378,
+      "id": "o5tvz7osv5cird51yigap8s",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -185,7 +185,7 @@
         }
       },
       "children": [],
-      "parent": "8b47xfvq6dktztt1tqe78l3",
+      "parent": "o5tvz7osv5cird51yigap8s",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -226,13 +226,13 @@
         "863ef124-d377-4a99-87c6-b59d0a406ea1",
         "c580cd60-ccde-4c24-b6af-e87c19c2b2a3",
         "JILnR3wQSc7qiAw8e3YQn",
-        "swxrmhjnwtrnujkin58l8n7",
-        "1bpe01w2jes1q35bhy8bc4u"
+        "j9f89aocl9sut40cuohdg73",
+        "and2dfqvmqjv2cosjkkskzd"
       ],
       "parent": "root",
       "data": {}
     },
-    "1bpe01w2jes1q35bhy8bc4u": {
+    "and2dfqvmqjv2cosjkkskzd": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -242,9 +242,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056482,
-      "created": 1661925056482,
-      "id": "1bpe01w2jes1q35bhy8bc4u",
+      "updated": 1663838065400,
+      "created": 1663838065400,
+      "id": "and2dfqvmqjv2cosjkkskzd",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -279,7 +279,6 @@
             "vaultName": "main"
           },
           "value": "tools.awslogs",
-          "alias": "tools.awslogs",
           "position": {
             "start": {
               "line": 4,
@@ -319,8 +318,7 @@
             },
             "indent": []
           },
-          "value": "tools.awscli.cloudwatch",
-          "alias": "tools.awscli.cloudwatch"
+          "value": "tools.awscli.cloudwatch"
         }
       ],
       "anchors": {
@@ -334,10 +332,10 @@
         }
       },
       "children": [],
-      "parent": "1bpe01w2jes1q35bhy8bc4u",
+      "parent": "and2dfqvmqjv2cosjkkskzd",
       "data": {}
     },
-    "swxrmhjnwtrnujkin58l8n7": {
+    "j9f89aocl9sut40cuohdg73": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -347,9 +345,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056481,
-      "created": 1661925056481,
-      "id": "swxrmhjnwtrnujkin58l8n7",
+      "updated": 1663838065399,
+      "created": 1663838065399,
+      "id": "j9f89aocl9sut40cuohdg73",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -428,7 +426,7 @@
         }
       },
       "children": [],
-      "parent": "swxrmhjnwtrnujkin58l8n7",
+      "parent": "j9f89aocl9sut40cuohdg73",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -466,7 +464,7 @@
         }
       },
       "children": [],
-      "parent": "swxrmhjnwtrnujkin58l8n7",
+      "parent": "j9f89aocl9sut40cuohdg73",
       "data": {}
     },
     "JILnR3wQSc7qiAw8e3YQn": {
@@ -1726,8 +1724,7 @@
             },
             "indent": []
           },
-          "value": "tools.awslogs",
-          "alias": "tools.awslogs"
+          "value": "tools.awslogs"
         }
       ],
       "anchors": {
@@ -1771,7 +1768,6 @@
             "vaultName": "main"
           },
           "value": "dev",
-          "alias": "dev",
           "position": {
             "start": {
               "line": 4,
@@ -1858,8 +1854,7 @@
             },
             "indent": []
           },
-          "value": "tech.zfs",
-          "alias": "tech.zfs"
+          "value": "tech.zfs"
         }
       ],
       "anchors": {
@@ -2574,7 +2569,6 @@
             "vaultName": "main"
           },
           "value": "tech.zfs",
-          "alias": "tech.zfs",
           "position": {
             "start": {
               "line": 4,
@@ -3504,8 +3498,7 @@
             },
             "indent": []
           },
-          "value": "dev",
-          "alias": "dev"
+          "value": "dev"
         }
       ],
       "anchors": {
@@ -3540,13 +3533,13 @@
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5",
-        "iyeqnz63pcxbjre9ej1oonc",
-        "z64n9xwa0a9lys122dw2rbs"
+        "x0i1n1sw07w619tf9ivlbq8",
+        "7t3vawzeh2zrkv72o10bt25"
       ],
       "parent": "root",
       "data": {}
     },
-    "z64n9xwa0a9lys122dw2rbs": {
+    "7t3vawzeh2zrkv72o10bt25": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3556,9 +3549,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056480,
-      "created": 1661925056480,
-      "id": "z64n9xwa0a9lys122dw2rbs",
+      "updated": 1663838065396,
+      "created": 1663838065396,
+      "id": "7t3vawzeh2zrkv72o10bt25",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3669,7 +3662,7 @@
         }
       },
       "children": [],
-      "parent": "z64n9xwa0a9lys122dw2rbs",
+      "parent": "7t3vawzeh2zrkv72o10bt25",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -3750,7 +3743,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "z64n9xwa0a9lys122dw2rbs",
+      "parent": "7t3vawzeh2zrkv72o10bt25",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -3837,7 +3830,7 @@
       "parent": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "data": {}
     },
-    "iyeqnz63pcxbjre9ej1oonc": {
+    "x0i1n1sw07w619tf9ivlbq8": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -3847,9 +3840,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056479,
-      "created": 1661925056479,
-      "id": "iyeqnz63pcxbjre9ej1oonc",
+      "updated": 1663838065394,
+      "created": 1663838065394,
+      "id": "x0i1n1sw07w619tf9ivlbq8",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3895,7 +3888,7 @@
         }
       },
       "children": [],
-      "parent": "iyeqnz63pcxbjre9ej1oonc",
+      "parent": "x0i1n1sw07w619tf9ivlbq8",
       "data": {}
     },
     "3d77adfc-5373-4700-a129-e297ad6521b5": {
@@ -4631,12 +4624,12 @@
         }
       },
       "children": [
-        "zmcfpk54qb2h5kb5lg5bc86"
+        "uqbidqec12lmdw8feqenjq5"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "zmcfpk54qb2h5kb5lg5bc86": {
+    "uqbidqec12lmdw8feqenjq5": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -4646,9 +4639,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056484,
-      "created": 1661925056484,
-      "id": "zmcfpk54qb2h5kb5lg5bc86",
+      "updated": 1663838065407,
+      "created": 1663838065407,
+      "id": "uqbidqec12lmdw8feqenjq5",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4683,7 +4676,6 @@
             "vaultName": "main"
           },
           "value": "dev.algorithms.binary-search",
-          "alias": "dev.algorithms.binary-search",
           "position": {
             "start": {
               "line": 6,
@@ -4723,7 +4715,7 @@
         }
       },
       "children": [],
-      "parent": "zmcfpk54qb2h5kb5lg5bc86",
+      "parent": "uqbidqec12lmdw8feqenjq5",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5678,8 +5670,7 @@
             },
             "indent": []
           },
-          "value": "dev.algorithms.binary-search",
-          "alias": "dev.algorithms.binary-search"
+          "value": "dev.algorithms.binary-search"
         }
       ],
       "anchors": {
@@ -6786,7 +6777,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.ontological-coaching",
-          "alias": "humans.ontological-coaching",
           "position": {
             "start": {
               "line": 8,
@@ -6814,7 +6804,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.fpc2",
-          "alias": "humans.fpc2",
           "position": {
             "start": {
               "line": 9,
@@ -6842,7 +6831,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.psychological-safety-workshop",
-          "alias": "humans.psychological-safety-workshop",
           "position": {
             "start": {
               "line": 10,
@@ -6894,12 +6882,12 @@
         "4818624c-d589-4139-95cd-162b764d4fb2",
         "1c4c8b03-9a3f-493c-80bb-245a712637a8",
         "a0e47274-95a0-4b45-881a-3901f5313517",
-        "71ig9h086f7r80o5fncbm9h"
+        "4msglug34o742kg5onnaj5t"
       ],
       "parent": "root",
       "data": {}
     },
-    "71ig9h086f7r80o5fncbm9h": {
+    "4msglug34o742kg5onnaj5t": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -6909,9 +6897,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1661925056451,
-      "created": 1661925056451,
-      "id": "71ig9h086f7r80o5fncbm9h",
+      "updated": 1663838065332,
+      "created": 1663838065332,
+      "id": "4msglug34o742kg5onnaj5t",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6957,7 +6945,7 @@
         }
       },
       "children": [],
-      "parent": "71ig9h086f7r80o5fncbm9h",
+      "parent": "4msglug34o742kg5onnaj5t",
       "data": {}
     },
     "a0e47274-95a0-4b45-881a-3901f5313517": {
@@ -6984,7 +6972,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assessments",
-          "alias": "humans.language.assessments",
           "position": {
             "start": {
               "line": 48,
@@ -7090,7 +7077,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.use-of-self.managing-debt",
-          "alias": "humans.use-of-self.managing-debt",
           "position": {
             "start": {
               "line": 5,
@@ -7118,7 +7104,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.use-of-self.developmental-clusters",
-          "alias": "humans.use-of-self.developmental-clusters",
           "position": {
             "start": {
               "line": 6,
@@ -7146,7 +7131,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 7,
@@ -7174,7 +7158,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.be-do-have",
-          "alias": "humans.be-do-have",
           "position": {
             "start": {
               "line": 9,
@@ -7202,7 +7185,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.power",
-          "alias": "humans.systems.power",
           "position": {
             "start": {
               "line": 10,
@@ -7230,7 +7212,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.how-practitioners-can-get-in-their-own-way",
-          "alias": "humans.systems.how-practitioners-can-get-in-their-own-way",
           "position": {
             "start": {
               "line": 11,
@@ -7270,8 +7251,7 @@
             },
             "indent": []
           },
-          "value": "humans.use-of-self",
-          "alias": "humans.use-of-self"
+          "value": "humans.use-of-self"
         }
       ],
       "anchors": {
@@ -7315,7 +7295,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions",
-          "alias": "humans.emotions",
           "position": {
             "start": {
               "line": 11,
@@ -7427,7 +7406,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 14,
@@ -7495,8 +7473,7 @@
             },
             "indent": []
           },
-          "value": "humans.use-of-self.managing-debt",
-          "alias": "humans.use-of-self.managing-debt"
+          "value": "humans.use-of-self.managing-debt"
         }
       ],
       "anchors": {
@@ -7585,8 +7562,7 @@
             },
             "indent": []
           },
-          "value": "humans.use-of-self.developmental-clusters",
-          "alias": "humans.use-of-self.developmental-clusters"
+          "value": "humans.use-of-self.developmental-clusters"
         }
       ],
       "anchors": {
@@ -7711,8 +7687,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7734,8 +7709,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7757,8 +7731,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7780,8 +7753,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7803,8 +7775,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7826,8 +7797,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7849,8 +7819,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7872,8 +7841,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7895,8 +7863,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         },
         {
           "from": {
@@ -7918,8 +7885,7 @@
             },
             "indent": []
           },
-          "value": "humans.trust",
-          "alias": "humans.trust"
+          "value": "humans.trust"
         }
       ],
       "anchors": {
@@ -8007,7 +7973,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.abundance-and-scarcity",
-          "alias": "humans.systems.abundance-and-scarcity",
           "position": {
             "start": {
               "line": 6,
@@ -8035,7 +8000,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.organism-and-environment",
-          "alias": "humans.systems.organism-and-environment",
           "position": {
             "start": {
               "line": 9,
@@ -8063,7 +8027,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.paradoxical-theory-of-change",
-          "alias": "humans.paradoxical-theory-of-change",
           "position": {
             "start": {
               "line": 10,
@@ -8091,7 +8054,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.differentiation-and-integration",
-          "alias": "humans.systems.differentiation-and-integration",
           "position": {
             "start": {
               "line": 11,
@@ -8131,8 +8093,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.why-things-are",
-          "alias": "humans.systems.why-things-are"
+          "value": "humans.systems.why-things-are"
         }
       ],
       "anchors": {
@@ -8213,8 +8174,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.systems-and-gestalt-theory",
-          "alias": "humans.systems.systems-and-gestalt-theory"
+          "value": "humans.systems.systems-and-gestalt-theory"
         }
       ],
       "anchors": {
@@ -8271,7 +8231,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience",
           "position": {
             "start": {
               "line": 8,
@@ -8311,8 +8270,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.roles-of-the-gestalt-intervener",
-          "alias": "humans.systems.roles-of-the-gestalt-intervener"
+          "value": "humans.systems.roles-of-the-gestalt-intervener"
         }
       ],
       "anchors": {
@@ -8361,7 +8319,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 4,
@@ -8401,8 +8358,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety"
+          "value": "humans.systems.psychological-safety"
         },
         {
           "from": {
@@ -8424,8 +8380,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety"
+          "value": "humans.systems.psychological-safety"
         },
         {
           "from": {
@@ -8447,8 +8402,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety"
+          "value": "humans.systems.psychological-safety"
         },
         {
           "from": {
@@ -8470,8 +8424,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety"
+          "value": "humans.systems.psychological-safety"
         }
       ],
       "anchors": {
@@ -8528,7 +8481,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 6,
@@ -8556,7 +8508,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.be-do-have",
-          "alias": "humans.be-do-have",
           "position": {
             "start": {
               "line": 51,
@@ -8596,8 +8547,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.power",
-          "alias": "humans.systems.power"
+          "value": "humans.systems.power"
         },
         {
           "from": {
@@ -8619,8 +8569,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.power",
-          "alias": "humans.systems.power"
+          "value": "humans.systems.power"
         },
         {
           "from": {
@@ -8642,8 +8591,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.power",
-          "alias": "humans.systems.power"
+          "value": "humans.systems.power"
         },
         {
           "from": {
@@ -8665,8 +8613,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.power",
-          "alias": "humans.systems.power"
+          "value": "humans.systems.power"
         }
       ],
       "anchors": {
@@ -8763,7 +8710,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.marshaks-table",
-          "alias": "humans.systems.marshaks-table",
           "position": {
             "start": {
               "line": 8,
@@ -8791,7 +8737,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety",
           "position": {
             "start": {
               "line": 9,
@@ -8819,7 +8764,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience",
           "position": {
             "start": {
               "line": 14,
@@ -8901,7 +8845,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.paradoxical-theory-of-change",
-          "alias": "humans.paradoxical-theory-of-change",
           "position": {
             "start": {
               "line": 28,
@@ -8929,7 +8872,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
-          "alias": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
           "position": {
             "start": {
               "line": 39,
@@ -8969,8 +8911,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.organism-and-environment",
-          "alias": "humans.systems.organism-and-environment"
+          "value": "humans.systems.organism-and-environment"
         },
         {
           "from": {
@@ -9015,8 +8956,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.organism-and-environment",
-          "alias": "humans.systems.organism-and-environment"
+          "value": "humans.systems.organism-and-environment"
         }
       ],
       "anchors": {
@@ -9065,7 +9005,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety",
           "position": {
             "start": {
               "line": 17,
@@ -9105,8 +9044,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.marshaks-table",
-          "alias": "humans.systems.marshaks-table"
+          "value": "humans.systems.marshaks-table"
         },
         {
           "from": {
@@ -9151,8 +9089,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.marshaks-table",
-          "alias": "humans.systems.marshaks-table"
+          "value": "humans.systems.marshaks-table"
         }
       ],
       "anchors": {
@@ -9201,7 +9138,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 25,
@@ -9241,8 +9177,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
-          "alias": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety"
+          "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety"
         },
         {
           "from": {
@@ -9264,8 +9199,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
-          "alias": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety"
+          "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety"
         }
       ],
       "anchors": {
@@ -9314,7 +9248,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.systems-and-gestalt-theory",
-          "alias": "humans.systems.systems-and-gestalt-theory",
           "position": {
             "start": {
               "line": 6,
@@ -9342,7 +9275,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.power",
-          "alias": "humans.systems.power",
           "position": {
             "start": {
               "line": 8,
@@ -9370,7 +9302,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 8,
@@ -9398,7 +9329,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.roles-of-the-gestalt-intervener",
-          "alias": "humans.systems.roles-of-the-gestalt-intervener",
           "position": {
             "start": {
               "line": 9,
@@ -9426,7 +9356,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience",
           "position": {
             "start": {
               "line": 10,
@@ -9454,7 +9383,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.checklist-for-intervention",
-          "alias": "humans.systems.checklist-for-intervention",
           "position": {
             "start": {
               "line": 11,
@@ -9482,7 +9410,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.speech-acts",
-          "alias": "humans.language.speech-acts",
           "position": {
             "start": {
               "line": 12,
@@ -9592,8 +9519,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.how-practitioners-can-get-in-their-own-way",
-          "alias": "humans.systems.how-practitioners-can-get-in-their-own-way"
+          "value": "humans.systems.how-practitioners-can-get-in-their-own-way"
         }
       ],
       "anchors": {
@@ -9634,7 +9560,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety",
           "position": {
             "start": {
               "line": 11,
@@ -9690,7 +9615,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "game-theory.abilenes-paradox",
-          "alias": "game-theory.abilenes-paradox",
           "position": {
             "start": {
               "line": 13,
@@ -9757,8 +9681,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.differentiation-and-integration",
-          "alias": "humans.systems.differentiation-and-integration"
+          "value": "humans.systems.differentiation-and-integration"
         }
       ],
       "anchors": {
@@ -9799,7 +9722,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.containers.types",
-          "alias": "humans.systems.containers.types",
           "position": {
             "start": {
               "line": 13,
@@ -9827,7 +9749,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work",
           "position": {
             "start": {
               "line": 14,
@@ -9855,7 +9776,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.containers.learning",
-          "alias": "humans.systems.containers.learning",
           "position": {
             "start": {
               "line": 15,
@@ -9883,7 +9803,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.body.somatic-archetypes",
-          "alias": "humans.body.somatic-archetypes",
           "position": {
             "start": {
               "line": 16,
@@ -9946,8 +9865,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.containers",
-          "alias": "humans.systems.containers"
+          "value": "humans.systems.containers"
         },
         {
           "from": {
@@ -9969,8 +9887,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.containers",
-          "alias": "humans.systems.containers"
+          "value": "humans.systems.containers"
         }
       ],
       "anchors": {
@@ -10026,8 +9943,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.containers.types",
-          "alias": "humans.systems.containers.types"
+          "value": "humans.systems.containers.types"
         }
       ],
       "anchors": {
@@ -10068,7 +9984,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work",
           "position": {
             "start": {
               "line": 4,
@@ -10108,8 +10023,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.containers.learning",
-          "alias": "humans.systems.containers.learning"
+          "value": "humans.systems.containers.learning"
         },
         {
           "from": {
@@ -10181,7 +10095,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.containers",
-          "alias": "humans.systems.containers",
           "position": {
             "start": {
               "line": 6,
@@ -10209,7 +10122,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.power",
-          "alias": "humans.systems.power",
           "position": {
             "start": {
               "line": 14,
@@ -10237,7 +10149,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 15,
@@ -10277,8 +10188,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.checklist-for-intervention",
-          "alias": "humans.systems.checklist-for-intervention"
+          "value": "humans.systems.checklist-for-intervention"
         }
       ],
       "anchors": {
@@ -10331,8 +10241,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.abundance-and-scarcity",
-          "alias": "humans.systems.abundance-and-scarcity"
+          "value": "humans.systems.abundance-and-scarcity"
         }
       ],
       "anchors": {
@@ -10421,8 +10330,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work"
+          "value": "humans.systems.5-conversations-for-human-work"
         },
         {
           "from": {
@@ -10444,8 +10352,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work"
+          "value": "humans.systems.5-conversations-for-human-work"
         },
         {
           "from": {
@@ -10467,8 +10374,7 @@
             },
             "indent": []
           },
-          "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work"
+          "value": "humans.systems.5-conversations-for-human-work"
         }
       ],
       "anchors": {
@@ -10517,7 +10423,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.fpc2",
-          "alias": "humans.fpc2",
           "position": {
             "start": {
               "line": 6,
@@ -10545,7 +10450,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.marshaks-table",
-          "alias": "humans.systems.marshaks-table",
           "position": {
             "start": {
               "line": 12,
@@ -10573,7 +10477,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 13,
@@ -10601,7 +10504,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.organism-and-environment",
-          "alias": "humans.systems.organism-and-environment",
           "position": {
             "start": {
               "line": 14,
@@ -10629,7 +10531,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
-          "alias": "humans.systems.linguistic-behaviours-from-lack-of-psychological-safety",
           "position": {
             "start": {
               "line": 15,
@@ -10657,7 +10558,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.psychological-safety",
-          "alias": "humans.systems.psychological-safety",
           "position": {
             "start": {
               "line": 16,
@@ -10685,7 +10585,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.5-conversations-for-human-work",
-          "alias": "humans.systems.5-conversations-for-human-work",
           "position": {
             "start": {
               "line": 17,
@@ -10713,7 +10612,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.containers",
-          "alias": "humans.systems.containers",
           "position": {
             "start": {
               "line": 17,
@@ -10753,8 +10651,7 @@
             },
             "indent": []
           },
-          "value": "humans.psychological-safety-workshop",
-          "alias": "humans.psychological-safety-workshop"
+          "value": "humans.psychological-safety-workshop"
         }
       ],
       "anchors": {
@@ -10807,8 +10704,7 @@
             },
             "indent": []
           },
-          "value": "humans.paradoxical-theory-of-change",
-          "alias": "humans.paradoxical-theory-of-change"
+          "value": "humans.paradoxical-theory-of-change"
         },
         {
           "from": {
@@ -10853,8 +10749,7 @@
             },
             "indent": []
           },
-          "value": "humans.paradoxical-theory-of-change",
-          "alias": "humans.paradoxical-theory-of-change"
+          "value": "humans.paradoxical-theory-of-change"
         }
       ],
       "anchors": {
@@ -10911,7 +10806,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer-actions-results-model",
-          "alias": "humans.observer-actions-results-model",
           "position": {
             "start": {
               "line": 8,
@@ -10939,7 +10833,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer",
-          "alias": "humans.observer",
           "position": {
             "start": {
               "line": 9,
@@ -10967,7 +10860,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.listening",
-          "alias": "humans.language.listening",
           "position": {
             "start": {
               "line": 10,
@@ -10995,7 +10887,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.breakdowns",
-          "alias": "humans.language.breakdowns",
           "position": {
             "start": {
               "line": 11,
@@ -11035,8 +10926,7 @@
             },
             "indent": []
           },
-          "value": "humans.ontological-coaching",
-          "alias": "humans.ontological-coaching"
+          "value": "humans.ontological-coaching"
         }
       ],
       "anchors": {
@@ -11114,7 +11004,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.body",
-          "alias": "humans.body",
           "position": {
             "start": {
               "line": 18,
@@ -11142,7 +11031,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions",
-          "alias": "humans.emotions",
           "position": {
             "start": {
               "line": 19,
@@ -11170,7 +11058,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language",
-          "alias": "humans.language",
           "position": {
             "start": {
               "line": 20,
@@ -11210,8 +11097,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer",
-          "alias": "humans.observer"
+          "value": "humans.observer"
         },
         {
           "from": {
@@ -11256,8 +11142,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer",
-          "alias": "humans.observer"
+          "value": "humans.observer"
         },
         {
           "from": {
@@ -11279,8 +11164,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer",
-          "alias": "humans.observer"
+          "value": "humans.observer"
         },
         {
           "from": {
@@ -11325,8 +11209,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer",
-          "alias": "humans.observer"
+          "value": "humans.observer"
         },
         {
           "from": {
@@ -11348,8 +11231,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer",
-          "alias": "humans.observer"
+          "value": "humans.observer"
         }
       ],
       "anchors": {
@@ -11489,8 +11371,7 @@
             },
             "indent": []
           },
-          "value": "humans.observer-actions-results-model",
-          "alias": "humans.observer-actions-results-model"
+          "value": "humans.observer-actions-results-model"
         }
       ],
       "anchors": {
@@ -11567,8 +11448,7 @@
             },
             "indent": []
           },
-          "value": "humans.mastery",
-          "alias": "humans.mastery"
+          "value": "humans.mastery"
         }
       ],
       "anchors": {
@@ -11641,7 +11521,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.mastery",
-          "alias": "humans.mastery",
           "position": {
             "start": {
               "line": 4,
@@ -11700,7 +11579,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.body",
-          "alias": "humans.body",
           "position": {
             "start": {
               "line": 8,
@@ -11728,7 +11606,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language",
-          "alias": "humans.language",
           "position": {
             "start": {
               "line": 12,
@@ -11756,7 +11633,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.listening",
-          "alias": "humans.language.listening",
           "position": {
             "start": {
               "line": 37,
@@ -11796,8 +11672,7 @@
             },
             "indent": []
           },
-          "value": "humans.learning",
-          "alias": "humans.learning"
+          "value": "humans.learning"
         }
       ],
       "anchors": {
@@ -11854,7 +11729,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer",
-          "alias": "humans.observer",
           "position": {
             "start": {
               "line": 8,
@@ -11882,7 +11756,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.speech-acts",
-          "alias": "humans.language.speech-acts",
           "position": {
             "start": {
               "line": 10,
@@ -11922,8 +11795,7 @@
             },
             "indent": []
           },
-          "value": "humans.language",
-          "alias": "humans.language"
+          "value": "humans.language"
         },
         {
           "from": {
@@ -11945,8 +11817,7 @@
             },
             "indent": []
           },
-          "value": "humans.language",
-          "alias": "humans.language"
+          "value": "humans.language"
         },
         {
           "from": {
@@ -11968,8 +11839,7 @@
             },
             "indent": []
           },
-          "value": "humans.language",
-          "alias": "humans.language"
+          "value": "humans.language"
         },
         {
           "from": {
@@ -12042,7 +11912,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language",
-          "alias": "humans.language",
           "position": {
             "start": {
               "line": 4,
@@ -12070,7 +11939,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assertions",
-          "alias": "humans.language.assertions",
           "position": {
             "start": {
               "line": 6,
@@ -12098,7 +11966,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assessments",
-          "alias": "humans.language.assessments",
           "position": {
             "start": {
               "line": 7,
@@ -12126,7 +11993,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations",
-          "alias": "humans.language.declarations",
           "position": {
             "start": {
               "line": 8,
@@ -12154,7 +12020,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.requests-and-offers",
-          "alias": "humans.language.requests-and-offers",
           "position": {
             "start": {
               "line": 9,
@@ -12182,7 +12047,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.promises",
-          "alias": "humans.language.promises",
           "position": {
             "start": {
               "line": 10,
@@ -12222,8 +12086,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.speech-acts",
-          "alias": "humans.language.speech-acts"
+          "value": "humans.language.speech-acts"
         },
         {
           "from": {
@@ -12245,8 +12108,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.speech-acts",
-          "alias": "humans.language.speech-acts"
+          "value": "humans.language.speech-acts"
         }
       ],
       "anchors": {
@@ -12345,8 +12207,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.requests-and-offers",
-          "alias": "humans.language.requests-and-offers"
+          "value": "humans.language.requests-and-offers"
         }
       ],
       "anchors": {
@@ -12479,8 +12340,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.promises",
-          "alias": "humans.language.promises"
+          "value": "humans.language.promises"
         }
       ],
       "anchors": {
@@ -12577,7 +12437,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer",
-          "alias": "humans.observer",
           "position": {
             "start": {
               "line": 14,
@@ -12605,7 +12464,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.content-and-context",
-          "alias": "humans.content-and-context",
           "position": {
             "start": {
               "line": 23,
@@ -12645,8 +12503,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.listening",
-          "alias": "humans.language.listening"
+          "value": "humans.language.listening"
         },
         {
           "from": {
@@ -12668,8 +12525,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.listening",
-          "alias": "humans.language.listening"
+          "value": "humans.language.listening"
         },
         {
           "from": {
@@ -12691,8 +12547,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.listening",
-          "alias": "humans.language.listening"
+          "value": "humans.language.listening"
         }
       ],
       "anchors": {
@@ -12741,7 +12596,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assertions",
-          "alias": "humans.language.assertions",
           "position": {
             "start": {
               "line": 4,
@@ -12769,7 +12623,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assessments",
-          "alias": "humans.language.assessments",
           "position": {
             "start": {
               "line": 17,
@@ -12797,7 +12650,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.power",
-          "alias": "humans.systems.power",
           "position": {
             "start": {
               "line": 23,
@@ -12825,7 +12677,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 23,
@@ -12881,7 +12732,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.learning",
-          "alias": "humans.learning",
           "position": {
             "start": {
               "line": 62,
@@ -12909,7 +12759,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations.forgiveness",
-          "alias": "humans.language.declarations.forgiveness",
           "position": {
             "start": {
               "line": 78,
@@ -12937,7 +12786,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations.gratitude",
-          "alias": "humans.language.declarations.gratitude",
           "position": {
             "start": {
               "line": 86,
@@ -12965,7 +12813,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.breakdowns",
-          "alias": "humans.language.breakdowns",
           "position": {
             "start": {
               "line": 114,
@@ -13005,8 +12852,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations",
-          "alias": "humans.language.declarations"
+          "value": "humans.language.declarations"
         },
         {
           "from": {
@@ -13028,8 +12874,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations",
-          "alias": "humans.language.declarations"
+          "value": "humans.language.declarations"
         },
         {
           "from": {
@@ -13051,8 +12896,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations",
-          "alias": "humans.language.declarations"
+          "value": "humans.language.declarations"
         },
         {
           "from": {
@@ -13120,8 +12964,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations",
-          "alias": "humans.language.declarations"
+          "value": "humans.language.declarations"
         },
         {
           "from": {
@@ -13280,8 +13123,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations.gratitude",
-          "alias": "humans.language.declarations.gratitude"
+          "value": "humans.language.declarations.gratitude"
         }
       ],
       "anchors": {
@@ -13370,8 +13212,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations.forgiveness",
-          "alias": "humans.language.declarations.forgiveness"
+          "value": "humans.language.declarations.forgiveness"
         },
         {
           "from": {
@@ -13393,8 +13234,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.declarations.forgiveness",
-          "alias": "humans.language.declarations.forgiveness"
+          "value": "humans.language.declarations.forgiveness"
         },
         {
           "from": {
@@ -13578,8 +13418,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.breakdowns",
-          "alias": "humans.language.breakdowns"
+          "value": "humans.language.breakdowns"
         },
         {
           "from": {
@@ -13601,8 +13440,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.breakdowns",
-          "alias": "humans.language.breakdowns"
+          "value": "humans.language.breakdowns"
         }
       ],
       "anchors": {
@@ -13659,7 +13497,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations",
-          "alias": "humans.language.declarations",
           "position": {
             "start": {
               "line": 8,
@@ -13687,7 +13524,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assertions",
-          "alias": "humans.language.assertions",
           "position": {
             "start": {
               "line": 30,
@@ -13715,7 +13551,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations",
-          "alias": "humans.language.declarations",
           "position": {
             "start": {
               "line": 57,
@@ -13755,8 +13590,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assessments",
-          "alias": "humans.language.assessments"
+          "value": "humans.language.assessments"
         },
         {
           "from": {
@@ -13778,8 +13612,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assessments",
-          "alias": "humans.language.assessments"
+          "value": "humans.language.assessments"
         },
         {
           "from": {
@@ -13801,8 +13634,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assessments",
-          "alias": "humans.language.assessments"
+          "value": "humans.language.assessments"
         },
         {
           "from": {
@@ -13847,8 +13679,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assessments",
-          "alias": "humans.language.assessments"
+          "value": "humans.language.assessments"
         },
         {
           "from": {
@@ -13870,8 +13701,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assessments",
-          "alias": "humans.language.assessments"
+          "value": "humans.language.assessments"
         }
       ],
       "anchors": {
@@ -13968,7 +13798,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assessments",
-          "alias": "humans.language.assessments",
           "position": {
             "start": {
               "line": 14,
@@ -14008,8 +13837,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assertions",
-          "alias": "humans.language.assertions"
+          "value": "humans.language.assertions"
         },
         {
           "from": {
@@ -14031,8 +13859,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assertions",
-          "alias": "humans.language.assertions"
+          "value": "humans.language.assertions"
         },
         {
           "from": {
@@ -14054,8 +13881,7 @@
             },
             "indent": []
           },
-          "value": "humans.language.assertions",
-          "alias": "humans.language.assertions"
+          "value": "humans.language.assertions"
         }
       ],
       "anchors": {
@@ -14096,7 +13922,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.systems.why-things-are",
-          "alias": "humans.systems.why-things-are",
           "position": {
             "start": {
               "line": 12,
@@ -14208,7 +14033,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.use-of-self",
-          "alias": "humans.use-of-self",
           "position": {
             "start": {
               "line": 16,
@@ -14236,7 +14060,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.fpc2.reflections",
-          "alias": "humans.fpc2.reflections",
           "position": {
             "start": {
               "line": 23,
@@ -14276,8 +14099,7 @@
             },
             "indent": []
           },
-          "value": "humans.fpc2",
-          "alias": "humans.fpc2"
+          "value": "humans.fpc2"
         },
         {
           "from": {
@@ -14299,8 +14121,7 @@
             },
             "indent": []
           },
-          "value": "humans.fpc2",
-          "alias": "humans.fpc2"
+          "value": "humans.fpc2"
         }
       ],
       "anchors": {
@@ -14355,8 +14176,7 @@
             },
             "indent": []
           },
-          "value": "humans.fpc2.reflections",
-          "alias": "humans.fpc2.reflections"
+          "value": "humans.fpc2.reflections"
         }
       ],
       "anchors": {
@@ -14413,7 +14233,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer",
-          "alias": "humans.observer",
           "position": {
             "start": {
               "line": 4,
@@ -14441,7 +14260,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.emotions-and-moods",
-          "alias": "humans.emotions.emotions-and-moods",
           "position": {
             "start": {
               "line": 6,
@@ -14469,7 +14287,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.coping-and-deplay-emotions",
-          "alias": "humans.emotions.coping-and-deplay-emotions",
           "position": {
             "start": {
               "line": 7,
@@ -14497,7 +14314,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.basic-moods-of-life",
-          "alias": "humans.emotions.basic-moods-of-life",
           "position": {
             "start": {
               "line": 8,
@@ -14537,8 +14353,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions",
-          "alias": "humans.emotions"
+          "value": "humans.emotions"
         },
         {
           "from": {
@@ -14560,8 +14375,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions",
-          "alias": "humans.emotions"
+          "value": "humans.emotions"
         }
       ],
       "anchors": {
@@ -14610,7 +14424,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.ambition",
-          "alias": "humans.emotions.ambition",
           "position": {
             "start": {
               "line": 16,
@@ -14650,8 +14463,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.resignation",
-          "alias": "humans.emotions.resignation"
+          "value": "humans.emotions.resignation"
         },
         {
           "from": {
@@ -14673,8 +14485,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.resignation",
-          "alias": "humans.emotions.resignation"
+          "value": "humans.emotions.resignation"
         }
       ],
       "anchors": {
@@ -14723,7 +14534,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.acceptance",
-          "alias": "humans.emotions.acceptance",
           "position": {
             "start": {
               "line": 25,
@@ -14751,7 +14561,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations.forgiveness",
-          "alias": "humans.language.declarations.forgiveness",
           "position": {
             "start": {
               "line": 30,
@@ -14820,8 +14629,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.resentment",
-          "alias": "humans.emotions.resentment"
+          "value": "humans.emotions.resentment"
         },
         {
           "from": {
@@ -14843,8 +14651,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.resentment",
-          "alias": "humans.emotions.resentment"
+          "value": "humans.emotions.resentment"
         }
       ],
       "anchors": {
@@ -14913,8 +14720,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.emotions-and-moods",
-          "alias": "humans.emotions.emotions-and-moods"
+          "value": "humans.emotions.emotions-and-moods"
         },
         {
           "from": {
@@ -15034,8 +14840,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.coping-and-deplay-emotions",
-          "alias": "humans.emotions.coping-and-deplay-emotions"
+          "value": "humans.emotions.coping-and-deplay-emotions"
         },
         {
           "from": {
@@ -15115,7 +14920,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.declarations",
-          "alias": "humans.language.declarations",
           "position": {
             "start": {
               "line": 23,
@@ -15143,7 +14947,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.resentment",
-          "alias": "humans.emotions.resentment",
           "position": {
             "start": {
               "line": 37,
@@ -15171,7 +14974,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.resignation",
-          "alias": "humans.emotions.resignation",
           "position": {
             "start": {
               "line": 37,
@@ -15199,7 +15001,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.acceptance",
-          "alias": "humans.emotions.acceptance",
           "position": {
             "start": {
               "line": 38,
@@ -15227,7 +15028,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.ambition",
-          "alias": "humans.emotions.ambition",
           "position": {
             "start": {
               "line": 38,
@@ -15267,8 +15067,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.basic-moods-of-life",
-          "alias": "humans.emotions.basic-moods-of-life"
+          "value": "humans.emotions.basic-moods-of-life"
         }
       ],
       "anchors": {
@@ -15333,7 +15132,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.resignation",
-          "alias": "humans.emotions.resignation",
           "position": {
             "start": {
               "line": 4,
@@ -15373,8 +15171,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.ambition",
-          "alias": "humans.emotions.ambition"
+          "value": "humans.emotions.ambition"
         },
         {
           "from": {
@@ -15396,8 +15193,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.ambition",
-          "alias": "humans.emotions.ambition"
+          "value": "humans.emotions.ambition"
         }
       ],
       "anchors": {
@@ -15438,7 +15234,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.emotions.resentment",
-          "alias": "humans.emotions.resentment",
           "position": {
             "start": {
               "line": 4,
@@ -15478,8 +15273,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.acceptance",
-          "alias": "humans.emotions.acceptance"
+          "value": "humans.emotions.acceptance"
         },
         {
           "from": {
@@ -15501,8 +15295,7 @@
             },
             "indent": []
           },
-          "value": "humans.emotions.acceptance",
-          "alias": "humans.emotions.acceptance"
+          "value": "humans.emotions.acceptance"
         }
       ],
       "anchors": {
@@ -15555,8 +15348,7 @@
             },
             "indent": []
           },
-          "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience"
+          "value": "humans.cycle-of-experience"
         },
         {
           "from": {
@@ -15578,8 +15370,7 @@
             },
             "indent": []
           },
-          "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience"
+          "value": "humans.cycle-of-experience"
         },
         {
           "from": {
@@ -15601,8 +15392,7 @@
             },
             "indent": []
           },
-          "value": "humans.cycle-of-experience",
-          "alias": "humans.cycle-of-experience"
+          "value": "humans.cycle-of-experience"
         }
       ],
       "anchors": {
@@ -15659,7 +15449,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.assessments",
-          "alias": "humans.language.assessments",
           "position": {
             "start": {
               "line": 12,
@@ -15745,8 +15534,7 @@
             },
             "indent": []
           },
-          "value": "humans.content-and-context",
-          "alias": "humans.content-and-context"
+          "value": "humans.content-and-context"
         }
       ],
       "anchors": {
@@ -15832,7 +15620,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.language.listening",
-          "alias": "humans.language.listening",
           "position": {
             "start": {
               "line": 14,
@@ -15872,8 +15659,7 @@
             },
             "indent": []
           },
-          "value": "humans.centering",
-          "alias": "humans.centering"
+          "value": "humans.centering"
         }
       ],
       "anchors": {
@@ -15930,7 +15716,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.observer",
-          "alias": "humans.observer",
           "position": {
             "start": {
               "line": 3,
@@ -15958,7 +15743,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.body.somatic-archetypes",
-          "alias": "humans.body.somatic-archetypes",
           "position": {
             "start": {
               "line": 5,
@@ -15986,7 +15770,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.centering",
-          "alias": "humans.centering",
           "position": {
             "start": {
               "line": 6,
@@ -16026,8 +15809,7 @@
             },
             "indent": []
           },
-          "value": "humans.body",
-          "alias": "humans.body"
+          "value": "humans.body"
         },
         {
           "from": {
@@ -16049,8 +15831,7 @@
             },
             "indent": []
           },
-          "value": "humans.body",
-          "alias": "humans.body"
+          "value": "humans.body"
         }
       ],
       "anchors": {
@@ -16093,7 +15874,6 @@
             "vaultName": "Human Dynamics"
           },
           "value": "humans.trust",
-          "alias": "humans.trust",
           "position": {
             "start": {
               "line": 40,
@@ -16133,8 +15913,7 @@
             },
             "indent": []
           },
-          "value": "humans.body.somatic-archetypes",
-          "alias": "humans.body.somatic-archetypes"
+          "value": "humans.body.somatic-archetypes"
         },
         {
           "from": {
@@ -16156,8 +15935,7 @@
             },
             "indent": []
           },
-          "value": "humans.body.somatic-archetypes",
-          "alias": "humans.body.somatic-archetypes"
+          "value": "humans.body.somatic-archetypes"
         }
       ],
       "anchors": {
@@ -16265,8 +16043,7 @@
             },
             "indent": []
           },
-          "value": "humans.be-do-have",
-          "alias": "humans.be-do-have"
+          "value": "humans.be-do-have"
         },
         {
           "from": {
@@ -16288,8 +16065,7 @@
             },
             "indent": []
           },
-          "value": "humans.be-do-have",
-          "alias": "humans.be-do-have"
+          "value": "humans.be-do-have"
         }
       ],
       "anchors": {
@@ -16384,8 +16160,7 @@
             },
             "indent": []
           },
-          "value": "game-theory.abilenes-paradox",
-          "alias": "game-theory.abilenes-paradox"
+          "value": "game-theory.abilenes-paradox"
         }
       ],
       "anchors": {
@@ -16441,8 +16216,8 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "0od8kh0vs6izk4i96q9iwts",
-        "ja7l2h58fay05mgprfeoy6l",
+        "nwk7tryek8sa0xkgbq5c7kn",
+        "wa8youzuumo9m93obh79pb1",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16457,21 +16232,21 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "8b47xfvq6dktztt1tqe78l3",
-        "lqsff9j1rxtkpudvjc7gyn7",
+        "o5tvz7osv5cird51yigap8s",
+        "dauizat4on5g7kxx913rh1j",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "ynuu1md2vx4ja6htrnxng9w",
-        "jpipw0gyw02z8mmb85nt9ri",
-        "sw8o1davagn5s9ucn2ojevb",
-        "wjktxwbd9221fmaqqiykr0j",
-        "5in2vitlqfoxb49ub1jiaq0",
-        "soi38xwj78hekt6zsm2iriz",
-        "2dq943idcgmfuhekg5283pi",
-        "0uv9ukugnko7q3cs3a8t4wj"
+        "eray2ugu9995uqy5jv5w8nj",
+        "jx398gzcjchlmg0mk4jjhrf",
+        "1u2qqmalocrybeq2bz0axbv",
+        "k5nod1lhcge78wyshua1waf",
+        "7xs94b0rwqsm6p755ztjppb",
+        "o1xgo1qc6iwy2kpuiptq7e8",
+        "bj87qiegvmv3uulp8qapxxw",
+        "9tuz3zf4hxqsmc61ueev3xn"
       ],
       "parent": null,
       "data": {},
@@ -16515,8 +16290,8 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "0od8kh0vs6izk4i96q9iwts",
-      "ja7l2h58fay05mgprfeoy6l",
+      "nwk7tryek8sa0xkgbq5c7kn",
+      "wa8youzuumo9m93obh79pb1",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16531,21 +16306,21 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "8b47xfvq6dktztt1tqe78l3",
-      "lqsff9j1rxtkpudvjc7gyn7",
+      "o5tvz7osv5cird51yigap8s",
+      "dauizat4on5g7kxx913rh1j",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "ynuu1md2vx4ja6htrnxng9w",
-      "jpipw0gyw02z8mmb85nt9ri",
-      "sw8o1davagn5s9ucn2ojevb",
-      "wjktxwbd9221fmaqqiykr0j",
-      "5in2vitlqfoxb49ub1jiaq0",
-      "soi38xwj78hekt6zsm2iriz",
-      "2dq943idcgmfuhekg5283pi",
-      "0uv9ukugnko7q3cs3a8t4wj"
+      "eray2ugu9995uqy5jv5w8nj",
+      "jx398gzcjchlmg0mk4jjhrf",
+      "1u2qqmalocrybeq2bz0axbv",
+      "k5nod1lhcge78wyshua1waf",
+      "7xs94b0rwqsm6p755ztjppb",
+      "o1xgo1qc6iwy2kpuiptq7e8",
+      "bj87qiegvmv3uulp8qapxxw",
+      "9tuz3zf4hxqsmc61ueev3xn"
     ],
     "parent": null,
     "data": {},
