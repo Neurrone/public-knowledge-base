@@ -1,6 +1,6 @@
 <p>Using a YubiKey in web browsers works great.</p>
 <p>Unfortunately, it is not so great when attempting to do so with SSH or within WSL2.</p>
-<h2 id="ssh"><a aria-hidden="true" class="anchor-heading icon-link" href="#ssh"></a>SSH</h2>
+<h2 id="ssh">SSH<a aria-hidden="true" class="anchor-heading icon-link" href="#ssh"></a></h2>
 <p><a href="https://buttondown.email/cryptography-dispatches/archive/cryptography-dispatches-openssh-82-just-works/">OpenSSH 8.2 and above supports fido2</a>, which makes the process of using a Fido2 authenticator for SSH much simpler.</p>
 <p>However, the <a href="https://github.com/PowerShell/Win32-OpenSSH/issues/1804">version of OpenSSH that ships with Windows 10 does not support fido2</a> at time of writing. This is something that is being actively worked on, although it will probably be several months before this is a fixed.</p>
 <p>Ironically, the easiest workaround for this is to use the version of ssh that comes with <a href="https://gitforwindows.org/">Git For Windows</a>.</p>
@@ -42,11 +42,11 @@
 <p>There should be 2 new files in your ssh folder. Copy the public key to a server you want to access. The private key is a stub that refers to the authenticator. From within git bash, try accessing a server via ssh with this new key.</p>
 </li>
 </ol>
-<h3 id="alternative-solutions"><a aria-hidden="true" class="anchor-heading icon-link" href="#alternative-solutions"></a>Alternative Solutions</h3>
+<h3 id="alternative-solutions">Alternative Solutions<a aria-hidden="true" class="anchor-heading icon-link" href="#alternative-solutions"></a></h3>
 <ul>
 <li><a href="https://github.com/mgbowen/windows-fido-bridge">windows-fido-bridge</a> is another OpenSSH middleware that has similar functionality as winhelper. However, it requires ssh 8.3 and above, which doesn't come with Ubuntu 20.04.</li>
 </ul>
-<h2 id="wsl2"><a aria-hidden="true" class="anchor-heading icon-link" href="#wsl2"></a>WSL2</h2>
+<h2 id="wsl2">WSL2<a aria-hidden="true" class="anchor-heading icon-link" href="#wsl2"></a></h2>
 <p>WSL2 has experimental support for USB devices, although it <a href="https://github.com/dorssel/usbipd-win/discussions/127">doesn't work with Fido2 devices yet</a>.</p>
 <p>To work around this issue, <a href="https://github.com/tavrez/openssh-sk-winhello/blob/master/WSL.md">openssh-sk-winhello can be set to accessed from WSL2</a> via ssh-sk-helper, which acts as a bridge from WSL2 to the ssh tools set up above in git bash.</p>
 <p>Git bash comes with ssh-sk-helper already, so that doesn't need to be installed separately.</p>
@@ -79,7 +79,7 @@ export SSH_SK_PROVIDER="c:/Program Files/Git/usr/lib/ssh/winhello.dll"
 <p>If everything is set up correctly, you should be prompted to enter a pin and touch the device when generating an ssh keypair via the YubiKey.</p>
 </li>
 </ol>
-<h2 id="references"><a aria-hidden="true" class="anchor-heading icon-link" href="#references"></a>References</h2>
+<h2 id="references">References<a aria-hidden="true" class="anchor-heading icon-link" href="#references"></a></h2>
 <ul>
 <li><a href="https://github-wiki-see.page/m/mooltipass/minible/wiki/Setting-up-FIDO2-authentication-on-Linux-from-Windows">Setting up FIDO2 authentication on Linux from Windows - mooltipass/minible Wiki</a></li>
 <li><a href="https://polansky.co/blog/a-better-windows-wsl-openssh-experience/">A Better Windows 10+WSL SSH Experience</a></li>

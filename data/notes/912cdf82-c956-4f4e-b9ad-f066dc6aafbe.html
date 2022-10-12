@@ -1,22 +1,22 @@
 <p>Syntax: <code>mysqldump [options] > out.sql</code></p>
-<h2 id="dumping-databases"><a aria-hidden="true" class="anchor-heading icon-link" href="#dumping-databases"></a>Dumping Databases</h2>
+<h2 id="dumping-databases">Dumping Databases<a aria-hidden="true" class="anchor-heading icon-link" href="#dumping-databases"></a></h2>
 <ul>
 <li>Back up a single database: <code>mysqldump -u root -p database_name > database_name.sql</code></li>
 <li>Back up multiple databases: <code>mysqldump -u root -p --databases database_name_a database_name_b > databases_a_b.sql</code></li>
 <li>Back up all databases: <code>mysqldump -u root -p --all-databases > all_databases.sql</code></li>
 </ul>
 <p>See <a href="https://linuxize.com/post/how-to-back-up-and-restore-mysql-databases-with-mysqldump/">this article</a> for more examples.</p>
-<h2 id="dumping-databases-without-locking"><a aria-hidden="true" class="anchor-heading icon-link" href="#dumping-databases-without-locking"></a>Dumping Databases Without Locking</h2>
+<h2 id="dumping-databases-without-locking">Dumping Databases Without Locking<a aria-hidden="true" class="anchor-heading icon-link" href="#dumping-databases-without-locking"></a></h2>
 <p>By default, mysqldump locks the entire database till the dump completes. This is not practical for production use.</p>
 <p>Mysqldump supports the <a href="http://download.nust.na/pub6/mysql/doc/refman/5.1/en/mysqldump.html#option_mysqldump_single-transaction">--single-transaction</a> option which allows dumping a consistent state of the database. This only works with InnoDB tables, not MyISAM or Memory tables.</p>
 <p>For large tables which won't fit into memory, consider using with <a href="http://download.nust.na/pub6/mysql/doc/refman/5.1/en/mysqldump.html#option_mysqldump_quick">--quick</a></p>
-<h2 id="restoring-from-backup"><a aria-hidden="true" class="anchor-heading icon-link" href="#restoring-from-backup"></a>Restoring From Backup</h2>
+<h2 id="restoring-from-backup">Restoring From Backup<a aria-hidden="true" class="anchor-heading icon-link" href="#restoring-from-backup"></a></h2>
 <pre class="language-sh"><code class="language-sh"># if the database already exists, delete it
 # create the database first
 mysql -u root -p -e "create database database_name";
 mysql  database_name &#x3C; file.sql
 </code></pre>
-<h2 id="docker"><a aria-hidden="true" class="anchor-heading icon-link" href="#docker"></a>Docker</h2>
+<h2 id="docker">Docker<a aria-hidden="true" class="anchor-heading icon-link" href="#docker"></a></h2>
 <p>The commands above work just fine when using the official docker containers:</p>
 <pre class="language-sh"><code class="language-sh">docker exec [MYSQL_CONTAINER] /usr/bin/mysqldump \
   -u root -p database_name > database_name.sql

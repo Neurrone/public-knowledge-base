@@ -165,6 +165,7 @@
     },
     "enablePrettyLinks": true,
     "enableTaskNotes": true,
+    "searchMode": "lookup",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }

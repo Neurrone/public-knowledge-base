@@ -1,12 +1,12 @@
-<h1 id="importing-and-exporting-csv-files-into-postgres"><a aria-hidden="true" class="anchor-heading icon-link" href="#importing-and-exporting-csv-files-into-postgres"></a>Importing And Exporting CSV Files Into Postgres</h1>
-<h2 id="exporting-csvs"><a aria-hidden="true" class="anchor-heading icon-link" href="#exporting-csvs"></a>Exporting CSVs</h2>
+<h1 id="importing-and-exporting-csv-files-into-postgres">Importing And Exporting CSV Files Into Postgres<a aria-hidden="true" class="anchor-heading icon-link" href="#importing-and-exporting-csv-files-into-postgres"></a></h1>
+<h2 id="exporting-csvs">Exporting CSVs<a aria-hidden="true" class="anchor-heading icon-link" href="#exporting-csvs"></a></h2>
 <p>To export the result set of a query to a csv file:</p>
 <pre class="language-sh"><code class="language-sh"># run this when connected to the db via psql
 COPY (
     &#x3C;some query>
 ) TO '/path/to/data.csv' DELIMITER ',' CSV HEADER;
 </code></pre>
-<h2 id="importing-csvs"><a aria-hidden="true" class="anchor-heading icon-link" href="#importing-csvs"></a>Importing CSVs</h2>
+<h2 id="importing-csvs">Importing CSVs<a aria-hidden="true" class="anchor-heading icon-link" href="#importing-csvs"></a></h2>
 <p>To import a CSV with column headers into a table that has the same columns as the csv:</p>
 <pre class="language-sh"><code class="language-sh"># run this when connected to the db via psql
 COPY my_table

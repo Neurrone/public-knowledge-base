@@ -1,11 +1,11 @@
-<h1 id="unsafe-migrations"><a aria-hidden="true" class="anchor-heading icon-link" href="#unsafe-migrations"></a>Unsafe Migrations</h1>
+<h1 id="unsafe-migrations">Unsafe Migrations<a aria-hidden="true" class="anchor-heading icon-link" href="#unsafe-migrations"></a></h1>
 <p>Some migrations are unsafe to run in production on large tables because they cause locks on the database. This will degrade performance and could cause downtime.</p>
 <p>These migrations can usually be done in a way that avoids downtime. Don't worry about this for smaller tables.</p>
-<h2 id="adding-column-with-default-value"><a aria-hidden="true" class="anchor-heading icon-link" href="#adding-column-with-default-value"></a>Adding Column with Default Value</h2>
+<h2 id="adding-column-with-default-value">Adding Column with Default Value<a aria-hidden="true" class="anchor-heading icon-link" href="#adding-column-with-default-value"></a></h2>
 <p>Causes the table to be rewritten in older versions of MySQL (blocking writes) and Postgres (blocking both reads and writes).</p>
 <p>This can be accomplished by adding the column without the default, then changing the default value later.</p>
 <p>This is safe and no workarounds are needed from MySQL 8.0.12 and Postgres 11.</p>
-<h2 id="changing-column-type"><a aria-hidden="true" class="anchor-heading icon-link" href="#changing-column-type"></a>Changing Column Type</h2>
+<h2 id="changing-column-type">Changing Column Type<a aria-hidden="true" class="anchor-heading icon-link" href="#changing-column-type"></a></h2>
 <p>Causes the entire table to be rewritten.</p>
 <p>Blocks writes in MySQL except for the following changes which are safe:</p>
 <ul>
@@ -29,7 +29,7 @@
 <li>Stop writes to the old column</li>
 <li>Drop the old column</li>
 </ol>
-<h2 id="renaming-columns"><a aria-hidden="true" class="anchor-heading icon-link" href="#renaming-columns"></a>Renaming Columns</h2>
+<h2 id="renaming-columns">Renaming Columns<a aria-hidden="true" class="anchor-heading icon-link" href="#renaming-columns"></a></h2>
 <p>Causes errors in the application if the column is still being used.</p>
 <p>Instead, do the following:</p>
 <ol>
@@ -40,7 +40,7 @@
 <li>Stop writes to the old column</li>
 <li>Drop the old column</li>
 </ol>
-<h2 id="renaming-tables"><a aria-hidden="true" class="anchor-heading icon-link" href="#renaming-tables"></a>Renaming Tables</h2>
+<h2 id="renaming-tables">Renaming Tables<a aria-hidden="true" class="anchor-heading icon-link" href="#renaming-tables"></a></h2>
 <p>Similar to renaming columns, this causes errors if the application is still using the table.</p>
 <p>Instead, do the following:</p>
 <ol>
@@ -51,7 +51,7 @@
 <li>Stop writes to the old table</li>
 <li>Drop the old table</li>
 </ol>
-<h2 id="adding-check-constraints"><a aria-hidden="true" class="anchor-heading icon-link" href="#adding-check-constraints"></a>Adding Check Constraints</h2>
+<h2 id="adding-check-constraints">Adding Check Constraints<a aria-hidden="true" class="anchor-heading icon-link" href="#adding-check-constraints"></a></h2>
 <p>Adding a check constraints causes all existing rows to be checked. This blocks writes in MySQL and both reads and writes in Postgres.</p>
 <p>In Postgres:</p>
 <ol>
@@ -64,7 +64,7 @@ Postgres acquires a SHARE UPDATE EXCLUSIVE lock while validating the constraint 
 <p>This 2-step process is also useful when there is existing data that violates the constraint. The process can be repeated until all violations are fixed.</p>
 </li>
 </ol>
-<h2 id="setting-not-null-on-existing-column"><a aria-hidden="true" class="anchor-heading icon-link" href="#setting-not-null-on-existing-column"></a>Setting Not Null On Existing Column</h2>
+<h2 id="setting-not-null-on-existing-column">Setting Not Null On Existing Column<a aria-hidden="true" class="anchor-heading icon-link" href="#setting-not-null-on-existing-column"></a></h2>
 <p>Blocks reads and writes while existing rows are checked.</p>
 <p>For Postgres, do the following instead:</p>
 <ol>
@@ -72,17 +72,17 @@ Postgres acquires a SHARE UPDATE EXCLUSIVE lock while validating the constraint 
 <li>Validate the constraint in a separate statement for existing data: <code>ALTER TABLE my_table VALIDATE CONSTRAINT my_constraint;</code></li>
 <li>From Postgres 12, it is safe to then set <code>not null</code> on the column, then remove the check constraint.</li>
 </ol>
-<h3 id="adding-index-non-currently-in-postgres"><a aria-hidden="true" class="anchor-heading icon-link" href="#adding-index-non-currently-in-postgres"></a>Adding Index Non-currently In Postgres</h3>
+<h3 id="adding-index-non-currently-in-postgres">Adding Index Non-currently In Postgres<a aria-hidden="true" class="anchor-heading icon-link" href="#adding-index-non-currently-in-postgres"></a></h3>
 <p>Normally, creating an index blocks writes till the indexx has been built. <a href="https://www.postgresql.org/docs/current/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY">Postgres supports building indixes concurrently</a> in a way that doesn't block writes:</p>
 <pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">INDEX</span> CONCURRENTLY some_index <span class="token keyword">ON</span> my_table<span class="token punctuation">(</span>some_column<span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
 <p>This is also applicable to adding foreign keys or references.</p>
 <p>This is not needed if the index is being created with a new table in the same migration.</p>
-<h2 id="linting"><a aria-hidden="true" class="anchor-heading icon-link" href="#linting"></a>Linting</h2>
+<h2 id="linting">Linting<a aria-hidden="true" class="anchor-heading icon-link" href="#linting"></a></h2>
 <ul>
 <li><a href="https://github.com/ankane/strong_migrations#checks">Strong Migrations</a> is a Ruby gem that can lint for such unsafe migrations</li>
 </ul>
-<h2 id="references"><a aria-hidden="true" class="anchor-heading icon-link" href="#references"></a>References</h2>
+<h2 id="references">References<a aria-hidden="true" class="anchor-heading icon-link" href="#references"></a></h2>
 <ul>
 <li><a href="https://medium.com/paypal-tech/postgresql-at-scale-database-schema-changes-without-downtime-20d3749ed680">PostgreSQL at Scale: Database Schema Changes Without Downtime</a></li>
 <li><a href="https://github.com/fabianlindfors/reshape">reshape</a> is a new tool that tries to automate unsafe migrations for Postgres</li>
