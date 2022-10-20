@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729475077,
-      "created": 1665729475077,
+      "updated": 1666268429444,
+      "created": 1666268429444,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -68,13 +68,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "wny4p5gnmtxch3znbvrz03y",
-        "1zs6mxx25w0iag6v4oqtpt3"
+        "gxas1880ipstqogp6bmv4wt",
+        "t6zju6sj30avv9ez41iq1q0"
       ],
       "parent": null,
       "data": {}
     },
-    "1zs6mxx25w0iag6v4oqtpt3": {
+    "t6zju6sj30avv9ez41iq1q0": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -84,9 +84,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472535,
-      "created": 1665729472535,
-      "id": "1zs6mxx25w0iag6v4oqtpt3",
+      "updated": 1666268425811,
+      "created": 1666268425811,
+      "id": "t6zju6sj30avv9ez41iq1q0",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -124,10 +124,10 @@
         }
       },
       "children": [],
-      "parent": "1zs6mxx25w0iag6v4oqtpt3",
+      "parent": "t6zju6sj30avv9ez41iq1q0",
       "data": {}
     },
-    "wny4p5gnmtxch3znbvrz03y": {
+    "gxas1880ipstqogp6bmv4wt": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -137,9 +137,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472535,
-      "created": 1665729472535,
-      "id": "wny4p5gnmtxch3znbvrz03y",
+      "updated": 1666268425810,
+      "created": 1666268425810,
+      "id": "gxas1880ipstqogp6bmv4wt",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -185,7 +185,7 @@
         }
       },
       "children": [],
-      "parent": "wny4p5gnmtxch3znbvrz03y",
+      "parent": "gxas1880ipstqogp6bmv4wt",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -209,8 +209,8 @@
       "links": [],
       "anchors": {},
       "children": [
-        "gdk4jz0ufc1k1liyjlpjma5",
-        "9j2hn70ienjqv8mykjr1c7k",
+        "r9qjtbv2vl4hkh2fmelmt8v",
+        "wuzndyncppjt36k72aqml5f",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -378,7 +378,7 @@
       "id": "c8521972-bcc2-4951-9235-235dafea203d",
       "title": "Wireguard-based VPNs",
       "desc": "VPN solutions built on top of Wireguard",
-      "updated": 1643206830884,
+      "updated": 1666268254985,
       "created": 1617545558423,
       "custom": {},
       "fname": "tools.vpn.wireguard",
@@ -388,7 +388,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "737372e3f4b8ba8fb2888b84cae9d53f",
+      "contentHash": "a68acca3c7d69760cdd4ba927d1532b3",
       "links": [],
       "anchors": {},
       "children": [],
@@ -399,7 +399,7 @@
       "id": "93e0f902-47d4-4cc7-9027-5de0012f6c57",
       "title": "Serverless Framework",
       "desc": "",
-      "updated": 1639649948370,
+      "updated": 1661948336614,
       "created": 1617588356217,
       "stub": false,
       "custom": {
@@ -412,7 +412,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "9578bfd0ac37f34fd9d18b117c42baba",
+      "contentHash": "fb4998d96a3404c256f699c04d0deab0",
       "links": [],
       "anchors": {
         "serverless-framework": {
@@ -436,6 +436,14 @@
           "text": "V2 Uses Locally Installed Package Over Global Package",
           "value": "v2-uses-locally-installed-package-over-global-package",
           "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "cloudformation-problems": {
+          "type": "header",
+          "text": "Cloudformation Problems",
+          "value": "cloudformation-problems",
+          "line": 23,
           "column": 0,
           "depth": 2
         }
@@ -1505,7 +1513,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "9j2hn70ienjqv8mykjr1c7k": {
+    "wuzndyncppjt36k72aqml5f": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1515,9 +1523,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472549,
-      "created": 1665729472549,
-      "id": "9j2hn70ienjqv8mykjr1c7k",
+      "updated": 1666268425835,
+      "created": 1666268425835,
+      "id": "wuzndyncppjt36k72aqml5f",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1605,10 +1613,10 @@
         }
       },
       "children": [],
-      "parent": "9j2hn70ienjqv8mykjr1c7k",
+      "parent": "wuzndyncppjt36k72aqml5f",
       "data": {}
     },
-    "gdk4jz0ufc1k1liyjlpjma5": {
+    "r9qjtbv2vl4hkh2fmelmt8v": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1618,9 +1626,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472549,
-      "created": 1665729472549,
-      "id": "gdk4jz0ufc1k1liyjlpjma5",
+      "updated": 1666268425834,
+      "created": 1666268425834,
+      "id": "r9qjtbv2vl4hkh2fmelmt8v",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1698,7 +1706,7 @@
         }
       },
       "children": [],
-      "parent": "gdk4jz0ufc1k1liyjlpjma5",
+      "parent": "r9qjtbv2vl4hkh2fmelmt8v",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1736,7 +1744,7 @@
         }
       },
       "children": [],
-      "parent": "gdk4jz0ufc1k1liyjlpjma5",
+      "parent": "r9qjtbv2vl4hkh2fmelmt8v",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -3299,7 +3307,7 @@
       "id": "b4fc6d48-17ae-4764-acdb-ec0f52707860",
       "title": "Sfx",
       "desc": "resources for sound effects",
-      "updated": 1635685294164,
+      "updated": 1665404233471,
       "created": 1618147710619,
       "custom": {},
       "fname": "sfx",
@@ -3309,7 +3317,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "9c2545f702c3fc22db3d25d12dc9905f",
+      "contentHash": "9440ebb32852c61aab6099cdd7e43e2f",
       "links": [],
       "anchors": {
         "sound-effects-and-music": {
@@ -3319,6 +3327,14 @@
           "line": 8,
           "column": 0,
           "depth": 1
+        },
+        "software": {
+          "type": "header",
+          "text": "Software",
+          "value": "software",
+          "line": 16,
+          "column": 0,
+          "depth": 2
         }
       },
       "children": [],
@@ -3519,7 +3535,7 @@
         "e76a4a78-6532-4e89-a36c-11b932cdee37",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "c7oyjm4zhu5421ajpmx54iw",
+        "rtyt7kjr6r6qs7il43qmh3n",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "dfc9d43f-021d-4cba-95d9-9a874772aa29",
         "q2IJiSoSoTOCd5uv",
@@ -3527,7 +3543,7 @@
         "y1wchr36gq7jxlbunknpgvu",
         "57059c08-9d38-48da-b270-68e17d22be74",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "tgm1atp5caorqd6zrm944cp",
+        "j5gtfd2qmtm5lsx12fadrw1",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5"
@@ -3765,7 +3781,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "tgm1atp5caorqd6zrm944cp": {
+    "j5gtfd2qmtm5lsx12fadrw1": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3775,9 +3791,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472546,
-      "created": 1665729472546,
-      "id": "tgm1atp5caorqd6zrm944cp",
+      "updated": 1666268425831,
+      "created": 1666268425831,
+      "id": "j5gtfd2qmtm5lsx12fadrw1",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3888,7 +3904,7 @@
         }
       },
       "children": [],
-      "parent": "tgm1atp5caorqd6zrm944cp",
+      "parent": "j5gtfd2qmtm5lsx12fadrw1",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -3969,7 +3985,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "tgm1atp5caorqd6zrm944cp",
+      "parent": "j5gtfd2qmtm5lsx12fadrw1",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -4589,12 +4605,12 @@
         }
       },
       "children": [
-        "ufi0880bz4ktw3y6ioej4vi"
+        "yq9bs3vc9ks2mn9zbsm6z77"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "ufi0880bz4ktw3y6ioej4vi": {
+    "yq9bs3vc9ks2mn9zbsm6z77": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -4604,9 +4620,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472553,
-      "created": 1665729472553,
-      "id": "ufi0880bz4ktw3y6ioej4vi",
+      "updated": 1666268425843,
+      "created": 1666268425843,
+      "id": "yq9bs3vc9ks2mn9zbsm6z77",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4680,7 +4696,7 @@
         }
       },
       "children": [],
-      "parent": "ufi0880bz4ktw3y6ioej4vi",
+      "parent": "yq9bs3vc9ks2mn9zbsm6z77",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -4968,7 +4984,7 @@
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "c7oyjm4zhu5421ajpmx54iw": {
+    "rtyt7kjr6r6qs7il43qmh3n": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -4978,9 +4994,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472545,
-      "created": 1665729472545,
-      "id": "c7oyjm4zhu5421ajpmx54iw",
+      "updated": 1666268425829,
+      "created": 1666268425829,
+      "id": "rtyt7kjr6r6qs7il43qmh3n",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5026,7 +5042,7 @@
         }
       },
       "children": [],
-      "parent": "c7oyjm4zhu5421ajpmx54iw",
+      "parent": "rtyt7kjr6r6qs7il43qmh3n",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -6434,7 +6450,7 @@
       "id": "bdb89443-18e4-48b1-91e2-080de7f2a34c",
       "title": "Reaper",
       "desc": "Using the Reaper digital audio workstation with a screen reader",
-      "updated": 1655616062356,
+      "updated": 1661062875716,
       "created": 1618054332598,
       "custom": {},
       "fname": "accessible-software.windows.reaper",
@@ -6444,7 +6460,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "f2372add673b0e3f0ad063b718c5c8b0",
+      "contentHash": "2f5a9df9b3033a654ff863ae688d5c27",
       "links": [],
       "anchors": {
         "reaper": {
@@ -6596,7 +6612,7 @@
       "id": "9b0d8708-ecb0-46ab-b036-734e4ee2c5fd",
       "title": "Voiceover On The Mac",
       "desc": "",
-      "updated": 1622103006837,
+      "updated": 1661946089940,
       "created": 1617294413484,
       "custom": {},
       "fname": "accessible-software.mac.voiceover",
@@ -6606,7 +6622,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "e4df3c9416dcd24213d0f1190601b465",
+      "contentHash": "4b45c26dc9e58110442787d948d4b77e",
       "links": [],
       "anchors": {
         "voiceover-on-mac": {
@@ -6860,7 +6876,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "wbcxxbyaiwkdowbm7x1kq2s",
+        "3uquykm8tupwrfoaq7jdkzy",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -15478,7 +15494,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "wbcxxbyaiwkdowbm7x1kq2s": {
+    "3uquykm8tupwrfoaq7jdkzy": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -15488,9 +15504,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1665729472499,
-      "created": 1665729472499,
-      "id": "wbcxxbyaiwkdowbm7x1kq2s",
+      "updated": 1666268425756,
+      "created": 1666268425756,
+      "id": "3uquykm8tupwrfoaq7jdkzy",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -15536,7 +15552,7 @@
         }
       },
       "children": [],
-      "parent": "wbcxxbyaiwkdowbm7x1kq2s",
+      "parent": "3uquykm8tupwrfoaq7jdkzy",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -16187,8 +16203,8 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "n3roqminineyqvqxf2otprn",
-        "gx9oghpr3fm4bzxc5bfc5fo",
+        "oa7tiwp93qka85hjv4ynlsx",
+        "ana66rofbtc5sinm538zv84",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16203,21 +16219,22 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "wny4p5gnmtxch3znbvrz03y",
-        "1zs6mxx25w0iag6v4oqtpt3",
+        "gxas1880ipstqogp6bmv4wt",
+        "t6zju6sj30avv9ez41iq1q0",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
+        "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "zg0sc6ferd8x6gqg0epmlwd",
-        "1djgpzvr3w0jotbzw110571",
-        "vhsrnsp9f9jvrzb6m0kbmoi",
-        "1pqwd8isgnbn6adnr8xxlsq",
-        "t6x4eqopgz79o4prq20k9xj",
-        "6bwbt4t2qw0vjxioyoxfv0y",
-        "7dsre0mpvbwj7yykrfi9p0t",
-        "7wbpqnzk7c1qff7ecxtu2cc"
+        "etasg14uuob6iwcumk21w5m",
+        "hn4873enb5nq28bz8moovyp",
+        "jpudqr6l0b21y0198ki3nyx",
+        "ugst6ihgn8pvqsezh68t43u",
+        "ar68eizwl9o4gj5br93iqiw",
+        "jrrmthkd5jxdxnqdnixjqz7",
+        "epxdd67jdw8s0c7gxt04ea4",
+        "psx2861h25de2d5no0e1c5u"
       ],
       "parent": null,
       "data": {},
@@ -16261,8 +16278,8 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "n3roqminineyqvqxf2otprn",
-      "gx9oghpr3fm4bzxc5bfc5fo",
+      "oa7tiwp93qka85hjv4ynlsx",
+      "ana66rofbtc5sinm538zv84",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16277,21 +16294,22 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "wny4p5gnmtxch3znbvrz03y",
-      "1zs6mxx25w0iag6v4oqtpt3",
+      "gxas1880ipstqogp6bmv4wt",
+      "t6zju6sj30avv9ez41iq1q0",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
+      "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "zg0sc6ferd8x6gqg0epmlwd",
-      "1djgpzvr3w0jotbzw110571",
-      "vhsrnsp9f9jvrzb6m0kbmoi",
-      "1pqwd8isgnbn6adnr8xxlsq",
-      "t6x4eqopgz79o4prq20k9xj",
-      "6bwbt4t2qw0vjxioyoxfv0y",
-      "7dsre0mpvbwj7yykrfi9p0t",
-      "7wbpqnzk7c1qff7ecxtu2cc"
+      "etasg14uuob6iwcumk21w5m",
+      "hn4873enb5nq28bz8moovyp",
+      "jpudqr6l0b21y0198ki3nyx",
+      "ugst6ihgn8pvqsezh68t43u",
+      "ar68eizwl9o4gj5br93iqiw",
+      "jrrmthkd5jxdxnqdnixjqz7",
+      "epxdd67jdw8s0c7gxt04ea4",
+      "psx2861h25de2d5no0e1c5u"
     ],
     "parent": null,
     "data": {},

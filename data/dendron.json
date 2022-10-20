@@ -114,7 +114,8 @@
       ]
     },
     "enableEditorDecorations": true,
-    "enableFullHierarchyNoteTitle": false
+    "enableFullHierarchyNoteTitle": false,
+    "enableSmartRefs": false
   },
   "preview": {
     "enableFMTitle": false,

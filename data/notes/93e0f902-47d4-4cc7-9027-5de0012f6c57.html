@@ -5,6 +5,13 @@
 <h2 id="v2-uses-locally-installed-package-over-global-package">V2 Uses Locally Installed Package Over Global Package<a aria-hidden="true" class="anchor-heading icon-link" href="#v2-uses-locally-installed-package-over-global-package"></a></h2>
 <p>This caught us unaware. CI pipeline does <code>npm -i g serverless</code> to install v2.x but package.json specified an older v1.x version.</p>
 <p>I couldn't figure out why it was using an older version until coming across the <a href="https://www.serverless.com/blog/serverless-framework-v2">v2 blog post describing this breaking change</a> - if both a global and local install is available, the local one will be used.</p>
+<h2 id="cloudformation-problems">Cloudformation Problems<a aria-hidden="true" class="anchor-heading icon-link" href="#cloudformation-problems"></a></h2>
+<p>Serverless framework uses Cloudformation under the hood unfortunately. This is an issue because:</p>
+<ul>
+<li>Cloudformation has a limit of 500 resources in a stack, easily reached if developing in a monolithic repo</li>
+<li>Deployment may fail sometimes due to <a href="https://github.com/serverless/serverless/issues/8040">exceeding the rate limit of the cloudformation API</a>. This issue has not yet been fixed.</li>
+</ul>
+<p>These issues should be resolved if using <a href="https://github.com/serverless/components">Serverless Components</a></p>
 <hr>
 <strong>Children</strong>
 <ol>
