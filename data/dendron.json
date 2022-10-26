@@ -130,28 +130,14 @@
   "publishing": {
     "enableFMTitle": false,
     "enableNoteTitleForLink": true,
-    "enableMermaid": true,
     "enablePrettyRefs": true,
     "enableKatex": true,
     "copyAssets": true,
     "siteHierarchies": [
       "root"
     ],
-    "enableSiteLastModified": true,
-    "siteRootDir": "docs",
-    "siteUrl": "https://kb.neurrone.com",
-    "enableFrontmatterTags": true,
-    "enableHashesForFMTags": false,
-    "enableRandomlyColoredTags": true,
-    "duplicateNoteBehavior": {
-      "action": "useVault",
-      "payload": [
-        "main",
-        "health",
-        "Human Dynamics"
-      ]
-    },
     "writeStubs": false,
+    "siteRootDir": "docs",
     "seo": {
       "title": "Personal Knowledge Base",
       "description": "Personal knowledge Base",
@@ -164,9 +150,23 @@
       "editBranch": "main",
       "editViewMode": "tree"
     },
-    "enablePrettyLinks": true,
+    "enableSiteLastModified": true,
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
     "enableTaskNotes": true,
+    "enablePrettyLinks": true,
     "searchMode": "lookup",
+    "enableMermaid": true,
+    "siteUrl": "https://kb.neurrone.com",
+    "duplicateNoteBehavior": {
+      "action": "useVault",
+      "payload": [
+        "main",
+        "health",
+        "Human Dynamics"
+      ]
+    },
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
