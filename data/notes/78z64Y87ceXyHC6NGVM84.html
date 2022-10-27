@@ -10,5 +10,5 @@ aws lambda   update-event-source-mapping --uuid &#x3C;uuid from previous command
 </code></pre>
 </li>
 <li>Check if the queue has the expected attributes set, especially if using encryption: <code>aws sqs get-queue-attributes --queue-url &#x3C;url> --attribute-names All</code></li>
-<li>If the queue uses encryption, ensure that the lambda has the <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">necessary permissions to encrypt / decrypt the messages (Private)</a>. Otherwise, messages get dropped silently.</li>
+<li>If the queue uses encryption, ensure that the lambda has the <a href="/notes/slIGj2pqttjbdwc0QlUaQ">necessary permissions to encrypt / decrypt the messages</a>. Otherwise, messages get dropped silently.</li>
 </ul>
