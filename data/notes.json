@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472889655,
-      "created": 1670472889655,
+      "updated": 1672674023613,
+      "created": 1672674023613,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -61,19 +61,20 @@
         "4k2ot7nwcxbum3rwhovp8bp",
         "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
         "dOehc8Yap1zIbEqLvQvOt",
+        "i0g2e5s84q33i4o88s0zzcb",
         "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
         "b4fc6d48-17ae-4764-acdb-ec0f52707860",
         "091b67bf-8bfa-454c-bbd3-7d84d8216229",
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "yhid3yxwt3ugtaidjn3a9kz",
-        "hvoefpa6d44tntt8nxok2mi"
+        "hvllole5ciar8i1tx8bmk76",
+        "efkonah2xcc747mqho63w7f"
       ],
       "parent": null,
       "data": {}
     },
-    "hvoefpa6d44tntt8nxok2mi": {
+    "efkonah2xcc747mqho63w7f": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -83,9 +84,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886869,
-      "created": 1670472886869,
-      "id": "hvoefpa6d44tntt8nxok2mi",
+      "updated": 1672674019314,
+      "created": 1672674019314,
+      "id": "efkonah2xcc747mqho63w7f",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -123,10 +124,10 @@
         }
       },
       "children": [],
-      "parent": "hvoefpa6d44tntt8nxok2mi",
+      "parent": "efkonah2xcc747mqho63w7f",
       "data": {}
     },
-    "yhid3yxwt3ugtaidjn3a9kz": {
+    "hvllole5ciar8i1tx8bmk76": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -136,9 +137,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886869,
-      "created": 1670472886869,
-      "id": "yhid3yxwt3ugtaidjn3a9kz",
+      "updated": 1672674019314,
+      "created": 1672674019314,
+      "id": "hvllole5ciar8i1tx8bmk76",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -184,7 +185,7 @@
         }
       },
       "children": [],
-      "parent": "yhid3yxwt3ugtaidjn3a9kz",
+      "parent": "hvllole5ciar8i1tx8bmk76",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -216,8 +217,8 @@
         }
       },
       "children": [
-        "sskqo5a3i8z7stcw31xudtf",
-        "0teq0pi5nvjbh5y3wvfhuiq",
+        "phi19bbhnmwbismv9arho7w",
+        "rfwj3fdr6a7hbsfkb3d06ia",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -1514,7 +1515,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "0teq0pi5nvjbh5y3wvfhuiq": {
+    "rfwj3fdr6a7hbsfkb3d06ia": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1524,9 +1525,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886886,
-      "created": 1670472886886,
-      "id": "0teq0pi5nvjbh5y3wvfhuiq",
+      "updated": 1672674019340,
+      "created": 1672674019340,
+      "id": "rfwj3fdr6a7hbsfkb3d06ia",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1614,10 +1615,10 @@
         }
       },
       "children": [],
-      "parent": "0teq0pi5nvjbh5y3wvfhuiq",
+      "parent": "rfwj3fdr6a7hbsfkb3d06ia",
       "data": {}
     },
-    "sskqo5a3i8z7stcw31xudtf": {
+    "phi19bbhnmwbismv9arho7w": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1627,9 +1628,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886885,
-      "created": 1670472886885,
-      "id": "sskqo5a3i8z7stcw31xudtf",
+      "updated": 1672674019339,
+      "created": 1672674019339,
+      "id": "phi19bbhnmwbismv9arho7w",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1707,7 +1708,7 @@
         }
       },
       "children": [],
-      "parent": "sskqo5a3i8z7stcw31xudtf",
+      "parent": "phi19bbhnmwbismv9arho7w",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1745,7 +1746,7 @@
         }
       },
       "children": [],
-      "parent": "sskqo5a3i8z7stcw31xudtf",
+      "parent": "phi19bbhnmwbismv9arho7w",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -1818,6 +1819,7 @@
         "yfNMEt5vdhD4aVRYBj5el",
         "7b8dea00-b854-46fc-baa1-fd704afb3a72",
         "e2cff1f1-1f33-4ba7-8a3c-4f57a5077fd4",
+        "vtm4s60elzvw2dz37gc470w",
         "7V9Igw98Se9B8gNH2ftXB",
         "606c2b54-a071-433b-ac23-3ab621c2f8c2",
         "pzb0nWn4uq72opt2777vW",
@@ -2493,6 +2495,36 @@
           "line": 30,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "vtm4s60elzvw2dz37gc470w": {
+      "id": "vtm4s60elzvw2dz37gc470w",
+      "title": "Pdf Signing",
+      "desc": "",
+      "updated": 1672307452764,
+      "created": 1672307424288,
+      "custom": {},
+      "fname": "tech.pdf-signing",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "c5d1432b3bfed6839d1bb57e5651e301",
+      "links": [],
+      "anchors": {
+        "pdf-signing": {
+          "type": "header",
+          "text": "PDF Signing",
+          "value": "pdf-signing",
+          "line": 8,
+          "column": 0,
+          "depth": 1
         }
       },
       "children": [],
@@ -3351,7 +3383,7 @@
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1659167076701,
+      "updated": 1669546002239,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -3361,7 +3393,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "ae52bb77fbcbd3423aab19096997bba7",
+      "contentHash": "a974193871e90097987cca649fc748ad",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -3384,7 +3416,7 @@
           "type": "header",
           "text": "Audio Digital Signal Processing",
           "value": "audio-digital-signal-processing",
-          "line": 27,
+          "line": 29,
           "column": 0,
           "depth": 3
         },
@@ -3392,7 +3424,7 @@
           "type": "header",
           "text": "Calculus",
           "value": "calculus",
-          "line": 32,
+          "line": 34,
           "column": 0,
           "depth": 2
         },
@@ -3400,7 +3432,7 @@
           "type": "header",
           "text": "Linear Algebra",
           "value": "linear-algebra",
-          "line": 36,
+          "line": 38,
           "column": 0,
           "depth": 2
         },
@@ -3408,7 +3440,7 @@
           "type": "header",
           "text": "Introduction To Proofs",
           "value": "introduction-to-proofs",
-          "line": 40,
+          "line": 42,
           "column": 0,
           "depth": 2
         },
@@ -3416,7 +3448,7 @@
           "type": "header",
           "text": "Probability And Statistics",
           "value": "probability-and-statistics",
-          "line": 44,
+          "line": 46,
           "column": 0,
           "depth": 2
         },
@@ -3424,9 +3456,39 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 49,
+          "line": 51,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
+    "i0g2e5s84q33i4o88s0zzcb": {
+      "id": "i0g2e5s84q33i4o88s0zzcb",
+      "title": "Notetaking Apps",
+      "desc": "",
+      "updated": 1670496221337,
+      "created": 1670496128080,
+      "custom": {},
+      "fname": "notetaking-apps",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "c50404871e9394481f9a04a653b186ba",
+      "links": [],
+      "anchors": {
+        "notetaking-apps": {
+          "type": "header",
+          "text": "Notetaking Apps",
+          "value": "notetaking-apps",
+          "line": 8,
+          "column": 0,
+          "depth": 1
         }
       },
       "children": [],
@@ -3540,7 +3602,7 @@
         "e76a4a78-6532-4e89-a36c-11b932cdee37",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "baco6u9p71rtfqerxdqct1f",
+        "32i3cj5mnsip57ao8sxt1uu",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "dfc9d43f-021d-4cba-95d9-9a874772aa29",
         "q2IJiSoSoTOCd5uv",
@@ -3548,7 +3610,7 @@
         "y1wchr36gq7jxlbunknpgvu",
         "57059c08-9d38-48da-b270-68e17d22be74",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "sdenwhdqqw6qhvyluo4bbuz",
+        "1ohwz2ph78eo84fbsknn93v",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "3d77adfc-5373-4700-a129-e297ad6521b5"
@@ -3783,7 +3845,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "sdenwhdqqw6qhvyluo4bbuz": {
+    "1ohwz2ph78eo84fbsknn93v": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3793,9 +3855,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886883,
-      "created": 1670472886883,
-      "id": "sdenwhdqqw6qhvyluo4bbuz",
+      "updated": 1672674019336,
+      "created": 1672674019336,
+      "id": "1ohwz2ph78eo84fbsknn93v",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -3906,14 +3968,14 @@
         }
       },
       "children": [],
-      "parent": "sdenwhdqqw6qhvyluo4bbuz",
+      "parent": "1ohwz2ph78eo84fbsknn93v",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
       "id": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "title": "Postgres",
       "desc": "",
-      "updated": 1640237319440,
+      "updated": 1670495176860,
       "created": 1618141186045,
       "custom": {},
       "fname": "dev.sql.postgres",
@@ -3923,7 +3985,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "525a6edca4688a286712786ed2c9a8a2",
+      "contentHash": "4531a2e916907fa30e42643b8fd443bc",
       "links": [],
       "anchors": {
         "postgres": {
@@ -3962,7 +4024,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 29,
+          "line": 31,
           "column": 0,
           "depth": 2
         },
@@ -3970,7 +4032,7 @@
           "type": "header",
           "text": "Text Vs Varchar",
           "value": "text-vs-varchar",
-          "line": 33,
+          "line": 35,
           "column": 0,
           "depth": 2
         },
@@ -3978,7 +4040,7 @@
           "type": "header",
           "text": "ZFS",
           "value": "zfs",
-          "line": 37,
+          "line": 39,
           "column": 0,
           "depth": 2
         }
@@ -3987,7 +4049,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "sdenwhdqqw6qhvyluo4bbuz",
+      "parent": "1ohwz2ph78eo84fbsknn93v",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -4615,12 +4677,12 @@
         }
       },
       "children": [
-        "504zpnafi911metew3qqzi9"
+        "237e88wt5zhb5wjg9ez4b3j"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "504zpnafi911metew3qqzi9": {
+    "237e88wt5zhb5wjg9ez4b3j": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -4630,9 +4692,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886895,
-      "created": 1670472886895,
-      "id": "504zpnafi911metew3qqzi9",
+      "updated": 1672674019348,
+      "created": 1672674019348,
+      "id": "237e88wt5zhb5wjg9ez4b3j",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4706,7 +4768,7 @@
         }
       },
       "children": [],
-      "parent": "504zpnafi911metew3qqzi9",
+      "parent": "237e88wt5zhb5wjg9ez4b3j",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -4993,7 +5055,7 @@
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "baco6u9p71rtfqerxdqct1f": {
+    "32i3cj5mnsip57ao8sxt1uu": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -5003,9 +5065,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886881,
-      "created": 1670472886881,
-      "id": "baco6u9p71rtfqerxdqct1f",
+      "updated": 1672674019333,
+      "created": 1672674019333,
+      "id": "32i3cj5mnsip57ao8sxt1uu",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5051,7 +5113,7 @@
         }
       },
       "children": [],
-      "parent": "baco6u9p71rtfqerxdqct1f",
+      "parent": "32i3cj5mnsip57ao8sxt1uu",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -6904,7 +6966,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "r47cyicamsqijhndmdjkpb4",
+        "hrjm6go8aycl5cbf3q6ym39",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -15522,7 +15584,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "r47cyicamsqijhndmdjkpb4": {
+    "hrjm6go8aycl5cbf3q6ym39": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -15532,9 +15594,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1670472886832,
-      "created": 1670472886832,
-      "id": "r47cyicamsqijhndmdjkpb4",
+      "updated": 1672674019258,
+      "created": 1672674019258,
+      "id": "hrjm6go8aycl5cbf3q6ym39",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -15580,7 +15642,7 @@
         }
       },
       "children": [],
-      "parent": "r47cyicamsqijhndmdjkpb4",
+      "parent": "hrjm6go8aycl5cbf3q6ym39",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -16229,8 +16291,8 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "olqa0dv06o6ea3ytga5le6j",
-        "mdbyaki5ta8oaicspx63hiz",
+        "ibxzj7h06w5gwlti76o8bir",
+        "l7s4tanoarswslaxrsv73c7",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16239,28 +16301,29 @@
         "4k2ot7nwcxbum3rwhovp8bp",
         "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
         "dOehc8Yap1zIbEqLvQvOt",
+        "i0g2e5s84q33i4o88s0zzcb",
         "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
         "b4fc6d48-17ae-4764-acdb-ec0f52707860",
         "091b67bf-8bfa-454c-bbd3-7d84d8216229",
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "yhid3yxwt3ugtaidjn3a9kz",
-        "hvoefpa6d44tntt8nxok2mi",
+        "hvllole5ciar8i1tx8bmk76",
+        "efkonah2xcc747mqho63w7f",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "qkz8sd84eqb8q22vpx2jj2t",
-        "7nw9pufwvcr45p0oprr1y3x",
-        "wl9mnkr3yf7tnrucymaxymt",
-        "5jgb246rbu77jd94aijixvz",
-        "welfze2wtdfhkmlkyc98t2f",
-        "y0ioduh7l6a04thx7m4asft",
-        "lzvxacrjynzigoubv0d6mc4",
-        "jndven4ftthco0odso5n3u8"
+        "l8n92a7tdonpey3yu2ad8nq",
+        "dazwn422ckhuz0rs4l40s80",
+        "nj9timjrpuwagplxnxlr99f",
+        "zoo04i06pinp8qs3fka5m9g",
+        "7aefh5h5txg9klm2ko2v4jr",
+        "oh45pnkgd02drw1fdhmuq0e",
+        "z8ixm2ghvozn0qmtmvkabfs",
+        "7v03vjxiz1ts4zx3863qm7g"
       ],
       "parent": null,
       "data": {},
@@ -16303,8 +16366,8 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "olqa0dv06o6ea3ytga5le6j",
-      "mdbyaki5ta8oaicspx63hiz",
+      "ibxzj7h06w5gwlti76o8bir",
+      "l7s4tanoarswslaxrsv73c7",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16313,28 +16376,29 @@
       "4k2ot7nwcxbum3rwhovp8bp",
       "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "dOehc8Yap1zIbEqLvQvOt",
+      "i0g2e5s84q33i4o88s0zzcb",
       "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "b4fc6d48-17ae-4764-acdb-ec0f52707860",
       "091b67bf-8bfa-454c-bbd3-7d84d8216229",
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "yhid3yxwt3ugtaidjn3a9kz",
-      "hvoefpa6d44tntt8nxok2mi",
+      "hvllole5ciar8i1tx8bmk76",
+      "efkonah2xcc747mqho63w7f",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "qkz8sd84eqb8q22vpx2jj2t",
-      "7nw9pufwvcr45p0oprr1y3x",
-      "wl9mnkr3yf7tnrucymaxymt",
-      "5jgb246rbu77jd94aijixvz",
-      "welfze2wtdfhkmlkyc98t2f",
-      "y0ioduh7l6a04thx7m4asft",
-      "lzvxacrjynzigoubv0d6mc4",
-      "jndven4ftthco0odso5n3u8"
+      "l8n92a7tdonpey3yu2ad8nq",
+      "dazwn422ckhuz0rs4l40s80",
+      "nj9timjrpuwagplxnxlr99f",
+      "zoo04i06pinp8qs3fka5m9g",
+      "7aefh5h5txg9klm2ko2v4jr",
+      "oh45pnkgd02drw1fdhmuq0e",
+      "z8ixm2ghvozn0qmtmvkabfs",
+      "7v03vjxiz1ts4zx3863qm7g"
     ],
     "parent": null,
     "data": {},

@@ -114,13 +114,11 @@
       ]
     },
     "enableEditorDecorations": true,
-    "enableFullHierarchyNoteTitle": false,
-    "enableSmartRefs": false
+    "enableFullHierarchyNoteTitle": false
   },
   "preview": {
     "enableFMTitle": false,
     "enableNoteTitleForLink": true,
-    "enableMermaid": true,
     "enablePrettyRefs": true,
     "enableKatex": true,
     "enableFrontmatterTags": true,
@@ -157,7 +155,6 @@
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
     "searchMode": "lookup",
-    "enableMermaid": true,
     "siteUrl": "https://kb.neurrone.com",
     "duplicateNoteBehavior": {
       "action": "useVault",
