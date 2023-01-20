@@ -1,0 +1,46 @@
+<h1 id="jwt">JWT<a aria-hidden="true" class="anchor-heading icon-link" href="#jwt"></a></h1>
+<p>A JSON Web Token (JWT) is a security token encoded as a JSON with a specific format.</p>
+<p>There are two types of JWTs:</p>
+<ul>
+<li>JSON Web Signature (JWS): data contained in the token is public and not encrypted</li>
+<li>JSON Web Encryption (JWE): data is encrypted and private.</li>
+</ul>
+<h2 id="jws">JWS<a aria-hidden="true" class="anchor-heading icon-link" href="#jws"></a></h2>
+<p>JWS are used by OAuth2 providers. It is sent as an HTTP header that looks like this:</p>
+<pre><code>Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiSm9lIENvZGVyIn0.5dlp7GmziL2QS06sZgK4mtaqv0_xX4oFUuTDh1zHK4U
+</code></pre>
+<p>JWS contain 3 parts, separate by a dot (<code>.</code>):</p>
+<ol>
+<li>Header, Base64 url-encoded JSON. Contains information on how the JWT was created.</li>
+<li>Payload, Base64 url-encoded JSON</li>
+<li>Cryptographic signature, base64 url-encoded binary data</li>
+</ol>
+<p>In the example above, the 3 parts are:</p>
+<ol>
+<li>Header: <code>eyJhbGciOiJIUzI1NiJ9</code>, this is base64 url-decoded into <code>{"alg":"HS256"}</code> which specifies the hashing algorithm HMAC SHA-256 is used to generate or validate the signature</li>
+<li>Payload: <code>eyJuYW1lIjoiSm9lIENvZGVyIn0</code>, base64 url-decodes to <code>{"name":"Joe Coder"}</code></li>
+<li>Signature: <code>5dlp7GmziL2QS06sZgK4mtaqv0_xX4oFUuTDh1zHK4U</code></li>
+</ol>
+<p>When people talk about JWTs, they usually refer to JWS.</p>
+<p>If you have a JWT with more than three sections, it’s probably a JWE.</p>
+<h2 id="jwt-claims">JWT Claims<a aria-hidden="true" class="anchor-heading icon-link" href="#jwt-claims"></a></h2>
+<p>A JWT claim is a key-value pair in the payload. In the above example, the key is <code>"name"</code> and the value is <code>"Joe Coder"</code>. The value of a claim can be any JSON object.</p>
+<p>There are 3 types of claims: registered, public and private.</p>
+<p>Registered and public claims can be found on the <a href="https://www.iana.org/assignments/jwt/jwt.xhtml#claims">official IANA registry</a>.
+The use of registered claims is optional, but when they are present, they MUST be validated. For example, a JWT may contain date-time fields that describe when the token is valid.</p>
+<p>Private claims are any other custom claims not in the registry. Avoid choosing names that collide with public or registered claims.</p>
+<h2 id="jwt-signatures">JWT Signatures<a aria-hidden="true" class="anchor-heading icon-link" href="#jwt-signatures"></a></h2>
+<p>The JWT spec lists two types of signing algorithms:</p>
+<ul>
+<li>HMAC based shared secret, these have the HS prefix which stands for HMAC SHA</li>
+<li>Public key pair, either RSA or ECDSA</li>
+</ul>
+<p>To validate the JWS in the above example, calculate the HMAC of the first two parts of the token, then compare the output with the base64-url decoded signature.</p>
+<h2 id="problems-with-jwts">Problems With JWTs<a aria-hidden="true" class="anchor-heading icon-link" href="#problems-with-jwts"></a></h2>
+<p>Fully validating a JWT is difficult, use an updated and maintained library.</p>
+<p>The algorithm header claim can be set to "none", which disables signature verification. When possible, configure your JWT library to only allow a specific list of algorithms.</p>
+<p>Validating a token locally does NOT check if it has been revoked, e.g., a user has logged out or has been deleted. Keeping the life span of the token short (by setting the "expiration" claim) can help mitigate the risk.</p>
+<h2 id="useful-websites">Useful Websites<a aria-hidden="true" class="anchor-heading icon-link" href="#useful-websites"></a></h2>
+<ul>
+<li><a href="https://token.dev/">token.dev</a>: inspect and generate JWTs</li>
+</ul>
