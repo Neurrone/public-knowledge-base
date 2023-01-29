@@ -1,12 +1,17 @@
 
 # Math
 
+## Authoring
+
+- [Quarto](https://quarto.org/): a system for scientific publication built on Pandoc
+
 ## Reading Books / Papers
 
 - [InftyReader](http://www.inftyreader.org/?p=29) converts PDFs with math into text with math in TeX
 - [arXiv archive](https://arxiv.org/): has LaTeX source of many papers
 - [ar5iv](https://ar5iv.org/) renders papers on arXiv in html using the LaTeX source. Math is rendered via MathML. Replace the x with 5 in arXiv urls to get a HTML version
 - [arXiv Vanity](https://www.arxiv-vanity.com/) renders papers on arXiv in html using the LaTeX source. Math has LaTeX alt text
+- [I-Stem](https://portal.istemai.com/register): converts inaccessible PDFs containing math to HTML
 - [Paper to HTML Converter ](https://papertohtml.org/) is an experimental project that converts pdf to html via machine learning models
 - [LaTeX Access](https://sourceforge.net/projects/latex-access/): scripts for more easily reading LaTeX source. E.g, `\frac{x}{2}` gets read as `x over 2`
 - [treemendous, a tree exploration tool](https://github.com/codeofdusk/treemendous)
