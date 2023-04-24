@@ -4,6 +4,7 @@
 ## Authoring
 
 - [Quarto](https://quarto.org/): a system for scientific publication built on Pandoc
+- [SVG Study Guide](https://docs.google.com/document/d/e/2PACX-1vQLAvLbolnTOwAqWdGH95h1G5kafuCf831zqOOhKfsb22x8DixKx3Gqiti8WWi60Fq1rqzwMdhuQLuG/pub), also see[this blog post on tactile drawing](https://marconius.com/blog/index.php/2023/04/16/on-drawing/)
 
 ## Reading Books / Papers
 
