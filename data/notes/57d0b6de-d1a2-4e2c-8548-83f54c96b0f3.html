@@ -13,6 +13,7 @@
 <ul>
 <li><a href="https://pgdash.io/blog/postgresql-six-not-so-easy-pieces.html">PostgreSQL: Six Not-So-Easy Pieces</a></li>
 <li><a href="https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791">10 Things I Hate About PostgreSQL</a></li>
+<li><a href="https://ottertune.com/blog/the-part-of-postgresql-we-hate-the-most/">Problems with Postgres's MVCC implementation</a></li>
 <li><a href="https://blog.timescale.com/blog/how-we-made-distinct-queries-up-to-8000x-faster-on-postgresql/">How we made DISTINCT queries up to 8000x faster on PostgreSQL </a>
 <blockquote>
 <p>PostgreSQL currently lacks the ability to efficiently pull a list of unique values from an ordered index. Even when you have an index that matches the exact order and columns for these "last point" queries, PostgreSQL is still forced to scan the entire index to find all unique values. As a table grows (and they grow quickly with time-series data), this operation keeps getting slower.</p>
@@ -26,6 +27,10 @@
 <h2 id="security">Security<a aria-hidden="true" class="anchor-heading icon-link" href="#security"></a></h2>
 <ul>
 <li><a href="https://goteleport.com/blog/securing-postgres-postgresql/">PostgreSQL Security Hardening</a></li>
+</ul>
+<h2 id="soft-deletes">Soft Deletes<a aria-hidden="true" class="anchor-heading icon-link" href="#soft-deletes"></a></h2>
+<ul>
+<li><a href="https://evilmartians.com/chronicles/soft-deletion-with-postgresql-but-with-logic-on-the-database">Implementing soft deletes at the database layer with rules</a></li>
 </ul>
 <h2 id="text-vs-varchar">Text Vs Varchar<a aria-hidden="true" class="anchor-heading icon-link" href="#text-vs-varchar"></a></h2>
 <p>The <code>text</code> data type has no limits on string length and seems like an easy choice over using <code>varchar</code>, as there are no performance advantages to using <code>varchar</code> over <code>text</code>. However, using <code>varchar</code> can help <a href="https://brandur.org/text">enforce constraints on reasonable text lengths</a> and prevents storage of too much data.</p>
