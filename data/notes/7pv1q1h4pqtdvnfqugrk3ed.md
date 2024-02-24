@@ -5,6 +5,7 @@
 
 - [Datasette](https://datasette.io/): exploring SQLite databases in the browser
 - [sqlite-utils CLI tool and Python library for manipulating SQLite databases](https://sqlite-utils.datasette.io/en/stable/index.html)
+- [wddbfs: browse SQLite database contents on the filesystem](https://github.com/adamobeng/wddbfs?ref=selfh.st)
 
 ## Database Synchronization / replication
 

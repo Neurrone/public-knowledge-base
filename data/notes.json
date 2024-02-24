@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403970589,
-      "created": 1707403970589,
+      "updated": 1708792128275,
+      "created": 1708792128275,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -68,13 +68,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "9m7byc402canqaj3cld1tz4",
-        "z22r1a73hb7ywo88to9xwx3"
+        "dfdb7qsaio7qk0h7ggfudlg",
+        "00kquthhoyaof33geodjmq2"
       ],
       "parent": null,
       "data": {}
     },
-    "z22r1a73hb7ywo88to9xwx3": {
+    "00kquthhoyaof33geodjmq2": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -84,9 +84,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966374,
-      "created": 1707403966374,
-      "id": "z22r1a73hb7ywo88to9xwx3",
+      "updated": 1708792123856,
+      "created": 1708792123856,
+      "id": "00kquthhoyaof33geodjmq2",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -124,10 +124,10 @@
         }
       },
       "children": [],
-      "parent": "z22r1a73hb7ywo88to9xwx3",
+      "parent": "00kquthhoyaof33geodjmq2",
       "data": {}
     },
-    "9m7byc402canqaj3cld1tz4": {
+    "dfdb7qsaio7qk0h7ggfudlg": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -137,9 +137,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966373,
-      "created": 1707403966373,
-      "id": "9m7byc402canqaj3cld1tz4",
+      "updated": 1708792123855,
+      "created": 1708792123855,
+      "id": "dfdb7qsaio7qk0h7ggfudlg",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -185,7 +185,7 @@
         }
       },
       "children": [],
-      "parent": "9m7byc402canqaj3cld1tz4",
+      "parent": "dfdb7qsaio7qk0h7ggfudlg",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -217,8 +217,8 @@
         }
       },
       "children": [
-        "v65kdp9ykqlkkicnsjzf8l5",
-        "902a23aepnvpig13fi5kewk",
+        "rfm03n03r33n43kepwvow4m",
+        "4icuw8cgm5n9ziywpqy5thp",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -983,7 +983,7 @@
       "id": "2032f380-6e47-43fa-b9bb-1e1848cba87a",
       "title": "Useful Git Settings",
       "desc": "",
-      "updated": 1618659333510,
+      "updated": 1708788589425,
       "created": 1618659124007,
       "custom": {},
       "fname": "tools.git.useful-settings",
@@ -993,14 +993,22 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "08298c04a3978df4ea86a84cc8f29f52",
+      "contentHash": "ffee991793811d5233e3ec161b62a3a1",
       "links": [],
       "anchors": {
+        "a-bunch-of-useful-settings": {
+          "type": "header",
+          "text": "A bunch of useful settings",
+          "value": "a-bunch-of-useful-settings",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
         "dynamic-git-identities": {
           "type": "header",
           "text": "Dynamic Git Identities",
           "value": "dynamic-git-identities",
-          "line": 8,
+          "line": 12,
           "column": 0,
           "depth": 2
         },
@@ -1008,7 +1016,7 @@
           "type": "header",
           "text": "Sort Git Branches By Recency",
           "value": "sort-git-branches-by-recency",
-          "line": 21,
+          "line": 25,
           "column": 0,
           "depth": 2
         }
@@ -1515,7 +1523,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "902a23aepnvpig13fi5kewk": {
+    "4icuw8cgm5n9ziywpqy5thp": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1525,9 +1533,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966407,
-      "created": 1707403966407,
-      "id": "902a23aepnvpig13fi5kewk",
+      "updated": 1708792123889,
+      "created": 1708792123889,
+      "id": "4icuw8cgm5n9ziywpqy5thp",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1615,10 +1623,10 @@
         }
       },
       "children": [],
-      "parent": "902a23aepnvpig13fi5kewk",
+      "parent": "4icuw8cgm5n9ziywpqy5thp",
       "data": {}
     },
-    "v65kdp9ykqlkkicnsjzf8l5": {
+    "rfm03n03r33n43kepwvow4m": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1628,9 +1636,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966407,
-      "created": 1707403966407,
-      "id": "v65kdp9ykqlkkicnsjzf8l5",
+      "updated": 1708792123888,
+      "created": 1708792123888,
+      "id": "rfm03n03r33n43kepwvow4m",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1708,7 +1716,7 @@
         }
       },
       "children": [],
-      "parent": "v65kdp9ykqlkkicnsjzf8l5",
+      "parent": "rfm03n03r33n43kepwvow4m",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1746,7 +1754,7 @@
         }
       },
       "children": [],
-      "parent": "v65kdp9ykqlkkicnsjzf8l5",
+      "parent": "rfm03n03r33n43kepwvow4m",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -3650,9 +3658,10 @@
         "334byo7iudrv5i2cxaetxa6",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "rveiutemquz671d172ac5x3",
+        "kc2jogdgkr96jn00fuxt1pv",
         "ad1t6909uwm332qb17dkgy1",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
+        "9u86t3vdwdylduprhqd0bgz",
         "dfc9d43f-021d-4cba-95d9-9a874772aa29",
         "q2IJiSoSoTOCd5uv",
         "e76uzpr6xo4wfjmcbmt0dsy",
@@ -3661,7 +3670,7 @@
         "y1wchr36gq7jxlbunknpgvu",
         "57059c08-9d38-48da-b270-68e17d22be74",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "udua17ph0mvcn54pxqn0wha",
+        "qr687071k7wbcl0owdsv284",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "v4w3z7vrfi2os93m8g0zd1g",
@@ -3935,7 +3944,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "udua17ph0mvcn54pxqn0wha": {
+    "qr687071k7wbcl0owdsv284": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3945,9 +3954,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966397,
-      "created": 1707403966397,
-      "id": "udua17ph0mvcn54pxqn0wha",
+      "updated": 1708792123879,
+      "created": 1708792123879,
+      "id": "qr687071k7wbcl0owdsv284",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4059,14 +4068,14 @@
         }
       },
       "children": [],
-      "parent": "udua17ph0mvcn54pxqn0wha",
+      "parent": "qr687071k7wbcl0owdsv284",
       "data": {}
     },
     "7pv1q1h4pqtdvnfqugrk3ed": {
       "id": "7pv1q1h4pqtdvnfqugrk3ed",
       "title": "Sqlite",
       "desc": "",
-      "updated": 1690622814241,
+      "updated": 1708787832482,
       "created": 1688045682857,
       "custom": {},
       "fname": "dev.sql.sqlite",
@@ -4076,7 +4085,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "21b525d56e50722a1af846f06104d10a",
+      "contentHash": "84db003b6f811babb89c731c58553fa3",
       "links": [],
       "anchors": {
         "sqlite": {
@@ -4099,20 +4108,20 @@
           "type": "header",
           "text": "Database Synchronization / replication",
           "value": "database-synchronization--replication",
-          "line": 15,
+          "line": 16,
           "column": 0,
           "depth": 2
         }
       },
       "children": [],
-      "parent": "udua17ph0mvcn54pxqn0wha",
+      "parent": "qr687071k7wbcl0owdsv284",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
       "id": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "title": "Postgres",
       "desc": "",
-      "updated": 1688206382168,
+      "updated": 1708270109625,
       "created": 1618141186045,
       "custom": {},
       "fname": "dev.sql.postgres",
@@ -4122,7 +4131,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "42bcd34b141f90b1fa28ef868bde5149",
+      "contentHash": "01609a9476d1c1038e32dfe21564abfd",
       "links": [],
       "anchors": {
         "postgres": {
@@ -4149,10 +4158,10 @@
           "column": 0,
           "depth": 2
         },
-        "gotchas": {
+        "gotchas--tips": {
           "type": "header",
-          "text": "Gotchas",
-          "value": "gotchas",
+          "text": "Gotchas / Tips",
+          "value": "gotchas--tips",
           "line": 20,
           "column": 0,
           "depth": 2
@@ -4161,7 +4170,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 32,
+          "line": 33,
           "column": 0,
           "depth": 2
         },
@@ -4169,7 +4178,7 @@
           "type": "header",
           "text": "Soft Deletes",
           "value": "soft-deletes",
-          "line": 36,
+          "line": 37,
           "column": 0,
           "depth": 2
         },
@@ -4177,7 +4186,7 @@
           "type": "header",
           "text": "Text Vs Varchar",
           "value": "text-vs-varchar",
-          "line": 40,
+          "line": 41,
           "column": 0,
           "depth": 2
         },
@@ -4185,7 +4194,7 @@
           "type": "header",
           "text": "ZFS",
           "value": "zfs",
-          "line": 44,
+          "line": 45,
           "column": 0,
           "depth": 2
         }
@@ -4194,7 +4203,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "udua17ph0mvcn54pxqn0wha",
+      "parent": "qr687071k7wbcl0owdsv284",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -4512,6 +4521,68 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
+    "9u86t3vdwdylduprhqd0bgz": {
+      "id": "9u86t3vdwdylduprhqd0bgz",
+      "title": "Local Llms",
+      "desc": "",
+      "updated": 1708788811715,
+      "created": 1708269900687,
+      "custom": {},
+      "fname": "dev.local-llms",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "0394742eb70dc81e04b9b870ee103868",
+      "links": [],
+      "anchors": {
+        "running-llms-locally": {
+          "type": "header",
+          "text": "Running LLMs Locally",
+          "value": "running-llms-locally",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "local-inference": {
+          "type": "header",
+          "text": "Local Inference",
+          "value": "local-inference",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "frontends": {
+          "type": "header",
+          "text": "Frontends",
+          "value": "frontends",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "models": {
+          "type": "header",
+          "text": "Models",
+          "value": "models",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "related": {
+          "type": "header",
+          "text": "Related",
+          "value": "related",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
+      "data": {}
+    },
     "fae9ba89-7036-4551-a0d8-b8ed88629a65": {
       "id": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "title": "Lang",
@@ -4661,7 +4732,7 @@
       "id": "f2668e2a-c3c9-497b-af23-6d12cd97ec88",
       "title": "Windows GUIs",
       "desc": "Crates For creating accessible guis on Windows",
-      "updated": 1644490271525,
+      "updated": 1708787253872,
       "created": 1617533233436,
       "custom": {},
       "fname": "dev.lang.rust.windows-gui",
@@ -4671,7 +4742,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "a636aa37c3690e4af9240da55138b248",
+      "contentHash": "bcea863810382e623f2ce084c74c67f6",
       "links": [],
       "anchors": {
         "rust-guis-on-windows": {
@@ -4898,12 +4969,12 @@
         }
       },
       "children": [
-        "41s9m1i1lu30rwns516bxpn"
+        "y31yi4z0lgzy5t84r402dus"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "41s9m1i1lu30rwns516bxpn": {
+    "y31yi4z0lgzy5t84r402dus": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -4913,9 +4984,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966415,
-      "created": 1707403966415,
-      "id": "41s9m1i1lu30rwns516bxpn",
+      "updated": 1708792123897,
+      "created": 1708792123897,
+      "id": "y31yi4z0lgzy5t84r402dus",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4989,7 +5060,7 @@
         }
       },
       "children": [],
-      "parent": "41s9m1i1lu30rwns516bxpn",
+      "parent": "y31yi4z0lgzy5t84r402dus",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5346,7 +5417,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "rveiutemquz671d172ac5x3": {
+    "kc2jogdgkr96jn00fuxt1pv": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -5356,9 +5427,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966394,
-      "created": 1707403966394,
-      "id": "rveiutemquz671d172ac5x3",
+      "updated": 1708792123875,
+      "created": 1708792123875,
+      "id": "kc2jogdgkr96jn00fuxt1pv",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5404,7 +5475,7 @@
         }
       },
       "children": [],
-      "parent": "rveiutemquz671d172ac5x3",
+      "parent": "kc2jogdgkr96jn00fuxt1pv",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -7334,7 +7405,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "hpuvg0troydy7o6rwdxw2ug",
+        "diee9cptr0b58hn4kroberc",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -15983,7 +16054,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "hpuvg0troydy7o6rwdxw2ug": {
+    "diee9cptr0b58hn4kroberc": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -15993,9 +16064,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1707403966302,
-      "created": 1707403966302,
-      "id": "hpuvg0troydy7o6rwdxw2ug",
+      "updated": 1708792123803,
+      "created": 1708792123803,
+      "id": "diee9cptr0b58hn4kroberc",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -16041,7 +16112,7 @@
         }
       },
       "children": [],
-      "parent": "hpuvg0troydy7o6rwdxw2ug",
+      "parent": "diee9cptr0b58hn4kroberc",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -16690,10 +16761,10 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "bqzqsx25e4pr0o7f6fb66ut",
-        "lcwkq4tprl3czzpksxxxz5w",
-        "v18sk00cdd5i789mp4vee60",
-        "ifz7t7j4ejynjl58vphdb3d",
+        "sy67fisj6sounrpoctq2jb9",
+        "ek18vok45cxqljk5aphpmac",
+        "e3ns4pxihjw19ampjpwy9pb",
+        "r2jun8nn7vzam9jnpwm74ud",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16709,23 +16780,23 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "9m7byc402canqaj3cld1tz4",
-        "z22r1a73hb7ywo88to9xwx3",
+        "dfdb7qsaio7qk0h7ggfudlg",
+        "00kquthhoyaof33geodjmq2",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "9s08pnyniw5oqp1l7kdkfd3",
-        "3sh9pzwiopkljrzjf8ksjnj",
-        "6rfun7w1afoovgt0y769yp9",
-        "if2vke0j4u7v5mgq4fjxov1",
-        "31q6ij2tqp5002ee881si4b",
-        "7md5unmgli6yne96d9b2qvw",
-        "ny032glfrahprhq50wv4k4p",
-        "seczugwrp7ow6dy641xa9ht",
-        "riqoz4kagw628llpj8e2jyo"
+        "sf8elxjoa5ourgkj51pj0xi",
+        "3m9q7r2ppph3u3llmfhratm",
+        "dcphkl9ion5oict0u9h8ngf",
+        "igjogippf9i57668ks8psg2",
+        "wl8bo6120eu09ztbm2s6fta",
+        "oxo44e2252z9evt6i1169pz",
+        "1bwdtywp3kabsez5ptnvgqp",
+        "j8jwkqjiv4402s1vcmp9b50",
+        "tw2byudlh0l3xv1r875vtle"
       ],
       "parent": null,
       "data": {},
@@ -16768,10 +16839,10 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "bqzqsx25e4pr0o7f6fb66ut",
-      "lcwkq4tprl3czzpksxxxz5w",
-      "v18sk00cdd5i789mp4vee60",
-      "ifz7t7j4ejynjl58vphdb3d",
+      "sy67fisj6sounrpoctq2jb9",
+      "ek18vok45cxqljk5aphpmac",
+      "e3ns4pxihjw19ampjpwy9pb",
+      "r2jun8nn7vzam9jnpwm74ud",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16787,23 +16858,23 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "9m7byc402canqaj3cld1tz4",
-      "z22r1a73hb7ywo88to9xwx3",
+      "dfdb7qsaio7qk0h7ggfudlg",
+      "00kquthhoyaof33geodjmq2",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "9s08pnyniw5oqp1l7kdkfd3",
-      "3sh9pzwiopkljrzjf8ksjnj",
-      "6rfun7w1afoovgt0y769yp9",
-      "if2vke0j4u7v5mgq4fjxov1",
-      "31q6ij2tqp5002ee881si4b",
-      "7md5unmgli6yne96d9b2qvw",
-      "ny032glfrahprhq50wv4k4p",
-      "seczugwrp7ow6dy641xa9ht",
-      "riqoz4kagw628llpj8e2jyo"
+      "sf8elxjoa5ourgkj51pj0xi",
+      "3m9q7r2ppph3u3llmfhratm",
+      "dcphkl9ion5oict0u9h8ngf",
+      "igjogippf9i57668ks8psg2",
+      "wl8bo6120eu09ztbm2s6fta",
+      "oxo44e2252z9evt6i1169pz",
+      "1bwdtywp3kabsez5ptnvgqp",
+      "j8jwkqjiv4402s1vcmp9b50",
+      "tw2byudlh0l3xv1r875vtle"
     ],
     "parent": null,
     "data": {},
