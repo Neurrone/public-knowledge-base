@@ -27,5 +27,6 @@ See https://sca.coffee/research/coffee-standards
 
 * [Espresso Aficionados's wiki page on water](https://espressoaf.com/guides/water.html)
 * [Water for Coffee Extraction](https://coffeeadastra.com/2018/12/16/water-for-coffee-extraction/)
+* [Direct dosing water calculator](https://docs.google.com/spreadsheets/d/1qroj334CSI8UlCb7JguEG_mL1hcHQ-nHnJP98pi2N2s/edit?pli=1#gid=544250195)
 * [A Tool and Videos for Crafting Custom Brew Water](https://coffeeadastra.com/2019/08/23/a-tool-and-videos-for-crafting-custom-brew-water/)
 * [Jim Schulman's Insanely Long Water FAQ](https://web.archive.org/web/20080526072324/http://www.big-rick.com/coffee/waterfaq.html)

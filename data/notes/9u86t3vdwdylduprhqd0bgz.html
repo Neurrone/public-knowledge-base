@@ -6,11 +6,42 @@
 <li><a href="https://ollama.com/blog/windows-preview">Ollama</a></li>
 <li><a href="https://github.com/LlamaEdge/LlamaEdge">LlamaEdge</a>: running models via WebAssembly</li>
 </ul>
+<h3 id="compiling-llamacpp">Compiling llama.cpp<a aria-hidden="true" class="anchor-heading icon-link" href="#compiling-llamacpp"></a></h3>
+<h4 id="with-vulkan">With Vulkan<a aria-hidden="true" class="anchor-heading icon-link" href="#with-vulkan"></a></h4>
+<p>Install the Vulkan SDK.</p>
+<pre class="language-sh"><code class="language-sh">set VULKAN_SDK=C:\VulkanSDK\1.3.275.0
+mkdir build
+cd build
+cmake .. --fresh -DLLAMA_AVX512=on -DLLAMA_AVX512_VBMI=on -DLLAMA_AVX512_VNNI=on -DLLAMA_VULKAN=on
+cmake --build . --config Release
+</code></pre>
+<p>Test performance by:</p>
+<pre class="language-sh"><code class="language-sh">main.exe -m "d:/downloads/llama-2-7b-chat.Q4_K_M.gguf" -p "Hi you how are you" -ngl 33
+./llama-bench -m "d:/downloads/llama-2-7b-chat.Q4_K_M.gguf" -p 3968
+</code></pre>
+<p>Experiment: trying to get AOCL support working but it doesn't compile:</p>
+<pre class="language-sh"><code class="language-sh">-DLLAMA_BLAS_VENDOR=AOCL-mt -DLLAMA_BLAS=ON -DBLAS_LIBRARIES="C:\Program Files\AMD\AOCL-Windows\amd-blis\lib\LP64\AOCL-LibBlis-Win-dll.dll" -DBLAS_INCLUDE_DIRS="C:\Program Files\AMD\AOCL-Windows\amd-blis\include\LP64"
+</code></pre>
+<h4 id="rocm">ROCm<a aria-hidden="true" class="anchor-heading icon-link" href="#rocm"></a></h4>
+<p>Didn't manage to get this to work, since AMD doesn't support the 7840U yet with ROCm.</p>
+<p>Install visual studio C++ workload, and select the Clang tools.</p>
+<p>Install ROCM (unchecking the visual studio extension as that causes an error), and Pyrl as well.</p>
+<pre class="language-sh"><code class="language-sh">cmake.exe .. --fresh -G "Ninja" -DCMAKE_BUILD_TYPE=Release -DLLAMA_HIPBLAS=on -DLLAMA_AVX512_VBMI=on -DLLAMA_AVX512_VNNI=on -DCMAKE_C_COMPILER="clang.exe" -DCMAKE_CXX_COMPILER="clang++.exe" -DAMDGPU_TARGETS="gfx1100" -DCMAKE_PREFIX_PATH="C:\Program Files\AMD\ROCm\5.7"
+
+cmake --build . --config Release
+</code></pre>
+<p>Trying to run it results in an error saying that the tensor for GFX1103 isn't found. The commonly suggested solution to set <code>HSA_OVERRIDE_GFX_VERSION=11.0.0</code> only works on Linux.</p>
+<p>Other relevant links:</p>
+<ul>
+<li><a href="https://llm-tracker.info/howto/AMD-GPUs">Notes on AMD GPUs</a></li>
+<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/18ny92b/full_memory_available_for_amd_apus/">UMA support</a></li>
+</ul>
 <h2 id="frontends">Frontends<a aria-hidden="true" class="anchor-heading icon-link" href="#frontends"></a></h2>
 <ul>
 <li><a href="https://github.com/open-webui/open-webui">open-webui</a></li>
 <li><a href="https://github.com/codeofdusk/gptcmd">gptcmd</a></li>
 <li><a href="https://pypi.org/project/llm/">LLM Python package</a></li>
+<li><a href="https://github.com/chigkim/VOLlama/">VOLlama</a></li>
 </ul>
 <h2 id="models">Models<a aria-hidden="true" class="anchor-heading icon-link" href="#models"></a></h2>
 <ul>
@@ -21,5 +52,6 @@
 <h2 id="related">Related<a aria-hidden="true" class="anchor-heading icon-link" href="#related"></a></h2>
 <ul>
 <li><a href="https://github.com/janhq/awesome-local-ai">awesome-local-ai</a></li>
+<li><a href="https://github.com/vince-lam/awesome-local-llms">Awesome Local LLMs</a></li>
 <li><a href="https://news.ycombinator.com/item?id=39307330">HN thread on OpenAPI compatibility</a></li>
 </ul>
