@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726494272,
-      "created": 1712726494272,
+      "updated": 1719158617457,
+      "created": 1719158617457,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -68,13 +68,13 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "u66z8w8kfekngdbzgu7y600",
-        "halqnhbn4rsyjp8r7uqlv64"
+        "6rdms4vhduwc7tt98zfvykg",
+        "e01hcaj3eotstbd793ovc7y"
       ],
       "parent": null,
       "data": {}
     },
-    "halqnhbn4rsyjp8r7uqlv64": {
+    "e01hcaj3eotstbd793ovc7y": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -84,9 +84,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491745,
-      "created": 1712726491745,
-      "id": "halqnhbn4rsyjp8r7uqlv64",
+      "updated": 1719158614654,
+      "created": 1719158614654,
+      "id": "e01hcaj3eotstbd793ovc7y",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -124,10 +124,10 @@
         }
       },
       "children": [],
-      "parent": "halqnhbn4rsyjp8r7uqlv64",
+      "parent": "e01hcaj3eotstbd793ovc7y",
       "data": {}
     },
-    "u66z8w8kfekngdbzgu7y600": {
+    "6rdms4vhduwc7tt98zfvykg": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -137,9 +137,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491744,
-      "created": 1712726491744,
-      "id": "u66z8w8kfekngdbzgu7y600",
+      "updated": 1719158614654,
+      "created": 1719158614654,
+      "id": "6rdms4vhduwc7tt98zfvykg",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -185,7 +185,7 @@
         }
       },
       "children": [],
-      "parent": "u66z8w8kfekngdbzgu7y600",
+      "parent": "6rdms4vhduwc7tt98zfvykg",
       "data": {}
     },
     "4fb536a9-c146-4df3-8f30-9b2fb52a77f7": {
@@ -217,8 +217,8 @@
         }
       },
       "children": [
-        "bbqizopfg0pguwpry5g8f8i",
-        "xexz4nus8c4yu5pybd2uiz6",
+        "qlf8xooteo4ljhhc4numb1x",
+        "fanbd4nhusy8gc0qrd0f9w2",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -1523,7 +1523,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "xexz4nus8c4yu5pybd2uiz6": {
+    "fanbd4nhusy8gc0qrd0f9w2": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1533,9 +1533,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491764,
-      "created": 1712726491764,
-      "id": "xexz4nus8c4yu5pybd2uiz6",
+      "updated": 1719158614677,
+      "created": 1719158614677,
+      "id": "fanbd4nhusy8gc0qrd0f9w2",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1623,10 +1623,10 @@
         }
       },
       "children": [],
-      "parent": "xexz4nus8c4yu5pybd2uiz6",
+      "parent": "fanbd4nhusy8gc0qrd0f9w2",
       "data": {}
     },
-    "bbqizopfg0pguwpry5g8f8i": {
+    "qlf8xooteo4ljhhc4numb1x": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1636,9 +1636,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491763,
-      "created": 1712726491763,
-      "id": "bbqizopfg0pguwpry5g8f8i",
+      "updated": 1719158614677,
+      "created": 1719158614677,
+      "id": "qlf8xooteo4ljhhc4numb1x",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1716,7 +1716,7 @@
         }
       },
       "children": [],
-      "parent": "bbqizopfg0pguwpry5g8f8i",
+      "parent": "qlf8xooteo4ljhhc4numb1x",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1754,7 +1754,7 @@
         }
       },
       "children": [],
-      "parent": "bbqizopfg0pguwpry5g8f8i",
+      "parent": "qlf8xooteo4ljhhc4numb1x",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -1820,10 +1820,13 @@
         "qcw2kuzf2w0yn7n1olse340",
         "a3120d6a-8e0b-47c4-abd8-9d4d02ef12c0",
         "ZCUCnRXqB1grx4McRQntP",
+        "rcip0kxt2qcu5xjdz7x57l3",
         "ow-H7InF2oGQuvtHFro0k",
         "NFB9X5sGJaWX2xjYRcour",
+        "ygdtu53ih8fo99t2f9bcqo4",
         "L0W3IR80IcexnAzZo57vZ",
         "ZFpw4eXnLYSPDVnulKoJU",
+        "yptj654jdsmdl6oo875j5u6",
         "6ebed9ce-c5b8-48f2-ae94-c7df2440cf56",
         "yfNMEt5vdhD4aVRYBj5el",
         "7b8dea00-b854-46fc-baa1-fd704afb3a72",
@@ -1833,8 +1836,10 @@
         "606c2b54-a071-433b-ac23-3ab621c2f8c2",
         "pzb0nWn4uq72opt2777vW",
         "2944863d-a429-49b5-80fb-16a6a749bf8e",
+        "vcpktgonlh3im7li1u6xtj0",
         "8bdf1980-4eae-4e95-8e7c-19e5d61e1a13",
         "HNbWx5akMUPDKTjtUTAo4",
+        "jegw80yrcxhgxezwyr8qmyj",
         "wMBsrAyHcEXfLIxPeZA5a",
         "f4624ed8-6ac1-4055-bba3-991601956c72",
         "38504690-a37c-4b6d-b4fe-e075fc7dd096",
@@ -1848,7 +1853,7 @@
       "id": "hjLMMAIQxMMfEEbTXGgSW",
       "title": "Zfs",
       "desc": "",
-      "updated": 1642244375757,
+      "updated": 1717214563805,
       "created": 1642244371668,
       "custom": {},
       "fname": "tech.zfs",
@@ -1858,7 +1863,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2bcdd04df94b5790125398554d731e27",
+      "contentHash": "b9d60493cb8f214d6248bd1ebe16ccd3",
       "links": [
         {
           "from": {
@@ -1900,17 +1905,105 @@
           "column": 0,
           "depth": 2
         },
+        "tiering": {
+          "type": "header",
+          "text": "Tiering",
+          "value": "tiering",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
         "references": {
           "type": "header",
           "text": "References",
           "value": "references",
-          "line": 16,
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "tlj26mpz9ondynu20q91ox3"
+      ],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "tlj26mpz9ondynu20q91ox3": {
+      "id": "tlj26mpz9ondynu20q91ox3",
+      "title": "Backups",
+      "desc": "",
+      "updated": 1716639848789,
+      "created": 1716010786512,
+      "custom": {},
+      "fname": "tech.zfs.backups",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "8ce21fa960efcd2985bd9b8e2da31f66",
+      "links": [],
+      "anchors": {
+        "zfs-backups": {
+          "type": "header",
+          "text": "ZFS Backups",
+          "value": "zfs-backups",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "zfs-targets": {
+          "type": "header",
+          "text": "ZFS Targets",
+          "value": "zfs-targets",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "setting-up-a-zfs-replication-target": {
+          "type": "header",
+          "text": "Setting up a ZFS replication target",
+          "value": "setting-up-a-zfs-replication-target",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "cheap-storage-vps": {
+          "type": "header",
+          "text": "Cheap Storage VPS",
+          "value": "cheap-storage-vps",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "using-cloud-as-a-vdev": {
+          "type": "header",
+          "text": "Using Cloud As a vdev",
+          "value": "using-cloud-as-a-vdev",
+          "line": 42,
+          "column": 0,
+          "depth": 2
+        },
+        "snapshots-to-dumb-storage": {
+          "type": "header",
+          "text": "Snapshots to dumb storage",
+          "value": "snapshots-to-dumb-storage",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        },
+        "zfs-ov": {
+          "type": "header",
+          "text": "ZFS Ov",
+          "value": "zfs-ov",
+          "line": 59,
           "column": 0,
           "depth": 2
         }
       },
       "children": [],
-      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "parent": "hjLMMAIQxMMfEEbTXGgSW",
       "data": {}
     },
     "Ozc4f3Z8PzlTnGeIXEnWF": {
@@ -2210,6 +2303,36 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "jegw80yrcxhgxezwyr8qmyj": {
+      "id": "jegw80yrcxhgxezwyr8qmyj",
+      "title": "Truenas",
+      "desc": "",
+      "updated": 1715499333402,
+      "created": 1715499302230,
+      "custom": {},
+      "fname": "tech.truenas",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "4edf56df88fa46f25302838dd15590da",
+      "links": [],
+      "anchors": {
+        "truenas": {
+          "type": "header",
+          "text": "TrueNas",
+          "value": "truenas",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "HNbWx5akMUPDKTjtUTAo4": {
       "id": "HNbWx5akMUPDKTjtUTAo4",
       "title": "Synology",
@@ -2304,6 +2427,36 @@
           "line": 42,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "vcpktgonlh3im7li1u6xtj0": {
+      "id": "vcpktgonlh3im7li1u6xtj0",
+      "title": "Server Parts Retailers",
+      "desc": "",
+      "updated": 1718983918979,
+      "created": 1718109859748,
+      "custom": {},
+      "fname": "tech.server-parts-retailers",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "2cf1155b5c79c746f7b5eba1e26ee6b8",
+      "links": [],
+      "anchors": {
+        "retailers-for-server-parts": {
+          "type": "header",
+          "text": "Retailers for server parts",
+          "value": "retailers-for-server-parts",
+          "line": 8,
+          "column": 0,
+          "depth": 1
         }
       },
       "children": [],
@@ -2604,7 +2757,7 @@
       "id": "yfNMEt5vdhD4aVRYBj5el",
       "title": "Homelab",
       "desc": "",
-      "updated": 1642244313803,
+      "updated": 1713008846988,
       "created": 1642244308939,
       "custom": {},
       "fname": "tech.homelab",
@@ -2614,7 +2767,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "b5c0df6254631ee7f351194ac87cbda4",
+      "contentHash": "22ef7d63d31e6380b4f64bdde957cd84",
       "links": [
         {
           "type": "wiki",
@@ -2704,6 +2857,44 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "yptj654jdsmdl6oo875j5u6": {
+      "id": "yptj654jdsmdl6oo875j5u6",
+      "title": "Hard Drives",
+      "desc": "",
+      "updated": 1716288896743,
+      "created": 1716287987744,
+      "custom": {},
+      "fname": "tech.hard-drives",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "a522f703b009e5d962337db66fdde141",
+      "links": [],
+      "anchors": {
+        "hard-drives": {
+          "type": "header",
+          "text": "Hard Drives",
+          "value": "hard-drives",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "used-enterprise-drives": {
+          "type": "header",
+          "text": "Used Enterprise Drives",
+          "value": "used-enterprise-drives",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "ZFpw4eXnLYSPDVnulKoJU": {
       "id": "ZFpw4eXnLYSPDVnulKoJU",
       "title": "Firefox",
@@ -2772,6 +2963,60 @@
           "text": "Dont Use Cat 7",
           "value": "dont-use-cat-7",
           "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "ygdtu53ih8fo99t2f9bcqo4": {
+      "id": "ygdtu53ih8fo99t2f9bcqo4",
+      "title": "Enterprise Ssds",
+      "desc": "",
+      "updated": 1719155188918,
+      "created": 1717001400324,
+      "custom": {},
+      "fname": "tech.enterprise-ssds",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "0b47aa11048b3371812e31582003c37f",
+      "links": [],
+      "anchors": {
+        "intel": {
+          "type": "header",
+          "text": "Intel",
+          "value": "intel",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "optane": {
+          "type": "header",
+          "text": "Optane",
+          "value": "optane",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "samsung": {
+          "type": "header",
+          "text": "Samsung",
+          "value": "samsung",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "u2-adaptors": {
+          "type": "header",
+          "text": "U.2 adaptors",
+          "value": "u2-adaptors",
+          "line": 27,
           "column": 0,
           "depth": 2
         }
@@ -2858,6 +3103,36 @@
           "line": 14,
           "column": 0,
           "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "rcip0kxt2qcu5xjdz7x57l3": {
+      "id": "rcip0kxt2qcu5xjdz7x57l3",
+      "title": "Disk Burn In",
+      "desc": "",
+      "updated": 1717214528141,
+      "created": 1716132419530,
+      "custom": {},
+      "fname": "tech.disk-burn-in",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "d04e00218d238f159b7904240fb7cd02",
+      "links": [],
+      "anchors": {
+        "burn-in-for-new-disks": {
+          "type": "header",
+          "text": "Burn in for new disks",
+          "value": "burn-in-for-new-disks",
+          "line": 8,
+          "column": 0,
+          "depth": 1
         }
       },
       "children": [],
@@ -3438,7 +3713,7 @@
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1710068049781,
+      "updated": 1713884730602,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -3448,7 +3723,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "4ab087d908326a15db3824cba92c3813",
+      "contentHash": "59d3cfc1d78881284d0f24390008fd7b",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -3487,7 +3762,7 @@
           "type": "header",
           "text": "Linear Algebra",
           "value": "linear-algebra",
-          "line": 44,
+          "line": 45,
           "column": 0,
           "depth": 2
         },
@@ -3495,7 +3770,7 @@
           "type": "header",
           "text": "Introduction To Proofs",
           "value": "introduction-to-proofs",
-          "line": 48,
+          "line": 49,
           "column": 0,
           "depth": 2
         },
@@ -3503,7 +3778,7 @@
           "type": "header",
           "text": "Probability And Statistics",
           "value": "probability-and-statistics",
-          "line": 52,
+          "line": 54,
           "column": 0,
           "depth": 2
         },
@@ -3511,7 +3786,7 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 57,
+          "line": 59,
           "column": 0,
           "depth": 2
         }
@@ -3658,7 +3933,7 @@
         "334byo7iudrv5i2cxaetxa6",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "tk40ks7k8m4kljbizt8oppr",
+        "rs6o71965n9s4yb4zmzpuxn",
         "ad1t6909uwm332qb17dkgy1",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "tt62xbuvkdvr6jnnxzzbvpm",
@@ -3670,7 +3945,7 @@
         "y1wchr36gq7jxlbunknpgvu",
         "57059c08-9d38-48da-b270-68e17d22be74",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "u8kqdlb5erqn7f3mnx32o1i",
+        "nua30ww35j445n7df1yxde2",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "v4w3z7vrfi2os93m8g0zd1g",
@@ -3944,7 +4219,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "u8kqdlb5erqn7f3mnx32o1i": {
+    "nua30ww35j445n7df1yxde2": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -3954,9 +4229,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491761,
-      "created": 1712726491761,
-      "id": "u8kqdlb5erqn7f3mnx32o1i",
+      "updated": 1719158614674,
+      "created": 1719158614674,
+      "id": "nua30ww35j445n7df1yxde2",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4068,7 +4343,7 @@
         }
       },
       "children": [],
-      "parent": "u8kqdlb5erqn7f3mnx32o1i",
+      "parent": "nua30ww35j445n7df1yxde2",
       "data": {}
     },
     "7pv1q1h4pqtdvnfqugrk3ed": {
@@ -4114,7 +4389,7 @@
         }
       },
       "children": [],
-      "parent": "u8kqdlb5erqn7f3mnx32o1i",
+      "parent": "nua30ww35j445n7df1yxde2",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -4203,7 +4478,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "u8kqdlb5erqn7f3mnx32o1i",
+      "parent": "nua30ww35j445n7df1yxde2",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -4345,7 +4620,7 @@
       "id": "y1wchr36gq7jxlbunknpgvu",
       "title": "Nix",
       "desc": "",
-      "updated": 1659167389352,
+      "updated": 1711638154859,
       "created": 1659167333242,
       "custom": {},
       "fname": "dev.nix",
@@ -4355,7 +4630,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "9ecd4f77d83b0a246be6fc19cb6891fd",
+      "contentHash": "b272516c32f604dc33737fc9e3f49e93",
       "links": [],
       "anchors": {
         "nix": {
@@ -5134,12 +5409,12 @@
         }
       },
       "children": [
-        "658w057cstvj6wcpd1qkplb"
+        "f0rd217bl6cf4xcyfib4vmm"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "658w057cstvj6wcpd1qkplb": {
+    "f0rd217bl6cf4xcyfib4vmm": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -5149,9 +5424,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491768,
-      "created": 1712726491768,
-      "id": "658w057cstvj6wcpd1qkplb",
+      "updated": 1719158614681,
+      "created": 1719158614681,
+      "id": "f0rd217bl6cf4xcyfib4vmm",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5225,7 +5500,7 @@
         }
       },
       "children": [],
-      "parent": "658w057cstvj6wcpd1qkplb",
+      "parent": "f0rd217bl6cf4xcyfib4vmm",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5582,7 +5857,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "tk40ks7k8m4kljbizt8oppr": {
+    "rs6o71965n9s4yb4zmzpuxn": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -5592,9 +5867,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491756,
-      "created": 1712726491756,
-      "id": "tk40ks7k8m4kljbizt8oppr",
+      "updated": 1719158614668,
+      "created": 1719158614668,
+      "id": "rs6o71965n9s4yb4zmzpuxn",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5640,7 +5915,7 @@
         }
       },
       "children": [],
-      "parent": "tk40ks7k8m4kljbizt8oppr",
+      "parent": "rs6o71965n9s4yb4zmzpuxn",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -7038,7 +7313,7 @@
       "id": "e9e26d69-1b00-4b33-8366-2a458357eabf",
       "title": "Silenzio",
       "desc": "a free program which prevents sound devices from going to sleep",
-      "updated": 1638612047051,
+      "updated": 1718455265508,
       "created": 1617340098955,
       "custom": {},
       "fname": "accessible-software.windows.silenzio",
@@ -7048,7 +7323,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "d0b2357c44210277235a4f97e493a10c",
+      "contentHash": "361455d79072716bacac94482021b379",
       "links": [
         {
           "from": {
@@ -7570,7 +7845,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "1cancni7dbm22zrizz2jm9t",
+        "yam94ka2zh7g3rac9uom6ld",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -16219,7 +16494,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "1cancni7dbm22zrizz2jm9t": {
+    "yam94ka2zh7g3rac9uom6ld": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -16229,9 +16504,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1712726491712,
-      "created": 1712726491712,
-      "id": "1cancni7dbm22zrizz2jm9t",
+      "updated": 1719158614621,
+      "created": 1719158614621,
+      "id": "yam94ka2zh7g3rac9uom6ld",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -16277,7 +16552,7 @@
         }
       },
       "children": [],
-      "parent": "1cancni7dbm22zrizz2jm9t",
+      "parent": "yam94ka2zh7g3rac9uom6ld",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -16926,10 +17201,10 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "9s50gd3iavgc8jk9z1zwzft",
-        "u8rgqqlcy639e9cx1y5n5kf",
-        "9rrh02a93yb5gvvwxfyktsn",
-        "ydvomokkv92eu1l7ly3w0wo",
+        "fxkdkc7uuq5mk52uqwaxp6n",
+        "zwf0k199xev0aixph8c25xv",
+        "23mn3sa6ns1icx766p2fgci",
+        "sr16ypnxuux2r9d6w1hs1n6",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -16945,23 +17220,23 @@
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-        "u66z8w8kfekngdbzgu7y600",
-        "halqnhbn4rsyjp8r7uqlv64",
+        "6rdms4vhduwc7tt98zfvykg",
+        "e01hcaj3eotstbd793ovc7y",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "f3s048yikvf4hvocz5tatom",
-        "tlt1j4qwwnfcptb7hfvv5yk",
-        "lvbyglmq202p290x9vmkik1",
-        "qixgsxz1pps5w4vqg6g1613",
-        "1inilvbfra4igqk36u1du3y",
-        "020bcx9rj90v4euw4madbp1",
-        "ixuhxsyla2o0ko1acafoj3n",
-        "iqx9yxb03h9rlf4bcgbz66h",
-        "cerqdsnwmun4qldexmxexgd"
+        "4hpp7k0iy52beksua9dy9u4",
+        "i7zh04wclppkueyt17la1z9",
+        "jt5ni2u3mku9u9flfnrx0ew",
+        "ngaydzo1us7s1go7r37vrb7",
+        "y6dsmwbe388nl8d3tvvqi93",
+        "wzo17udk9rwaj8tf17ah681",
+        "jvinpetnhg7ig7aqia88w1o",
+        "pwmfoislzt1hr24jtxm2qzu",
+        "1r3z0dlgbod61e3r9znwjxr"
       ],
       "parent": null,
       "data": {},
@@ -17004,10 +17279,10 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "9s50gd3iavgc8jk9z1zwzft",
-      "u8rgqqlcy639e9cx1y5n5kf",
-      "9rrh02a93yb5gvvwxfyktsn",
-      "ydvomokkv92eu1l7ly3w0wo",
+      "fxkdkc7uuq5mk52uqwaxp6n",
+      "zwf0k199xev0aixph8c25xv",
+      "23mn3sa6ns1icx766p2fgci",
+      "sr16ypnxuux2r9d6w1hs1n6",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -17023,23 +17298,23 @@
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
-      "u66z8w8kfekngdbzgu7y600",
-      "halqnhbn4rsyjp8r7uqlv64",
+      "6rdms4vhduwc7tt98zfvykg",
+      "e01hcaj3eotstbd793ovc7y",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "f3s048yikvf4hvocz5tatom",
-      "tlt1j4qwwnfcptb7hfvv5yk",
-      "lvbyglmq202p290x9vmkik1",
-      "qixgsxz1pps5w4vqg6g1613",
-      "1inilvbfra4igqk36u1du3y",
-      "020bcx9rj90v4euw4madbp1",
-      "ixuhxsyla2o0ko1acafoj3n",
-      "iqx9yxb03h9rlf4bcgbz66h",
-      "cerqdsnwmun4qldexmxexgd"
+      "4hpp7k0iy52beksua9dy9u4",
+      "i7zh04wclppkueyt17la1z9",
+      "jt5ni2u3mku9u9flfnrx0ew",
+      "ngaydzo1us7s1go7r37vrb7",
+      "y6dsmwbe388nl8d3tvvqi93",
+      "wzo17udk9rwaj8tf17ah681",
+      "jvinpetnhg7ig7aqia88w1o",
+      "pwmfoislzt1hr24jtxm2qzu",
+      "1r3z0dlgbod61e3r9znwjxr"
     ],
     "parent": null,
     "data": {},
