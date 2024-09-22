@@ -8,7 +8,7 @@ This is the ideal option, but is very expensive. Hence why I'm looking for alter
 - Rsync.net
 - Zfs.rent
 
-Tools to simplify ZFS replication:
+## Tools to simplify ZFS replication:
 
 - [Zrepl](https://zrepl.github.io/)
 - [sanoid and Syncoid](https://github.com/jimsalterjrs/sanoid/?tab=readme-ov-file)
@@ -50,4 +50,6 @@ Though you can ZFS send a snapshot to dumb storage, its going to be a pain to co
 - [ZFSBackup Go](https://github.com/someone1/zfsbackup-go)
 - [zfs3backup](https://github.com/mmontagna/zfs3backup)
 
-## ZFS Ov
+## Backup Scripts
+
+- [zfs-backup-snapshots shell script](https://github.com/Jip-Hop/zfs-backup-snapshots) creates a mount point for the latest snapshot of a pool

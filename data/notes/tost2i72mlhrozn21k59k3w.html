@@ -1,0 +1,12 @@
+<h1 id="thinkpads">ThinkPads<a aria-hidden="true" class="anchor-heading icon-link" href="#thinkpads"></a></h1>
+<h2 id="panel-self-refresh-causing-mouse-stuttering-in-amd-thinkpads">Panel Self Refresh Causing Mouse Stuttering in AMD ThinkPads<a aria-hidden="true" class="anchor-heading icon-link" href="#panel-self-refresh-causing-mouse-stuttering-in-amd-thinkpads"></a></h2>
+<p>Only seems to affect Windows 11 (and probably linux where PSR is enabled).</p>
+<p>For Windows:</p>
+<ol>
+<li>Go to <code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000</code></li>
+<li>Set <code>DalPSRFeatureEnable</code> to <code>0</code></li>
+<li>Reboot</li>
+</ol>
+<p><a href="https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T-series-Laptops/T14s-Gen4-AMD-Display-driver-lag-mouse-cursor-stuttering-YouTube-dropping-frames/m-p/5278032?page=4#6286098">Source Lenovo forum thread</a></p>
+<h2 id="amd-thinkpads--thinkbooks-artificially-hiked-cpu-clocks">AMD ThinkPads / ThinkBooks Artificially Hiked CPU Clocks<a aria-hidden="true" class="anchor-heading icon-link" href="#amd-thinkpads--thinkbooks-artificially-hiked-cpu-clocks"></a></h2>
+<p>Seems to be caused by buggy AMD chipset drivers, <a href="https://forums.lenovo.com/t5/ThinkBook-Laptops/Battery-drain-after-last-batch-of-updates/m-p/5242788?page=2#6127963">fixed in some models by Lenovo</a></p>
