@@ -1,6 +1,22 @@
 
 # SQLite
 
+## CSV
+
+In the SQLite shell:
+
+```sh
+.mode csv
+# don't add quotes around the filename, as that led to really weird results
+# automatically creates table if doesn't exist
+.import /path/to/links.csv table_name
+
+# to use an existing table, skip the first row when importing
+.import --skip 1 /path/to/links.csv table_name
+```
+
+Examine the schema with `.schema`
+
 ## Data Exploration
 
 - [Datasette](https://datasette.io/): exploring SQLite databases in the browser

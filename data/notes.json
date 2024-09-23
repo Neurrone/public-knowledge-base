@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010802760,
-      "created": 1727010802760,
+      "updated": 1727059971129,
+      "created": 1727059971130,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -69,13 +69,13 @@
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "2gwv1pb5b0fmp3v55ge33xq",
-        "zh34gct4uodsqcszro274hb"
+        "4nj86pw0e9lubha6j8sdl9e",
+        "8zo2eyab04mbnwytzhw0l2m"
       ],
       "parent": null,
       "data": {}
     },
-    "zh34gct4uodsqcszro274hb": {
+    "8zo2eyab04mbnwytzhw0l2m": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -85,9 +85,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799906,
-      "created": 1727010799906,
-      "id": "zh34gct4uodsqcszro274hb",
+      "updated": 1727059968446,
+      "created": 1727059968446,
+      "id": "8zo2eyab04mbnwytzhw0l2m",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -125,10 +125,10 @@
         }
       },
       "children": [],
-      "parent": "zh34gct4uodsqcszro274hb",
+      "parent": "8zo2eyab04mbnwytzhw0l2m",
       "data": {}
     },
-    "2gwv1pb5b0fmp3v55ge33xq": {
+    "4nj86pw0e9lubha6j8sdl9e": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -138,9 +138,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799905,
-      "created": 1727010799905,
-      "id": "2gwv1pb5b0fmp3v55ge33xq",
+      "updated": 1727059968445,
+      "created": 1727059968445,
+      "id": "4nj86pw0e9lubha6j8sdl9e",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -186,7 +186,7 @@
         }
       },
       "children": [],
-      "parent": "2gwv1pb5b0fmp3v55ge33xq",
+      "parent": "4nj86pw0e9lubha6j8sdl9e",
       "data": {}
     },
     "a61859ll9tjxd1qy35abccs": {
@@ -248,8 +248,8 @@
         }
       },
       "children": [
-        "gkwqscgwapch6bd4rqlo7qo",
-        "8clvyy3yaqougip02fvav34",
+        "po4wii1nzrat9ph2k0cq3q4",
+        "wdjp7ye96ki59xw0kxjune6",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -1554,7 +1554,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "8clvyy3yaqougip02fvav34": {
+    "wdjp7ye96ki59xw0kxjune6": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1564,9 +1564,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799942,
-      "created": 1727010799942,
-      "id": "8clvyy3yaqougip02fvav34",
+      "updated": 1727059968465,
+      "created": 1727059968465,
+      "id": "wdjp7ye96ki59xw0kxjune6",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1654,10 +1654,10 @@
         }
       },
       "children": [],
-      "parent": "8clvyy3yaqougip02fvav34",
+      "parent": "wdjp7ye96ki59xw0kxjune6",
       "data": {}
     },
-    "gkwqscgwapch6bd4rqlo7qo": {
+    "po4wii1nzrat9ph2k0cq3q4": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1667,9 +1667,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799941,
-      "created": 1727010799942,
-      "id": "gkwqscgwapch6bd4rqlo7qo",
+      "updated": 1727059968464,
+      "created": 1727059968464,
+      "id": "po4wii1nzrat9ph2k0cq3q4",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1747,7 +1747,7 @@
         }
       },
       "children": [],
-      "parent": "gkwqscgwapch6bd4rqlo7qo",
+      "parent": "po4wii1nzrat9ph2k0cq3q4",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1785,7 +1785,7 @@
         }
       },
       "children": [],
-      "parent": "gkwqscgwapch6bd4rqlo7qo",
+      "parent": "po4wii1nzrat9ph2k0cq3q4",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -2050,7 +2050,7 @@
       "id": "Ozc4f3Z8PzlTnGeIXEnWF",
       "title": "Yubikey",
       "desc": "",
-      "updated": 1643534424270,
+      "updated": 1694783608591,
       "created": 1643534387698,
       "custom": {},
       "fname": "tech.yubikey",
@@ -2060,7 +2060,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "ddacbd11fd5e45e0b788ee56d8f103d0",
+      "contentHash": "94737705e3b1832aaf5e5086abcce4c0",
       "links": [],
       "anchors": {
         "yubikey": {
@@ -3799,7 +3799,7 @@
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1722078450805,
+      "updated": 1694336719434,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -3809,7 +3809,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "19ec2bbbe4dca5bdb0e424f513f1855b",
+      "contentHash": "bd839391175004f645a6418971d75b31",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -3832,7 +3832,7 @@
           "type": "header",
           "text": "Audio Digital Signal Processing",
           "value": "audio-digital-signal-processing",
-          "line": 36,
+          "line": 39,
           "column": 0,
           "depth": 3
         },
@@ -3840,7 +3840,7 @@
           "type": "header",
           "text": "Calculus",
           "value": "calculus",
-          "line": 41,
+          "line": 44,
           "column": 0,
           "depth": 2
         },
@@ -3848,7 +3848,7 @@
           "type": "header",
           "text": "Linear Algebra",
           "value": "linear-algebra",
-          "line": 46,
+          "line": 49,
           "column": 0,
           "depth": 2
         },
@@ -3856,7 +3856,7 @@
           "type": "header",
           "text": "Introduction To Proofs",
           "value": "introduction-to-proofs",
-          "line": 50,
+          "line": 53,
           "column": 0,
           "depth": 2
         },
@@ -3864,7 +3864,7 @@
           "type": "header",
           "text": "Probability And Statistics",
           "value": "probability-and-statistics",
-          "line": 55,
+          "line": 58,
           "column": 0,
           "depth": 2
         },
@@ -3872,7 +3872,7 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 60,
+          "line": 63,
           "column": 0,
           "depth": 2
         }
@@ -4019,7 +4019,7 @@
         "334byo7iudrv5i2cxaetxa6",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "zdk2ffdujjqisrfj6k2qjt1",
+        "l14gearj0no3hqjz635d079",
         "ad1t6909uwm332qb17dkgy1",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "tt62xbuvkdvr6jnnxzzbvpm",
@@ -4032,7 +4032,7 @@
         "57059c08-9d38-48da-b270-68e17d22be74",
         "rdupzewag5xyz9nsm5v2qpw",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "7br74b6ezwvtzh7p1e44u7h",
+        "58ey35lsntyuriom3xkg7xd",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "v4w3z7vrfi2os93m8g0zd1g",
@@ -4306,7 +4306,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "7br74b6ezwvtzh7p1e44u7h": {
+    "58ey35lsntyuriom3xkg7xd": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -4316,9 +4316,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799937,
-      "created": 1727010799937,
-      "id": "7br74b6ezwvtzh7p1e44u7h",
+      "updated": 1727059968462,
+      "created": 1727059968462,
+      "id": "58ey35lsntyuriom3xkg7xd",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4430,14 +4430,14 @@
         }
       },
       "children": [],
-      "parent": "7br74b6ezwvtzh7p1e44u7h",
+      "parent": "58ey35lsntyuriom3xkg7xd",
       "data": {}
     },
     "7pv1q1h4pqtdvnfqugrk3ed": {
       "id": "7pv1q1h4pqtdvnfqugrk3ed",
       "title": "Sqlite",
       "desc": "",
-      "updated": 1708787832482,
+      "updated": 1714029242875,
       "created": 1688045682857,
       "custom": {},
       "fname": "dev.sql.sqlite",
@@ -4447,7 +4447,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "84db003b6f811babb89c731c58553fa3",
+      "contentHash": "e984fd6d14e681b039ade9db0496d100",
       "links": [],
       "anchors": {
         "sqlite": {
@@ -4458,11 +4458,19 @@
           "column": 0,
           "depth": 1
         },
+        "csv": {
+          "type": "header",
+          "text": "CSV",
+          "value": "csv",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
         "data-exploration": {
           "type": "header",
           "text": "Data Exploration",
           "value": "data-exploration",
-          "line": 10,
+          "line": 26,
           "column": 0,
           "depth": 2
         },
@@ -4470,13 +4478,13 @@
           "type": "header",
           "text": "Database Synchronization / replication",
           "value": "database-synchronization--replication",
-          "line": 16,
+          "line": 32,
           "column": 0,
           "depth": 2
         }
       },
       "children": [],
-      "parent": "7br74b6ezwvtzh7p1e44u7h",
+      "parent": "58ey35lsntyuriom3xkg7xd",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -4565,7 +4573,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "7br74b6ezwvtzh7p1e44u7h",
+      "parent": "58ey35lsntyuriom3xkg7xd",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -5534,12 +5542,12 @@
         }
       },
       "children": [
-        "mx6rukniok9wpsb1di6hcqq"
+        "88r2z6s4bbhocmdi2aowj7g"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "mx6rukniok9wpsb1di6hcqq": {
+    "88r2z6s4bbhocmdi2aowj7g": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -5549,9 +5557,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799949,
-      "created": 1727010799949,
-      "id": "mx6rukniok9wpsb1di6hcqq",
+      "updated": 1727059968468,
+      "created": 1727059968469,
+      "id": "88r2z6s4bbhocmdi2aowj7g",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5625,7 +5633,7 @@
         }
       },
       "children": [],
-      "parent": "mx6rukniok9wpsb1di6hcqq",
+      "parent": "88r2z6s4bbhocmdi2aowj7g",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5982,7 +5990,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "zdk2ffdujjqisrfj6k2qjt1": {
+    "l14gearj0no3hqjz635d079": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -5992,9 +6000,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799935,
-      "created": 1727010799935,
-      "id": "zdk2ffdujjqisrfj6k2qjt1",
+      "updated": 1727059968459,
+      "created": 1727059968459,
+      "id": "l14gearj0no3hqjz635d079",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6040,7 +6048,7 @@
         }
       },
       "children": [],
-      "parent": "zdk2ffdujjqisrfj6k2qjt1",
+      "parent": "l14gearj0no3hqjz635d079",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -7970,7 +7978,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "8cf72161qwhobvsvnoozbj5",
+        "4wslva3ld113kf1fi5es4hd",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -16619,7 +16627,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "8cf72161qwhobvsvnoozbj5": {
+    "4wslva3ld113kf1fi5es4hd": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -16629,9 +16637,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1727010799855,
-      "created": 1727010799855,
-      "id": "8cf72161qwhobvsvnoozbj5",
+      "updated": 1727059968413,
+      "created": 1727059968413,
+      "id": "4wslva3ld113kf1fi5es4hd",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -16677,7 +16685,7 @@
         }
       },
       "children": [],
-      "parent": "8cf72161qwhobvsvnoozbj5",
+      "parent": "4wslva3ld113kf1fi5es4hd",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -17326,10 +17334,10 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "ayddclvdd132ijypjxgea7l",
-        "msjts3od3aa2efikax5nno7",
-        "25n1c553lqko8il7bxy601k",
-        "k1etmmjl06zhj11wx4ipt76",
+        "e1s1pn4znbka4o6qj0wa1ur",
+        "ryznd34oom6573vit1mojva",
+        "zgisyyel40yrmopybymef8u",
+        "babk6lrpldza9uuft47lx5p",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -17346,23 +17354,23 @@
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "2gwv1pb5b0fmp3v55ge33xq",
-        "zh34gct4uodsqcszro274hb",
+        "4nj86pw0e9lubha6j8sdl9e",
+        "8zo2eyab04mbnwytzhw0l2m",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "y0fa1cdp2xn5wbbydnpfeaz",
-        "uksj1msfh1e8lb187xyfkhw",
-        "1yfjvbdfvrl3oc6549t8uvc",
-        "n3ujj9d942fpgq9v0rj1mnx",
-        "xsusy5l6g90bm8z6pitgpcr",
-        "krc1twwftkftudwx5wlmyom",
-        "kez2dikxvkm3716drtbjlng",
-        "qh7umdxkwk7tmysaivu3ly9",
-        "7le03o5o696lvtwaz9mqfi5"
+        "xfwljxrbjr40orii9h07b4m",
+        "kksnso55ufmoc16mbf5tkjl",
+        "logkw71lu3eadwum20u7pxo",
+        "xxpgd6ttfdfndu6yu1y99ka",
+        "2ko6mior52yho5202k236xw",
+        "fs3cwxvjjrlvb3royj4tgtl",
+        "lgb7wiciwxci4erzc6brz1h",
+        "r1c01oiqwzre808s1zu0ta6",
+        "02djwj1z9ylkpq2fctv8g63"
       ],
       "parent": null,
       "data": {},
@@ -17405,10 +17413,10 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "ayddclvdd132ijypjxgea7l",
-      "msjts3od3aa2efikax5nno7",
-      "25n1c553lqko8il7bxy601k",
-      "k1etmmjl06zhj11wx4ipt76",
+      "e1s1pn4znbka4o6qj0wa1ur",
+      "ryznd34oom6573vit1mojva",
+      "zgisyyel40yrmopybymef8u",
+      "babk6lrpldza9uuft47lx5p",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -17425,23 +17433,23 @@
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "a61859ll9tjxd1qy35abccs",
-      "2gwv1pb5b0fmp3v55ge33xq",
-      "zh34gct4uodsqcszro274hb",
+      "4nj86pw0e9lubha6j8sdl9e",
+      "8zo2eyab04mbnwytzhw0l2m",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "y0fa1cdp2xn5wbbydnpfeaz",
-      "uksj1msfh1e8lb187xyfkhw",
-      "1yfjvbdfvrl3oc6549t8uvc",
-      "n3ujj9d942fpgq9v0rj1mnx",
-      "xsusy5l6g90bm8z6pitgpcr",
-      "krc1twwftkftudwx5wlmyom",
-      "kez2dikxvkm3716drtbjlng",
-      "qh7umdxkwk7tmysaivu3ly9",
-      "7le03o5o696lvtwaz9mqfi5"
+      "xfwljxrbjr40orii9h07b4m",
+      "kksnso55ufmoc16mbf5tkjl",
+      "logkw71lu3eadwum20u7pxo",
+      "xxpgd6ttfdfndu6yu1y99ka",
+      "2ko6mior52yho5202k236xw",
+      "fs3cwxvjjrlvb3royj4tgtl",
+      "lgb7wiciwxci4erzc6brz1h",
+      "r1c01oiqwzre808s1zu0ta6",
+      "02djwj1z9ylkpq2fctv8g63"
     ],
     "parent": null,
     "data": {},
