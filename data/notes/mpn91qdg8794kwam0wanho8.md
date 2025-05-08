@@ -12,7 +12,7 @@ def binary_search(arr, target):
     l, r = 0, len(arr) - 1
     while l <= r:
         # using (l + r) // 2 could cause an overflow
-        m = l + (u - l) / 2
+        m = l + (u - l) // 2
         if arr[m] < t:
             l = m+1
         elif arr[m] == t:
@@ -21,6 +21,8 @@ def binary_search(arr, target):
             r = m - 1
     return -1
 ```
+
+Binary search problems can get quite complex with infinite loops etc if you're not careful. See [An approach to writing bug-free Binary Search code](https://leetcode.com/discuss/general-discussion/1089533/an-approach-to-writing-bug-free-binary-search-code)
 
 ## Problems
 

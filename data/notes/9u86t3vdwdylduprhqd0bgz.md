@@ -54,8 +54,8 @@ Trying to run it results in an error saying that the tensor for GFX1103 isn't fo
 
 Other relevant links:
 
-* [Notes on AMD GPUs](https://llm-tracker.info/howto/AMD-GPUs)
-* [UMA support](https://www.reddit.com/r/LocalLLaMA/comments/18ny92b/full_memory_available_for_amd_apus/)
+- [Notes on AMD GPUs](https://llm-tracker.info/howto/AMD-GPUs)
+- [UMA support](https://www.reddit.com/r/LocalLLaMA/comments/18ny92b/full_memory_available_for_amd_apus/)
 
 ## Frontends
 
@@ -63,6 +63,8 @@ Other relevant links:
 - [gptcmd](https://github.com/codeofdusk/gptcmd)
 - [LLM Python package](https://pypi.org/project/llm/)
 - [VOLlama](https://github.com/chigkim/VOLlama/)
+- [oterm](https://github.com/ggozad/oterm)
+- [BasaliskLLM](https://github.com/aaclause/basiliskLLM/)
 
 ## Models
 

@@ -33,6 +33,15 @@ Growing the pie provides more time and resources for doing what you want. E.g, p
 
 Adopt a growth mindset even as an individual contributor. Engineers can grow the pie even in large organizations. E.g, proposing a feature with knowledge of how the code works.
 
+Some [ideas on becoming a force multiplier](https://alifeengineered.substack.com/p/how-to-be-a-force-multiplier):
+
+- Time developing others is an investment
+- Identify untapped potential in others
+- Sharing what you know progressively so it sticks
+- Create visibility for others
+- Delegate challenging work that stretches people's capabilities, provide clear context and constraints, but give them space to figure it out. Be available as a resource, but resist the urge to jump in at the first sign of difficulty.
+- Create Psychological Safety Despite Critical Feedback
+
 ## Soft Skills
 
 Engineers work with people foremost, not code. Hence, soft skills are extremely important.

@@ -8,7 +8,7 @@
     l<span class="token punctuation">,</span> r <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span>
     <span class="token keyword">while</span> l <span class="token operator">&#x3C;=</span> r<span class="token punctuation">:</span>
         <span class="token comment"># using (l + r) // 2 could cause an overflow</span>
-        m <span class="token operator">=</span> l <span class="token operator">+</span> <span class="token punctuation">(</span>u <span class="token operator">-</span> l<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">2</span>
+        m <span class="token operator">=</span> l <span class="token operator">+</span> <span class="token punctuation">(</span>u <span class="token operator">-</span> l<span class="token punctuation">)</span> <span class="token operator">//</span> <span class="token number">2</span>
         <span class="token keyword">if</span> arr<span class="token punctuation">[</span>m<span class="token punctuation">]</span> <span class="token operator">&#x3C;</span> t<span class="token punctuation">:</span>
             l <span class="token operator">=</span> m<span class="token operator">+</span><span class="token number">1</span>
         <span class="token keyword">elif</span> arr<span class="token punctuation">[</span>m<span class="token punctuation">]</span> <span class="token operator">==</span> t<span class="token punctuation">:</span>
@@ -17,6 +17,7 @@
             r <span class="token operator">=</span> m <span class="token operator">-</span> <span class="token number">1</span>
     <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
 </code></pre>
+<p>Binary search problems can get quite complex with infinite loops etc if you're not careful. See <a href="https://leetcode.com/discuss/general-discussion/1089533/an-approach-to-writing-bug-free-binary-search-code">An approach to writing bug-free Binary Search code</a></p>
 <h2 id="problems">Problems<a aria-hidden="true" class="anchor-heading icon-link" href="#problems"></a></h2>
 <ul>
 <li><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find minimum in rotated sorted array</a>: focus on the endpoints of the array</li>

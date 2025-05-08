@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831211110,
-      "created": 1729831211110,
+      "updated": 1746708567954,
+      "created": 1746708567954,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -63,19 +63,21 @@
         "dOehc8Yap1zIbEqLvQvOt",
         "i0g2e5s84q33i4o88s0zzcb",
         "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
+        "dq200ecldn2sxc8yxz8rpyc",
         "b4fc6d48-17ae-4764-acdb-ec0f52707860",
         "091b67bf-8bfa-454c-bbd3-7d84d8216229",
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+        "3nbsll2vh31lrithnb1h3sz",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "g3mv631iyoy77vgegbdyyfi",
-        "khh74y8ej9v2ax759k4hiz8"
+        "6y94zy3entzg2a3kfofvb1b",
+        "760txp5tt9kxsu9lyrn8okw"
       ],
       "parent": null,
       "data": {}
     },
-    "khh74y8ej9v2ax759k4hiz8": {
+    "760txp5tt9kxsu9lyrn8okw": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -85,9 +87,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208521,
-      "created": 1729831208521,
-      "id": "khh74y8ej9v2ax759k4hiz8",
+      "updated": 1746708565047,
+      "created": 1746708565047,
+      "id": "760txp5tt9kxsu9lyrn8okw",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -125,10 +127,10 @@
         }
       },
       "children": [],
-      "parent": "khh74y8ej9v2ax759k4hiz8",
+      "parent": "760txp5tt9kxsu9lyrn8okw",
       "data": {}
     },
-    "g3mv631iyoy77vgegbdyyfi": {
+    "6y94zy3entzg2a3kfofvb1b": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -138,9 +140,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208521,
-      "created": 1729831208521,
-      "id": "g3mv631iyoy77vgegbdyyfi",
+      "updated": 1746708565046,
+      "created": 1746708565046,
+      "id": "6y94zy3entzg2a3kfofvb1b",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -186,7 +188,7 @@
         }
       },
       "children": [],
-      "parent": "g3mv631iyoy77vgegbdyyfi",
+      "parent": "6y94zy3entzg2a3kfofvb1b",
       "data": {}
     },
     "a61859ll9tjxd1qy35abccs": {
@@ -248,8 +250,8 @@
         }
       },
       "children": [
-        "kw3nxaa02f2w03vpcy16os3",
-        "1dmovcems42foi80av6r7bd",
+        "a98p2j0cntp7o8gmt84sk7f",
+        "2sn8s17ihbx9bnn5y92o93t",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -416,7 +418,7 @@
       "id": "c8521972-bcc2-4951-9235-235dafea203d",
       "title": "Wireguard-based VPNs",
       "desc": "VPN solutions built on top of Wireguard",
-      "updated": 1681650341239,
+      "updated": 1738419071492,
       "created": 1617545558423,
       "custom": {},
       "fname": "tools.vpn.wireguard",
@@ -426,7 +428,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "27a1226f547416f0a05750d51e7b30df",
+      "contentHash": "e9fd66c6926c91e009f950485c4c99bf",
       "links": [],
       "anchors": {},
       "children": [],
@@ -1014,7 +1016,7 @@
       "id": "2032f380-6e47-43fa-b9bb-1e1848cba87a",
       "title": "Useful Git Settings",
       "desc": "",
-      "updated": 1708788589425,
+      "updated": 1740582210174,
       "created": 1618659124007,
       "custom": {},
       "fname": "tools.git.useful-settings",
@@ -1024,7 +1026,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "ffee991793811d5233e3ec161b62a3a1",
+      "contentHash": "4ff76e8431f251463c2afd0767796920",
       "links": [],
       "anchors": {
         "a-bunch-of-useful-settings": {
@@ -1039,7 +1041,7 @@
           "type": "header",
           "text": "Dynamic Git Identities",
           "value": "dynamic-git-identities",
-          "line": 12,
+          "line": 14,
           "column": 0,
           "depth": 2
         },
@@ -1047,7 +1049,7 @@
           "type": "header",
           "text": "Sort Git Branches By Recency",
           "value": "sort-git-branches-by-recency",
-          "line": 25,
+          "line": 27,
           "column": 0,
           "depth": 2
         }
@@ -1554,7 +1556,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "1dmovcems42foi80av6r7bd": {
+    "2sn8s17ihbx9bnn5y92o93t": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1564,9 +1566,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208542,
-      "created": 1729831208542,
-      "id": "1dmovcems42foi80av6r7bd",
+      "updated": 1746708565070,
+      "created": 1746708565070,
+      "id": "2sn8s17ihbx9bnn5y92o93t",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1654,10 +1656,10 @@
         }
       },
       "children": [],
-      "parent": "1dmovcems42foi80av6r7bd",
+      "parent": "2sn8s17ihbx9bnn5y92o93t",
       "data": {}
     },
-    "kw3nxaa02f2w03vpcy16os3": {
+    "a98p2j0cntp7o8gmt84sk7f": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1667,9 +1669,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208542,
-      "created": 1729831208542,
-      "id": "kw3nxaa02f2w03vpcy16os3",
+      "updated": 1746708565070,
+      "created": 1746708565070,
+      "id": "a98p2j0cntp7o8gmt84sk7f",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1747,7 +1749,7 @@
         }
       },
       "children": [],
-      "parent": "kw3nxaa02f2w03vpcy16os3",
+      "parent": "a98p2j0cntp7o8gmt84sk7f",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1785,7 +1787,37 @@
         }
       },
       "children": [],
-      "parent": "kw3nxaa02f2w03vpcy16os3",
+      "parent": "a98p2j0cntp7o8gmt84sk7f",
+      "data": {}
+    },
+    "3nbsll2vh31lrithnb1h3sz": {
+      "id": "3nbsll2vh31lrithnb1h3sz",
+      "title": "Technical Writing",
+      "desc": "",
+      "updated": 1743936821251,
+      "created": 1743936794864,
+      "custom": {},
+      "fname": "technical-writing",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "0075802b8225fff28d81895862479af4",
+      "links": [],
+      "anchors": {
+        "technical-writing": {
+          "type": "header",
+          "text": "Technical Writing",
+          "value": "technical-writing",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "root",
       "data": {}
     },
     "fb9e4130-eaf8-425d-9039-5bc2ee876f18": {
@@ -1845,8 +1877,10 @@
         }
       },
       "children": [
+        "fpx4wh2517f6pzcu0el7pxi",
         "od3Asfxy5wZWc0ctxhxTm",
         "0c1fb934-607e-4c98-944e-3f1b302e027c",
+        "7o3p4kjjr5kvp7u18q6yva0",
         "bn7pi3skjn9crdc4bt4hnyx",
         "qcw2kuzf2w0yn7n1olse340",
         "a3120d6a-8e0b-47c4-abd8-9d4d02ef12c0",
@@ -1858,8 +1892,12 @@
         "L0W3IR80IcexnAzZo57vZ",
         "ZFpw4eXnLYSPDVnulKoJU",
         "yptj654jdsmdl6oo875j5u6",
+        "qsxjfqd40qmv9pxbfqjr54l",
         "6ebed9ce-c5b8-48f2-ae94-c7df2440cf56",
         "yfNMEt5vdhD4aVRYBj5el",
+        "1a4q7z3ry9yuressmk57xp5",
+        "8xzhe6dog8cp84i15a37jqe",
+        "wg32q1tg85gyt8eyqa5og40",
         "7b8dea00-b854-46fc-baa1-fd704afb3a72",
         "e2cff1f1-1f33-4ba7-8a3c-4f57a5077fd4",
         "vtm4s60elzvw2dz37gc470w",
@@ -1885,7 +1923,7 @@
       "id": "hjLMMAIQxMMfEEbTXGgSW",
       "title": "Zfs",
       "desc": "",
-      "updated": 1717214563805,
+      "updated": 1738501393985,
       "created": 1642244371668,
       "custom": {},
       "fname": "tech.zfs",
@@ -1895,7 +1933,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "b9d60493cb8f214d6248bd1ebe16ccd3",
+      "contentHash": "ac210949096d5468bbe20c1a782d34de",
       "links": [
         {
           "from": {
@@ -1945,19 +1983,106 @@
           "column": 0,
           "depth": 2
         },
+        "nvme-performance-tuning": {
+          "type": "header",
+          "text": "NVMe Performance Tuning",
+          "value": "nvme-performance-tuning",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "gui": {
+          "type": "header",
+          "text": "GUI",
+          "value": "gui",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "high-latency": {
+          "type": "header",
+          "text": "High Latency",
+          "value": "high-latency",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
         "references": {
           "type": "header",
           "text": "References",
           "value": "references",
-          "line": 22,
+          "line": 37,
           "column": 0,
           "depth": 2
         }
       },
       "children": [
-        "tlj26mpz9ondynu20q91ox3"
+        "tlj26mpz9ondynu20q91ox3",
+        "6fqs3g1ibs5r3dmad38ubwk"
       ],
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "6fqs3g1ibs5r3dmad38ubwk": {
+      "id": "6fqs3g1ibs5r3dmad38ubwk",
+      "title": "High Availability",
+      "desc": "",
+      "updated": 1736185177046,
+      "created": 1735790078940,
+      "custom": {},
+      "fname": "tech.zfs.high-availability",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "de49b8732e40885173afc278b477d9e2",
+      "links": [],
+      "anchors": {
+        "zfs-high-availability": {
+          "type": "header",
+          "text": "ZFS High Availability",
+          "value": "zfs-high-availability",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "syncing-data": {
+          "type": "header",
+          "text": "Syncing data",
+          "value": "syncing-data",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "mirror-with-remote-disk-exposed-via-iscsi-or-nvme-over-fabric": {
+          "type": "header",
+          "text": "Mirror with remote disk exposed via iSCSI or NVMe over Fabric",
+          "value": "mirror-with-remote-disk-exposed-via-iscsi-or-nvme-over-fabric",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "drbd": {
+          "type": "header",
+          "text": "DRBD",
+          "value": "drbd",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "failover": {
+          "type": "header",
+          "text": "Failover",
+          "value": "failover",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "hjLMMAIQxMMfEEbTXGgSW",
       "data": {}
     },
     "tlj26mpz9ondynu20q91ox3": {
@@ -2523,7 +2648,7 @@
       "id": "vcpktgonlh3im7li1u6xtj0",
       "title": "Server Parts Retailers",
       "desc": "",
-      "updated": 1718983918979,
+      "updated": 1742826446984,
       "created": 1718109859748,
       "custom": {},
       "fname": "tech.server-parts-retailers",
@@ -2533,7 +2658,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2cf1155b5c79c746f7b5eba1e26ee6b8",
+      "contentHash": "2f126bf08befc7ffb7a114a556505d8c",
       "links": [],
       "anchors": {
         "retailers-for-server-parts": {
@@ -2543,6 +2668,38 @@
           "line": 8,
           "column": 0,
           "depth": 1
+        },
+        "online-retailers": {
+          "type": "header",
+          "text": "Online Retailers",
+          "value": "online-retailers",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "memory": {
+          "type": "header",
+          "text": "Memory",
+          "value": "memory",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "used-servers": {
+          "type": "header",
+          "text": "Used Servers",
+          "value": "used-servers",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "boutique-manufacturers": {
+          "type": "header",
+          "text": "Boutique Manufacturers",
+          "value": "boutique-manufacturers",
+          "line": 38,
+          "column": 0,
+          "depth": 2
         }
       },
       "children": [],
@@ -2839,11 +2996,133 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "wg32q1tg85gyt8eyqa5og40": {
+      "id": "wg32q1tg85gyt8eyqa5og40",
+      "title": "Ocr",
+      "desc": "",
+      "updated": 1739027263288,
+      "created": 1738996346804,
+      "custom": {},
+      "fname": "tech.ocr",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "91dbf158d8bc7522a92c555e4a1dcb73",
+      "links": [],
+      "anchors": {
+        "ocr": {
+          "type": "header",
+          "text": "OCR",
+          "value": "ocr",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "llms": {
+          "type": "header",
+          "text": "LLMs",
+          "value": "llms",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "non-llms": {
+          "type": "header",
+          "text": "Non-LLMs",
+          "value": "non-llms",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "8xzhe6dog8cp84i15a37jqe": {
+      "id": "8xzhe6dog8cp84i15a37jqe",
+      "title": "Isp",
+      "desc": "",
+      "updated": 1737217818809,
+      "created": 1737197673592,
+      "custom": {},
+      "fname": "tech.isp",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "1df51755b2d59057d3f6dda49a05fe27",
+      "links": [],
+      "anchors": {
+        "isp": {
+          "type": "header",
+          "text": "ISP",
+          "value": "isp",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "factors": {
+          "type": "header",
+          "text": "Factors",
+          "value": "factors",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "singapore": {
+          "type": "header",
+          "text": "Singapore",
+          "value": "singapore",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "1a4q7z3ry9yuressmk57xp5": {
+      "id": "1a4q7z3ry9yuressmk57xp5",
+      "title": "Intel I225",
+      "desc": "",
+      "updated": 1731127750429,
+      "created": 1731127312659,
+      "custom": {},
+      "fname": "tech.intel-i225",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "46e91a4904660bfa3633dadaf4dfeb34",
+      "links": [],
+      "anchors": {
+        "intel-i225-vi226-v-ethernet-controllers": {
+          "type": "header",
+          "text": "Intel I225-V/I226-V Ethernet Controllers",
+          "value": "intel-i225-vi226-v-ethernet-controllers",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "yfNMEt5vdhD4aVRYBj5el": {
       "id": "yfNMEt5vdhD4aVRYBj5el",
       "title": "Homelab",
       "desc": "",
-      "updated": 1713008846988,
+      "updated": 1734431382910,
       "created": 1642244308939,
       "custom": {},
       "fname": "tech.homelab",
@@ -2853,7 +3132,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "22ef7d63d31e6380b4f64bdde957cd84",
+      "contentHash": "eceefd0aaf98194dee4d2fbc87b43248",
       "links": [
         {
           "type": "wiki",
@@ -2901,8 +3180,102 @@
           "depth": 2
         }
       },
-      "children": [],
+      "children": [
+        "wy617lvm6ljm9i2xk5t1v6j",
+        "vh8dg5b0icfqcaclwankrvx",
+        "dpry5dbr8nldkqbfyyq4a8y"
+      ],
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "dpry5dbr8nldkqbfyyq4a8y": {
+      "id": "dpry5dbr8nldkqbfyyq4a8y",
+      "title": "Whitebox Switch",
+      "desc": "",
+      "updated": 1737388357857,
+      "created": 1737388274212,
+      "custom": {},
+      "fname": "tech.homelab.whitebox-switch",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "91685c5375174ff232255e8423aa1af7",
+      "links": [],
+      "anchors": {
+        "whitebox-switches": {
+          "type": "header",
+          "text": "Whitebox Switches",
+          "value": "whitebox-switches",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "yfNMEt5vdhD4aVRYBj5el",
+      "data": {}
+    },
+    "vh8dg5b0icfqcaclwankrvx": {
+      "id": "vh8dg5b0icfqcaclwankrvx",
+      "title": "Secrets",
+      "desc": "",
+      "updated": 1735273227086,
+      "created": 1735273171874,
+      "custom": {},
+      "fname": "tech.homelab.secrets",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "cec8f1111aa4652e421cca65a1bad95a",
+      "links": [],
+      "anchors": {
+        "secrets-management": {
+          "type": "header",
+          "text": "Secrets Management",
+          "value": "secrets-management",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "yfNMEt5vdhD4aVRYBj5el",
+      "data": {}
+    },
+    "wy617lvm6ljm9i2xk5t1v6j": {
+      "id": "wy617lvm6ljm9i2xk5t1v6j",
+      "title": "Automation",
+      "desc": "",
+      "updated": 1734591755317,
+      "created": 1734591739379,
+      "custom": {},
+      "fname": "tech.homelab.automation",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "53d9563dc633e6abc1ca0612934e57bb",
+      "links": [],
+      "anchors": {
+        "homelab-automation": {
+          "type": "header",
+          "text": "Homelab Automation",
+          "value": "homelab-automation",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "yfNMEt5vdhD4aVRYBj5el",
       "data": {}
     },
     "6ebed9ce-c5b8-48f2-ae94-c7df2440cf56": {
@@ -2935,6 +3308,44 @@
           "text": "Home Assistant",
           "value": "home-assistant",
           "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
+    "qsxjfqd40qmv9pxbfqjr54l": {
+      "id": "qsxjfqd40qmv9pxbfqjr54l",
+      "title": "High Performance Networking",
+      "desc": "",
+      "updated": 1736092233069,
+      "created": 1736088601948,
+      "custom": {},
+      "fname": "tech.high-performance-networking",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "510e2d977cdfec97efcf2e4b24c89bc1",
+      "links": [],
+      "anchors": {
+        "high-performance-networking": {
+          "type": "header",
+          "text": "High Performance Networking",
+          "value": "high-performance-networking",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "switches": {
+          "type": "header",
+          "text": "Switches",
+          "value": "switches",
+          "line": 17,
           "column": 0,
           "depth": 2
         }
@@ -3061,7 +3472,7 @@
       "id": "ygdtu53ih8fo99t2f9bcqo4",
       "title": "Enterprise Ssds",
       "desc": "",
-      "updated": 1719155188918,
+      "updated": 1738210697689,
       "created": 1717001400324,
       "custom": {},
       "fname": "tech.enterprise-ssds",
@@ -3071,7 +3482,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "0b47aa11048b3371812e31582003c37f",
+      "contentHash": "5bfeb00858a2483be1c4e0b4e2941c1e",
       "links": [],
       "anchors": {
         "intel": {
@@ -3103,6 +3514,22 @@
           "text": "U.2 adaptors",
           "value": "u2-adaptors",
           "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "mcio": {
+          "type": "header",
+          "text": "MCIO",
+          "value": "mcio",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "nvme-namespaces": {
+          "type": "header",
+          "text": "NVMe Namespaces",
+          "value": "nvme-namespaces",
+          "line": 46,
           "column": 0,
           "depth": 2
         }
@@ -3361,6 +3788,36 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "7o3p4kjjr5kvp7u18q6yva0": {
+      "id": "7o3p4kjjr5kvp7u18q6yva0",
+      "title": "Ceph",
+      "desc": "",
+      "updated": 1736090782732,
+      "created": 1736089938193,
+      "custom": {},
+      "fname": "tech.ceph",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "dfedfcafe48a345f6a3b85a85fd8f225",
+      "links": [],
+      "anchors": {
+        "ceph": {
+          "type": "header",
+          "text": "CEPH",
+          "value": "ceph",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "0c1fb934-607e-4c98-944e-3f1b302e027c": {
       "id": "0c1fb934-607e-4c98-944e-3f1b302e027c",
       "title": "Bitcoin",
@@ -3437,6 +3894,36 @@
       "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
       "data": {}
     },
+    "fpx4wh2517f6pzcu0el7pxi": {
+      "id": "fpx4wh2517f6pzcu0el7pxi",
+      "title": "Aspm",
+      "desc": "",
+      "updated": 1734431423864,
+      "created": 1734431388322,
+      "custom": {},
+      "fname": "tech.aspm",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "be557c1f0fb7c05efd4f4b82927e6bf9",
+      "links": [],
+      "anchors": {
+        "aspm": {
+          "type": "header",
+          "text": "ASPM",
+          "value": "aspm",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "data": {}
+    },
     "f6fbee87-be27-471c-99bd-4af45d6a3156": {
       "id": "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "title": "Tech Interview",
@@ -3498,7 +3985,6 @@
         }
       },
       "children": [
-        "mq282uvflomn3e3zu3mb25a",
         "c7b287fe-14f3-4dea-9c45-b6c46ad8d8c2",
         "613bb573-5d87-44d6-bd48-99cc87a71922"
       ],
@@ -3509,7 +3995,7 @@
       "id": "613bb573-5d87-44d6-bd48-99cc87a71922",
       "title": "Negotiating",
       "desc": "Negotiating an offer",
-      "updated": 1653227080126,
+      "updated": 1743415222311,
       "created": 1621167628387,
       "custom": {},
       "fname": "tech-interview.preparation.negotiating",
@@ -3519,7 +4005,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "8a4e4b5a8fc2eff0dcd6e5a5f86f25ec",
+      "contentHash": "025de2f73a941ea594725c0eced2a989",
       "links": [],
       "anchors": {
         "negotiating-an-offer": {
@@ -3534,7 +4020,7 @@
           "type": "header",
           "text": "Level",
           "value": "level",
-          "line": 14,
+          "line": 15,
           "column": 0,
           "depth": 3
         },
@@ -3542,7 +4028,7 @@
           "type": "header",
           "text": "Options",
           "value": "options",
-          "line": 35,
+          "line": 36,
           "column": 0,
           "depth": 2
         },
@@ -3550,7 +4036,15 @@
           "type": "header",
           "text": "Mental Model",
           "value": "mental-model",
-          "line": 39,
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "answering-expected-salary-questions": {
+          "type": "header",
+          "text": "Answering Expected Salary Questions",
+          "value": "answering-expected-salary-questions",
+          "line": 44,
           "column": 0,
           "depth": 2
         }
@@ -3580,36 +4074,6 @@
           "type": "header",
           "text": "Assessing Culture Fit",
           "value": "assessing-culture-fit",
-          "line": 8,
-          "column": 0,
-          "depth": 1
-        }
-      },
-      "children": [],
-      "parent": "2d5da356-7f71-45d9-919e-a8dc919aab11",
-      "data": {}
-    },
-    "mq282uvflomn3e3zu3mb25a": {
-      "id": "mq282uvflomn3e3zu3mb25a",
-      "title": "Algorithmic Problem Solving",
-      "desc": "",
-      "updated": 1648560719994,
-      "created": 1648560719994,
-      "custom": {},
-      "fname": "tech-interview.preparation.algorithmic-problem-solving",
-      "type": "note",
-      "vault": {
-        "name": "main",
-        "fsPath": "main",
-        "useFMTitle": false
-      },
-      "contentHash": "3897f090dc24d629c13d5de31e5811da",
-      "links": [],
-      "anchors": {
-        "algorithmic-problem-solving": {
-          "type": "header",
-          "text": "Algorithmic Problem Solving",
-          "value": "algorithmic-problem-solving",
           "line": 8,
           "column": 0,
           "depth": 1
@@ -3795,11 +4259,41 @@
       "parent": "root",
       "data": {}
     },
+    "dq200ecldn2sxc8yxz8rpyc": {
+      "id": "dq200ecldn2sxc8yxz8rpyc",
+      "title": "Orca",
+      "desc": "",
+      "updated": 1743936512245,
+      "created": 1743936499657,
+      "custom": {},
+      "fname": "orca",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "c86d5503bd1885ddc63c6033ac56c2e3",
+      "links": [],
+      "anchors": {
+        "orca": {
+          "type": "header",
+          "text": "Orca",
+          "value": "orca",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "root",
+      "data": {}
+    },
     "b58269ed-9a0e-4213-b5b0-6d59c81d9899": {
       "id": "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
       "title": "Open-source Textbooks",
       "desc": "Textbooks with HTML or LaTeX sources that are freely available",
-      "updated": 1694336719434,
+      "updated": 1745758572058,
       "created": 1623156649119,
       "custom": {},
       "fname": "open-source-textbooks",
@@ -3809,7 +4303,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "bd839391175004f645a6418971d75b31",
+      "contentHash": "22696051b5637318b172dfb405904739",
       "links": [],
       "anchors": {
         "open-source-textbooks": {
@@ -3832,7 +4326,15 @@
           "type": "header",
           "text": "Audio Digital Signal Processing",
           "value": "audio-digital-signal-processing",
-          "line": 39,
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "game-development": {
+          "type": "header",
+          "text": "Game Development",
+          "value": "game-development",
+          "line": 45,
           "column": 0,
           "depth": 3
         },
@@ -3840,7 +4342,7 @@
           "type": "header",
           "text": "Calculus",
           "value": "calculus",
-          "line": 44,
+          "line": 50,
           "column": 0,
           "depth": 2
         },
@@ -3848,7 +4350,7 @@
           "type": "header",
           "text": "Linear Algebra",
           "value": "linear-algebra",
-          "line": 49,
+          "line": 55,
           "column": 0,
           "depth": 2
         },
@@ -3856,7 +4358,7 @@
           "type": "header",
           "text": "Introduction To Proofs",
           "value": "introduction-to-proofs",
-          "line": 53,
+          "line": 59,
           "column": 0,
           "depth": 2
         },
@@ -3864,7 +4366,7 @@
           "type": "header",
           "text": "Probability And Statistics",
           "value": "probability-and-statistics",
-          "line": 58,
+          "line": 64,
           "column": 0,
           "depth": 2
         },
@@ -3872,7 +4374,7 @@
           "type": "header",
           "text": "Other Lists",
           "value": "other-lists",
-          "line": 63,
+          "line": 69,
           "column": 0,
           "depth": 2
         }
@@ -4019,7 +4521,7 @@
         "334byo7iudrv5i2cxaetxa6",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "tvo4drtv6o8zgfe76gupbuz",
+        "5rie7takh3o1ph4frfmz4yl",
         "ad1t6909uwm332qb17dkgy1",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "tt62xbuvkdvr6jnnxzzbvpm",
@@ -4032,7 +4534,7 @@
         "57059c08-9d38-48da-b270-68e17d22be74",
         "rdupzewag5xyz9nsm5v2qpw",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "uba0kh07mj2xe6vs44br96z",
+        "aufchomf5jc2zpkl656qs9k",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "v4w3z7vrfi2os93m8g0zd1g",
@@ -4306,7 +4808,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "uba0kh07mj2xe6vs44br96z": {
+    "aufchomf5jc2zpkl656qs9k": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -4316,9 +4818,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208540,
-      "created": 1729831208540,
-      "id": "uba0kh07mj2xe6vs44br96z",
+      "updated": 1746708565066,
+      "created": 1746708565066,
+      "id": "aufchomf5jc2zpkl656qs9k",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4430,7 +4932,7 @@
         }
       },
       "children": [],
-      "parent": "uba0kh07mj2xe6vs44br96z",
+      "parent": "aufchomf5jc2zpkl656qs9k",
       "data": {}
     },
     "7pv1q1h4pqtdvnfqugrk3ed": {
@@ -4484,14 +4986,14 @@
         }
       },
       "children": [],
-      "parent": "uba0kh07mj2xe6vs44br96z",
+      "parent": "aufchomf5jc2zpkl656qs9k",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
       "id": "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3",
       "title": "Postgres",
       "desc": "",
-      "updated": 1708270109625,
+      "updated": 1727586768469,
       "created": 1618141186045,
       "custom": {},
       "fname": "dev.sql.postgres",
@@ -4501,7 +5003,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "01609a9476d1c1038e32dfe21564abfd",
+      "contentHash": "958c22b4b1edef1d0515cbdea325d8e8",
       "links": [],
       "anchors": {
         "postgres": {
@@ -4540,7 +5042,7 @@
           "type": "header",
           "text": "Security",
           "value": "security",
-          "line": 33,
+          "line": 34,
           "column": 0,
           "depth": 2
         },
@@ -4548,7 +5050,7 @@
           "type": "header",
           "text": "Soft Deletes",
           "value": "soft-deletes",
-          "line": 37,
+          "line": 38,
           "column": 0,
           "depth": 2
         },
@@ -4556,7 +5058,7 @@
           "type": "header",
           "text": "Text Vs Varchar",
           "value": "text-vs-varchar",
-          "line": 41,
+          "line": 42,
           "column": 0,
           "depth": 2
         },
@@ -4564,7 +5066,7 @@
           "type": "header",
           "text": "ZFS",
           "value": "zfs",
-          "line": 45,
+          "line": 46,
           "column": 0,
           "depth": 2
         }
@@ -4573,7 +5075,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "uba0kh07mj2xe6vs44br96z",
+      "parent": "aufchomf5jc2zpkl656qs9k",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -4685,7 +5187,7 @@
       "id": "rdupzewag5xyz9nsm5v2qpw",
       "title": "Parse Dont Validate",
       "desc": "",
-      "updated": 1722089850577,
+      "updated": 1731816561978,
       "created": 1722089408110,
       "custom": {},
       "fname": "dev.parse-dont-validate",
@@ -4695,7 +5197,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "f8a349c131f2e3054fccf9326745f4bd",
+      "contentHash": "588d6bcc8e328128b55f592554101f99",
       "links": [],
       "anchors": {
         "parse-dont-validate": {
@@ -4996,9 +5498,9 @@
     },
     "ypdv2x3nspl6jkafymgj1qd": {
       "id": "ypdv2x3nspl6jkafymgj1qd",
-      "title": "Prompt Engineering",
+      "title": "Prompt Engineerixng",
       "desc": "",
-      "updated": 1710945503310,
+      "updated": 1743936973860,
       "created": 1710945457770,
       "custom": {},
       "fname": "dev.llm.prompt-engineering",
@@ -5008,7 +5510,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "cbe1efbe0079cf3e6754ad1c11238bc4",
+      "contentHash": "9300123fe877836eac8dbf2af7c95fd3",
       "links": [],
       "anchors": {
         "prompt-engineering": {
@@ -5019,11 +5521,27 @@
           "column": 0,
           "depth": 1
         },
+        "development-workflow": {
+          "type": "header",
+          "text": "Development Workflow",
+          "value": "development-workflow",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
         "guides": {
           "type": "header",
           "text": "Guides",
           "value": "guides",
-          "line": 10,
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "prompts": {
+          "type": "header",
+          "text": "Prompts",
+          "value": "prompts",
+          "line": 19,
           "column": 0,
           "depth": 2
         }
@@ -5036,7 +5554,7 @@
       "id": "9u86t3vdwdylduprhqd0bgz",
       "title": "Local",
       "desc": "",
-      "updated": 1710573390216,
+      "updated": 1740142237920,
       "created": 1708269900687,
       "custom": {},
       "fname": "dev.llm.local",
@@ -5046,7 +5564,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "fd9ced96f3eb55967da60f9bd920ba8c",
+      "contentHash": "ac82ff57c11b89583f315da340a49919",
       "links": [],
       "anchors": {
         "running-llms-locally": {
@@ -5101,7 +5619,7 @@
           "type": "header",
           "text": "Models",
           "value": "models",
-          "line": 73,
+          "line": 75,
           "column": 0,
           "depth": 2
         },
@@ -5109,7 +5627,7 @@
           "type": "header",
           "text": "Related",
           "value": "related",
-          "line": 79,
+          "line": 81,
           "column": 0,
           "depth": 2
         }
@@ -5542,12 +6060,12 @@
         }
       },
       "children": [
-        "148083vfyqxdnwitjm1pk4p"
+        "7uc9wkhej0wofhoyi4v7zof"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "148083vfyqxdnwitjm1pk4p": {
+    "7uc9wkhej0wofhoyi4v7zof": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -5557,9 +6075,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208546,
-      "created": 1729831208546,
-      "id": "148083vfyqxdnwitjm1pk4p",
+      "updated": 1746708565074,
+      "created": 1746708565074,
+      "id": "7uc9wkhej0wofhoyi4v7zof",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -5633,7 +6151,7 @@
         }
       },
       "children": [],
-      "parent": "148083vfyqxdnwitjm1pk4p",
+      "parent": "7uc9wkhej0wofhoyi4v7zof",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -5990,7 +6508,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "tvo4drtv6o8zgfe76gupbuz": {
+    "5rie7takh3o1ph4frfmz4yl": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -6000,9 +6518,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208538,
-      "created": 1729831208538,
-      "id": "tvo4drtv6o8zgfe76gupbuz",
+      "updated": 1746708565060,
+      "created": 1746708565060,
+      "id": "5rie7takh3o1ph4frfmz4yl",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6048,7 +6566,7 @@
         }
       },
       "children": [],
-      "parent": "tvo4drtv6o8zgfe76gupbuz",
+      "parent": "5rie7takh3o1ph4frfmz4yl",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -6371,11 +6889,9 @@
       "id": "wNd4r_tzH6NPRPXGfwXys",
       "title": "Algorithms",
       "desc": "",
-      "updated": 1623508459758,
+      "updated": 1743836044902,
       "created": 1623508459758,
-      "custom": {
-        "stub": true
-      },
+      "custom": {},
       "fname": "dev.algorithms",
       "type": "note",
       "vault": {
@@ -6383,12 +6899,54 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "d3e933d80b42ce2d778e53728fea1716",
+      "contentHash": "f2c5234b3bd0ebea5567c2f4a3a3047b",
       "links": [],
-      "anchors": {},
+      "anchors": {
+        "algorithms": {
+          "type": "header",
+          "text": "Algorithms",
+          "value": "algorithms",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "binary-search": {
+          "type": "header",
+          "text": "Binary Search",
+          "value": "binary-search",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "trees": {
+          "type": "header",
+          "text": "Trees",
+          "value": "trees",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "graphs": {
+          "type": "header",
+          "text": "Graphs",
+          "value": "graphs",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "dynamic-programming": {
+          "type": "header",
+          "text": "Dynamic Programming",
+          "value": "dynamic-programming",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        }
+      },
       "children": [
         "mpn91qdg8794kwam0wanho8",
         "be12056e-d9d2-42a5-8662-cb5135d2bcf3",
+        "x3o816uhoqu2s5kolskc4h6",
         "ukr1qv4miu2wh3sxahnuibx",
         "tt6z9io6wai9ix4967dlsso",
         "jy1vdq10djx10iw37ybkuud",
@@ -6589,6 +7147,196 @@
       "parent": "wNd4r_tzH6NPRPXGfwXys",
       "data": {}
     },
+    "x3o816uhoqu2s5kolskc4h6": {
+      "id": "x3o816uhoqu2s5kolskc4h6",
+      "title": "Algorithms & Data Structures Technical Interview Cheatsheet",
+      "desc": "",
+      "updated": 1746708454109,
+      "created": 1746708084587,
+      "custom": {},
+      "fname": "dev.algorithms.cheatsheet",
+      "type": "note",
+      "vault": {
+        "name": "main",
+        "fsPath": "main",
+        "useFMTitle": false
+      },
+      "contentHash": "9a36be275a3e3d37e9ab243f89b28e71",
+      "links": [],
+      "anchors": {
+        "algorithms--data-structures-technical-interview-cheatsheet": {
+          "type": "header",
+          "text": "Algorithms & Data Structures Technical Interview Cheatsheet",
+          "value": "algorithms--data-structures-technical-interview-cheatsheet",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "two-pointers": {
+          "type": "header",
+          "text": "Two Pointers",
+          "value": "two-pointers",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "sliding-window": {
+          "type": "header",
+          "text": "Sliding Window",
+          "value": "sliding-window",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "fast-and-slow-pointers": {
+          "type": "header",
+          "text": "Fast and slow pointers",
+          "value": "fast-and-slow-pointers",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        },
+        "binary-search": {
+          "type": "header",
+          "text": "Binary Search",
+          "value": "binary-search",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        },
+        "graph-algorithms": {
+          "type": "header",
+          "text": "Graph Algorithms",
+          "value": "graph-algorithms",
+          "line": 91,
+          "column": 0,
+          "depth": 2
+        },
+        "breadth-first-search-bfs": {
+          "type": "header",
+          "text": "Breadth-first search (BFS)",
+          "value": "breadth-first-search-bfs",
+          "line": 99,
+          "column": 0,
+          "depth": 3
+        },
+        "depth-first-search-dfs": {
+          "type": "header",
+          "text": "Depth-first Search (DFS)",
+          "value": "depth-first-search-dfs",
+          "line": 123,
+          "column": 0,
+          "depth": 3
+        },
+        "cycle-finding-on-undirected-graphs": {
+          "type": "header",
+          "text": "Cycle Finding On Undirected Graphs",
+          "value": "cycle-finding-on-undirected-graphs",
+          "line": 143,
+          "column": 0,
+          "depth": 3
+        },
+        "cycle-finding-on-directed-graphs": {
+          "type": "header",
+          "text": "Cycle Finding On Directed Graphs",
+          "value": "cycle-finding-on-directed-graphs",
+          "line": 166,
+          "column": 0,
+          "depth": 3
+        },
+        "topological-sort": {
+          "type": "header",
+          "text": "Topological Sort",
+          "value": "topological-sort",
+          "line": 188,
+          "column": 0,
+          "depth": 3
+        },
+        "union-find": {
+          "type": "header",
+          "text": "Union Find",
+          "value": "union-find",
+          "line": 231,
+          "column": 0,
+          "depth": 3
+        },
+        "mergesort": {
+          "type": "header",
+          "text": "Mergesort",
+          "value": "mergesort",
+          "line": 268,
+          "column": 0,
+          "depth": 2
+        },
+        "backtracking": {
+          "type": "header",
+          "text": "Backtracking",
+          "value": "backtracking",
+          "line": 273,
+          "column": 0,
+          "depth": 2
+        },
+        "dynamic-programming": {
+          "type": "header",
+          "text": "Dynamic Programming",
+          "value": "dynamic-programming",
+          "line": 277,
+          "column": 0,
+          "depth": 2
+        },
+        "data-structures": {
+          "type": "header",
+          "text": "Data Structures",
+          "value": "data-structures",
+          "line": 283,
+          "column": 0,
+          "depth": 2
+        },
+        "linked-list": {
+          "type": "header",
+          "text": "Linked List",
+          "value": "linked-list",
+          "line": 285,
+          "column": 0,
+          "depth": 3
+        },
+        "heap": {
+          "type": "header",
+          "text": "Heap",
+          "value": "heap",
+          "line": 290,
+          "column": 0,
+          "depth": 3
+        },
+        "stack": {
+          "type": "header",
+          "text": "Stack",
+          "value": "stack",
+          "line": 298,
+          "column": 0,
+          "depth": 3
+        },
+        "queue": {
+          "type": "header",
+          "text": "Queue",
+          "value": "queue",
+          "line": 303,
+          "column": 0,
+          "depth": 3
+        },
+        "trie": {
+          "type": "header",
+          "text": "Trie",
+          "value": "trie",
+          "line": 308,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wNd4r_tzH6NPRPXGfwXys",
+      "data": {}
+    },
     "be12056e-d9d2-42a5-8662-cb5135d2bcf3": {
       "id": "be12056e-d9d2-42a5-8662-cb5135d2bcf3",
       "title": "Breadth-First Search",
@@ -6631,7 +7379,7 @@
       "id": "mpn91qdg8794kwam0wanho8",
       "title": "Binary Search",
       "desc": "",
-      "updated": 1647766349063,
+      "updated": 1728812139738,
       "created": 1647765985152,
       "custom": {},
       "fname": "dev.algorithms.binary-search",
@@ -6641,7 +7389,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "c86c7fabba3374e709a4f54238917d21",
+      "contentHash": "eac5f65028edfd39c361eb258481245e",
       "links": [
         {
           "from": {
@@ -6695,7 +7443,7 @@
           "type": "header",
           "text": "Problems",
           "value": "problems",
-          "line": 31,
+          "line": 33,
           "column": 0,
           "depth": 2
         }
@@ -6708,7 +7456,7 @@
       "id": "75663f1f-f351-42fb-80a3-9cfc794ee39f",
       "title": "API Clients",
       "desc": "Postman alternatives",
-      "updated": 1649926686441,
+      "updated": 1740142969051,
       "created": 1620890166407,
       "custom": {},
       "fname": "dev.api-clients",
@@ -6718,7 +7466,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "1735b54a4e38744e3a5cff18166831a8",
+      "contentHash": "de57776fa553deff69e21393245d06d3",
       "links": [],
       "anchors": {
         "api-clients": {
@@ -6741,7 +7489,7 @@
           "type": "header",
           "text": "Curl Converter",
           "value": "curl-converter",
-          "line": 19,
+          "line": 20,
           "column": 0,
           "depth": 2
         },
@@ -6749,7 +7497,7 @@
           "type": "header",
           "text": "Vs Code Extensions",
           "value": "vs-code-extensions",
-          "line": 23,
+          "line": 24,
           "column": 0,
           "depth": 2
         }
@@ -7189,7 +7937,7 @@
       "id": "AByTb7aMk8846VDEqlqd2",
       "title": "Software Engineering",
       "desc": "",
-      "updated": 1644408756498,
+      "updated": 1743936171969,
       "created": 1642244410317,
       "custom": {},
       "fname": "career.software-engineering",
@@ -7199,7 +7947,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "061d292ffbc732f25f75034541b7f6a1",
+      "contentHash": "b4c17c63aecd503bdecba0ffbfc8bbf0",
       "links": [],
       "anchors": {
         "software-engineering": {
@@ -7246,7 +7994,7 @@
           "type": "header",
           "text": "Soft Skills",
           "value": "soft-skills",
-          "line": 42,
+          "line": 51,
           "column": 0,
           "depth": 2
         },
@@ -7254,7 +8002,7 @@
           "type": "header",
           "text": "10x Engineers",
           "value": "10x-engineers",
-          "line": 51,
+          "line": 60,
           "column": 0,
           "depth": 2
         },
@@ -7262,7 +8010,7 @@
           "type": "header",
           "text": "Promotions",
           "value": "promotions",
-          "line": 57,
+          "line": 66,
           "column": 0,
           "depth": 2
         },
@@ -7270,7 +8018,7 @@
           "type": "header",
           "text": "Startups vs Big Companies",
           "value": "startups-vs-big-companies",
-          "line": 76,
+          "line": 85,
           "column": 0,
           "depth": 3
         },
@@ -7278,7 +8026,7 @@
           "type": "header",
           "text": "Culture And Values",
           "value": "culture-and-values",
-          "line": 82,
+          "line": 91,
           "column": 0,
           "depth": 2
         }
@@ -7537,7 +8285,7 @@
       "id": "bdb89443-18e4-48b1-91e2-080de7f2a34c",
       "title": "Reaper",
       "desc": "Using the Reaper digital audio workstation with a screen reader",
-      "updated": 1661062875716,
+      "updated": 1727964818079,
       "created": 1618054332598,
       "custom": {},
       "fname": "accessible-software.windows.reaper",
@@ -7547,7 +8295,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2f5a9df9b3033a654ff863ae688d5c27",
+      "contentHash": "36778cc6a56a3ffc7eab5f33dba9d437",
       "links": [],
       "anchors": {
         "reaper": {
@@ -7978,7 +8726,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "dxnq8b1sj1ryqx3apkoov3x",
+        "11vdpz2mzgbgjwc380ma2mi",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -16627,7 +17375,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "dxnq8b1sj1ryqx3apkoov3x": {
+    "11vdpz2mzgbgjwc380ma2mi": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -16637,9 +17385,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1729831208487,
-      "created": 1729831208487,
-      "id": "dxnq8b1sj1ryqx3apkoov3x",
+      "updated": 1746708564998,
+      "created": 1746708564998,
+      "id": "11vdpz2mzgbgjwc380ma2mi",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -16685,7 +17433,7 @@
         }
       },
       "children": [],
-      "parent": "dxnq8b1sj1ryqx3apkoov3x",
+      "parent": "11vdpz2mzgbgjwc380ma2mi",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -17334,10 +18082,10 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "uzrwwgsbe5iv9tpa7d6rm5m",
-        "6vy15nz91gknccvv2dl2307",
-        "m7vxcqtzr452m2jtrejf9kk",
-        "gqmcq2rj64hllhetfx9npic",
+        "qoxy2bd5u6u0basat7flg5l",
+        "vc7pg41alicwkfkfls5zcwk",
+        "1qhhqz7eeohojwjls3xljyo",
+        "buqlbweoj06jhn2w43ptra2",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -17348,29 +18096,32 @@
         "dOehc8Yap1zIbEqLvQvOt",
         "i0g2e5s84q33i4o88s0zzcb",
         "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
+        "dq200ecldn2sxc8yxz8rpyc",
         "b4fc6d48-17ae-4764-acdb-ec0f52707860",
         "091b67bf-8bfa-454c-bbd3-7d84d8216229",
         "f6fbee87-be27-471c-99bd-4af45d6a3156",
         "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+        "3nbsll2vh31lrithnb1h3sz",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "g3mv631iyoy77vgegbdyyfi",
-        "khh74y8ej9v2ax759k4hiz8",
+        "6y94zy3entzg2a3kfofvb1b",
+        "760txp5tt9kxsu9lyrn8okw",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
+        "3atsjgtkfsujsk9hviuvs1v",
         "2f6af89e-df82-4144-87fc-a2be66a0e657",
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "ml6q8wha5kk80m48owrlyqf",
-        "ozkru72rhmk65pxkqzr2b8z",
-        "bivd6j2kvhs7yy597mzsfgf",
-        "u6e04bikl2auabwtfapi1ym",
-        "e3yrk7ozri7uxftqhluu25v",
-        "ymhjcmy6gzoozqxezfl3zy3",
-        "roct9uhp7lgo3eophwl6jsi",
-        "vqdw7s1jc6mz32upqyspnr2",
-        "maeeuublx83649th24wu7gj"
+        "hjjyazih5z1v8hlaxz0iscg",
+        "rwtajix0iawgdp5g8ka607z",
+        "0r9dydd76bclc311x0jbak5",
+        "juxn7zdasfben11dh7eswq2",
+        "r2k09yotmn3td9e71eed0lx",
+        "zt8uxfs1b6c1eg5vty1pn8k",
+        "0v341jf37l10l7rm9v9y25y",
+        "8p8g7taqg8u09jf05hrybvh",
+        "h4ovnobwlryhhxubq1z9hsp"
       ],
       "parent": null,
       "data": {},
@@ -17413,10 +18164,10 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "uzrwwgsbe5iv9tpa7d6rm5m",
-      "6vy15nz91gknccvv2dl2307",
-      "m7vxcqtzr452m2jtrejf9kk",
-      "gqmcq2rj64hllhetfx9npic",
+      "qoxy2bd5u6u0basat7flg5l",
+      "vc7pg41alicwkfkfls5zcwk",
+      "1qhhqz7eeohojwjls3xljyo",
+      "buqlbweoj06jhn2w43ptra2",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -17427,29 +18178,32 @@
       "dOehc8Yap1zIbEqLvQvOt",
       "i0g2e5s84q33i4o88s0zzcb",
       "b58269ed-9a0e-4213-b5b0-6d59c81d9899",
+      "dq200ecldn2sxc8yxz8rpyc",
       "b4fc6d48-17ae-4764-acdb-ec0f52707860",
       "091b67bf-8bfa-454c-bbd3-7d84d8216229",
       "f6fbee87-be27-471c-99bd-4af45d6a3156",
       "fb9e4130-eaf8-425d-9039-5bc2ee876f18",
+      "3nbsll2vh31lrithnb1h3sz",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "a61859ll9tjxd1qy35abccs",
-      "g3mv631iyoy77vgegbdyyfi",
-      "khh74y8ej9v2ax759k4hiz8",
+      "6y94zy3entzg2a3kfofvb1b",
+      "760txp5tt9kxsu9lyrn8okw",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
+      "3atsjgtkfsujsk9hviuvs1v",
       "2f6af89e-df82-4144-87fc-a2be66a0e657",
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "ml6q8wha5kk80m48owrlyqf",
-      "ozkru72rhmk65pxkqzr2b8z",
-      "bivd6j2kvhs7yy597mzsfgf",
-      "u6e04bikl2auabwtfapi1ym",
-      "e3yrk7ozri7uxftqhluu25v",
-      "ymhjcmy6gzoozqxezfl3zy3",
-      "roct9uhp7lgo3eophwl6jsi",
-      "vqdw7s1jc6mz32upqyspnr2",
-      "maeeuublx83649th24wu7gj"
+      "hjjyazih5z1v8hlaxz0iscg",
+      "rwtajix0iawgdp5g8ka607z",
+      "0r9dydd76bclc311x0jbak5",
+      "juxn7zdasfben11dh7eswq2",
+      "r2k09yotmn3td9e71eed0lx",
+      "zt8uxfs1b6c1eg5vty1pn8k",
+      "0v341jf37l10l7rm9v9y25y",
+      "8p8g7taqg8u09jf05hrybvh",
+      "h4ovnobwlryhhxubq1z9hsp"
     ],
     "parent": null,
     "data": {},

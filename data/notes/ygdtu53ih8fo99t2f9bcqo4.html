@@ -1,7 +1,7 @@
 <h2 id="intel">Intel<a aria-hidden="true" class="anchor-heading icon-link" href="#intel"></a></h2>
 <ul>
 <li><a href="https://www.anandtech.com/show/11514/intel-announces-ssd-dc-p4501-lowpower-nvme-ssd-with-3d-nand">P4501: lower power PCIe 3.0 x 4</a></li>
-<li>DC P4510: PCIe 3.0 x 4</li>
+<li>DC P4510: PCIe 3.0 x 4, <a href="https://forum.level1techs.com/t/what-the-heck-is-this-intel-dc-p4500-series-8tb-ssd-marked-as-ssdpedkx080t7/222886/5">seems to have extremely major issues</a></li>
 <li>D7-P5510: PCIe 4.0 x 4</li>
 </ul>
 <h3 id="optane">Optane<a aria-hidden="true" class="anchor-heading icon-link" href="#optane"></a></h3>
@@ -35,4 +35,22 @@
 </li>
 <li><a href="https://www.lr-link.com/products/lrnv94nf.html">LRNV94NF: PCIe 4.0 x16 to 4 U.2</a>, can be found on <a href="https://www.newegg.com/linkreal-lrnv94nf-pci-express-controller-card/p/17Z-00TX-000B2">Newegg</a></li>
 <li><a href="https://www.ebay.com/itm/166302229513">10Gtek PCIe 3.0 x16 to 4 Ports SFF-8639</a></li>
+</ul>
+<h2 id="mcio">MCIO<a aria-hidden="true" class="anchor-heading icon-link" href="#mcio"></a></h2>
+<p>Server motherboards can have MCIO ports which carry either 8 lanes of PCIe 5.0 or 8 Sata, depends on which cables are connected to the port. MCIO only carries data and not power.</p>
+<p>Someone had a <a href="https://forum.level1techs.com/t/solved-working-nvme-solution-kioxia-cm7-v-u-3-on-oem-w790/214430">good experience with c-pane</a></p>
+<ul>
+<li><a href="https://www.amazon.com/dp/B0D9J8GVZX">LetLinkSo PCIe 5.0 MCIO x8 to 2 x SFF-8639 Cable for U.2 NVMe SSD with 15Pin Power, 2.1ft(65 cm)</a>: has 3.3v power used by some drives, unlike most other cables. <a href="https://www.reddit.com/r/homelab/comments/12i4wbp/nvme_mcio_connector_help/m2okqle/">Works with Optane 905P</a></li>
+<li><a href="https://c-payne.com/products/mcio-sff-ta-1016-8i-to-2x-sff-8639-u-2-u-3-cable-pcie-gen4?variant=44833239728395">MCIO SFF-TA-1016 8i to 2x SFF-8639 U.2/U.3 cable - PCIe gen4</a></li>
+<li><a href="https://c-payne.com/products/mcio-pcie-gen5-host-adapter-x16-retimer">MCIO PCIe gen5 Host Adapter x16 -RETIMER</a></li>
+<li><a href="https://www.microsatacables.com/redriver-to-mcio-38p">M.2 M-key PCIe 5.0 with ReDriver to MCIO 38P</a>: M.2 to MCIO 8I</li>
+<li><a href="https://serialcables.com/product/pcie-gen5/serial-cables-gen-5-mcio-x4sff-ta-1016-38p-to-mcio-x4-sff-ta-1016-38p-ultra-low-loss-29awg-wire-skumcio5-4xl-4xl-id28">Gen 5 MCIO x4(SFF-TA-1016) 38P to MCIO x4 (SFF-TA-1016) 38P, ultra low loss 29AWG wire</a>: carries MCIO</li>
+</ul>
+<h2 id="nvme-namespaces">NVMe Namespaces<a aria-hidden="true" class="anchor-heading icon-link" href="#nvme-namespaces"></a></h2>
+<p>Most enterprise SSDs support <a href="https://nvmexpress.org/resource/nvme-namespaces/">NVMe namespaces</a> which allows the drive's capacity to be split into logically separate partitions. The OS sees multiple namespaces on a drive as separate devices.</p>
+<p>Could be useful to divide a larger SSD into smaller chunks to use some of it for a slog, some for storage, OS etc. They can also apparently be passed into VMs as well, though I'm checking if it requires PCie passthrough and whether that works on each namespace.</p>
+<ul>
+<li><a href="https://www.drewthorst.com/posts/nvme/namespaces/readme/">NVMe Namespaces</a></li>
+<li><a href="https://narasimhan-v.github.io/2020/06/12/Managing-NVMe-Namespaces.html">Managing Nvme Namespaces</a></li>
+<li><a href="https://forum.level1techs.com/t/nvme-namespaces-little-known-cool-features-of-most-nvme-and-user-programmable-endurance/172660/18?u=dendryte">List of drives with NVMe namespace support</a></li>
 </ul>
