@@ -2,8 +2,8 @@
 <p>The first step to solving Leetcode problems in interviews is to know commonly used data structures and algorithms by heart - being able to write a bug-free DFS implementation without having to think about it for example. This frees up mental capacity to focus on the problem, and figuring out which preconditions and desired outputs of the algorithms you know are best for that problem.</p>
 <p>This cheatsheet helps by providing reference implementations to memorize.</p>
 <h2 id="two-pointers">Two Pointers<a aria-hidden="true" class="anchor-heading icon-link" href="#two-pointers"></a></h2>
-<p>Preconditions: one or more arrays or linked lists
-outcome: finding a set of elements that meet a certain criteria (pair / triplet / subarray), iterating over parts of the array/list simultaneously or iterating over array/string from both ends, or modifying the array</p>
+<p>Preconditions: one or more arrays or linked lists</p>
+<p>Outcome: finding a set of elements that meet a certain criteria (pair / triplet / subarray), iterating over parts of the array/list simultaneously or iterating over array/string from both ends, or modifying the array</p>
 <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">is_palindrome</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">:</span>
     <span class="token keyword">if</span> <span class="token keyword">not</span> s<span class="token punctuation">:</span>
         <span class="token keyword">return</span> <span class="token boolean">True</span>
@@ -16,12 +16,12 @@ outcome: finding a set of elements that meet a certain criteria (pair / triplet 
     <span class="token keyword">return</span> <span class="token boolean">True</span>
 </code></pre>
 <h2 id="sliding-window">Sliding Window<a aria-hidden="true" class="anchor-heading icon-link" href="#sliding-window"></a></h2>
-<p>Preconditions: array or linked list, expanding/contracting a window of elements
-outcome: calculate something based on contiguous subarrays or sublists of a given size k, k may vary depending on problem constraints e.g, optimization or finding length</p>
+<p>Preconditions: array or linked list, expanding/contracting a window of elements</p>
+<p>Outcome: calculate something based on contiguous subarrays or sublists of a given size k, k may vary depending on problem constraints e.g, optimization or finding length</p>
 <p>TODO: example</p>
 <h2 id="fast-and-slow-pointers">Fast and slow pointers<a aria-hidden="true" class="anchor-heading icon-link" href="#fast-and-slow-pointers"></a></h2>
-<p>Precondition: sequence to iterate over, fast and slow pointers eventually meet, or fast pointer reaches the end
-Output: cycle finding and start of a cycle in a linked list, finding middle of a sequence or the nth element from the end</p>
+<p>Precondition: sequence to iterate over, fast and slow pointers eventually meet, or fast pointer reaches the end</p>
+<p>Output: cycle finding and start of a cycle in a linked list, finding middle of a sequence or the nth element from the end</p>
 <p>TODO: example</p>
 <h2 id="binary-search">Binary Search<a aria-hidden="true" class="anchor-heading icon-link" href="#binary-search"></a></h2>
 <ul>
@@ -43,8 +43,8 @@ Output: cycle finding and start of a cycle in a linked list, finding middle of a
     <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
 </code></pre>
 <p>However, most binary search problems are more complex. For example, finding the smallest number greater than or equal to the target. This requires a <a href="https://leetcode.com/discuss/post/786126/python-powerful-ultimate-binary-search-t-rwv8/">more flexible template</a>.</p>
-<p>Precondition: there is a predicate function <code>p</code> that satisfies a monotonic condition; the search space can be divided into two regions such that for all elements in one region, it returns false and for all elements in the other region, it returns true.
-Output: the minimum or first element that satisfies the predicate</p>
+<p>Precondition: there is a predicate function <code>p</code> that satisfies a monotonic condition; the search space can be divided into two regions such that for all elements in one region, it returns false and for all elements in the other region, it returns true.</p>
+<p>Outcome: the index of the minimum element that satisfies the predicate</p>
 <pre class="language-python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">lower_bound_binary_search</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> <span class="token builtin">int</span><span class="token punctuation">:</span>
     left<span class="token punctuation">,</span> right <span class="token operator">=</span> <span class="token builtin">min</span><span class="token punctuation">(</span>search_space<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">max</span><span class="token punctuation">(</span>search_space<span class="token punctuation">)</span> <span class="token comment"># could be [0, n], [1, n] etc. Depends on problem</span>
     <span class="token keyword">while</span> left <span class="token operator">&#x3C;</span> right<span class="token punctuation">:</span>
@@ -70,8 +70,8 @@ Output: the minimum or first element that satisfies the predicate</p>
 <li>Time complexity: <code>O(v + e)</code></li>
 <li>Space complexity: <code>O(v)</code></li>
 </ul>
-<p>Preconditions: ok to explore all neighbours before moving outward, solution is near the starting node
-Output: traversal starting from the source node in order of distance, level order of a tree, shortest path in an unweighted graph</p>
+<p>Precondition: ok to explore all neighbours before moving outward, solution is near the starting node</p>
+<p>Outcome: traversal starting from the source node in order of distance, level order of a tree, shortest path in an unweighted graph</p>
 <pre class="language-python"><code class="language-python"><span class="token keyword">from</span> collections <span class="token keyword">import</span> deque
 
 <span class="token keyword">def</span> <span class="token function">bfs</span><span class="token punctuation">(</span>graph<span class="token punctuation">,</span> start<span class="token punctuation">)</span><span class="token punctuation">:</span>
@@ -91,8 +91,8 @@ Output: traversal starting from the source node in order of distance, level orde
 <li>Time complexity: <code>O(v + e)</code></li>
 <li>Space complexity: <code>O(v)</code></li>
 </ul>
-<p>Preconditions: graph / tree, want to explore as far as possible along each branch before backtracking and solution is far from the start node, depth of path fits in the recursion stack
-Output: graph exploration as far as possible down a path before backtracking, can be tweaked for topological sorting and cycle detection</p>
+<p>Precondition: graph / tree, want to explore as far as possible along each branch before backtracking and solution is far from the start node, depth of path fits in the recursion stack</p>
+<p>Outcome: graph exploration as far as possible down a path before backtracking, can be tweaked for topological sorting and cycle detection</p>
 <pre class="language-python"><code class="language-python">visited <span class="token operator">=</span> <span class="token builtin">set</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 <span class="token keyword">def</span> <span class="token function">dfs</span><span class="token punctuation">(</span>graph<span class="token punctuation">,</span> node<span class="token punctuation">)</span><span class="token punctuation">:</span>
     visited<span class="token punctuation">.</span>add<span class="token punctuation">(</span>node<span class="token punctuation">)</span>
@@ -180,8 +180,8 @@ VISITED<span class="token operator">=</span><span class="token number">2</span>
 <li>Time complexity: <code>O(a(n))</code>, amortized constant time if path compression and union by rank / size are used</li>
 <li>Space complexity: <code>O(n)</code></li>
 </ul>
-<p>Prerequisites: undirected graphs, want efficient lookup for which set an element belongs to
-output: cycle detection, counting components, can be processed incrementally</p>
+<p>Precondition: undirected graph, efficient lookup for which set an element belongs to</p>
+<p>Outcome: cycle detection, counting components, can be processed incrementally</p>
 <pre class="language-python"><code class="language-python"><span class="token comment"># assuming there are n nodes / sets at the start</span>
 parent <span class="token operator">=</span> <span class="token punctuation">[</span>i <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
 <span class="token comment"># this keeps track of the height of the tree</span>
@@ -208,30 +208,31 @@ rank <span class="token operator">=</span> <span class="token punctuation">[</sp
     <span class="token keyword">return</span> <span class="token boolean">True</span>
 </code></pre>
 <h2 id="mergesort">Mergesort<a aria-hidden="true" class="anchor-heading icon-link" href="#mergesort"></a></h2>
-<p>Preconditions: Able to use lots of memory, cannot tolerate a <code>O(n^2)</code> worst case scenario
-Desired Outcome: Sorted list</p>
+<p>Precondition: Able to use lots of memory, cannot tolerate a <code>O(n^2)</code> worst case scenario</p>
+<p>Outcome: Sorted list</p>
 <h2 id="backtracking">Backtracking<a aria-hidden="true" class="anchor-heading icon-link" href="#backtracking"></a></h2>
 <p>TODO</p>
 <h2 id="dynamic-programming">Dynamic Programming<a aria-hidden="true" class="anchor-heading icon-link" href="#dynamic-programming"></a></h2>
-<p>Prerequisites: optimal solution for a problem depends on the optimal solution to subproblems</p>
-<p>TODO: expand</p>
+<p>Precondition: optimal solution for a problem depends on the optimal solution to subproblems</p>
+<p>TODO</p>
 <h2 id="data-structures">Data Structures<a aria-hidden="true" class="anchor-heading icon-link" href="#data-structures"></a></h2>
+<p>You may have to use multiple data structures simultaneously to solve a problem, for example LRU Cache.</p>
 <h3 id="linked-list">Linked List<a aria-hidden="true" class="anchor-heading icon-link" href="#linked-list"></a></h3>
-<p>Precondition: has pointer to node to manipulate in the linked list sequence, this could be its head or reference to nodes in the middle of the list
-output: O(1) insertion, deletion and removal of elements</p>
+<p>Preconditions: has pointer to node to manipulate in the linked list sequence, this could be its head or reference to nodes in the middle of the list</p>
+<p>Outcome: O(1) insertion, deletion and removal of elements with a pointer to that node</p>
 <h3 id="heap">Heap<a aria-hidden="true" class="anchor-heading icon-link" href="#heap"></a></h3>
-<p>Precondition: interested in <code>k</code> out of <code>n</code> elements that meets some condition (largest, smallest etc), faster than <code>O(n log n)</code> running time, streaming data
-Output: largest / smallest kth element in a stream, the k elements of interest, median</p>
+<p>Preconditions: interested in <code>k</code> out of <code>n</code> elements that meets some condition (largest, smallest etc), faster than <code>O(n log n)</code> running time, streaming data</p>
+<p>Output: largest / smallest kth element in a stream, the k elements of interest, median</p>
 <ul>
 <li>Time complexity: <code>O(n)</code> to turn an existing array in-place into a heap, <code>O(log n)</code> for pop / push operations</li>
 <li>Space complexity: <code>O(n)</code> for the elements, the array's indices implicitly store the heap tree structure</li>
 </ul>
 <h3 id="stack">Stack<a aria-hidden="true" class="anchor-heading icon-link" href="#stack"></a></h3>
-<p>Precondition: First in, last out
-Desired Outcome: Reverse list of elements</p>
+<p>Preconditions: First in, last out</p>
+<p>Outcome: Reverse list of elements</p>
 <h3 id="queue">Queue<a aria-hidden="true" class="anchor-heading icon-link" href="#queue"></a></h3>
 <p>Precondition: First in, first out
-Desired Outcome: elements in the order that they were added</p>
+Outcome: first in, first out</p>
 <h3 id="trie">Trie<a aria-hidden="true" class="anchor-heading icon-link" href="#trie"></a></h3>
 <p>Preconditions: Multiple values that share sequential subvalues, O(n) lookup time
-Desired Outcome:  Efficient storage of all values, ability to find all values that share a common sequential prefix</p>
+Outcome:  Efficient storage of all values, ability to find all values that share a common sequential prefix</p>

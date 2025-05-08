@@ -8,7 +8,8 @@ This cheatsheet helps by providing reference implementations to memorize.
 ## Two Pointers
 
 Preconditions: one or more arrays or linked lists
-outcome: finding a set of elements that meet a certain criteria (pair / triplet / subarray), iterating over parts of the array/list simultaneously or iterating over array/string from both ends, or modifying the array
+
+Outcome: finding a set of elements that meet a certain criteria (pair / triplet / subarray), iterating over parts of the array/list simultaneously or iterating over array/string from both ends, or modifying the array
 
 ```python
 def is_palindrome(s):
@@ -26,13 +27,15 @@ def is_palindrome(s):
 ## Sliding Window
 
 Preconditions: array or linked list, expanding/contracting a window of elements
-outcome: calculate something based on contiguous subarrays or sublists of a given size k, k may vary depending on problem constraints e.g, optimization or finding length
+
+Outcome: calculate something based on contiguous subarrays or sublists of a given size k, k may vary depending on problem constraints e.g, optimization or finding length
 
 TODO: example
 
 ## Fast and slow pointers
 
 Precondition: sequence to iterate over, fast and slow pointers eventually meet, or fast pointer reaches the end
+
 Output: cycle finding and start of a cycle in a linked list, finding middle of a sequence or the nth element from the end
 
 TODO: example
@@ -62,7 +65,8 @@ def binary_search(arr, target):
 However, most binary search problems are more complex. For example, finding the smallest number greater than or equal to the target. This requires a [more flexible template](https://leetcode.com/discuss/post/786126/python-powerful-ultimate-binary-search-t-rwv8/).
 
 Precondition: there is a predicate function `p` that satisfies a monotonic condition; the search space can be divided into two regions such that for all elements in one region, it returns false and for all elements in the other region, it returns true.
-Output: the minimum or first element that satisfies the predicate
+
+Outcome: the index of the minimum element that satisfies the predicate
 
 ```python
 def lower_bound_binary_search(array) -> int:
@@ -95,8 +99,9 @@ A tree is a graph of `n` nodes without cycles and has `n-1` edges.
 - Time complexity: `O(v + e)`
 - Space complexity: `O(v)`
 
-Preconditions: ok to explore all neighbours before moving outward, solution is near the starting node
-Output: traversal starting from the source node in order of distance, level order of a tree, shortest path in an unweighted graph
+Precondition: ok to explore all neighbours before moving outward, solution is near the starting node
+
+Outcome: traversal starting from the source node in order of distance, level order of a tree, shortest path in an unweighted graph
 
 ```python
 from collections import deque
@@ -119,8 +124,9 @@ def bfs(graph, start):
 - Time complexity: `O(v + e)`
 - Space complexity: `O(v)`
 
-Preconditions: graph / tree, want to explore as far as possible along each branch before backtracking and solution is far from the start node, depth of path fits in the recursion stack
-Output: graph exploration as far as possible down a path before backtracking, can be tweaked for topological sorting and cycle detection
+Precondition: graph / tree, want to explore as far as possible along each branch before backtracking and solution is far from the start node, depth of path fits in the recursion stack
+
+Outcome: graph exploration as far as possible down a path before backtracking, can be tweaked for topological sorting and cycle detection
 
 ```python
 visited = set()
@@ -229,8 +235,9 @@ This is a relatively obscure data structure, which probably won't be encountered
 - Time complexity: `O(a(n))`, amortized constant time if path compression and union by rank / size are used
 - Space complexity: `O(n)`
 
-Prerequisites: undirected graphs, want efficient lookup for which set an element belongs to
-output: cycle detection, counting components, can be processed incrementally
+Precondition: undirected graph, efficient lookup for which set an element belongs to
+
+Outcome: cycle detection, counting components, can be processed incrementally
 
 ```python
 # assuming there are n nodes / sets at the start
@@ -261,8 +268,9 @@ def union(n1, n2):
 
 ## Mergesort
 
-Preconditions: Able to use lots of memory, cannot tolerate a `O(n^2)` worst case scenario
-Desired Outcome: Sorted list
+Precondition: Able to use lots of memory, cannot tolerate a `O(n^2)` worst case scenario
+
+Outcome: Sorted list
 
 ## Backtracking
 
@@ -270,20 +278,24 @@ TODO
 
 ## Dynamic Programming
 
-Prerequisites: optimal solution for a problem depends on the optimal solution to subproblems
+Precondition: optimal solution for a problem depends on the optimal solution to subproblems
 
-TODO: expand
+TODO
 
 ## Data Structures
 
+You may have to use multiple data structures simultaneously to solve a problem, for example LRU Cache.
+
 ### Linked List
 
-Precondition: has pointer to node to manipulate in the linked list sequence, this could be its head or reference to nodes in the middle of the list
-output: O(1) insertion, deletion and removal of elements
+Preconditions: has pointer to node to manipulate in the linked list sequence, this could be its head or reference to nodes in the middle of the list
+
+Outcome: O(1) insertion, deletion and removal of elements with a pointer to that node
 
 ### Heap
 
-Precondition: interested in `k` out of `n` elements that meets some condition (largest, smallest etc), faster than `O(n log n)` running time, streaming data
+Preconditions: interested in `k` out of `n` elements that meets some condition (largest, smallest etc), faster than `O(n log n)` running time, streaming data
+
 Output: largest / smallest kth element in a stream, the k elements of interest, median
 
 - Time complexity: `O(n)` to turn an existing array in-place into a heap, `O(log n)` for pop / push operations
@@ -291,15 +303,16 @@ Output: largest / smallest kth element in a stream, the k elements of interest, 
 
 ### Stack
 
-Precondition: First in, last out
-Desired Outcome: Reverse list of elements
+Preconditions: First in, last out
+
+Outcome: Reverse list of elements
 
 ### Queue
 
 Precondition: First in, first out
-Desired Outcome: elements in the order that they were added
+Outcome: first in, first out
 
 ### Trie
 
 Preconditions: Multiple values that share sequential subvalues, O(n) lookup time
-Desired Outcome:  Efficient storage of all values, ability to find all values that share a common sequential prefix
+Outcome:  Efficient storage of all values, ability to find all values that share a common sequential prefix
