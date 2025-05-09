@@ -26,11 +26,32 @@ def is_palindrome(s):
 
 ## Sliding Window
 
-Preconditions: array or linked list, expanding/contracting a window of elements
+Preconditions: array, string or linked list, expanding/contracting a continuous window of elements
 
 Outcome: calculate something based on contiguous subarrays or sublists of a given size k, k may vary depending on problem constraints e.g, optimization or finding length
 
-TODO: example
+```python
+def longest_substring_with_k_distinct(s, k):
+    window_start = 0
+    max_length = 0
+    char_frequency = {}
+
+    for window_end in range(len(s)):
+        right_char = s[window_end]
+        char_frequency[right_char] = char_frequency.get(right_char, 0) + 1
+
+        # Shrink window until we have at most k distinct characters
+        while len(char_frequency) > k:
+            left_char = s[window_start]
+            char_frequency[left_char] -= 1
+            if char_frequency[left_char] == 0:
+                del char_frequency[left_char]
+            window_start += 1
+
+        max_length = max(max_length, window_end - window_start + 1)
+
+    return max_length
+```
 
 ## Fast and slow pointers
 
@@ -38,7 +59,36 @@ Precondition: sequence to iterate over, fast and slow pointers eventually meet, 
 
 Output: cycle finding and start of a cycle in a linked list, finding middle of a sequence or the nth element from the end
 
-TODO: example
+```python
+# Cycle detection in a linked list
+def has_cycle(head):
+    if not head or not head.next:
+        return False
+
+    slow, fast = head, head
+    while fast and fast.next:
+        slow = slow.next  # Move one step
+        fast = fast.next.next  # Move two steps
+
+        if slow == fast:  # Found cycle
+            return True
+
+    return False  # No cycle found
+```
+
+```python
+# Finding middle of a linked list
+def find_middle(head):
+    if not head:
+        return None
+
+    slow = fast = head
+    while fast and fast.next:
+        slow = slow.next  # Move one step
+        fast = fast.next.next  # Move two steps
+
+    return slow  # When fast reaches end, slow is at middle
+```
 
 ## Binary Search
 
@@ -52,7 +102,7 @@ def binary_search(arr, target):
     l, r = 0, len(arr) - 1
     while l <= r:
         # using (l + r) // 2 could cause an overflow
-        m = l + (u - l) // 2
+        m = l + (r - l) // 2
         if arr[m] < target:
             l = m+1
         elif arr[m] == target:
@@ -99,7 +149,7 @@ A tree is a graph of `n` nodes without cycles and has `n-1` edges.
 - Time complexity: `O(v + e)`
 - Space complexity: `O(v)`
 
-Precondition: ok to explore all neighbours before moving outward, solution is near the starting node
+Precondition: Need to explore all neighbors before moving outward, solution is near the starting node
 
 Outcome: traversal starting from the source node in order of distance, level order of a tree, shortest path in an unweighted graph
 
@@ -224,9 +274,40 @@ def topological_sort(graph):
     return list(reversed(postorder))
 ```
 
-The second method uses BFS to incrementally build the topological order from nodes that have an in-degree of 0 (i.e, they have no dependencies).
+The second method is Kahn's algorithm, which uses BFS to incrementally build the topological order from nodes that have an in-degree of 0 (i.e, they have no dependencies).
 
-TODO: code
+```python
+from collections import deque
+
+def topological_sort_bfs(graph):
+    # Calculate in-degree for each node
+    in_degree = {node: 0 for node in graph}
+    for node in graph:
+        for neighbor in graph[node]:
+            in_degree[neighbor] = in_degree.get(neighbor, 0) + 1
+
+    # Start with nodes that have no dependencies (in-degree = 0)
+    queue = deque([node for node in in_degree if in_degree[node] == 0])
+    result = []
+
+    # Process nodes in topological order
+    while queue:
+        node = queue.popleft()
+        result.append(node)
+
+        # Remove this node's influence
+        for neighbor in graph[node]:
+            in_degree[neighbor] -= 1
+            # If a node has no more dependencies, add it to queue
+            if in_degree[neighbor] == 0:
+                queue.append(neighbor)
+
+    # If result doesn't include all nodes, there's a cycle
+    if len(result) != len(graph):
+        return []  # Graph has a cycle
+
+    return result
+```
 
 ### Union Find
 
@@ -235,7 +316,7 @@ This is a relatively obscure data structure, which probably won't be encountered
 - Time complexity: `O(a(n))`, amortized constant time if path compression and union by rank / size are used
 - Space complexity: `O(n)`
 
-Precondition: undirected graph, efficient lookup for which set an element belongs to
+Precondition: undirected graph, efficient lookup for which set an element belongs to, efficient union
 
 Outcome: cycle detection, counting components, can be processed incrementally
 
@@ -274,13 +355,125 @@ Outcome: Sorted list
 
 ## Backtracking
 
-TODO
+Precondition: Problem can be solved by trying partial solutions and abandoning them when they can't lead to valid solutions
+
+Outcome: All possible valid solutions to a problem, efficiently solving combinatorial problems (permutations, subsets, combinations)
+
+```python
+def backtrack_template(input_data):
+    result = []
+
+    def backtrack(current_state, remaining_choices):
+        # Base case: reached a solution
+        if is_solution(current_state):
+            result.append(current_state.copy())  # Always make a copy!
+            return
+
+        # Try each available choice
+        for choice in remaining_choices:
+            # Skip invalid choices
+            if not is_valid(current_state, choice):
+                continue
+
+            # Make the choice
+            current_state.append(choice)
+
+            # Recursive call
+            backtrack(current_state, get_next_choices(remaining_choices, choice))
+
+            # Undo the choice (backtrack)
+            current_state.pop()
+
+    backtrack([], input_data)
+    return result
+```
+
+### Choose / Don't Choose Pattern
+
+```python
+# returns all possible subsets
+def subsets(self, nums: List[int]) -> List[List[int]]:
+    ans = []
+    def backtrack(i, cur):
+        if i == len(nums):
+            ans.append(list(cur))
+            return
+
+        # don't choose this element
+        backtrack(i+1, cur)
+
+        # choose this element
+        cur.append(nums[i])
+        backtrack(i+1, cur)
+        cur.pop()
+    backtrack(0, [])
+    return ans
+```
+
+### Subset / Combination Pattern
+
+Another way to generate solutions is to explore all solutions that start with the first element, second element, etc. Very useful for subset / combination problems.
+
+```python
+def subsets(self, nums: List[int]) -> List[List[int]]:
+    ans = []
+    def backtrack(start, cur):
+        ans.append(list(cur))
+        for i in range(start, len(nums)):
+            # if there is a need to remove duplicate solutions:
+            # if i > start and nums[i] == nums[i-1]:
+                # continue
+            cur.append(nums[i])
+            backtrack(i+1, cur)
+            cur.pop()
+    backtrack(0, [])
+    return ans
+```
 
 ## Dynamic Programming
 
-Precondition: optimal solution for a problem depends on the optimal solution to subproblems
+Preconditions:
 
-TODO
+- Overlapping subproblems: The problem can be broken down into subproblems which are reused multiple times
+- Optimal substructure: The optimal solution to the problem can be constructed from optimal solutions of its subproblems
+
+Outcome: Efficient solutions to problems that would require exponential time with naive approaches
+
+Two approaches:
+
+1. **Top-down (memoization)**: Recursive with caching
+2. **Bottom-up (tabulation)**: Iterative building from base cases
+
+```python
+# Top-down example: Fibonacci with memoization
+memo = {}
+def fibonacci_memo(n):
+    if n in memo:
+        return memo[n]
+    if n <= 1:
+        return n
+
+    memo[n] = fibonacci_memo(n-1, memo) + fibonacci_memo(n-2, memo)
+    return memo[n]
+```
+
+```python3
+# Bottom-up example: Longest Increasing Subsequence
+def longest_increasing_subsequence(nums):
+    if not nums:
+        return 0
+
+    n = len(nums)
+    # dp[i] = length of LIS ending at index i
+    dp = [1] * n
+
+    for i in range(1, n):
+        for j in range(i):
+            if nums[i] > nums[j]:
+                dp[i] = max(dp[i], dp[j] + 1)
+
+    return max(dp)
+```
 
 ## Data Structures
 
@@ -294,7 +487,7 @@ Outcome: O(1) insertion, deletion and removal of elements with a pointer to that
 
 ### Heap
 
-Preconditions: interested in `k` out of `n` elements that meets some condition (largest, smallest etc), faster than `O(n log n)` running time, streaming data
+Preconditions: interested in repeatedly finding `k` out of `n` elements that meets some condition (largest, smallest etc), faster than `O(n log n)` running time, streaming data
 
 Output: largest / smallest kth element in a stream, the k elements of interest, median
 
@@ -310,9 +503,11 @@ Outcome: Reverse list of elements
 ### Queue
 
 Precondition: First in, first out
+
 Outcome: first in, first out
 
 ### Trie
 
 Preconditions: Multiple values that share sequential subvalues, O(n) lookup time
+
 Outcome:  Efficient storage of all values, ability to find all values that share a common sequential prefix
