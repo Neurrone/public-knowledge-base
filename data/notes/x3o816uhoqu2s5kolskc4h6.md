@@ -309,6 +309,31 @@ def topological_sort_bfs(graph):
     return result
 ```
 
+### Dijkstra's Shortest Path Algorithm
+
+- Preconditions: weighted graph with non-negative edges, source node
+- Output: shortest distance from source to every other node
+- Time complexity: `O((V + E) log V)`
+
+```python
+import heapq
+
+def dijkstra(graph, source):
+    dist = [float("inf") for _ in range(len(graph))]
+    dist[source] = 0
+    pq = [(0, source)]
+    while pq:
+        cur_dist, node = heapq.heappop(pq)
+        if current_dist > dist[node]:
+            continue
+        for nei, weight in graph[node].items():
+            new_dist = current_dist + weight
+            if new_dist < dist[nei]:
+                dist[nei] = new_dist
+                heapq.heappush(pq, (new_dist, nei))
+    return dist
+```
+
 ### Union Find
 
 This is a relatively obscure data structure, which probably won't be encountered in interviews. Can still be useful to study if there is time for certain graph problems.

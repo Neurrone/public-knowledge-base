@@ -250,6 +250,29 @@ VISITED<span class="token operator">=</span><span class="token number">2</span>
 
     <span class="token keyword">return</span> result
 </code></pre>
+<h3 id="dijkstras-shortest-path-algorithm">Dijkstra's Shortest Path Algorithm<a aria-hidden="true" class="anchor-heading icon-link" href="#dijkstras-shortest-path-algorithm"></a></h3>
+<ul>
+<li>Preconditions: weighted graph with non-negative edges, source node</li>
+<li>Output: shortest distance from source to every other node</li>
+<li>Time complexity: <code>O((V + E) log V)</code></li>
+</ul>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> heapq
+
+<span class="token keyword">def</span> <span class="token function">dijkstra</span><span class="token punctuation">(</span>graph<span class="token punctuation">,</span> source<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    dist <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token builtin">float</span><span class="token punctuation">(</span><span class="token string">"inf"</span><span class="token punctuation">)</span> <span class="token keyword">for</span> _ <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>graph<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+    dist<span class="token punctuation">[</span>source<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span>
+    pq <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> source<span class="token punctuation">)</span><span class="token punctuation">]</span>
+    <span class="token keyword">while</span> pq<span class="token punctuation">:</span>
+        cur_dist<span class="token punctuation">,</span> node <span class="token operator">=</span> heapq<span class="token punctuation">.</span>heappop<span class="token punctuation">(</span>pq<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> current_dist <span class="token operator">></span> dist<span class="token punctuation">[</span>node<span class="token punctuation">]</span><span class="token punctuation">:</span>
+            <span class="token keyword">continue</span>
+        <span class="token keyword">for</span> nei<span class="token punctuation">,</span> weight <span class="token keyword">in</span> graph<span class="token punctuation">[</span>node<span class="token punctuation">]</span><span class="token punctuation">.</span>items<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+            new_dist <span class="token operator">=</span> current_dist <span class="token operator">+</span> weight
+            <span class="token keyword">if</span> new_dist <span class="token operator">&#x3C;</span> dist<span class="token punctuation">[</span>nei<span class="token punctuation">]</span><span class="token punctuation">:</span>
+                dist<span class="token punctuation">[</span>nei<span class="token punctuation">]</span> <span class="token operator">=</span> new_dist
+                heapq<span class="token punctuation">.</span>heappush<span class="token punctuation">(</span>pq<span class="token punctuation">,</span> <span class="token punctuation">(</span>new_dist<span class="token punctuation">,</span> nei<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> dist
+</code></pre>
 <h3 id="union-find">Union Find<a aria-hidden="true" class="anchor-heading icon-link" href="#union-find"></a></h3>
 <p>This is a relatively obscure data structure, which probably won't be encountered in interviews. Can still be useful to study if there is time for certain graph problems.</p>
 <ul>
