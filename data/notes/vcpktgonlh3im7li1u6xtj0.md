@@ -18,6 +18,7 @@ It can be hard to find specific server parts on mainstream retailers like Amazon
 - [mitxpc](https://mitxpc.com/)
 - [BLT](https://www.shopblt.com/): should ship worldwide, someone got an EPYC 9115. Only accepts bank transfers from Singapore
 - [MyElectronics 19 inch rack mounts for Raspberry Pi, NUC, Apple, Mini-ITX, HP and other mini PCs](https://www.myelectronics.nl/us/)
+- [ETB Technologies](https://www.etb-tech.com)
 
 ## Memory
 

@@ -130,6 +130,16 @@ def lower_bound_binary_search(array) -> int:
     return left
 ```
 
+The template above uses a half-open interval pattern `[left, right)` (inclusive left, exclusive right). This means:
+
+1. The algorithm **never accesses** the element at index `right` during iteration
+2. When `left == right`, the loop terminates, and we return `left` as our answer
+
+This pattern provides several advantages:
+
+- **Clean handling of edge cases**: Can initialize `right = len(array)` without risk of out-of-bounds access. This is appropriate for problems like finding the insertion position for a sorted array, where the insertion position is at the end
+- **Consistent return value**: `left` always points to our answer when the loop exits
+
 To use this template:
 
 1. Correctly initialize `left` and `right` (i.e, the search space), ensuring our target is within that range

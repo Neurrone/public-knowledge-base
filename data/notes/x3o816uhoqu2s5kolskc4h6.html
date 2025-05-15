@@ -101,6 +101,16 @@
             left <span class="token operator">=</span> mid <span class="token operator">+</span> <span class="token number">1</span>
     <span class="token keyword">return</span> left
 </code></pre>
+<p>The template above uses a half-open interval pattern <code>[left, right)</code> (inclusive left, exclusive right). This means:</p>
+<ol>
+<li>The algorithm <strong>never accesses</strong> the element at index <code>right</code> during iteration</li>
+<li>When <code>left == right</code>, the loop terminates, and we return <code>left</code> as our answer</li>
+</ol>
+<p>This pattern provides several advantages:</p>
+<ul>
+<li><strong>Clean handling of edge cases</strong>: Can initialize <code>right = len(array)</code> without risk of out-of-bounds access. This is appropriate for problems like finding the insertion position for a sorted array, where the insertion position is at the end</li>
+<li><strong>Consistent return value</strong>: <code>left</code> always points to our answer when the loop exits</li>
+</ul>
 <p>To use this template:</p>
 <ol>
 <li>Correctly initialize <code>left</code> and <code>right</code> (i.e, the search space), ensuring our target is within that range</li>

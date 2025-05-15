@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770964237,
-      "created": 1746770964237,
+      "updated": 1747319051346,
+      "created": 1747319051346,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -71,13 +71,13 @@
         "3nbsll2vh31lrithnb1h3sz",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "zedo66s4b2m0xybbwds31p1",
-        "2o9qdn4ka3i25nguxwnfq3q"
+        "79w5xb2qs2upyjewjjz0g53",
+        "ekj2x3wkyjc6jcm3y8hwrtk"
       ],
       "parent": null,
       "data": {}
     },
-    "2o9qdn4ka3i25nguxwnfq3q": {
+    "ekj2x3wkyjc6jcm3y8hwrtk": {
       "fname": "security",
       "stub": true,
       "vault": {
@@ -87,9 +87,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961310,
-      "created": 1746770961310,
-      "id": "2o9qdn4ka3i25nguxwnfq3q",
+      "updated": 1747319048268,
+      "created": 1747319048268,
+      "id": "ekj2x3wkyjc6jcm3y8hwrtk",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -127,10 +127,10 @@
         }
       },
       "children": [],
-      "parent": "2o9qdn4ka3i25nguxwnfq3q",
+      "parent": "ekj2x3wkyjc6jcm3y8hwrtk",
       "data": {}
     },
-    "zedo66s4b2m0xybbwds31p1": {
+    "79w5xb2qs2upyjewjjz0g53": {
       "fname": "finance",
       "stub": true,
       "vault": {
@@ -140,9 +140,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961309,
-      "created": 1746770961309,
-      "id": "zedo66s4b2m0xybbwds31p1",
+      "updated": 1747319048267,
+      "created": 1747319048267,
+      "id": "79w5xb2qs2upyjewjjz0g53",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -188,7 +188,7 @@
         }
       },
       "children": [],
-      "parent": "zedo66s4b2m0xybbwds31p1",
+      "parent": "79w5xb2qs2upyjewjjz0g53",
       "data": {}
     },
     "a61859ll9tjxd1qy35abccs": {
@@ -250,8 +250,8 @@
         }
       },
       "children": [
-        "5m4xokedrcb6l4wndb7eje8",
-        "siy71poikas9x0an9toizdv",
+        "p0nvmiid7wszo0u1ezyzfs4",
+        "ak312x1yctv3x3l4vmivayt",
         "8cu7YaXggBafXF5iSzU4x",
         "RoXwfSXa9hPVnE2lesXZG",
         "db1103e1-f7a8-4989-89fe-6e5d513e652f",
@@ -1556,7 +1556,7 @@
       "parent": "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "data": {}
     },
-    "siy71poikas9x0an9toizdv": {
+    "ak312x1yctv3x3l4vmivayt": {
       "fname": "tools.awscli",
       "stub": true,
       "vault": {
@@ -1566,9 +1566,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961335,
-      "created": 1746770961335,
-      "id": "siy71poikas9x0an9toizdv",
+      "updated": 1747319048290,
+      "created": 1747319048290,
+      "id": "ak312x1yctv3x3l4vmivayt",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1656,10 +1656,10 @@
         }
       },
       "children": [],
-      "parent": "siy71poikas9x0an9toizdv",
+      "parent": "ak312x1yctv3x3l4vmivayt",
       "data": {}
     },
-    "5m4xokedrcb6l4wndb7eje8": {
+    "p0nvmiid7wszo0u1ezyzfs4": {
       "fname": "tools.aws",
       "stub": true,
       "vault": {
@@ -1669,9 +1669,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961335,
-      "created": 1746770961335,
-      "id": "5m4xokedrcb6l4wndb7eje8",
+      "updated": 1747319048290,
+      "created": 1747319048290,
+      "id": "p0nvmiid7wszo0u1ezyzfs4",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -1749,7 +1749,7 @@
         }
       },
       "children": [],
-      "parent": "5m4xokedrcb6l4wndb7eje8",
+      "parent": "p0nvmiid7wszo0u1ezyzfs4",
       "data": {}
     },
     "wdpwk2eljgjhq91m5wxd5em": {
@@ -1787,7 +1787,7 @@
         }
       },
       "children": [],
-      "parent": "5m4xokedrcb6l4wndb7eje8",
+      "parent": "p0nvmiid7wszo0u1ezyzfs4",
       "data": {}
     },
     "3nbsll2vh31lrithnb1h3sz": {
@@ -2648,7 +2648,7 @@
       "id": "vcpktgonlh3im7li1u6xtj0",
       "title": "Server Parts Retailers",
       "desc": "",
-      "updated": 1742826446984,
+      "updated": 1746872620522,
       "created": 1718109859748,
       "custom": {},
       "fname": "tech.server-parts-retailers",
@@ -2658,7 +2658,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2f126bf08befc7ffb7a114a556505d8c",
+      "contentHash": "b4ff4556713390a2c39557193c939e34",
       "links": [],
       "anchors": {
         "retailers-for-server-parts": {
@@ -2681,7 +2681,7 @@
           "type": "header",
           "text": "Memory",
           "value": "memory",
-          "line": 28,
+          "line": 29,
           "column": 0,
           "depth": 2
         },
@@ -2689,7 +2689,7 @@
           "type": "header",
           "text": "Used Servers",
           "value": "used-servers",
-          "line": 34,
+          "line": 35,
           "column": 0,
           "depth": 2
         },
@@ -2697,7 +2697,7 @@
           "type": "header",
           "text": "Boutique Manufacturers",
           "value": "boutique-manufacturers",
-          "line": 38,
+          "line": 39,
           "column": 0,
           "depth": 2
         }
@@ -3954,7 +3954,7 @@
       "id": "2d5da356-7f71-45d9-919e-a8dc919aab11",
       "title": "Preparation",
       "desc": "",
-      "updated": 1691931274706,
+      "updated": 1746872667525,
       "created": 1621149759056,
       "custom": {},
       "fname": "tech-interview.preparation",
@@ -3964,7 +3964,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "2829ab478bf9ca41662f07726f6adcc9",
+      "contentHash": "90628932664c9996a130b83763a410a9",
       "links": [],
       "anchors": {
         "preparing-for-technical-interviews": {
@@ -4521,7 +4521,7 @@
         "334byo7iudrv5i2cxaetxa6",
         "jhT60YwS65Vm3PcQR2rdW",
         "bruzxsehzmz4q2n5ngzkhnl",
-        "uaasrqemz6t3nah5obohrpq",
+        "682xo75b11f8k0yrfl3vtf9",
         "ad1t6909uwm332qb17dkgy1",
         "fae9ba89-7036-4551-a0d8-b8ed88629a65",
         "tt62xbuvkdvr6jnnxzzbvpm",
@@ -4534,7 +4534,7 @@
         "57059c08-9d38-48da-b270-68e17d22be74",
         "rdupzewag5xyz9nsm5v2qpw",
         "3e8b822f-7f4b-4b41-bed2-55ce8099a6b3",
-        "xr5qa2x05vwewpmj0vjycc4",
+        "q87cwuwd8pa1tvq8vq8bvuc",
         "ac5722f2-7b18-4b5a-b835-6d2a565cc9be",
         "84efb28a-43ec-42b3-b633-634c3e8aaa98",
         "v4w3z7vrfi2os93m8g0zd1g",
@@ -4808,7 +4808,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "xr5qa2x05vwewpmj0vjycc4": {
+    "q87cwuwd8pa1tvq8vq8bvuc": {
       "fname": "dev.sql",
       "stub": true,
       "vault": {
@@ -4818,9 +4818,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961332,
-      "created": 1746770961332,
-      "id": "xr5qa2x05vwewpmj0vjycc4",
+      "updated": 1747319048286,
+      "created": 1747319048286,
+      "id": "q87cwuwd8pa1tvq8vq8bvuc",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -4932,7 +4932,7 @@
         }
       },
       "children": [],
-      "parent": "xr5qa2x05vwewpmj0vjycc4",
+      "parent": "q87cwuwd8pa1tvq8vq8bvuc",
       "data": {}
     },
     "7pv1q1h4pqtdvnfqugrk3ed": {
@@ -4986,7 +4986,7 @@
         }
       },
       "children": [],
-      "parent": "xr5qa2x05vwewpmj0vjycc4",
+      "parent": "q87cwuwd8pa1tvq8vq8bvuc",
       "data": {}
     },
     "57d0b6de-d1a2-4e2c-8548-83f54c96b0f3": {
@@ -5075,7 +5075,7 @@
         "9OmPMpSvnD00DNgRLZaiq",
         "J9ugxlvBdatTZHqLd68Vp"
       ],
-      "parent": "xr5qa2x05vwewpmj0vjycc4",
+      "parent": "q87cwuwd8pa1tvq8vq8bvuc",
       "data": {}
     },
     "J9ugxlvBdatTZHqLd68Vp": {
@@ -6060,12 +6060,12 @@
         }
       },
       "children": [
-        "l8x36maw7xk4at6twm8ao51"
+        "7jxic455qc7kfmydhxrogta"
       ],
       "parent": "fae9ba89-7036-4551-a0d8-b8ed88629a65",
       "data": {}
     },
-    "l8x36maw7xk4at6twm8ao51": {
+    "7jxic455qc7kfmydhxrogta": {
       "fname": "dev.lang.python.algorithms",
       "stub": true,
       "vault": {
@@ -6075,9 +6075,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961344,
-      "created": 1746770961344,
-      "id": "l8x36maw7xk4at6twm8ao51",
+      "updated": 1747319048294,
+      "created": 1747319048294,
+      "id": "7jxic455qc7kfmydhxrogta",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6151,7 +6151,7 @@
         }
       },
       "children": [],
-      "parent": "l8x36maw7xk4at6twm8ao51",
+      "parent": "7jxic455qc7kfmydhxrogta",
       "data": {}
     },
     "0927d4b7-92bf-438f-8166-4cc2eea557b4": {
@@ -6508,7 +6508,7 @@
       "parent": "8ec37b11-59ad-4ea8-82d9-3186e7e0cd29",
       "data": {}
     },
-    "uaasrqemz6t3nah5obohrpq": {
+    "682xo75b11f8k0yrfl3vtf9": {
       "fname": "dev.golang",
       "stub": true,
       "vault": {
@@ -6518,9 +6518,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961330,
-      "created": 1746770961330,
-      "id": "uaasrqemz6t3nah5obohrpq",
+      "updated": 1747319048280,
+      "created": 1747319048280,
+      "id": "682xo75b11f8k0yrfl3vtf9",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -6566,7 +6566,7 @@
         }
       },
       "children": [],
-      "parent": "uaasrqemz6t3nah5obohrpq",
+      "parent": "682xo75b11f8k0yrfl3vtf9",
       "data": {}
     },
     "bruzxsehzmz4q2n5ngzkhnl": {
@@ -7151,7 +7151,7 @@
       "id": "x3o816uhoqu2s5kolskc4h6",
       "title": "Algorithms & Data Structures Technical Interview Cheatsheet",
       "desc": "",
-      "updated": 1746769139377,
+      "updated": 1747234967698,
       "created": 1746708084587,
       "custom": {},
       "fname": "dev.algorithms.cheatsheet",
@@ -7161,7 +7161,7 @@
         "fsPath": "main",
         "useFMTitle": false
       },
-      "contentHash": "ef4dc3d0ce0242ca9ef7482744b2d835",
+      "contentHash": "909618c045035b8439c8dd02864df510",
       "links": [],
       "anchors": {
         "algorithms--data-structures-technical-interview-cheatsheet": {
@@ -7208,7 +7208,7 @@
           "type": "header",
           "text": "Graph Algorithms",
           "value": "graph-algorithms",
-          "line": 145,
+          "line": 155,
           "column": 0,
           "depth": 2
         },
@@ -7216,7 +7216,7 @@
           "type": "header",
           "text": "Breadth-first search (BFS)",
           "value": "breadth-first-search-bfs",
-          "line": 153,
+          "line": 163,
           "column": 0,
           "depth": 3
         },
@@ -7224,7 +7224,7 @@
           "type": "header",
           "text": "Depth-first Search (DFS)",
           "value": "depth-first-search-dfs",
-          "line": 178,
+          "line": 188,
           "column": 0,
           "depth": 3
         },
@@ -7232,7 +7232,7 @@
           "type": "header",
           "text": "Cycle Finding On Undirected Graphs",
           "value": "cycle-finding-on-undirected-graphs",
-          "line": 199,
+          "line": 209,
           "column": 0,
           "depth": 3
         },
@@ -7240,7 +7240,7 @@
           "type": "header",
           "text": "Cycle Finding On Directed Graphs",
           "value": "cycle-finding-on-directed-graphs",
-          "line": 222,
+          "line": 232,
           "column": 0,
           "depth": 3
         },
@@ -7248,7 +7248,7 @@
           "type": "header",
           "text": "Topological Sort",
           "value": "topological-sort",
-          "line": 244,
+          "line": 254,
           "column": 0,
           "depth": 3
         },
@@ -7256,7 +7256,7 @@
           "type": "header",
           "text": "Dijkstra's Shortest Path Algorithm",
           "value": "dijkstras-shortest-path-algorithm",
-          "line": 318,
+          "line": 328,
           "column": 0,
           "depth": 3
         },
@@ -7264,7 +7264,7 @@
           "type": "header",
           "text": "Union Find",
           "value": "union-find",
-          "line": 343,
+          "line": 353,
           "column": 0,
           "depth": 3
         },
@@ -7272,7 +7272,7 @@
           "type": "header",
           "text": "Mergesort",
           "value": "mergesort",
-          "line": 381,
+          "line": 391,
           "column": 0,
           "depth": 2
         },
@@ -7280,7 +7280,7 @@
           "type": "header",
           "text": "Backtracking",
           "value": "backtracking",
-          "line": 387,
+          "line": 397,
           "column": 0,
           "depth": 2
         },
@@ -7288,7 +7288,7 @@
           "type": "header",
           "text": "Choose / Don't Choose Pattern",
           "value": "choose--dont-choose-pattern",
-          "line": 422,
+          "line": 432,
           "column": 0,
           "depth": 3
         },
@@ -7296,7 +7296,7 @@
           "type": "header",
           "text": "Subset / Combination Pattern",
           "value": "subset--combination-pattern",
-          "line": 444,
+          "line": 454,
           "column": 0,
           "depth": 3
         },
@@ -7304,7 +7304,7 @@
           "type": "header",
           "text": "Dynamic Programming",
           "value": "dynamic-programming",
-          "line": 464,
+          "line": 474,
           "column": 0,
           "depth": 2
         },
@@ -7312,7 +7312,7 @@
           "type": "header",
           "text": "Data Structures",
           "value": "data-structures",
-          "line": 509,
+          "line": 519,
           "column": 0,
           "depth": 2
         },
@@ -7320,7 +7320,7 @@
           "type": "header",
           "text": "Linked List",
           "value": "linked-list",
-          "line": 513,
+          "line": 523,
           "column": 0,
           "depth": 3
         },
@@ -7328,7 +7328,7 @@
           "type": "header",
           "text": "Heap",
           "value": "heap",
-          "line": 519,
+          "line": 529,
           "column": 0,
           "depth": 3
         },
@@ -7336,7 +7336,7 @@
           "type": "header",
           "text": "Stack",
           "value": "stack",
-          "line": 528,
+          "line": 538,
           "column": 0,
           "depth": 3
         },
@@ -7344,7 +7344,7 @@
           "type": "header",
           "text": "Queue",
           "value": "queue",
-          "line": 534,
+          "line": 544,
           "column": 0,
           "depth": 3
         },
@@ -7352,7 +7352,7 @@
           "type": "header",
           "text": "Trie",
           "value": "trie",
-          "line": 540,
+          "line": 550,
           "column": 0,
           "depth": 3
         }
@@ -8750,7 +8750,7 @@
         "5dbb8a28-f036-4710-a7a2-c23c57a45424",
         "cEhgwHSWX9IlOWJDORGnf",
         "2fb98230-5285-414d-8551-9c6b00c78575",
-        "8lpq560zrpn1q99g5zu3xql",
+        "njufquo20c96to3jueb2enw",
         "a3c51053-efaf-4cc1-9b86-db4bd69737e0",
         "fd0f1e08-25eb-4b3a-8aef-0fb660c8519a",
         "e2a1e505-d678-4a61-8620-24bfa464d8aa",
@@ -17399,7 +17399,7 @@
       "parent": "6e43ea37-b3e7-44cf-aac7-31ae947d32a2",
       "data": {}
     },
-    "8lpq560zrpn1q99g5zu3xql": {
+    "njufquo20c96to3jueb2enw": {
       "fname": "humans.coaching",
       "stub": true,
       "vault": {
@@ -17409,9 +17409,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1746770961264,
-      "created": 1746770961264,
-      "id": "8lpq560zrpn1q99g5zu3xql",
+      "updated": 1747319048221,
+      "created": 1747319048221,
+      "id": "njufquo20c96to3jueb2enw",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -17457,7 +17457,7 @@
         }
       },
       "children": [],
-      "parent": "8lpq560zrpn1q99g5zu3xql",
+      "parent": "njufquo20c96to3jueb2enw",
       "data": {}
     },
     "2fb98230-5285-414d-8551-9c6b00c78575": {
@@ -18106,10 +18106,10 @@
         "a10a1802-11d0-4557-a374-89712109cf90",
         "0b9beaed-19ee-4124-a880-07e520da2b17",
         "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-        "kp85flnno6oa02wirva3qh9",
-        "9j23csa0qbvjnfl8kr9gauy",
-        "5rkl1h7f63bljvswmz24auv",
-        "em3d0lbke2yfsyipjw98uao",
+        "g1d9pjv1j1irriuxj38x8ug",
+        "z5t80al6vhe7omdyp11hsrp",
+        "xloyiv0rnh3a1dtspcfqbvn",
+        "dja13gkdpse7ake45hqdzsy",
         "b4be93a8-69e3-4427-b4cd-53593c3ab387",
         "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
         "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -18128,8 +18128,8 @@
         "3nbsll2vh31lrithnb1h3sz",
         "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
         "a61859ll9tjxd1qy35abccs",
-        "zedo66s4b2m0xybbwds31p1",
-        "2o9qdn4ka3i25nguxwnfq3q",
+        "79w5xb2qs2upyjewjjz0g53",
+        "ekj2x3wkyjc6jcm3y8hwrtk",
         "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
         "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
         "3atsjgtkfsujsk9hviuvs1v",
@@ -18137,15 +18137,15 @@
         "wy23hkmakngujlepw9j96ea",
         "POgyWcSIqi29tpqfP5uyS",
         "525uy1b41n5r1x0n5oi5sio",
-        "l2c5bgqyhx93cdthxx1p9su",
-        "6yg21vrsvh46txbnjxbyul0",
-        "5qjh7bjcm4eysfbkboik8c6",
-        "fskxnwr1va31ra75q29kc4u",
-        "ew3v4d34nz3gz3sii2s8sl6",
-        "s1hf53vith2efopct1knyz0",
-        "k9jw5wx0nest9gv3i3tzzde",
-        "p2m9xurf8ezt8eu6hpanvwo",
-        "831g02771rv9o5qqecqj1gr"
+        "yr5xx6tykiapjj2skyskyc5",
+        "gqggd16qv8mo0s1l5y8pzcd",
+        "97aevob4eifvmim2l44iwiw",
+        "uobq5hk5cts9u1pxijlaxj9",
+        "aihnscls94u7ytq8z8cn05j",
+        "ltghe7ym0hytji9it8i0dp1",
+        "326daafsnck5aocgu5wpw9t",
+        "neewf942pox8vs4vvrewx31",
+        "p2o21hr9jvs3pcy3xblvy56"
       ],
       "parent": null,
       "data": {},
@@ -18188,10 +18188,10 @@
       "a10a1802-11d0-4557-a374-89712109cf90",
       "0b9beaed-19ee-4124-a880-07e520da2b17",
       "ddf3e9b2-ea12-4129-8785-06d6b82d4fcb",
-      "kp85flnno6oa02wirva3qh9",
-      "9j23csa0qbvjnfl8kr9gauy",
-      "5rkl1h7f63bljvswmz24auv",
-      "em3d0lbke2yfsyipjw98uao",
+      "g1d9pjv1j1irriuxj38x8ug",
+      "z5t80al6vhe7omdyp11hsrp",
+      "xloyiv0rnh3a1dtspcfqbvn",
+      "dja13gkdpse7ake45hqdzsy",
       "b4be93a8-69e3-4427-b4cd-53593c3ab387",
       "5bbec2d1-4abe-4a2a-8bc5-5f3d4e229766",
       "4a064a97-3d2d-4429-9a08-5b158dc7ef35",
@@ -18210,8 +18210,8 @@
       "3nbsll2vh31lrithnb1h3sz",
       "4fb536a9-c146-4df3-8f30-9b2fb52a77f7",
       "a61859ll9tjxd1qy35abccs",
-      "zedo66s4b2m0xybbwds31p1",
-      "2o9qdn4ka3i25nguxwnfq3q",
+      "79w5xb2qs2upyjewjjz0g53",
+      "ekj2x3wkyjc6jcm3y8hwrtk",
       "21ef758d-ca84-4be0-8eed-5e95ab3b4a7e",
       "5fb5baa9-8b3d-4044-9c03-bbabfbdfe78a",
       "3atsjgtkfsujsk9hviuvs1v",
@@ -18219,15 +18219,15 @@
       "wy23hkmakngujlepw9j96ea",
       "POgyWcSIqi29tpqfP5uyS",
       "525uy1b41n5r1x0n5oi5sio",
-      "l2c5bgqyhx93cdthxx1p9su",
-      "6yg21vrsvh46txbnjxbyul0",
-      "5qjh7bjcm4eysfbkboik8c6",
-      "fskxnwr1va31ra75q29kc4u",
-      "ew3v4d34nz3gz3sii2s8sl6",
-      "s1hf53vith2efopct1knyz0",
-      "k9jw5wx0nest9gv3i3tzzde",
-      "p2m9xurf8ezt8eu6hpanvwo",
-      "831g02771rv9o5qqecqj1gr"
+      "yr5xx6tykiapjj2skyskyc5",
+      "gqggd16qv8mo0s1l5y8pzcd",
+      "97aevob4eifvmim2l44iwiw",
+      "uobq5hk5cts9u1pxijlaxj9",
+      "aihnscls94u7ytq8z8cn05j",
+      "ltghe7ym0hytji9it8i0dp1",
+      "326daafsnck5aocgu5wpw9t",
+      "neewf942pox8vs4vvrewx31",
+      "p2o21hr9jvs3pcy3xblvy56"
     ],
     "parent": null,
     "data": {},
