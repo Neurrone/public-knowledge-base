@@ -6,6 +6,12 @@
       <description>Last 10 notes on Personal Knowledge Base</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Efi Partition Font Cleanup</title>
+    <link>https://kb.neurrone.com/main/Efi-Partition-Font-Cleanup</link>
+    <guid>https://kb.neurrone.com/main/Efi-Partition-Font-Cleanup</guid>
+    <description><![CDATA[ On Windows, the EFI partition is only 100 MB. You may be able to extend it if there is free space between this partition and the next one. ]]></description>
+    <pubDate>Wed, 30 Jul 2025 04:25:06 GMT</pubDate>
+  </item><item>
     <title>Managing Debt For Use Of Self</title>
     <link>https://kb.neurrone.com/human-systems/Managing-Debt-For-Use-Of-Self</link>
     <guid>https://kb.neurrone.com/human-systems/Managing-Debt-For-Use-Of-Self</guid>
@@ -58,12 +64,6 @@
     <link>https://kb.neurrone.com/human-systems/Use-of-Self</link>
     <guid>https://kb.neurrone.com/human-systems/Use-of-Self</guid>
     <description><![CDATA[  A single person can change the system only if they are aware of what they’re doing with themselves. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>Why Things Are In Human Systems</title>
-    <link>https://kb.neurrone.com/human-systems/Why-Things-Are-In-Human-Systems</link>
-    <guid>https://kb.neurrone.com/human-systems/Why-Things-Are-In-Human-Systems</guid>
-    <description><![CDATA[ These concepts explain why things happen in human systems. Abundance and Scarcity Organizations are linguistic. ]]></description>
     <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
   </item>
     </channel>
