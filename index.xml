@@ -6,6 +6,12 @@
       <description>Last 10 notes on Personal Knowledge Base</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Efi Partition Restore</title>
+    <link>https://kb.neurrone.com/main/Efi-Partition-Restore</link>
+    <guid>https://kb.neurrone.com/main/Efi-Partition-Restore</guid>
+    <description><![CDATA[ While cleaning up fonts on the Efi partition to resolve failing bios updates, I realized that the fonts do need to be restored. ]]></description>
+    <pubDate>Thu, 31 Jul 2025 12:36:51 GMT</pubDate>
+  </item><item>
     <title>Efi Partition Font Cleanup</title>
     <link>https://kb.neurrone.com/main/Efi-Partition-Font-Cleanup</link>
     <guid>https://kb.neurrone.com/main/Efi-Partition-Font-Cleanup</guid>
@@ -58,12 +64,6 @@
     <link>https://kb.neurrone.com/human-systems/Use-Of-Self_-The-9-Developmental-Clusters</link>
     <guid>https://kb.neurrone.com/human-systems/Use-Of-Self_-The-9-Developmental-Clusters</guid>
     <description><![CDATA[ These are the 9 developmental clusters for the use of self identified by Mee Yan Cheung-Judge. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>Use of Self</title>
-    <link>https://kb.neurrone.com/human-systems/Use-of-Self</link>
-    <guid>https://kb.neurrone.com/human-systems/Use-of-Self</guid>
-    <description><![CDATA[  A single person can change the system only if they are aware of what they’re doing with themselves. ]]></description>
     <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
   </item>
     </channel>
