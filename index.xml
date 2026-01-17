@@ -6,6 +6,30 @@
       <description>Last 10 notes on Personal Knowledge Base</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Homelab Shopping List</title>
+    <link>https://kb.neurrone.com/main/Homelab-Shopping-List</link>
+    <guid>https://kb.neurrone.com/main/Homelab-Shopping-List</guid>
+    <description><![CDATA[ I’ll have space for a rack in 2028. To prepare, this is a shortlist of things I might want to get for it. ]]></description>
+    <pubDate>Sat, 17 Jan 2026 11:56:16 GMT</pubDate>
+  </item><item>
+    <title>VmWare</title>
+    <link>https://kb.neurrone.com/main/VmWare</link>
+    <guid>https://kb.neurrone.com/main/VmWare</guid>
+    <description><![CDATA[ Audio Stuttering This seems to happen with Linux’s Pipewire audio backend. ]]></description>
+    <pubDate>Tue, 23 Dec 2025 03:55:50 GMT</pubDate>
+  </item><item>
+    <title>Proxmox</title>
+    <link>https://kb.neurrone.com/main/Proxmox</link>
+    <guid>https://kb.neurrone.com/main/Proxmox</guid>
+    <description><![CDATA[ Spice Proxmox supports outputting video and sound from guests using the Spice protocol. To connect, a Spice client needs to be installed. ]]></description>
+    <pubDate>Sat, 09 Aug 2025 13:48:36 GMT</pubDate>
+  </item><item>
+    <title>Remote Desktop</title>
+    <link>https://kb.neurrone.com/main/Remote-Desktop</link>
+    <guid>https://kb.neurrone.com/main/Remote-Desktop</guid>
+    <description><![CDATA[ The Remote Desktop Protocol (RDP) is built into Windows. It allows remote access of a machine. ]]></description>
+    <pubDate>Sat, 09 Aug 2025 13:14:13 GMT</pubDate>
+  </item><item>
     <title>Efi Partition Restore</title>
     <link>https://kb.neurrone.com/main/Efi-Partition-Restore</link>
     <guid>https://kb.neurrone.com/main/Efi-Partition-Restore</guid>
@@ -40,30 +64,6 @@
     <link>https://kb.neurrone.com/human-systems/Roles-of-the-Gestalt-Intervener</link>
     <guid>https://kb.neurrone.com/human-systems/Roles-of-the-Gestalt-Intervener</guid>
     <description><![CDATA[ In clean interventions, we are not agents of change. We are agents of awareness so that there is always choice. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>Systems and Gestalt Theory</title>
-    <link>https://kb.neurrone.com/human-systems/Systems-and-Gestalt-Theory</link>
-    <guid>https://kb.neurrone.com/human-systems/Systems-and-Gestalt-Theory</guid>
-    <description><![CDATA[ Systems Theory This is a very analytical approach Focuses on patterns, cause/effect, finding out what is missing Historical analysis Looks at what is scarce This is diagnostic work Gestalt Theory Takes an opposite approach to system theory in many ways. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>The Wisdom of Trauma</title>
-    <link>https://kb.neurrone.com/human-systems/The-Wisdom-of-Trauma</link>
-    <guid>https://kb.neurrone.com/human-systems/The-Wisdom-of-Trauma</guid>
-    <description><![CDATA[ Notes from the movie The Wisdom of Trauma (direct video link) Trauma Trauma is typically thought of as terrible things happening to you, but can also occur without horrible things happening to you. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>Trust</title>
-    <link>https://kb.neurrone.com/human-systems/Trust</link>
-    <guid>https://kb.neurrone.com/human-systems/Trust</guid>
-    <description><![CDATA[ Distinctions live in language. Language is unique to humans. Distinctions create tribes. ]]></description>
-    <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
-  </item><item>
-    <title>Use Of Self: The 9 Developmental Clusters</title>
-    <link>https://kb.neurrone.com/human-systems/Use-Of-Self_-The-9-Developmental-Clusters</link>
-    <guid>https://kb.neurrone.com/human-systems/Use-Of-Self_-The-9-Developmental-Clusters</guid>
-    <description><![CDATA[ These are the 9 developmental clusters for the use of self identified by Mee Yan Cheung-Judge. ]]></description>
     <pubDate>Fri, 25 Jul 2025 14:24:19 GMT</pubDate>
   </item>
     </channel>
